@@ -23,7 +23,18 @@
   "theme": "blue",
   "publishedAt": "2026-09-12T11:58:00Z",
   "verifiedAt": "2026-09-12T12:00:00Z",
-  "image": null,
+  "image": {
+    "src": "/media/wild-neural-logger.webp",
+    "alt": "佩戴轻量无线神经记录器在户外活动的小鼠示意图",
+    "sourceUrl": "https://news.cornell.edu/stories/2026/09/device-gives-first-view-animal-brain-activity-field",
+    "credit": "OpenAI，GPT Image 2.5",
+    "license": "GPT Image 2.5 生成示意图，不代表事件现场照片；仅用于本卡片的信息说明",
+    "licenseUrl": "https://openai.com/policies/terms-of-use",
+    "kind": "generated",
+    "model": "GPT Image 2.5",
+    "visualChecked": true,
+    "layout": "photo"
+  },
   "archive": false,
   "verificationNotes": "官方新闻全文与 Nature Methods 2026-09-10 研究列表摘要交叉核对；DOI 10.1038/s41592-026-03220-9 页面暂无法读取。无合适可明确授权的实物照片，本卡纯文字。"
 }

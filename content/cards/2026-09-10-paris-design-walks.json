@@ -23,7 +23,18 @@
   "theme": "gold",
   "publishedAt": "2026-09-12T11:57:00Z",
   "verifiedAt": "2026-09-12T12:00:00Z",
-  "image": null,
+  "image": {
+    "src": "/media/paris-design-walks.webp",
+    "alt": "巴黎街道上的城市设计漫步与户外装置示意图",
+    "sourceUrl": "https://www.maison-objet.com/en/paris-design-week/promenades-pdw",
+    "credit": "OpenAI，GPT Image 2.5",
+    "license": "GPT Image 2.5 生成示意图，不代表事件现场照片；仅用于本卡片的信息说明",
+    "licenseUrl": "https://openai.com/policies/terms-of-use",
+    "kind": "generated",
+    "model": "GPT Image 2.5",
+    "visualChecked": true,
+    "layout": "photo"
+  },
   "archive": false,
   "verificationNotes": "两页均为同一主办方的官方来源，并非独立媒体核实。分别核对城市设计周 9/10–19 与展会 9/10–14，路线数量据主办方。图片未取得明确复用授权，纯文字发布。"
 }

@@ -23,7 +23,18 @@
   "theme": "clay",
   "publishedAt": "2026-09-12T11:59:00Z",
   "verifiedAt": "2026-09-12T12:00:00Z",
-  "image": null,
+  "image": {
+    "src": "/media/berlin-modern.webp",
+    "alt": "柏林未完工博物馆内部的临时艺术展览示意图",
+    "sourceUrl": "https://www.smb.museum/en/exhibitions/detail/gordon-matta-clark/",
+    "credit": "OpenAI，GPT Image 2.5",
+    "license": "GPT Image 2.5 生成示意图，不代表事件现场照片；仅用于本卡片的信息说明",
+    "licenseUrl": "https://openai.com/policies/terms-of-use",
+    "kind": "generated",
+    "model": "GPT Image 2.5",
+    "visualChecked": true,
+    "layout": "photo"
+  },
   "archive": false,
   "verificationNotes": "已核对官方原始页面与第二来源；事件日期与网站入库时间分开记录。"
 }

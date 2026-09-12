@@ -31,7 +31,18 @@
   "theme": "gold",
   "publishedAt": "2026-09-13T01:20:17+08:00",
   "verifiedAt": "2026-09-13T01:31:57+08:00",
-  "image": null,
+  "image": {
+    "src": "/media/keikyu-temporary-track.webp",
+    "alt": "日本城市铁路使用临时下行线的施工示意图",
+    "credit": "OpenAI，GPT Image 2.5",
+    "sourceUrl": "https://www.keikyu.co.jp/report/2026/report2026082601.html",
+    "license": "GPT Image 2.5 生成示意图，不代表事件现场照片；仅用于本卡片的信息说明",
+    "licenseUrl": "https://openai.com/policies/terms-of-use",
+    "kind": "generated",
+    "model": "GPT Image 2.5",
+    "visualChecked": true,
+    "layout": "photo"
+  },
   "archive": false,
   "verificationNotes": "京急官方公告明确实施日为2026年9月12日终列车后，并注明若中止则翌日实施；乗りものニュース与鉄道コム对切换区间、方向和日期一致。東京都建設局项目页与京急项目资料确认该连续立体交叉工程约1.7公里、最终消除3处踏切，京急2026年度设备投资资料同时确认品川站地平化与2面4线化。eventDate按仓库对仅给实施日期事件的规则记为9月12日12:00 UTC，不代表实际切换时刻。本轮核查尚未取得独立来源确认现场切换已经完成，因此标题、摘要和正文只表述已公布的实施安排，不把计划写成已完成。publishedAt已按首个GitHub入库提交时间校正；verifiedAt为本次复核时间。官方页面虽提供施工图与现场照片，但未找到明确允许本站直接复用的授权条款，故image=null。"
 }
