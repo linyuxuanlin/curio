@@ -26,8 +26,17 @@
   ],
   "theme": "clay",
   "publishedAt": "2026-09-13T02:13:49+08:00",
-  "verifiedAt": "2026-09-13T02:13:49+08:00",
-  "image": null,
+  "verifiedAt": "2026-09-13T02:19:57+08:00",
+  "image": {
+    "src": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Tongrube_Hammerschmiede_(Pforzen)_01.jpg",
+    "alt": "德国巴伐利亚Pforzen的Hammerschmiede粘土坑航拍图",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tongrube_Hammerschmiede_(Pforzen)_01.jpg",
+    "credit": "Ordercrazy (Thomas Springer) / Wikimedia Commons",
+    "license": "CC0 1.0 公共领域贡献；可复制、修改和商业使用，无需另行许可",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "kind": "original",
+    "layout": "photo"
+  },
   "archive": false,
-  "verificationNotes": "图宾根大学2026年9月10日新闻稿与论文信息确认：Hammerschmiede约1160万年前的河流沉积物中新补充描述六种鸟类，其中两个属种为科学新命名；论文DOI为10.3897/sjp.145.200204。Tom's Hardware Italia在9月11日独立报道并核对了Bavaricarbo brevirostris的飞行/浅水潜水形态推断。官方材料同时说明Mioaetus pforzenensis主要依据跗跖骨，翼展超过1米及捕鱼习性均为形态学推断，因此正文保留“可能/估计”措辞。eventDate按研究新闻公开日期记为2026年9月10日12:00 UTC，不代表化石出土当天；距本轮核查不足72小时，archive=false。图宾根大学页面有化石重建图和照片，但未找到允许本站直接复用的明确授权条款；当前任务也无法确认图像生成工具实际模型必为GPT Image 2.5，因此按本轮任务指令使用image=null，不虚构授权或模型。"
+  "verificationNotes": "图宾根大学2026年9月10日新闻稿与论文信息确认：Hammerschmiede约1160万年前的河流沉积物中新补充描述六种鸟类，其中两个属种为科学新命名；论文DOI为10.3897/sjp.145.200204。Tom's Hardware Italia在9月11日独立报道并核对了Bavaricarbo brevirostris的飞行/浅水潜水形态推断。官方材料同时说明Mioaetus pforzenensis主要依据跗跖骨，翼展超过1米及捕鱼习性均为形态学推断，因此正文保留“可能/估计”措辞。eventDate按研究新闻公开日期记为2026年9月10日12:00 UTC，不代表化石出土当天；距本轮核查不足72小时，archive=false。最初拟用image=null，但CI按仓库当前规则拒绝无图卡片；随后改用Wikimedia Commons上的Hammerschmiede遗址航拍原图。该文件页面明确标注CC0 1.0，允许复制、修改、分发和商业使用，无需另行许可。未采用无法确认模型身份的生成图。"
 }
