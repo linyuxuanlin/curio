@@ -1,0 +1,42 @@
+{
+  "id": "2026-09-12-anacostia-bioblitz",
+  "eventKey": "anacostia-river-bioblitz-2026",
+  "category": "环境",
+  "title": "一群人给一条河\n做四天物种普查",
+  "summary": "华盛顿都会区的居民正用 iNaturalist 给阿纳科斯蒂亚河流域做一次社区物种普查，边散步、骑车和划船边记录看到的生命。",
+  "eventDate": "2026-09-12T16:00:00Z",
+  "location": "美国 · 马里兰州 · Lake Artemesia / 阿纳科斯蒂亚河流域",
+  "body": [
+    "2026 年的 Anacostia River BioBlitz 从 9 月 11 日持续到 14 日；其中 9 月 12 日中午到下午 4 点，公众活动集中在 Lake Artemesia。参与者可以跟着自然观察者找真菌、昆虫、鱼和水生无脊椎动物，也可以把自己的观察上传到 iNaturalist。",
+    "这个活动的核心不是比赛谁找到得多，而是把普通人的观察变成一份可积累的社区生物多样性记录。主办方称自己的年度 BioBlitz 自 2017 年开始举行，今年是第 10 届。"
+  ],
+  "sources": [
+    {
+      "name": "Anacostia Watershed Society",
+      "url": "https://www.anacostiaws.org/content/events-and-recreation/signature-events/anacostia-river-bioblitz/"
+    },
+    {
+      "name": "Chesapeake Network",
+      "url": "https://www.chesapeakenetwork.org/event/saturday-09-12-2026-10th-annual-anacostia-river-bioblitz-berwyn-heights-md/"
+    },
+    {
+      "name": "Washington Area Bicyclist Association",
+      "url": "https://waba.org/event/anacostia-river-bioblitz/"
+    }
+  ],
+  "theme": "sage",
+  "publishedAt": "2026-09-13T05:08:42+08:00",
+  "verifiedAt": "2026-09-13T05:08:42+08:00",
+  "image": {
+    "src": "https://upload.wikimedia.org/wikipedia/commons/5/5b/Great_blue_heron_at_Lake_Artemesia.JPG",
+    "alt": "Lake Artemesia 的一只大蓝鹭；照片用于呈现本次 BioBlitz 所在自然区域，并非 2026 年活动现场",
+    "credit": "Qscgy256 / Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Great_blue_heron_at_Lake_Artemesia.JPG",
+    "license": "CC BY-SA 4.0；允许复制和改编，需署名并以相同许可共享改编作品",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "kind": "original",
+    "layout": "photo"
+  },
+  "archive": false,
+  "verificationNotes": "Anacostia Watershed Society 官方页确认 2026 年 BioBlitz 于 9 月 12 日举行公众主活动，并说明该活动使用 iNaturalist 记录流域物种；其活动介绍称年度项目自 2017 年开始，因此 2026 年为第 10 届。Chesapeake Network 独立列出主活动时间为 9 月 12 日 12:00–16:00 ET、地点为 Lake Artemesia，并说明完整观察期为 9 月 11–14 日。Washington Area Bicyclist Association 另有配套骑行活动，并确认参与者沿途使用 iNaturalist 后加入 Lake Artemesia 的 BioBlitz。eventDate 取公众主活动开始时间 2026-09-12 12:00 EDT，即 16:00 UTC。配图为 Lake Artemesia 实拍大蓝鹭，Wikimedia Commons 文件页明确为 CC BY-SA 4.0；照片拍摄于 2014 年，不作为本届活动现场记录。"
+}
