@@ -1,0 +1,46 @@
+{
+  "id": "2026-09-12-london-open-house",
+  "eventKey": "open-house-festival-london-2026",
+  "category": "城市生活",
+  "title": "伦敦把平时进不去的建筑\n打开九天",
+  "summary": "伦敦 Open House Festival 从9月12日起开放全城建筑与特殊空间，很多平时难进入的地方这几天可以免费参观。",
+  "eventDate": "2026-09-12T12:00:00Z",
+  "location": "英国 · 伦敦",
+  "body": [
+    "这是 Open House Festival 第35届，活动持续到9月20日，覆盖伦敦全部33个行政区。官方说明所有活动免费，但部分热门参观需要提前预约或抽签。",
+    "今年有些入口本身就很少见：Zaha Hadid Foundation 开放约30万件档案的幕后库房导览；BT Tower 也安排公众登上距地面158米的旋转楼层。它更像一次把城市后台临时打开给居民看的大型开放日。"
+  ],
+  "sources": [
+    {
+      "name": "Open City",
+      "url": "https://open-city.org.uk/open-house-festival"
+    },
+    {
+      "name": "Open House Festival Programme · Zaha Hadid Foundation",
+      "url": "https://programme.openhouse.org.uk/listings/11656"
+    },
+    {
+      "name": "Open House Festival Programme · Fitzrovia / BT Tower",
+      "url": "https://programme.openhouse.org.uk/neighbourhoods/2026-fitzrovia"
+    },
+    {
+      "name": "Wallpaper*",
+      "url": "https://www.wallpaper.com/architecture/architecture-events/2026-london-open-house-festival-uk"
+    }
+  ],
+  "theme": "clay",
+  "publishedAt": "2026-09-13T04:10:01+08:00",
+  "verifiedAt": "2026-09-13T04:10:01+08:00",
+  "image": {
+    "src": "https://commons.wikimedia.org/wiki/Special:Redirect/file/BT_Tower_from_Euston_Road%2C_London_-_4080888141.jpg",
+    "alt": "从伦敦 Euston Road 望向 BT Tower 的竖幅照片；BT Tower 是本届 Open House Festival 的开放项目之一，照片并非本次活动现场",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:BT_Tower_from_Euston_Road,_London_-_4080888141.jpg",
+    "credit": "ell brown / Wikimedia Commons",
+    "license": "CC BY 2.0；允许复制与改编，需署名并提供许可链接",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+    "kind": "original",
+    "layout": "photo"
+  },
+  "archive": false,
+  "verificationNotes": "Open City 官方页确认2026年 Open House Festival 于9月12日至20日举行、为第35届，并覆盖伦敦全部33个行政区；官方访客FAQ明确所有活动免费。Zaha Hadid Foundation 的官方节目页确认9月12日开放幕后档案导览，馆藏档案约30万件；Fitzrovia官方节目页确认BT Tower提供罕见公众参观，旋转楼层高度158米。Wallpaper* 作为独立媒体交叉确认本届活动日期、规模与代表性开放地点。eventDate仅按官方提供的活动开始日期记录为9月12日12:00 UTC，不代表具体开门时刻；本轮发布时活动已开始且不足72小时，archive=false。配图为Wikimedia Commons上BT Tower的代表照片，文件页明确采用CC BY 2.0；BT Tower确为本届节目项目，但照片拍摄于2009年，不作为2026年活动现场图使用。"
+}
