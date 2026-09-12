@@ -1,0 +1,42 @@
+{
+  "id": "2026-09-10-ai-fish-thermal-limit",
+  "eventKey": "doi-10-1038-s41598-026-66712-w",
+  "category": "AI",
+  "title": "AI盯着鱼，\n判断它何时失去平衡",
+  "summary": "名古屋大学团队让AI自动识别鱼在温度压力下失去平衡的瞬间，把原本靠人盯视频的判断变得可重复。",
+  "eventDate": "2026-09-10T09:00:00Z",
+  "location": "日本 · 名古屋 / 福井",
+  "body": [
+    "研究把 DeepLabCut 的姿态追踪与 ResNet34 图像分类结合起来，从视频中追踪鱼体7个关键点，再判断鱼是否进入“失去平衡”（LOE）状态。LOE 是鱼类温度耐受实验里常用的指标，过去通常由研究人员人工看片判定。",
+    "团队用50条鱼的视频做验证：自动系统与有经验研究者之间的误差，和两名有经验研究者彼此之间的差异处在相近水平；同一段视频重复分析时，系统还能给出一致结果。随后它被用于比较不同青鳉品系及近缘种的冷热耐受差异。"
+  ],
+  "sources": [
+    {
+      "name": "名古屋大学",
+      "url": "https://www.nagoya-u.ac.jp/researchinfo/result/2026/09/ai-112.html"
+    },
+    {
+      "name": "Scientific Reports",
+      "url": "https://www.nature.com/articles/s41598-026-66712-w"
+    },
+    {
+      "name": "EurekAlert! / ITbM",
+      "url": "https://www.eurekalert.org/news-releases/1142711"
+    }
+  ],
+  "theme": "blue",
+  "publishedAt": "2026-09-13T03:20:00+08:00",
+  "verifiedAt": "2026-09-13T03:18:00+08:00",
+  "image": {
+    "src": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Oryzias_latipes.jpg",
+    "alt": "水族箱中的日本青鳉（Oryzias latipes），为本研究所用模式鱼类的代表照片，不是本次实验现场",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Oryzias_latipes.jpg",
+    "credit": "Seotaro；现版本由 Togabi 调色 / Wikimedia Commons",
+    "license": "CC BY-SA 3.0；须署名并以相同方式共享衍生作品",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "kind": "original",
+    "layout": "photo"
+  },
+  "archive": false,
+  "verificationNotes": "名古屋大学成果页与Scientific Reports论文均确认论文于2026年9月10日18:00（日本时间）公开，DOI为10.1038/s41598-026-66712-w；EurekAlert转载的ITbM新闻稿独立提供了研究团队与方法摘要。关键方法核对为DeepLabCut追踪7个鱼体关键点，并将关键点信息与ResNet34帧特征结合判断LOE。论文验证集包含50个体；自动系统相对经验研究者1的MAE为9.1分钟，两名经验研究者之间为9.5分钟，因此正文只表述为“处在相近水平”，不写成超过专家。eventDate使用论文公开时刻2026-09-10 18:00 JST（09:00 UTC）。距本轮核查不足72小时，archive=false。配图没有使用研究现场图，而采用Wikimedia Commons上日本青鳉Oryzias latipes的代表照片；文件页明确提供CC BY-SA 3.0许可，正文和alt明确说明并非本次实验现场。"
+}
