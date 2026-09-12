@@ -1,0 +1,42 @@
+{
+  "id": "2026-09-11-chofu-fireworks-cancelled",
+  "eventKey": "chofu-fireworks-2026-cancelled-river-level",
+  "category": "社会",
+  "title": "一万发烟花，\n被涨高的河水按下取消键",
+  "summary": "东京调布原定9月12日晚燃放约1万发烟花，却不是因为当晚下雨，而是此前降雨让多摩川水位升高，连发射场都无法搭起来。",
+  "eventDate": "2026-09-11T12:00:00Z",
+  "location": "日本 · 东京 · 调布市多摩川",
+  "body": [
+    "第41回调布花火原计划在9月12日18:15起举行，包含音乐同步烟花、大玉50连发等节目。主办方9月11日宣布取消，而且不顺延。",
+    "关键不是观众会不会淋雨，而是河流条件已经影响到了施工：长期降雨导致水位上升，位于河道中的烟花发射场无法安全搭设。一个万人期待的夜间活动，最终被更早发生的水文变化决定了命运。"
+  ],
+  "sources": [
+    {
+      "name": "调布市花火实行委员会",
+      "url": "https://hanabi.csa.gr.jp/2026/09/11/1450/"
+    },
+    {
+      "name": "NewsDigest / JX通信社",
+      "url": "https://newsdigest.jp/news/3b5828cc-3450-4ec0-88a2-1b8b83ff3c5b"
+    },
+    {
+      "name": "调布市",
+      "url": "https://www.city.chofu.lg.jp/040040/hanabi/p023379.html"
+    }
+  ],
+  "theme": "plum",
+  "publishedAt": "2026-09-13T07:12:00+08:00",
+  "verifiedAt": "2026-09-13T07:12:00+08:00",
+  "image": {
+    "src": "https://upload.wikimedia.org/wikipedia/commons/b/bd/Tamagawa_Fireworks_%2829379966851%29.jpg",
+    "alt": "2016年从川崎一侧拍摄的多摩川烟花；仅用于呈现多摩川烟花主题，并非2026年调布花火现场",
+    "credit": "Big Ben in Japan / Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tamagawa_Fireworks_(29379966851).jpg",
+    "license": "CC BY-SA 2.0；允许复制与改编，需署名并以相同或兼容许可共享改编作品",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+    "kind": "original",
+    "layout": "photo"
+  },
+  "archive": false,
+  "verificationNotes": "调布市花火实行委员会的9月11日官方公告明确写明：第41回调布花火因河川增水中止、无顺延；JX通信社 NewsDigest 当晚独立报道并转述主办方说明，原因是持续降雨使河流水位上升，无法进行发射场搭设。调布市活动页核对了原计划日期、18:15–19:15的燃放时间与节目内容。官方取消公告只给出日期，没有提供精确发布时间，因此 eventDate 按仓库‘仅给日期’规则记为9月11日12:00 UTC，不代表公告实际发布时刻。图片使用Wikimedia Commons上的2016年多摩川烟花照片，文件页确认作者为Big Ben in Japan、许可为CC BY-SA 2.0；该照片拍摄的是世田谷/川崎一带的多摩川烟花，不是2026年调布活动现场，仅作同一河流烟花主题的背景图，并已在alt中明确说明。"
+}
