@@ -25,10 +25,10 @@
     }
   ],
   "theme": "blue",
-  "publishedAt": "2026-09-13T03:20:00+08:00",
-  "verifiedAt": "2026-09-13T03:18:00+08:00",
+  "publishedAt": "2026-09-13T03:16:13+08:00",
+  "verifiedAt": "2026-09-13T03:22:30+08:00",
   "image": {
-    "src": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Oryzias_latipes.jpg",
+    "src": "https://upload.wikimedia.org/wikipedia/commons/4/47/Oryzias_latipes.jpg",
     "alt": "水族箱中的日本青鳉（Oryzias latipes），为本研究所用模式鱼类的代表照片，不是本次实验现场",
     "sourceUrl": "https://commons.wikimedia.org/wiki/File:Oryzias_latipes.jpg",
     "credit": "Seotaro；现版本由 Togabi 调色 / Wikimedia Commons",
@@ -38,5 +38,5 @@
     "layout": "photo"
   },
   "archive": false,
-  "verificationNotes": "名古屋大学成果页与Scientific Reports论文均确认论文于2026年9月10日18:00（日本时间）公开，DOI为10.1038/s41598-026-66712-w；EurekAlert转载的ITbM新闻稿独立提供了研究团队与方法摘要。关键方法核对为DeepLabCut追踪7个鱼体关键点，并将关键点信息与ResNet34帧特征结合判断LOE。论文验证集包含50个体；自动系统相对经验研究者1的MAE为9.1分钟，两名经验研究者之间为9.5分钟，因此正文只表述为“处在相近水平”，不写成超过专家。eventDate使用论文公开时刻2026-09-10 18:00 JST（09:00 UTC）。距本轮核查不足72小时，archive=false。配图没有使用研究现场图，而采用Wikimedia Commons上日本青鳉Oryzias latipes的代表照片；文件页明确提供CC BY-SA 3.0许可，正文和alt明确说明并非本次实验现场。"
+  "verificationNotes": "名古屋大学成果页与Scientific Reports论文均确认论文于2026年9月10日18:00（日本时间）公开，DOI为10.1038/s41598-026-66712-w；EurekAlert转载的ITbM新闻稿独立提供了研究团队与方法摘要。关键方法核对为DeepLabCut追踪7个鱼体关键点，并将关键点信息与ResNet34帧特征结合判断LOE。论文验证集包含50个体；自动系统相对经验研究者1的MAE为9.1分钟，两名经验研究者之间为9.5分钟，因此正文只表述为“处在相近水平”，不写成超过专家。eventDate使用论文公开时刻2026-09-10 18:00 JST（09:00 UTC）。距本轮核查不足72小时，archive=false。配图没有使用研究现场图，而采用Wikimedia Commons上日本青鳉Oryzias latipes的代表照片；文件页明确提供CC BY-SA 3.0许可，图片src改为Wikimedia原始文件直链以确保线上验证能读取image/jpeg；正文和alt明确说明并非本次实验现场。"
 }
