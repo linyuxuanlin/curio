@@ -1,0 +1,29 @@
+{
+  "id": "2026-09-10-wild-neural-logger",
+  "eventKey": "cornell-wild-neural-logger-2026",
+  "category": "科技",
+  "title": "小鼠出门了，\n脑电记录也跟着走",
+  "summary": "一顶比美国一角硬币还轻的“小帽子”，让神经科学走出了实验室。",
+  "eventDate": "2026-09-10T12:00:00Z",
+  "location": "美国 · 伊萨卡",
+  "body": [
+    "康奈尔大学团队开发的 WILD 无线记录器，可以在小鼠自由活动、与同伴互动时记录神经活动。研究团队已经在户外围场开展实验，并观察到了与空间位置相关的神经元活动。",
+    "这仍是研究设备的概念验证。多周的实验不等于设备一次充电能连续工作多周；官方给出的连续记录时长随电池不同约为 3 至 9 小时。"
+  ],
+  "sources": [
+    {
+      "name": "Cornell Chronicle",
+      "url": "https://news.cornell.edu/stories/2026/09/device-gives-first-view-animal-brain-activity-field"
+    },
+    {
+      "name": "Nature Methods",
+      "url": "https://www.nature.com/nmeth/research-articles?type=article"
+    }
+  ],
+  "theme": "blue",
+  "publishedAt": "2026-09-12T11:58:00Z",
+  "verifiedAt": "2026-09-12T12:00:00Z",
+  "image": null,
+  "archive": false,
+  "verificationNotes": "官方新闻全文与 Nature Methods 2026-09-10 研究列表摘要交叉核对；DOI 10.1038/s41592-026-03220-9 页面暂无法读取。无合适可明确授权的实物照片，本卡纯文字。"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "2026-09-10-berlin-modern",
+  "eventKey": "berlin-modern-matta-clark-2026",
+  "category": "文化",
+  "title": "博物馆还没建好，\n展览先开了",
+  "summary": "柏林把一座博物馆的施工现场，变成了临时展厅。",
+  "eventDate": "2026-09-10T12:00:00Z",
+  "location": "德国 · 柏林",
+  "body": [
+    "berlin modern 在柏林艺术周期间展出 Gordon Matta-Clark 的五件作品，展期为 9 月 10 日至 13 日。观众走进尚未完工的空间，观看这位以“切割建筑”著称的艺术家的创作。",
+    "建筑没有完工的状态，本身也参与了这场关于空间的展览。它是这座新博物馆的首次展览，不是整座博物馆正式开馆。"
+  ],
+  "sources": [
+    {
+      "name": "柏林国家博物馆",
+      "url": "https://www.smb.museum/en/exhibitions/detail/gordon-matta-clark/"
+    },
+    {
+      "name": "Berlin.de",
+      "url": "https://www.berlin.de/en/tickets/exhibitions/gordon-matta-clark-on-site/2026-09-10-n-a-64bc43a7-9653-4f90-9598-8ec64f0cc2ef/"
+    }
+  ],
+  "theme": "clay",
+  "publishedAt": "2026-09-12T11:59:00Z",
+  "verifiedAt": "2026-09-12T12:00:00Z",
+  "image": null,
+  "archive": false,
+  "verificationNotes": "已核对官方原始页面与第二来源；事件日期与网站入库时间分开记录。"
+}

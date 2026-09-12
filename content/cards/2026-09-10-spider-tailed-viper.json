@@ -1,0 +1,38 @@
+{
+  "id": "2026-09-10-spider-tailed-viper",
+  "eventKey": "spider-tailed-viper-xct-2026",
+  "category": "动物与自然",
+  "title": "蛇尾上的“蜘蛛”，\n里面竟然很普通",
+  "summary": "X 光看穿了这场伪装：外表再离奇，里面的尾椎骨依然是普通蝰蛇的样子。",
+  "eventDate": "2026-09-10T12:00:00Z",
+  "location": "伊朗 · 美国芝加哥",
+  "body": [
+    "这种蛇会摆动酷似蜘蛛的尾巴，把以为发现食物的鸟引到身边。研究人员扫描博物馆收藏的模式标本，发现“蜘蛛”的特别之处在外部软组织，骨骼本身并没有相应的夸张变化。",
+    "这给研究化石的人提了个醒：只凭骨头，可能想象不出动物活着时有多特别。此次报道的是新扫描研究，并非刚发现这种蛇。"
+  ],
+  "sources": [
+    {
+      "name": "Field Museum",
+      "url": "https://www.fieldmuseum.org/about/press/fake-spider-at-the-tip-of-this-snakes-tail-helps-it-lure-birds"
+    },
+    {
+      "name": "Nautilus",
+      "url": "https://lede-v2.nautil.us/this-snakes-tail-has-a-fake-spider-at-the-tip-1284917"
+    }
+  ],
+  "theme": "sage",
+  "publishedAt": "2026-09-12T12:00:00Z",
+  "verifiedAt": "2026-09-12T12:00:00Z",
+  "image": {
+    "src": "/media/spider-tailed-viper.webp",
+    "alt": "左侧为蛛尾角蝰，右侧为其尾部的 XCT 扫描对照图",
+    "credit": "照片 Omid Mozaffari；扫描 Sara Ruane、Stephanie Smith",
+    "sourceUrl": "https://www.fieldmuseum.org/about/press/fake-spider-at-the-tip-of-this-snakes-tail-helps-it-lure-birds",
+    "license": "官方新闻材料，仅用于此事件报道；原版权保留",
+    "licenseUrl": "https://www.fieldmuseum.org/landing/press-room",
+    "kind": "original",
+    "layout": "poster"
+  },
+  "archive": false,
+  "verificationNotes": "已核对官方原始页面与第二来源；事件日期与网站入库时间分开记录。"
+}

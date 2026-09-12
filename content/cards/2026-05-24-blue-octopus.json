@@ -1,0 +1,38 @@
+{
+  "id": "2026-05-24-blue-octopus",
+  "eventKey": "microeledone-galapagensis-description-2026",
+  "category": "动物与自然",
+  "title": "深海里的蓝色小章鱼，\n终于有了名字",
+  "summary": "它小到能蜷在手掌里，却在海面下约 1,773 米处生活。",
+  "eventDate": "2026-05-24T12:00:00Z",
+  "location": "厄瓜多尔 · 加拉帕戈斯",
+  "body": [
+    "研究人员在 2015 年的深海考察中首次注意到这只小章鱼，直到 2026 年才在分类研究中正式描述它。新名字是 Microeledone galapagensis。",
+    "深海影像里一个不起眼的小身影，背后可能是一段漫长的鉴定过程。这是往期精选，不是今天刚发生的发现。"
+  ],
+  "sources": [
+    {
+      "name": "Field Museum",
+      "url": "https://www.fieldmuseum.org/about/press/this-newly-discovered-blue-octopus-from-the-galapagos-islands-could-curl-up"
+    },
+    {
+      "name": "Charles Darwin Foundation",
+      "url": "https://www.darwinfoundation.org/en/news/newsroom/this-newly-discovered-blue-octopus-from-the-galapagos-islands-could-curl-up-in-the-palm-of-your-hand/"
+    }
+  ],
+  "theme": "blue",
+  "publishedAt": "2026-09-12T11:56:00Z",
+  "verifiedAt": "2026-09-12T12:00:00Z",
+  "image": {
+    "src": "/media/blue-octopus.webp",
+    "alt": "官方考察影像中的蓝色小章鱼位于深海海底",
+    "credit": "Ocean Exploration Trust / Nautilus Live",
+    "sourceUrl": "https://www.fieldmuseum.org/about/press/this-newly-discovered-blue-octopus-from-the-galapagos-islands-could-curl-up",
+    "license": "官方新闻材料，仅用于此事件报道；原版权保留",
+    "licenseUrl": "https://www.fieldmuseum.org/landing/press-room",
+    "kind": "original",
+    "layout": "photo"
+  },
+  "archive": true,
+  "verificationNotes": "已核对官方原始页面与第二来源；事件日期与网站入库时间分开记录。"
+}
