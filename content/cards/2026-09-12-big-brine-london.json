@@ -1,0 +1,42 @@
+{
+  "id": "2026-09-12-big-brine-london",
+  "eventKey": "the-big-brine-london-2026",
+  "category": "食品",
+  "title": "伦敦办了个周末，\n专门研究怎么腌东西",
+  "summary": "东伦敦 Hackney Bridge 这个周末变成了一座发酵游乐场：泡菜、酸黄瓜、盐水腌渍、发酵饮品和现场教学全挤在一起。",
+  "eventDate": "2026-09-12T10:30:00Z",
+  "location": "英国 · 伦敦 · Hackney Bridge",
+  "body": [
+    "The Big Brine 在 9 月 12–13 日举行。主办方把它称为伦敦首个大型腌渍与发酵主题节，现场有 30 多个食品和饮品摊位，还有厨师演示、发酵工作坊、讲座、比赛和音乐。",
+    "它有意思的地方不只是‘吃酸黄瓜’：腌渍和发酵原本是保存食物的老办法，如今又被当成风味实验、餐饮创意和减少浪费的一部分重新包装成城市节庆。"
+  ],
+  "sources": [
+    {
+      "name": "The Big Brine 官方网站",
+      "url": "https://www.thebigbrinelondon.com/"
+    },
+    {
+      "name": "Hackney Bridge",
+      "url": "https://hackneybridge.org/em_event/the-big-brine/"
+    },
+    {
+      "name": "Time Out London",
+      "url": "https://www.timeout.com/london/news/a-major-new-pickle-festival-is-coming-to-east-london-this-september-030626"
+    }
+  ],
+  "theme": "gold",
+  "publishedAt": "2026-09-13T06:10:16+08:00",
+  "verifiedAt": "2026-09-13T06:10:16+08:00",
+  "image": {
+    "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Leavened_cucumbers_Kov%C3%A1szos_uborka_%2818997138710%29.jpg/1246px-Leavened_cucumbers_Kov%C3%A1szos_uborka_%2818997138710%29.jpg",
+    "alt": "玻璃罐中正在盐水发酵的黄瓜；用于说明腌渍与发酵主题，并非 The Big Brine 2026 活动现场",
+    "credit": "Benjamin Balázs / Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Leavened_cucumbers_Kov%C3%A1szos_uborka_(18997138710).jpg",
+    "license": "CC0 1.0；作者已将作品贡献至公共领域，可复制、修改与商业使用",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "kind": "original",
+    "layout": "photo"
+  },
+  "archive": false,
+  "verificationNotes": "The Big Brine 官方网站与 FAQ 确认活动于 2026 年 9 月 12–13 日在 Hackney Bridge 举行；周六首场为 11:30–16:30（英国夏令时），并列出 30+ 食品饮品商户、工作坊、演示、讲座和娱乐项目。Hackney Bridge 的官方场地方页面独立确认日期、地点和活动定位。Time Out London 作为独立媒体确认该活动由 Clarice Downes 与 Emma Winstanley 团队发起，并于 9 月 12–13 日落地 Hackney Bridge；其报道也提醒伦敦过去已有其他较小型 pickle/fermentation 活动，因此正文采用主办方更准确的‘首个大型主题节’表述，而不写成‘伦敦史上第一个泡菜节’。eventDate 取首场开始时间 2026-09-12 11:30 BST，即 10:30 UTC。配图为一罐正在发酵的黄瓜，Wikimedia Commons 文件页明确标记 CC0 1.0；它仅用于呈现腌渍/发酵主题，不作为本届活动现场照片。"
+}
