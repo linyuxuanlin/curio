@@ -18,7 +18,7 @@
 | `verificationNotes` | 核实过的关键事实、日期精度、来源独立性、局限和图片选择依据。公开字段，不放秘密。 |
 | `theme` | sage / clay / blue / gold / plum，控制领域标签颜色。 |
 | `archive` | 是否往期精选；超过 72 小时的扩展选题通常为 true，并解释扩展原因。 |
-| `image` | 无合格图片必须为 null；有图片按下面格式。 |
+| `image` | 每张卡片必填图片对象；优先真实原图，没有合适原图时使用 GPT Image 2.5 示意图。 |
 
 图片字段示例（模板中的链接与文件名必须替换为真实核实过的值，不可直接发布）：
 
@@ -35,7 +35,7 @@
 }
 ```
 
-`layout: "photo"` 会适度裁切填充；带文字海报、对照图或不能裁掉事实/署名的图必须用 `"poster"`，完整显示。生成图另需 `"kind": "generated"`、`"model": "GPT Image 2.5"`、`"visualChecked": true`，前端自动添加“示意图 · 非现场照片”。`sourceUrl` 和 `licenseUrl` 必须记录真实的生成/使用依据；不可编造链接。生成图片无法满足规范就纯文字发布。
+`layout: "photo"` 会适度裁切填充；带文字海报、对照图或不能裁掉事实/署名的图必须用 `"poster"`，完整显示。生成图另需 `"kind": "generated"`、`"model": "GPT Image 2.5"`、`"visualChecked": true`，前端自动添加“示意图 · 非现场照片”。`sourceUrl` 和 `licenseUrl` 必须记录真实的生成/使用依据；不可编造链接。生成图片无法满足规范时，必须继续寻找或生成合格图片，不能发布无图卡片。
 
 不允许 HTML、脚本、内联 SVG、data URL、临时会话文件链接或本机文件路径。上传本地图片后，`src` 从 `/media/` 开始，不含 `public`。图片与 JSON 要原子提交，避免出现空图。
 

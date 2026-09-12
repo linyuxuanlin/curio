@@ -23,7 +23,7 @@ export function validateCard(c){
  for(const s of c.sources)assert(text(s.name,80)&&https(s.url),'来源须有名称及 HTTPS 链接');
  assert(new Set(c.sources.map(s=>s.url)).size===c.sources.length,'来源链接重复');
  assert(text(c.verificationNotes,2000),'缺少事实核查说明');
- if(c.image!==null){const i=c.image;assert(i&&['original','generated'].includes(i.kind),'image 须为 null 或合法对象');assert(text(i.src,1000)&&(/^\/media\/[a-zA-Z0-9/_-]+\.(webp|png|jpg|jpeg|avif)$/.test(i.src)||https(i.src)),'图片须为 /media/ 路径或 HTTPS URL');for(const k of ['alt','credit','license'])assert(text(i[k]),`图片缺少 ${k}`);assert(https(i.sourceUrl)&&https(i.licenseUrl),'图片须有出处和授权说明链接');assert(['photo','poster'].includes(i.layout),'image.layout 须为 photo 或 poster');if(i.kind==='generated')assert(i.model==='GPT Image 2.5'&&i.visualChecked===true,'生成图仅限 GPT Image 2.5 且必须视觉检查');}
+ assert(c.image&&typeof c.image==='object','每张卡片必须有图片');{const i=c.image;assert(['original','generated'].includes(i.kind),'image 须为合法对象');assert(text(i.src,1000)&&(/^\/media\/[a-zA-Z0-9/_-]+\.(webp|png|jpg|jpeg|avif)$/.test(i.src)||https(i.src)),'图片须为 /media/ 路径或 HTTPS URL');for(const k of ['alt','credit','license'])assert(text(i[k]),`图片缺少 ${k}`);assert(https(i.sourceUrl)&&https(i.licenseUrl),'图片须有出处和授权说明链接');assert(['photo','poster'].includes(i.layout),'image.layout 须为 photo 或 poster');if(i.kind==='generated')assert(i.model==='GPT Image 2.5'&&i.visualChecked===true,'生成图仅限 GPT Image 2.5 且必须视觉检查');}
  return c;
 }
 export function validateCollection(cards){const ids=new Set(),keys=new Set();for(const c of cards){validateCard(c);assert(!ids.has(c.id),`重复 id: ${c.id}`);assert(!keys.has(c.eventKey),`重复事件: ${c.eventKey}`);ids.add(c.id);keys.add(c.eventKey);}return cards;}
