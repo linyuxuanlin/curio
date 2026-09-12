@@ -1,0 +1,88 @@
+name: Content check and live verification
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - 'content/cards/**'
+      - 'public/media/**'
+      - 'scripts/verify-live.mjs'
+      - '.github/workflows/content-check.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: content-check-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  validate-build-live:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
+
+      - name: Set up Node.js 22
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Validate content
+        run: npm run validate
+
+      - name: Run tests
+        run: npm test
+
+      - name: Build site
+        run: npm run build
+
+      - name: Resolve card ID to verify
+        id: card
+        shell: bash
+        run: |
+          set -euo pipefail
+          CARD_PATH="$(git diff-tree --no-commit-id --name-only -r "$GITHUB_SHA" -- 'content/cards/*.json' | tail -n 1 || true)"
+          if [[ -n "$CARD_PATH" ]]; then
+            CARD_ID="$(node -e "const fs=require('fs');const c=JSON.parse(fs.readFileSync(process.argv[1],'utf8'));console.log(c.id)" "$CARD_PATH")"
+          else
+            CARD_ID="$(node --input-type=module <<'NODE'
+          import {readdir,readFile} from 'node:fs/promises';
+          const files=(await readdir('content/cards')).filter(f=>f.endsWith('.json'));
+          const cards=[];
+          for(const file of files)cards.push(JSON.parse(await readFile(`content/cards/${file}`,'utf8')));
+          cards.sort((a,b)=>Date.parse(b.publishedAt)-Date.parse(a.publishedAt)||b.id.localeCompare(a.id));
+          if(!cards[0])throw Error('No cards found');
+          console.log(cards[0].id);
+          NODE
+            )"
+          fi
+          echo "Verifying card: $CARD_ID"
+          echo "id=$CARD_ID" >> "$GITHUB_OUTPUT"
+
+      - name: Wait for Cloudflare Pages and verify live feed
+        shell: bash
+        env:
+          CARD_ID: ${{ steps.card.outputs.id }}
+        run: |
+          set -euo pipefail
+          for attempt in $(seq 1 24); do
+            echo "Live verification attempt $attempt/24 for $CARD_ID"
+            if node scripts/verify-live.mjs "$CARD_ID"; then
+              exit 0
+            fi
+            if [[ "$attempt" -lt 24 ]]; then
+              sleep 15
+            fi
+          done
+          echo "Card did not appear in either production feed within the verification window." >&2
+          exit 1
