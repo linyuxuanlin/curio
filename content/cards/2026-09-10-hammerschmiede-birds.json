@@ -1,0 +1,33 @@
+{
+  "id": "2026-09-10-hammerschmiede-birds",
+  "eventKey": "doi-10-3897-sjp-145-200204-hammerschmiede-avian-remains",
+  "category": "考古",
+  "title": "一条古河里，\n又认出了六种鸟",
+  "summary": "德国一处1160万年前河流沉积物又认出六种鸟类，其中包括新的短喙鸬鹚和中新世鹰属种。",
+  "eventDate": "2026-09-10T12:00:00Z",
+  "location": "德国 · 巴伐利亚 · Pforzen",
+  "body": [
+    "Hammerschmiede 的鸟骨非常少，约每40件脊椎动物骨骼里才有1件来自鸟类。研究团队据此补充描述了鸬鹚、潜鸟、雨燕和鹰等六种鸟类；其中 Bavaricarbo brevirostris 与 Mioaetus pforzenensis 属于新命名的属种。",
+    "那只中新世鹰目前主要依据一块跗跖骨判断，研究者估计翼展超过1米，并认为它可能像鱼鹰一样用爪捕鱼。短喙鸬鹚的骨骼则显示，它可能比现代鸬鹚更善飞，但潜水更偏浅水——这些都是基于骨骼形态的推断，不是直接观察。"
+  ],
+  "sources": [
+    {
+      "name": "Universität Tübingen",
+      "url": "https://uni-tuebingen.de/universitaet/aktuelles-und-publikationen/pressemitteilungen/newsfullview-pressemitteilungen/article/kormorane-seetaucher-und-adler-aus-der-menschenaffen-fundstelle-hammerschmiede/"
+    },
+    {
+      "name": "Swiss Journal of Palaeontology",
+      "url": "https://doi.org/10.3897/sjp.145.200204"
+    },
+    {
+      "name": "Tom's Hardware Italia",
+      "url": "https://www.tomshw.it/scienze/scoperto-un-cormorano-estinto-forse-volava-meglio-di-quelli-di-oggi"
+    }
+  ],
+  "theme": "clay",
+  "publishedAt": "2026-09-13T02:13:49+08:00",
+  "verifiedAt": "2026-09-13T02:13:49+08:00",
+  "image": null,
+  "archive": false,
+  "verificationNotes": "图宾根大学2026年9月10日新闻稿与论文信息确认：Hammerschmiede约1160万年前的河流沉积物中新补充描述六种鸟类，其中两个属种为科学新命名；论文DOI为10.3897/sjp.145.200204。Tom's Hardware Italia在9月11日独立报道并核对了Bavaricarbo brevirostris的飞行/浅水潜水形态推断。官方材料同时说明Mioaetus pforzenensis主要依据跗跖骨，翼展超过1米及捕鱼习性均为形态学推断，因此正文保留“可能/估计”措辞。eventDate按研究新闻公开日期记为2026年9月10日12:00 UTC，不代表化石出土当天；距本轮核查不足72小时，archive=false。图宾根大学页面有化石重建图和照片，但未找到允许本站直接复用的明确授权条款；当前任务也无法确认图像生成工具实际模型必为GPT Image 2.5，因此按本轮任务指令使用image=null，不虚构授权或模型。"
+}
