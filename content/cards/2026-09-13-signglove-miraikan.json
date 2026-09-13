@@ -1,0 +1,42 @@
+{
+  "id": "2026-09-13-signglove-miraikan",
+  "eventKey": "u-aizu-signglove-miraikan-public-trial-2026",
+  "category": "科技",
+  "title": "手语一打，\n手套把它念出来",
+  "summary": "东京未来馆正在测试一副能读手指动作的智能手套：手语可转成日语语音，另一边说的话则变成手语动画。",
+  "eventDate": "2026-09-13T01:30:00Z",
+  "location": "日本 · 东京 · 日本科学未来馆",
+  "body": [
+    "SignGlove 是会津大学正在开发的研究原型。手套直接测量手指弯曲和手部动作，把日本手语识别成音声与文字；对方说出的日语则由系统转换成屏幕上的手语动画，让两个人尝试一来一回地交流。",
+    "这次还不是“什么都能翻”的成品。研究团队把第一阶段限制在约 100 个手语单词，并让参与者在体验后反馈识别成功与失败的情况，后续才计划扩展到更简单的会话。9 月 13 日是这轮公开实证的最后一天。"
+  ],
+  "sources": [
+    {
+      "name": "日本科学未来馆",
+      "url": "https://www.miraikan.jst.go.jp/events/202609094716.html"
+    },
+    {
+      "name": "会津大学 iSensing Lab",
+      "url": "https://isensing.u-aizu.ac.jp/signglove/"
+    },
+    {
+      "name": "おたくま経済新聞",
+      "url": "https://otakuma.net/archives/2026090805.html"
+    }
+  ],
+  "theme": "blue",
+  "publishedAt": "2026-09-13T18:09:09+08:00",
+  "verifiedAt": "2026-09-13T18:09:09+08:00",
+  "image": {
+    "src": "https://www.mdpi.com/informatics/informatics-05-00028/article_deploy/html/images/informatics-05-00028-g001.png",
+    "alt": "一副带惯性传感器的数据手套与手机显示界面；这是2018年公开论文中的同类手势识别手套代表图，并非本次会津大学SignGlove实证所用设备",
+    "credit": "Mummadi et al. / Informatics (MDPI)",
+    "sourceUrl": "https://www.mdpi.com/2227-9709/5/2/28",
+    "license": "CC BY 4.0；论文与图像可在署名条件下共享和改编",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "kind": "original",
+    "layout": "photo"
+  },
+  "archive": false,
+  "verificationNotes": "本轮候选优先近72小时且避开上一期“社会”领域。日本科学未来馆官方活动页确认SignGlove实证于2026-09-09至09-13每天10:30–17:00举行，地点为未来馆1楼；官方明确写明手语通过智能手套转换为日语语音，而对方语音转换为屏幕上的手语动画，并注明使用日本手语。会津大学iSensing Lab项目页进一步确认SignGlove直接测量手指动作、第一阶段只验证约100个手语单词，当前仍是研究原型而非完成产品。おたくま経済新聞作为独立媒体在9月8日报道同一实证的日期、地点与双向转换方式。eventDate记录9月13日最后一天公众体验开始时间10:30 JST（01:30 UTC），不是把9月9日的首次开展日期改写成新事件；卡片正文明确活动实际跨度为9月9–13日，因此archive=false。未使用未来馆或会津大学现场图片，因为公开页面未找到允许本站直接复用的明确授权；改用2018年Informatics开放获取论文中的IMU数据手套图作为同类技术代表图。该论文明确以Creative Commons Attribution (CC BY 4.0)发布，alt中已注明不是本次SignGlove设备，避免造成现场或设备误认。"
+}
