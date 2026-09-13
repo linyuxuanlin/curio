@@ -1,0 +1,42 @@
+{
+  "id": "2026-09-10-ciftis-robot-wok-truck",
+  "eventKey": "7fresh-smart-mobile-food-truck-ciftis-2026",
+  "category": "机器人",
+  "title": "一辆餐车里，\n三台机器人同时炒菜",
+  "summary": "北京服贸会现场出现一辆“机器人厨房”：三台炒菜机器人负责热炒，一锅约5分钟，可出6份餐。",
+  "eventDate": "2026-09-10T12:00:00+08:00",
+  "location": "中国 · 北京 · 首钢园",
+  "body": [
+    "9月10日，中新社记者在2026年服贸会现场探访七鲜小厨智能移动餐车。三台炒菜机器人可以一键启动，完成投料、翻炒和调味等流程；运营负责人介绍，一锅约5分钟，可出6份餐，启动后中途无需人工介入。",
+    "它瞄准的不是把厨师完全拿掉，而是大型展会、演唱会等短时间客流暴增的场景：把热炒环节做得更标准、更快，同时保留现场现炒。北京日报现场报道还记录到智能咖啡机与机器人热炒同时工作。"
+  ],
+  "sources": [
+    {
+      "name": "中国新闻网",
+      "url": "https://www.chinanews.com/shipin/cns-d/2026/09-11/news1068495.shtml"
+    },
+    {
+      "name": "北京日报",
+      "url": "https://xinwen.bjd.com.cn/content/s6aa29af3e4b0e42f8f0022a6.html"
+    },
+    {
+      "name": "首都文明网（北京官方）",
+      "url": "https://www.bjwmb.gov.cn/wmdt/cyq/10135359.html"
+    }
+  ],
+  "theme": "blue",
+  "publishedAt": "2026-09-13T23:11:51+08:00",
+  "verifiedAt": "2026-09-13T23:11:51+08:00",
+  "image": {
+    "src": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Posha%2C%20Your%20Family%27s%20Private%20Robot%20Chef%20at%20SXSW%202025.jpg",
+    "alt": "烹饪机器人设备的实拍代表图；拍摄于2025年SXSW，并非本次北京服贸会七鲜小厨餐车或其设备",
+    "credit": "Bea Phi / Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Posha,_Your_Family%27s_Private_Robot_Chef_at_SXSW_2025.jpg",
+    "license": "CC BY-SA 4.0；可在署名并以相同许可分享改编内容的条件下复用",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "kind": "original",
+    "layout": "photo"
+  },
+  "archive": false,
+  "verificationNotes": "本轮先读取README、HOURLY_PROMPT、CONTENT_FORMAT、PUBLISHING，并检查最近内容及全仓库关键词；检索七鲜/服贸会/智能移动餐车/炒菜机器人未发现同一事件。最近卡片依次覆盖考古、食品、环境、文化、科技、社会等方向，本轮选择机器人以继续轮换；最近6期未见天文/航天选题。中国新闻网2026年9月11日视频稿明确写明记者于9月10日在首钢园实地探访该餐车，并核对三台炒菜机器人、一键开炒、约5分钟一锅、一锅6份、启动后中途无需人工介入；北京日报现场稿独立描述机械装置投料、自动翻锅和调味，并核对智能炒菜机器人及智能咖啡机；首都文明网转载朝阳区官方信息核对2026服贸会为9月9日至13日在北京举行。来源对事件现场探访日期精确到9月10日但无具体时刻，eventDate按当日12:00+08:00记录并说明日期精度。事件处于当前72小时窗口内，archive=false。新闻现场图片版权没有明确开放复用许可，因此不直接引用；配图采用Wikimedia Commons上Bea Phi于SXSW 2025拍摄的真实烹饪机器人代表照片，文件页明确标注CC BY-SA 4.0，alt清楚说明并非本次北京活动或七鲜设备，避免误导。当前环境有GitHub写入工具但没有本地仓库工作区，因此未伪装运行npm命令，最终以本提交触发的GitHub Actions validate/test/build和线上feed验证为准。当前用户明确要求每轮只新增1张，因此以用户指令覆盖仓库文档中旧的每轮5张要求。"
+}
