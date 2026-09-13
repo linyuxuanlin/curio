@@ -8,7 +8,7 @@ const text=(v,max=1000)=>typeof v==='string'&&v.trim().length>0&&v.length<=max;
 const https=v=>{try{return new URL(v).protocol==='https:';}catch{return false;}};
 export function validateCard(c){
  assert(c&&typeof c==='object','卡片必须为对象');
- assert(/^[a-z0-9]+(?:-[a-z0-9]+)*$/.test(c.id),'id 只能使用小写英文、数字、连字符');
+ assert(typeof c.id==='string'&&/^[a-z0-9]+(?:-[a-z0-9]+)*$/.test(c.id),'id 只能使用小写英文、数字、连字符');
  assert(text(c.eventKey,160),'缺少稳定的 eventKey');
  assert(categories.includes(c.category),'未知领域');
  assert(text(c.title,36)&&!c.title.includes('趣事'),'标题须为 1–36 字，不能使用“趣事”');

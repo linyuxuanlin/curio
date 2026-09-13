@@ -1,0 +1,12 @@
+import {chromium} from 'playwright';
+import assert from 'node:assert/strict';
+const base=process.env.CURIO_TEST_URL || 'http://127.0.0.1:5173';
+const b=await chromium.launch({executablePath:process.env.PLAYWRIGHT_CHROMIUM_EXECUTABLE});const ctx=await b.newContext({serviceWorkers:'block'});const p=await ctx.newPage();
+const feed=await(await fetch(base+'/feed.json')).json();let mode='fail';
+await p.route('**/feed.json*',r=>mode==='fail'?r.fulfill({status:503,body:'no'}):r.fulfill({json:{cards:mode==='empty'?[]:mode==='new'?[{...feed.cards[1],id:'new-card',publishedAt:'2026-09-14T00:00:00Z'},feed.cards[0]]:[feed.cards[0]]}}));
+await p.goto(base,{waitUntil:'domcontentloaded'});await p.getByRole('button',{name:'重新加载'}).waitFor();
+mode='ok';await p.evaluate(()=>document.dispatchEvent(new Event('visibilitychange')));await p.waitForSelector('.card');
+await p.locator('.card[tabindex]').click();mode='new';await p.evaluate(()=>document.dispatchEvent(new Event('visibilitychange')));await p.getByRole('status').filter({hasText:'又有'}).waitFor();assert.ok(await p.locator('.card[tabindex]').evaluate(c=>c.classList.contains('is-flipped')));
+await p.locator('#next').click();await p.waitForFunction(()=>document.querySelector('.card[tabindex]')?.dataset.id==='new-card');await p.locator('#undo').click();assert.equal(await p.locator('.card[tabindex]').getAttribute('data-id'),feed.cards[0].id);
+console.log('initial failure automatic recovery, refresh preserves flip, animated dismiss and undo pass');
+mode='empty';await p.reload({waitUntil:'domcontentloaded'});await p.getByRole('heading',{name:'已读完',exact:true}).waitFor();console.log('valid empty feed pass');await b.close();
