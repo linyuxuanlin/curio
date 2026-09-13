@@ -2,13 +2,13 @@
   "id": "2026-09-13-immersion-detroit-floral-dinner",
   "eventKey": "immersion-detroit-2026-floral-installation-dinner",
   "category": "设计",
-  "title": "花艺展最后一晚，\n晚餐直接摆进花丛里",
-  "summary": "底特律一场只存在三天的沉浸式花艺展，在最后一晚把主厨晚餐直接放进大型植物装置之间。",
-  "eventDate": "2026-09-13T18:00:00-04:00",
+  "title": "只开三天的花艺展，\n把整座农场变成花园",
+  "summary": "底特律一场只存在三天的沉浸式花艺展，把大型植物装置铺进农场与工作室；最后一天中午仍对外开放。",
+  "eventDate": "2026-09-13T12:00:00-04:00",
   "location": "美国 · 密歇根州 · 底特律",
   "body": [
     "Immersion Detroit 2026 从9月11日持续到13日，由多位花艺设计师和艺术家共同搭建大型植物装置。展览不是长期陈列：主办方明确把作品描述为短暂、每年都会变化的现场体验。",
-    "9月13日白天仍以画廊形式开放，晚间则以一场预售制主厨晚餐收尾。就餐空间直接嵌在花艺装置之间，让花艺从“被观看的展品”变成整顿晚餐的环境。"
+    "9月13日中午，最后一天的画廊时段继续开放，其中12:00至14:00安排了免费社区时段；当晚还计划用一场预售制主厨晚餐收尾，把用餐空间嵌进花艺装置之间。"
   ],
   "sources": [
     {
@@ -17,7 +17,7 @@
     },
     {
       "name": "Detroit Month of Design",
-      "url": "https://www.detroitmonthofdesign.org/event-details/immersion-detroit-the-dinner-2026-09-13-18-00"
+      "url": "https://www.detroitmonthofdesign.org/event-details/immersion-detroit-2026-09-12-12-00"
     }
   ],
   "theme": "plum",
@@ -34,5 +34,5 @@
     "layout": "photo"
   },
   "archive": false,
-  "verificationNotes": "本轮先读取README、docs/HOURLY_PROMPT.md、docs/CONTENT_FORMAT.md、docs/PUBLISHING.md，并读取仓库树和最近内容。最近已发布内容覆盖机器人、考古、食品、环境、文化、科技、社会、AI与动物等方向，本轮选设计继续轮换；仓库检索Immersion Detroit未发现同一事件，最近6期未见天文/航天。Immersion Detroit 官方页核对活动为2026年9月11日至13日、地点为4613 Chene St、由多位花艺设计师与艺术家合作创作大型沉浸式植物装置，并明确作品仅持续三天；Detroit Month of Design 的9月13日晚餐页独立核对当晚18:00至22:00、同一地点以及‘chef’s dinner nestled in the flowers’的收尾形式。eventDate采用晚餐明确开始时间18:00，美东夏令时UTC-04:00。事件处于72小时窗口内，archive=false。主办方现场图未看到明确开放复用许可，因此不直接引用；代表图采用Wikimedia Commons上SatzatHossain于2026年2月拍摄的花艺装置互动照片，文件页明确标注CC BY-SA 4.0，alt清楚说明并非本次底特律现场，避免误导。当前环境有GitHub写入工具但没有本地仓库工作区，因此未伪装运行npm命令，最终以本提交触发的GitHub Actions validate/test/build和线上feed验证为准。当前用户明确要求每轮只新增1张，因此以用户指令覆盖仓库文档中旧的每轮5张要求。"
+  "verificationNotes": "本轮先读取README、docs/HOURLY_PROMPT.md、docs/CONTENT_FORMAT.md、docs/PUBLISHING.md，并读取仓库树和最近内容。最近已发布内容覆盖机器人、考古、食品、环境、文化、科技、社会、AI与动物等方向，本轮选设计继续轮换；仓库检索Immersion Detroit未发现同一事件，最近6期未见天文/航天。Immersion Detroit 官方页核对活动为2026年9月11日至13日、地点为4613 Chene St、由多位花艺设计师与艺术家合作创作大型沉浸式植物装置，并明确作品仅持续三天；Detroit Month of Design 的活动页核对9月13日仍有画廊时段及12:00至14:00免费社区时段，并说明晚间主厨晚餐是收尾项目。eventDate采用9月13日最后一天画廊/社区时段的明确开始时间12:00，美东夏令时UTC-04:00；核查时该时点已经到达，避免把未来晚餐当作已发生事件发布。事件处于72小时窗口内，archive=false。主办方现场图未看到明确开放复用许可，因此不直接引用；代表图采用Wikimedia Commons上SatzatHossain于2026年2月拍摄的花艺装置互动照片，文件页明确标注CC BY-SA 4.0，alt清楚说明并非本次底特律现场，避免误导。当前环境有GitHub写入工具但没有本地仓库工作区，因此未伪装运行npm命令，最终以本提交触发的GitHub Actions validate/test/build和线上feed验证为准。当前用户明确要求每轮只新增1张，因此以用户指令覆盖仓库文档中旧的每轮5张要求。"
 }
