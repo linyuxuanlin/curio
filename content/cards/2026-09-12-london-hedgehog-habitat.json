@@ -1,0 +1,42 @@
+{
+  "id": "2026-09-12-london-hedgehog-habitat",
+  "eventKey": "ldf-2026-urban-living-library-hedgehog-habitat",
+  "category": "设计",
+  "title": "伦敦把刺猬通道，\n做成了一件设计展品",
+  "summary": "伦敦设计节把一套“给刺猬留路”的城市景观方案搬进公众视野：绿廊、庇护点和雨水景观被当成城市基础设施来设计。",
+  "eventDate": "2026-09-12T10:00:00+01:00",
+  "location": "英国伦敦，Soho Design District",
+  "body": [
+    "这件名为“Urban Living Library – Reclaiming the Hedgehog Habitat”的装置由景观设计师 Fengyi Wu 提出，9月12日至20日在伦敦设计节的 Soho Design District 展出。它把欧洲刺猬当作“旗舰物种”，用连续种植、野生动物庇护结构、雨水景观和公共活动空间，示范怎样把被道路、围墙和硬质铺装切碎的城市栖息地重新连起来。",
+    "它最初来自一项围绕 UCL Bloomsbury 校园的设计研究，并获得 IFLA Europe 2025 学生与青年专业人士竞赛概念类一等奖。重点不是做一座只供动物使用的封闭保护区，而是让人行空间、学习空间和野生动物通道共用同一套景观系统。"
+  ],
+  "sources": [
+    {
+      "name": "London Design Festival",
+      "url": "https://londondesignfestival.com/activities/urban-living-library-reclaiming-the-hedgehog-habitat"
+    },
+    {
+      "name": "designboom",
+      "url": "https://www.designboom.com/readers/urban-living-library-fragmented-city-spaces-biodiverse-ecological-corridors-fengyi-wu/"
+    },
+    {
+      "name": "Irish Landscape Institute / IFLA Europe",
+      "url": "https://www.irishlandscapeinstitute.com/articles/congratulations-to-wrish-sarkar-for-his-award-in-the-2025-youth-competition-new-urban-landscapes"
+    }
+  ],
+  "theme": "sage",
+  "publishedAt": "2026-09-13T13:18:00+08:00",
+  "verifiedAt": "2026-09-13T13:18:00+08:00",
+  "image": {
+    "src": "https://upload.wikimedia.org/wikipedia/commons/9/97/Chiswick_Hedgehog_Highway_2025-09-05.jpg",
+    "alt": "2025年伦敦 Chiswick 一处标示为 Hedgehog Highway 的刺猬通道；为伦敦城市刺猬通行措施代表图，并非本次设计节装置现场",
+    "credit": "Amanda Slater / Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chiswick_Hedgehog_Highway_2025-09-05.jpg",
+    "license": "CC BY-SA 4.0；伦敦城市刺猬通行措施代表图，非2026年伦敦设计节装置现场",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "kind": "original",
+    "layout": "photo"
+  },
+  "archive": false,
+  "verificationNotes": "事件以London Design Festival官方活动页标示的2026-09-12开幕日为eventDate，仍在72小时窗口内，archive=false。官方页确认作品名称、作者Fengyi Wu、9月12日至20日展期、Soho Design District及以刺猬为旗舰物种、通过种植/栖息结构等连接城市生态空间的设计意图；designboom对项目本身的独立介绍交叉确认其源自景观设计研究，并说明栖息地、生态廊道、花园和学习空间的组合；Irish Landscape Institute转述IFLA Europe 2025竞赛结果，确认Fengyi Wu的同名项目获概念类一等奖。图片未使用活动官方宣传图，因为当前页面未给出清晰可复用许可；改用Wikimedia Commons中2025年伦敦Chiswick的Hedgehog Highway实拍，文件页明确CC BY-SA 4.0。图片只是伦敦城市刺猬通行措施代表图，alt与license已明确不是本次装置现场。"
+}
