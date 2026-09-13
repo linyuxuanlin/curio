@@ -1,0 +1,38 @@
+{
+  "id": "2026-09-11-fanuc-ai-welding-agent",
+  "eventKey": "fanuc-google-ai-welding-agent-2026",
+  "category": "机器人",
+  "title": "把图纸给机器人看，\n它自己生成焊接程序",
+  "summary": "FANUC 与 Google 合作的 AI 焊接代理能读部件图纸，自动生成焊接条件和机器人动作，计划今年 12 月底开始出货。",
+  "eventDate": "2026-09-11T12:00:00Z",
+  "location": "日本",
+  "body": [
+    "这套系统使用 Gemini Enterprise 读取设计图，识别材料和要制作的部件，再生成电流、电压等焊接条件以及机器人运动程序。FANUC 将它称为“零设置、零示教”，但操作员仍可以在执行前微调 AI 给出的条件和动作。",
+    "读取图纸时可以直接使用 CRX 协作机器人的平板示教器内置摄像头，不需要另装专用读图设备。FANUC 还表示，它不绑定特定焊接电源，并计划从 9 月 16 日开始的东京国际焊接展现场演示。"
+  ],
+  "sources": [
+    {
+      "name": "FANUC",
+      "url": "https://www.fanuc.co.jp/ja/profile/pr/newsrelease/2026/news20260911.html"
+    },
+    {
+      "name": "AI Watch（Impress）",
+      "url": "https://ai.watch.impress.co.jp/docs/news/2140343.html"
+    }
+  ],
+  "theme": "gold",
+  "publishedAt": "2026-09-13T09:16:00+08:00",
+  "verifiedAt": "2026-09-13T09:16:00+08:00",
+  "image": {
+    "src": "https://upload.wikimedia.org/wikipedia/commons/5/57/Fanuc_robot_CRX-5iA.jpg",
+    "alt": "2026年4月拍摄的一台 FANUC CRX-5iA 协作机器人；仅作为 CRX 系列代表图，并非 AI 焊接代理演示现场",
+    "credit": "Bobjgalindo / Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Fanuc_robot_CRX-5iA.jpg",
+    "license": "CC BY 4.0；CRX 系列代表图，非本次 AI 焊接代理演示现场",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "kind": "original",
+    "layout": "photo"
+  },
+  "archive": false,
+  "verificationNotes": "FANUC 于 2026-09-11 官方发布 AI Welding Agent，明确其基于 Gemini Enterprise 读取部件设计图，自动生成电流、电压等焊接条件与机器人动作程序；操作员可以直接执行或微调生成结果。官方同时确认使用 CRX 平板示教器内置摄像头读取图纸、不依赖特定焊接电源、9 月 16 日起在东京国际焊接展演示，并计划 2026 年 12 月底开始出货。AI Watch（Impress）在 9 月 11 日的独立报道对图纸读取、自动生成焊接动作、Gemini Enterprise 和出货时间等关键点进行了交叉确认。来源只给出公告日期，因此 eventDate 按仓库规则记为 9 月 11 日 12:00 UTC，不代表具体发布时刻。本事件仍在 72 小时窗口内，archive=false。配图为 2026 年 4 月拍摄的 FANUC CRX-5iA，Wikimedia Commons 文件页显示作者 Bobjgalindo 以 CC BY 4.0 发布；它仅作为 CRX 系列代表图，不能理解为本次 AI Welding Agent 的演示现场或具体配置。"
+}
