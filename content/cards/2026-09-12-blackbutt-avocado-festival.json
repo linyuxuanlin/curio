@@ -1,0 +1,42 @@
+{
+  "id": "2026-09-12-blackbutt-avocado-festival",
+  "eventKey": "blackbutt-avocado-festival-2026",
+  "category": "食品",
+  "title": "牛油果节上，\n还有人从天上跳下来",
+  "summary": "澳大利亚 Blackbutt 的牛油果节9月12日举行：除了100多个摊位，还有跳伞、Avo Roll 和一整套牛油果主题游戏。",
+  "eventDate": "2026-09-12T12:00:00Z",
+  "location": "澳大利亚 · 昆士兰 Blackbutt",
+  "body": [
+    "这个乡镇节庆从2016年开始围绕当地代表农产品做文章。官方把跳伞项目叫作 Avo-Drop，还安排 AvoToss、Avo Golf、Avo Roll、独轮车比赛等，把普通农产品节做成了一套牛油果主题运动会。",
+    "2026年的活动在9月12日举行。主办方列出超过100个市场摊位；当地媒体当天报道现场人流旺盛，而旅游活动资料进一步说明，Avo-Drop 的跳伞者会从约5000英尺高度下降，并尝试落到画成巨型牛油果的目标区域附近。"
+  ],
+  "sources": [
+    {
+      "name": "Blackbutt Avocado Festival",
+      "url": "https://avocadofestival.com.au/"
+    },
+    {
+      "name": "The Courier-Mail / South Burnett Times",
+      "url": "https://www.couriermail.com.au/news/queensland/south-burnett/100-smiling-faces-from-the-2026-blackbutt-avocado-festival/news-story/598e51fbcf57864db1f7ec4b04053a70"
+    },
+    {
+      "name": "The Grey Nomads",
+      "url": "https://www.thegreynomads.com.au/events/queensland/blackbutt/"
+    }
+  ],
+  "theme": "gold",
+  "publishedAt": "2026-09-13T21:13:54+08:00",
+  "verifiedAt": "2026-09-13T21:13:54+08:00",
+  "image": {
+    "src": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Avocado_Fruits.jpg",
+    "alt": "多颗牛油果的竖幅实拍代表图；并非2026年 Blackbutt Avocado Festival 现场照片",
+    "credit": "Abacate International / Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Avocado_Fruits.jpg",
+    "license": "CC BY-SA 4.0；可在署名并以相同许可分享改编内容的条件下复用",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "kind": "original",
+    "layout": "photo"
+  },
+  "archive": false,
+  "verificationNotes": "本轮先读取README、HOURLY_PROMPT、CONTENT_FORMAT、PUBLISHING，并检查content/cards目录及近期提交；最近6期依次覆盖环境、文化、科技、社会、AI、动物与自然，本轮轮换到食品，最近6期无天文/航天。仓库检索Blackbutt与avocado未发现同一事件。活动官方页面确认2026年9月12日、Blackbutt、Avo-Drop、跳伞与AvoToss/Avo Golf/Avo Roll等项目，并列出100个市场摊位；The Courier-Mail/South Burnett Times于9月13日报道9月12日活动已实际举行且现场有100多个摊位；The Grey Nomads独立活动资料核对9月12日日期，并给出Avo-Drop约5000英尺跳伞和巨型牛油果目标区的细节。来源只精确到日期，eventDate按CONTENT_FORMAT规则记当天12:00 UTC。配图不用授权不明的现场新闻照片，而采用Wikimedia Commons竖幅牛油果代表实拍；文件页确认作者Abacate International及CC BY-SA 4.0，alt明确注明非本届现场。尝试使用本地终端clone仓库以运行npm run validate、npm test、npm run build，但运行环境DNS无法解析github.com，因此没有伪装执行，后续以该提交触发的GitHub Actions正式校验为准。"
+}
