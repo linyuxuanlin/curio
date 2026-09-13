@@ -15,6 +15,6 @@
 
 [蛛尾角蝰原始报道](https://www.fieldmuseum.org/about/press/fake-spider-at-the-tip-of-this-snakes-tail-helps-it-lure-birds) · [蓝色章鱼原始报道](https://www.fieldmuseum.org/about/press/this-newly-discovered-blue-octopus-from-the-galapagos-islands-could-curl-up)
 
-建站时已人工视觉检查两张图片。蛇尾图包含实物与扫描的左右对照；应完整展示，避免裁掉署名或误导两侧结构。章鱼图是深海真实影像，颜色和结构不修改。其它三张卡片没有取得明确合适的图片复用依据，因此为文字卡。
+建站时已人工视觉检查两张真实图片。蛇尾图包含实物与扫描的左右对照；应完整展示，避免裁掉署名或误导两侧结构。章鱼图是深海真实影像，颜色和结构不修改。其它四张卡片没有取得明确合适的图片复用依据，因此使用已标注的 GPT Image 2.5 生成示意图。
 
 生成图必须在 JSON 的 `image` 中设置 `kind: "generated"`、`model: "GPT Image 2.5"`、`visualChecked: true`，并提供事件来源链接和“示意图”说明。无法确认当前工具所用模型时不可假称使用了该模型；应先取得合格的 GPT Image 2.5 图片。禁止用 Python/Pillow、SVG、HTML 等方式生成新闻图片。界面 CSS 与站点 favicon 属于界面设计，不是事件配图。
