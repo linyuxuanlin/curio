@@ -91,11 +91,15 @@ function bindDrag(card) {
  card.addEventListener('pointerup',e=>end(e)); card.addEventListener('pointercancel',e=>end(e,true)); card.addEventListener('touchmove',e=>{if(drag?.locked)e.preventDefault();},{passive:false});
 }
 
+function usableCard(c) {
+ return c && typeof c === 'object' && typeof c.id === 'string' && typeof c.category === 'string' && typeof c.title === 'string' && typeof c.summary === 'string' && Array.isArray(c.body) && Array.isArray(c.sources) && c.image && typeof c.image === 'object' && typeof c.image.src === 'string' && typeof c.image.alt === 'string' && typeof c.image.credit === 'string' && typeof c.image.license === 'string' && typeof c.image.sourceUrl === 'string';
+}
+
 async function loadFeed() {
  const urls=[`/feed.json?ts=${Date.now()}`,'/feed.json'];
  let lastError;
  for(const url of urls){
-  try { const response=await fetch(url,{cache:'default'}); if(!response.ok)throw Error(`feed:${response.status}`); const feed=await response.json(); if(!Array.isArray(feed.cards))throw Error('data'); return feed; }
+  try { const response=await fetch(url,{cache:'default'}); if(!response.ok)throw Error(`feed:${response.status}`); const feed=await response.json(); if(!Array.isArray(feed.cards))throw Error('data'); const cards=feed.cards.filter(usableCard); if(!cards.length)throw Error('data'); return {...feed,cards}; }
   catch(error){ lastError=error; }
  }
  throw lastError||Error('feed');
@@ -105,7 +109,7 @@ async function refresh(initial=false) {
  try { const feed=await loadFeed();
   const previous=new Set(all.map(c=>c.id)); all=feed.cards;
   if(initial){queue=unread(all,read);render();} else {const additions=all.filter(c=>!previous.has(c.id)&&!read[c.id]);if(additions.length){queue.push(...additions);notice.textContent=`又有 ${additions.length} 张新发现，已经放进卡片盒。`;if(!busy)render();}}
- } catch (error) { console.error('[curio] load/render failed', error); if(initial){notice.textContent=`加载失败：${error?.message||'未知错误'}`;deck.replaceChildren();const box=el('div','empty');box.append(el('h2','','再试一下？'),el('p','','网络有点慢，重新打开卡片盒就好。'));const retry=el('button','lucky','重新加载');retry.onclick=()=>refresh(true);box.append(retry);deck.append(box);} else notice.textContent='暂时无法获取更新，已打开的卡片仍可阅读。';} finally {refreshing=false;}
+ } catch (error) { console.error('[curio] load/render failed', error); if(initial){notice.textContent='卡片暂时没能送达';deck.replaceChildren();const box=el('div','empty');box.append(el('h2','','再试一下？'),el('p','','网络有点慢，重新打开卡片盒就好。'));const retry=el('button','lucky','重新加载');retry.onclick=()=>refresh(true);box.append(retry);deck.append(box);} else notice.textContent='暂时无法获取更新，已打开的卡片仍可阅读。';} finally {refreshing=false;}
 }
 
 document.querySelector('#next').onclick=()=>dismiss(1); document.querySelector('#undo').onclick=undo; flipButton.onclick=()=>{const card=queue.length&&deck.querySelector('.card[data-id="'+queue[0].id+'"]');if(!card)return;const flipped=card.classList.toggle('is-flipped');flipButton.setAttribute('aria-pressed',String(flipped));flipButton.setAttribute('aria-label',flipped?'翻回正面':'翻面');flipButton.title=flipped?'翻回正面':'翻面';};
