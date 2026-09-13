@@ -1,0 +1,42 @@
+{
+  "id": "2026-09-10-hadrians-villa-lightning",
+  "eventKey": "villa-adriana-fulgur-submanium-2026",
+  "category": "考古",
+  "title": "两行拉丁文，标出了\n一个被夜雷击中的圣地",
+  "summary": "哈德良别墅出土一块仍在原位的铭文石板，写着“FVLGVR SVBMANIVM”；它记录了罗马人把夜间雷击地点纳入宗教仪式的做法。",
+  "eventDate": "2026-09-10T12:00:00Z",
+  "location": "意大利蒂沃利，哈德良别墅",
+  "body": [
+    "这块约40×35厘米的石板仍嵌在原来的小型方形结构上，位置在所谓“圆形剧场”一带。铭文中的 submanium 指向 Summanus——罗马传统里与夜间雷电相关的神祇。",
+    "研究团队认为，这处结构可能与 fulgur conditum 仪式有关：雷击被视为神意介入，受击处会被划为具有宗教意义的空间，并将相关遗物埋藏。考古人员强调，目前重要之处在于铭文和结构仍保存在原始上下文中，它为研究这一片区域后来如何改造提供了新的线索。"
+  ],
+  "sources": [
+    {
+      "name": "Istituto Villa Adriana e Villa d'Este",
+      "url": "https://villae.cultura.gov.it/2026/09/10/villa-adriana-nellarea-dellanfiteatro-riaffiora-una-rara-testimonianza-del-fulgur-conditum-lantico-rito-romano-che-consacrava-i-luoghi-colpiti-dal-fulmine/"
+    },
+    {
+      "name": "HeritageDaily",
+      "url": "https://www.heritagedaily.com/2026/09/rare-roman-inscription-marks-lightning-strike-at-hadrians-villa/159243"
+    },
+    {
+      "name": "ARTE.it",
+      "url": "https://www.arte.it/notizie/roma/a-villa-adriana-riaffiora-la-testimonianza-di-un-antico-rito-che-consacrava-i-luoghi-colpiti-dal-fulmine-22952"
+    }
+  ],
+  "theme": "gold",
+  "publishedAt": "2026-09-13T11:10:00+08:00",
+  "verifiedAt": "2026-09-13T11:10:00+08:00",
+  "image": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6c/Hadrian%27s_Villa%2C_Tivoli_%2826343810209%29.jpg/960px-Hadrian%27s_Villa%2C_Tivoli_%2826343810209%29.jpg",
+    "alt": "哈德良别墅遗址实拍；仅作为遗址环境代表图，并非此次发现铭文的所谓圆形剧场发掘点",
+    "credit": "Carole Raddato / Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hadrian%27s_Villa,_Tivoli_(26343810209).jpg",
+    "license": "CC BY-SA 2.0；哈德良别墅遗址代表图，非此次铭文发现现场照片",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+    "kind": "original",
+    "layout": "photo"
+  },
+  "archive": false,
+  "verificationNotes": "哈德良别墅与埃斯特别墅研究所于 2026-09-10 公布发现：在所谓圆形剧场区域，一块约40×35厘米的铭文石板仍处于原始位置，文字完整为 FVLGVR SVBMANIVM，指向与夜间雷电之神 Summanus 相关的 fulgur submanium。官方说明称，小型方形结构可能是与 bidental / fulgur conditum 仪式相关的标志或边界，但使用“可能”而非确定结论；本卡同样保留这一不确定性。HeritageDaily 与 ARTE.it 在 9 月11–12日的独立报道交叉确认了铭文内容、原位保存、尺寸和罗马雷击圣化仪式的解释。eventDate 采用官方公告日期 2026-09-10，来源只提供日期，按仓库规则记 12:00 UTC；当前仍在72小时窗口内，archive=false。配图来自 Wikimedia Commons，作者 Carole Raddato，文件页经 FlickrReviewR 确认为 CC BY-SA 2.0；照片展示哈德良别墅遗址，但不是此次铭文发掘点，因此 alt 与许可说明均明确标注为代表图。"
+}
