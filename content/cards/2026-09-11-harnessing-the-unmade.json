@@ -1,0 +1,38 @@
+{
+  "id": "2026-09-11-harnessing-the-unmade",
+  "eventKey": "london-design-festival-2026-harnessing-the-unmade",
+  "category": "AI",
+  "title": "AI短片比赛，\n直接搬进了画廊",
+  "summary": "伦敦一个新展把全球 AI 创作比赛的获奖短片和视觉作品搬进实体画廊，让观众现场看人类如何把生成式 AI 当成创作工具。",
+  "eventDate": "2026-09-11T17:00:00Z",
+  "location": "英国 · 伦敦 · The Handbag Factory",
+  "body": [
+    "“Harnessing the Unmade”把 1–5 分钟的短片、实验影像、音乐视频、商业作品和视觉特效放到同一个空间里。参展内容来自 Sunra 与 London Design Festival 的线上创作比赛获奖者，以及受邀创作者的新作。",
+    "展览特别强调“作者仍然掌舵”：AI 可以进入构思、视觉语言和制作流程，但策展主题并没有把它包装成自动替代艺术家的机器。9 月 13 日的工作坊还专门讨论怎样用 AI 辅助叙事，同时维持一致的创作意图。"
+  ],
+  "sources": [
+    {
+      "name": "London Design Festival",
+      "url": "https://londondesignfestival.com/activities/harnessing-the-unmade"
+    },
+    {
+      "name": "The Handbag Factory / Artists Studio Company",
+      "url": "https://www.handbagfactory.org/events/harnessing-the-unmade"
+    }
+  ],
+  "theme": "plum",
+  "publishedAt": "2026-09-13T16:11:52+08:00",
+  "verifiedAt": "2026-09-13T16:11:52+08:00",
+  "image": {
+    "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Artificial_Intelligence_%28AI%29_and_Robotics_exhibition_at_the_Heinz_Nixdorf_MuseumsForum.jpg/1280px-Artificial_Intelligence_%28AI%29_and_Robotics_exhibition_at_the_Heinz_Nixdorf_MuseumsForum.jpg",
+    "alt": "德国 Heinz Nixdorf MuseumsForum 的人工智能与机器人展区；仅作为 AI 实体展览的代表图，并非伦敦 Harnessing the Unmade 现场",
+    "credit": "Sergei Magel/HNF / Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Artificial_Intelligence_(AI)_and_Robotics_exhibition_at_the_Heinz_Nixdorf_MuseumsForum.jpg",
+    "license": "CC BY-SA 4.0；允许复制和改编，需署名并以相同许可共享改编作品",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "kind": "original",
+    "layout": "photo"
+  },
+  "archive": false,
+  "verificationNotes": "London Design Festival 官方活动页确认 Harnessing the Unmade 属于 2026 年官方合作项目，内容来自全球 AI 创作比赛与受邀创作者，并列出 9 月 11 日开幕夜、9 月 12 日放映与行业讨论、9 月 13 日工作坊。场地方 The Handbag Factory / Artists Studio Company 独立确认开幕夜为 9 月 11 日 18:00–21:00（英国夏令时）、地点为 3 Loughborough Street，并说明展览展示短片与视觉作品。eventDate 取两边一致确认的开幕夜开始时间 2026-09-11 18:00 BST，即 17:00 UTC；两页对完整展期的标注略有差异，因此正文不把某一组完整起止日期作为核心事实。配图不是本次伦敦展览现场，而是 Heinz Nixdorf MuseumsForum 的 AI 与机器人展区代表图；Wikimedia Commons 文件页确认作者 Sergei Magel/HNF，许可为 CC BY-SA 4.0。"
+}
