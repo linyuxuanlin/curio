@@ -2,7 +2,7 @@
 
 ## 技术选择
 
-Vite + 原生 JavaScript + CSS，生产环境只包含静态文件。卡片的 Pointer Events 处理水平位移和速度，Web Animations API 负责甩出，CSS 负责纸张、回弹和掉落。避免为这一个页面引入重型应用框架。
+Vite + 原生 JavaScript + CSS，生产环境只包含静态文件。卡片的 Pointer Events 处理任意方向位移和速度，Web Animations API 负责甩出，CSS 负责纸张、回弹和掉落。避免为这一个页面引入重型应用框架。
 
 - `src/main.js`：读卡、手势、撤回、空状态、前台刷新。
 - `src/deck.js`：已读过滤、随机洗牌、最近阅读排除、手势判定。
