@@ -2,7 +2,7 @@ import './style.css';
 import {READ_KEY, RECENT_KEY, readMap, unread, randomBatch, shouldDismiss, recentIds} from './deck.js';
 
 const app = document.querySelector('#app');
-app.innerHTML = `<header><a class="brand" href="/" aria-label="Curio 首页">curio<span class="brand-dot">.</span></a><span class="brand-note">世界很大，好奇一点。</span><button class="about-button" aria-label="关于 Curio">?</button></header><main><section class="table" aria-label="趣闻卡片"><div class="table-note note-left">留一点时间<br>给意料之外。<span>↘</span></div><div id="deck" class="deck" aria-live="polite"><div class="loading">正在打开卡片盒…</div></div><div class="table-note note-right"><span>↙</span>拿起一张，<br>认识一点世界。</div></section><div id="controls" class="controls" hidden><button id="undo" class="round-button" aria-label="撤回上一张" title="撤回上一张">↶</button><span class="swipe-hint">任意方向划走，收下这份新鲜</span><button id="next" class="round-button next" aria-label="看完了，下一张" title="看完了，下一张">→</button></div><p id="notice" class="notice" role="status"></p></main><dialog id="about"><button class="close" aria-label="关闭">×</button><p class="eyebrow">ABOUT CURIO</p><h2>给好奇心一个小角落。</h2><p>这里收集真实、有来源的世界趣闻。每张卡片都配有图片，生成图会明确标注为示意图。</p><p>划走才会标记已读。阅读记录只存在当前浏览器，清除网站数据或更换设备后不会保留。“手气不错”会抽取历史卡片，排除本次阅读和最近 30 分钟划走的内容。</p><p>没有广告，也不需要登录。</p><a href="https://github.com/linyuxuanlin/curio" target="_blank" rel="noopener noreferrer">在 GitHub 看看这个小项目 ↗</a></dialog>`;
+app.innerHTML = `<header><a class="brand" href="/" aria-label="Curio 首页">curio<span class="brand-dot">.</span></a><span class="brand-note">世界很大，好奇一点。</span><button class="about-button" aria-label="关于 Curio">?</button></header><main><section class="table" aria-label="趣闻卡片"><div class="table-note note-left">留一点时间<br>给意料之外。<span>↘</span></div><div id="deck" class="deck" aria-live="polite"><div class="loading">正在打开卡片盒…</div></div><div class="table-note note-right"><span>↙</span>拿起一张，<br>认识一点世界。</div></section><div id="controls" class="controls" hidden><button id="undo" class="round-button" aria-label="撤回上一张" title="撤回上一张">↶</button><button id="next" class="round-button next" aria-label="看完了，下一张" title="看完了，下一张">→</button></div><p id="notice" class="notice" role="status"></p></main><dialog id="about"><button class="close" aria-label="关闭">×</button><p class="eyebrow">ABOUT CURIO</p><h2>给好奇心一个小角落。</h2><p>这里收集真实、有来源的世界趣闻。每张卡片都配有图片，生成图会明确标注为示意图。</p><p>划走才会标记已读。阅读记录只存在当前浏览器，清除网站数据或更换设备后不会保留。“手气不错”会抽取历史卡片，排除本次阅读和最近 30 分钟划走的内容。</p><p>没有广告，也不需要登录。</p><a href="https://github.com/linyuxuanlin/curio" target="_blank" rel="noopener noreferrer">在 GitHub 看看这个小项目 ↗</a></dialog>`;
 
 const deck = document.querySelector('#deck');
 const controls = document.querySelector('#controls');
@@ -41,6 +41,7 @@ function createCard(c, index) {
  frontBody.append(el('p','meta',`${dateLabel(c.eventDate)} · ${c.location}${c.archive ? ' · 往期精选' : ''}`));
  frontBody.append(el('h2','',c.title),el('p','summary',c.summary));
  front.append(frontBody);
+ front.append(el('p','flip-hint','点击卡片翻面'));
 
  const backBody = el('div','back-body');
  for (const p of c.body) backBody.append(el('p','detail-body',p));
