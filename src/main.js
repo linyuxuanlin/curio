@@ -79,8 +79,13 @@ async function dismiss(direction=1,dx=0,dy=0,rotation=0) {
  const c=queue[0], card=deck.querySelector('.card[data-id="'+c.id+'"]');
  if(!reduced&&card) {
   const distance=Math.hypot(dx,dy), ux=distance?dx/distance:direction, uy=distance?dy/distance:-.12, travel=Math.max(innerWidth,innerHeight)+500;
-  const animation=card.animate([{transform:`translate(${dx}px,${dy}px) rotate(${rotation}deg)`},{transform:`translate(${ux*travel}px,${uy*travel}px) rotate(${rotation+ux*38+uy*18}deg)`,opacity:0}],{duration:360,easing:'cubic-bezier(.3,.05,.75,.4)',fill:'forwards'});
-  await animation.finished.catch(()=>{});
+  const animations=[card.animate([{transform:`translate(${dx}px,${dy}px) rotate(${rotation}deg)`},{transform:`translate(${ux*travel}px,${uy*travel}px) rotate(${rotation+ux*38+uy*18}deg)`,opacity:0}],{duration:280,easing:'cubic-bezier(.3,.05,.75,.4)',fill:'forwards'})];
+  const next=queue[1]&&deck.querySelector('.card[data-id="'+queue[1].id+'"]');
+  if(next){
+   next.style.zIndex='5';
+   animations.push(next.animate([{transform:'translateY(8px) rotate(3deg) scale(.983)'},{transform:'translateY(0) rotate(0deg) scale(1)'}],{duration:280,easing:'cubic-bezier(.22,.75,.2,1)',fill:'forwards'}));
+  }
+  await Promise.all(animations.map(animation=>animation.finished.catch(()=>{})));
  }
  history.push({card:c,previousRead:read[c.id],previousRecent:recent[c.id],previousSession:session.has(c.id)}); queue.shift(); read[c.id]=Date.now(); recent[c.id]=Date.now(); session.add(c.id); persist(); render();
 }
