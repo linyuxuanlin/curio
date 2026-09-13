@@ -69,7 +69,7 @@ function render(drop=false) {
 }
 function renderEmpty() {
  notice.textContent='';
- const box=el('div','empty'); box.append(el('div','empty-stamp','✳'),el('h2','',all.length?'世界还有好多面。':'下一张，很快见。'));
+ const box=el('div','empty'); box.append(el('div','empty-stamp','✳'),el('h2','','已读完'));
  const lucky=el('button','lucky'); lucky.append(el('span','lucky-icon','✣'),el('span','','手气不错'),el('span','lucky-arrow','↓')); lucky.addEventListener('click',()=>deal()); box.append(lucky);
  const available=randomBatch(all,new Set([...session,...recentIds(recent)]),5).length; lucky.disabled=!available; box.append(el('p','empty-fine','每小时更新 5 张新卡片'));
  if (history.length) { const back=el('button','text-button','↶ 撤回上一张'); back.addEventListener('click',undo); box.append(back); }
