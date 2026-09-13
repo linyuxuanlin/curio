@@ -68,9 +68,10 @@ function render(drop=false) {
  queue.slice(0,3).reverse().forEach((c,r)=> { const index=Math.min(queue.length,3)-1-r; const card=createCard(c,index); if(drop&&!reduced) card.classList.add('drop'); deck.append(card); });
 }
 function renderEmpty() {
- const box=el('div','empty'); box.append(el('div','empty-stamp','✳'),el('p','empty-label', all.length?'全部新发现，已收下':'好奇心，正在路上'),el('h2','',all.length?'世界还有好多面。':'下一张，很快见。'),el('p','',all.length?'让偶然，决定下一张。':'有新的趣闻时，会出现在这里。'));
+ notice.textContent='';
+ const box=el('div','empty'); box.append(el('div','empty-stamp','✳'),el('h2','',all.length?'世界还有好多面。':'下一张，很快见。'));
  const lucky=el('button','lucky'); lucky.append(el('span','lucky-icon','✣'),el('span','','手气不错'),el('span','lucky-arrow','↓')); lucky.addEventListener('click',()=>deal()); box.append(lucky);
- const available=randomBatch(all,new Set([...session,...recentIds(recent)]),5).length; lucky.disabled=!available; box.append(el('p','empty-fine',available?'随机掉落最多 5 张 · 不重复刚读过的':'这次都看过啦，过一会儿再来发现。'));
+ const available=randomBatch(all,new Set([...session,...recentIds(recent)]),5).length; lucky.disabled=!available; box.append(el('p','empty-fine','每小时更新 5 张新卡片'));
  if (history.length) { const back=el('button','text-button','↶ 撤回上一张'); back.addEventListener('click',undo); box.append(back); }
  deck.append(box);
 }
