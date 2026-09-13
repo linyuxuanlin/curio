@@ -1,0 +1,43 @@
+{
+  "id": "2026-09-13-folsom-dinner-on-rainbow-bridge",
+  "eventKey": "folsom-dinner-on-rainbow-bridge-80th-anniversary-2026-09-13",
+  "category": "社会",
+  "title": "一座公路桥今天停掉车流，\n只为摆一顿晚餐",
+  "summary": "加州 Folsom 的 Rainbow Bridge 9月13日从早上8点封到午夜，城市把这座跨河公路桥临时变成80周年露天晚宴场地，晚上还安排250架无人机收尾。",
+  "eventDate": "2026-09-13T08:00:00-07:00",
+  "location": "美国 · 加利福尼亚州 · Folsom",
+  "body": [
+    "这不是在桥边吃饭，而是直接把车道当餐厅。Rainbow Bridge 当天停止机动车通行，桌椅和餐饮设施要在桥面上搭起；Historic District 仍然开放，过河车辆改走 Folsom Boulevard。",
+    "活动名叫 Dinner on the Bridge，用来庆祝 Folsom 建市80周年和当地商会80周年。正式晚宴安排在日落时段，由多位当地厨师共同准备，活动收入的一部分还会捐给 Twin Lakes Food Bank。",
+    "晚间约8点半，主办方还计划用250架无人机做约10分钟表演。市政府特别说明，无人机秀不只给晚宴宾客看，Historic Truss Bridge 和 Lake Natoma Crossing 一带也能看到。"
+  ],
+  "sources": [
+    {
+      "name": "City of Folsom · Traffic Alert: Rainbow Bridge Closure for Planned September 13 Special Event",
+      "url": "https://www.folsom.ca.us/Home/Components/News/News/4814/211"
+    },
+    {
+      "name": "Choose Folsom · Dinner on the Bridge",
+      "url": "https://choosefolsom.com/dinner-on-the-bridge/"
+    },
+    {
+      "name": "Folsom Times · Rainbow Bridge becomes dinner table for city's 80th anniversary",
+      "url": "https://folsomtimes.com/folsoms-iconic-rainbow-bridge-becomes-dinner-table-for-citys-80th-anniversary-celebration/"
+    }
+  ],
+  "theme": "gold",
+  "publishedAt": "2026-09-14T06:09:31+08:00",
+  "verifiedAt": "2026-09-14T06:09:31+08:00",
+  "image": {
+    "src": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Rainbow_Bridge_Folsom_California_997_-_panoramio.jpg",
+    "alt": "美国加州 Folsom 的 Rainbow Bridge 历史实拍代表图，拍摄于2012年，并非2026年晚宴现场",
+    "credit": "UncleVinny / Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Rainbow_Bridge_Folsom_California_997_-_panoramio.jpg",
+    "license": "CC BY 3.0；桥梁历史代表图，并非2026年活动现场",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0/",
+    "kind": "original",
+    "layout": "photo"
+  },
+  "archive": false,
+  "verificationNotes": "按用户要求读取 README.md、docs/HOURLY_PROMPT.md、docs/CONTENT_FORMAT.md、docs/PUBLISHING.md，并用仓库搜索检查最近内容与整库关键词。最近内容已覆盖文化、AI、城市生活、动物与自然、设计、考古、食品、机器人、科技、环境、工程等，本轮轮换到社会；最近6期没有天文/航天。整库搜索未发现 Folsom Rainbow Bridge 或 Dinner on the Bridge 本事件。City of Folsom 官方公告确认 Rainbow Bridge 于2026年9月13日08:00至午夜封闭机动车交通、活动由 Choose Folsom 组织，并确认约20:30有10分钟、250架无人机表演；Choose Folsom 官方活动页确认该活动庆祝 Folsom 建市80周年、桥上举行多道式晚宴及当天道路封闭安排；独立地方媒体 Folsom Times 进一步确认桥面直接作为晚宴场地、250架无人机及部分收益捐给 Twin Lakes Food Bank。eventDate 取已实际开始的道路封闭时间08:00 PDT（UTC-07:00），核查时当地约15:09，属于正在发生且在过去24小时内的事件；正文没有把尚未开始的晚宴写成已完成。配图未使用活动官网或新闻现场图，因为未确认可复用授权；改用 Wikimedia Commons 上 UncleVinny 于2012年拍摄的 Rainbow Bridge 实拍，文件页明确许可 CC BY 3.0，并在 alt 与 license 中注明不是2026年活动现场。当前环境没有可用的本地仓库工作区，因此没有伪装运行 npm run validate、npm test、npm run build；后续以本次提交触发的 GitHub Actions 校验、测试、构建和线上 feed 验证为准。用户本轮明确要求只新增1张，覆盖仓库文档中旧的每轮5张规则。"
+}
