@@ -1,0 +1,42 @@
+{
+  "id": "2026-09-13-hallstatt-salt-transport",
+  "eventKey": "archaeology-on-the-mountain-hallstatt-2026",
+  "category": "考古",
+  "title": "七千年的盐，\n现场重走一遍运输史",
+  "summary": "奥地利 Hallstatt 把考古现场变成两天开放实验室：从独木舟、驮畜和木制盐水管，一路演示到现代缆车物流。",
+  "eventDate": "2026-09-13T12:00:00Z",
+  "location": "奥地利 · Hallstatt 高谷",
+  "body": [
+    "9月12日至13日的“Archaeology on the Mountain 2026”把重点放在盐如何离开高山矿区。参观者不只看展板，还能试史前工具、煮盐水、看木制盐水管钻孔，并接触 Hallstatt 矿工服饰。",
+    "主办方把这条运输史拉到约7300年的尺度：从独木舟和驮畜，到车辆、历史盐水管线、铁路，再到刚启用的新缆车和今天的工业物流。这里保存条件特殊的盐矿考古遗物，也让研究者能从技术、组织和日常生活三个方向理解早期采盐社会。"
+  ],
+  "sources": [
+    {
+      "name": "Naturhistorisches Museum Wien",
+      "url": "https://www.nhm.at/en/press/press-releases"
+    },
+    {
+      "name": "UNESCO World Heritage Salzkammergut",
+      "url": "https://www.welterbe-salzkammergut.at/en/aktuelles/veranstaltungen/aab2026"
+    },
+    {
+      "name": "Salzkammergut Tourismus",
+      "url": "https://www.salzkammergut.at/en/oesterreich-veranstaltung/detail/430004583/archaeology-on-the-mountain-2026-experience-7-300-years-of-salt-transport-in-hallstatt.html"
+    }
+  ],
+  "theme": "clay",
+  "publishedAt": "2026-09-13T22:10:36+08:00",
+  "verifiedAt": "2026-09-13T22:10:36+08:00",
+  "image": {
+    "src": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Hallstatt%20-%20Salt%20mine%2C%201977%20%2801%29.jpg",
+    "alt": "Hallstatt 盐矿的历史实拍代表图；并非2026年 Archaeology on the Mountain 活动现场照片",
+    "credit": "Bahnfrend / Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hallstatt_-_Salt_mine,_1977_(01).jpg",
+    "license": "CC BY-SA 4.0；可在署名并以相同许可分享改编内容的条件下复用",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "kind": "original",
+    "layout": "photo"
+  },
+  "archive": false,
+  "verificationNotes": "本轮先读取README、HOURLY_PROMPT、CONTENT_FORMAT、PUBLISHING，并检查content/cards目录与仓库搜索；仓库检索Hallstatt/salt/archaeology未发现同一事件。当前用户指令要求每轮只新增1张，因此以本轮用户指令覆盖仓库文档中旧的每轮5张要求。活动在2026年9月12日至13日举行，属于当前24–72小时窗口。维也纳自然史博物馆2026年新闻稿目录确认活动日期、Hallstatt高谷、约7300年盐运输主题及主办方；UNESCO World Heritage Salzkammergut活动页核对从独木舟/驮畜到车辆、盐水管、铁路、现代缆车的展示范围，以及史前工具、煮盐水、木管钻孔等互动项目；Salzkammergut Tourismus独立旅游活动页再次核对日期、地点、免费活动及同一运输史主线。来源只精确到日期，eventDate按CONTENT_FORMAT规则记9月13日12:00 UTC，代表本轮仍在进行的第二日活动。配图不用授权不明的活动宣传图，而采用Wikimedia Commons的Hallstatt盐矿历史实拍代表图；文件页明确标注CC BY-SA 4.0，alt注明并非本届活动现场。当前环境只有GitHub写入工具，没有本地仓库工作区，因此未伪装运行npm命令；以本提交触发的GitHub Actions校验为准。"
+}
