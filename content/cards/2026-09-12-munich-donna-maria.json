@@ -1,0 +1,42 @@
+{
+  "id": "2026-09-12-munich-donna-maria",
+  "eventKey": "munich-second-trunk-line-donna-maria-open-site-2026",
+  "category": "工程",
+  "title": "178米的隧道机，\n先让市民摸一摸",
+  "summary": "慕尼黑第二条S-Bahn主干线把即将入地的“Donna Maria”开放给公众；几天后，这台700吨的机器就要开始钻约3公里的救援通道。",
+  "eventDate": "2026-09-12T10:00:00+02:00",
+  "location": "德国慕尼黑，Donnersbergerbrücke 西侧隧道入口",
+  "body": [
+    "这台盾构机约178米长、700吨重，刀盘直径约5米。开放日安排在9月12日至13日，公众可以近距离看它的结构和施工团队；《南德意志报》报道，首日上午入口一度排起约150米长的队伍。",
+    "它计划从9月17日起向Marienhof方向推进约3公里，先施工位于未来两条S-Bahn隧道之间的勘探与救援通道。机器采用Mixshield方案，在刀盘处用支撑液控制地下压力，并在向前掘进的同时用混凝土管片拼出隧道衬砌，以尽量减少密集城区地表沉降。"
+  ],
+  "sources": [
+    {
+      "name": "Deutsche Bahn",
+      "url": "https://www.deutschebahn.com/de/presse/presse-regional/pr-muenchen-de/aktuell/presseinformationen/Eine-Tunnelbohrmaschine-zum-Anfassen-2-Stammstrecke-oeffnet-ihre-Baustelle--14029462"
+    },
+    {
+      "name": "Süddeutsche Zeitung",
+      "url": "https://www.sueddeutsche.de/muenchen/muenchen-s-bahn-stammstrecke-tunnelbohrer-donna-maria-li.3545449"
+    },
+    {
+      "name": "tz München",
+      "url": "https://www.tz.de/muenchen/deutsche-bahn-oeffnet-baustelle-der-stammstrecke-mit-178-meter-bohrer-94475445.html"
+    }
+  ],
+  "theme": "blue",
+  "publishedAt": "2026-09-13T12:13:16+08:00",
+  "verifiedAt": "2026-09-13T12:13:16+08:00",
+  "image": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/72/Baustelle_2._Stammstrecke_vom_S-Bahnhof_Hirschgarten_03.jpg/960px-Baustelle_2._Stammstrecke_vom_S-Bahnhof_Hirschgarten_03.jpg",
+    "alt": "2026年5月从慕尼黑Hirschgarten站拍摄的第二条S-Bahn主干线施工区域；为同一工程代表图，并非Donna Maria开放日现场",
+    "credit": "Kritzolina / Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Baustelle_2._Stammstrecke_vom_S-Bahnhof_Hirschgarten_03.jpg",
+    "license": "CC BY-SA 4.0；同一慕尼黑第二主干线工程代表图，非2026年9月12日开放日现场",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "kind": "original",
+    "layout": "photo"
+  },
+  "archive": false,
+  "verificationNotes": "事件发生于慕尼黑当地时间2026-09-12至13日，仍在72小时窗口内，archive=false。Deutsche Bahn官方公告确认开放日期、地点、Donna Maria约178米长、约700吨重、刀盘直径约5米，以及计划自9月17日起开挖约3公里勘探与救援通道；其说明还解释了支撑液控压和同步拼装管片的工作方式。Süddeutsche Zeitung于9月12日现场报道确认开放日已经实际举行，并记录首日上午约150米排队人龙；tz München独立报道交叉确认设备尺寸与开放安排。配图优先寻找本次官方现场原图，但当前可核实到的DB页面图片复用条款不够明确，因此改用Wikimedia Commons中2026年5月拍摄、明确CC BY-SA 4.0授权的同一第二主干线工程现场照片；alt与license均明确它不是Donna Maria开放日现场。"
+}
