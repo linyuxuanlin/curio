@@ -91,9 +91,18 @@ function bindDrag(card) {
  card.addEventListener('pointerup',e=>end(e)); card.addEventListener('pointercancel',e=>end(e,true)); card.addEventListener('touchmove',e=>{if(drag?.locked)e.preventDefault();},{passive:false});
 }
 
+async function loadFeed() {
+ const urls=[`/feed.json?ts=${Date.now()}`,'/feed.json'];
+ let lastError;
+ for(const url of urls){
+  try { const response=await fetch(url,{cache:'default'}); if(!response.ok)throw Error(`feed:${response.status}`); const feed=await response.json(); if(!Array.isArray(feed.cards))throw Error('data'); return feed; }
+  catch(error){ lastError=error; }
+ }
+ throw lastError||Error('feed');
+}
 async function refresh(initial=false) {
  if(refreshing)return; refreshing=true;
- try { const response=await fetch('/feed.json',{cache:'no-store'}); if(!response.ok)throw Error('feed'); const feed=await response.json(); if(!Array.isArray(feed.cards))throw Error('data');
+ try { const feed=await loadFeed();
   const previous=new Set(all.map(c=>c.id)); all=feed.cards;
   if(initial){queue=unread(all,read);render();} else {const additions=all.filter(c=>!previous.has(c.id)&&!read[c.id]);if(additions.length){queue.push(...additions);notice.textContent=`又有 ${additions.length} 张新发现，已经放进卡片盒。`;if(!busy)render();}}
  } catch { if(initial){notice.textContent='卡片暂时没能送达';deck.replaceChildren();const box=el('div','empty');box.append(el('h2','','再试一下？'),el('p','','网络有点慢，重新打开卡片盒就好。'));const retry=el('button','lucky','重新加载');retry.onclick=()=>refresh(true);box.append(retry);deck.append(box);} else notice.textContent='暂时无法获取更新，已打开的卡片仍可阅读。';} finally {refreshing=false;}
