@@ -1,0 +1,42 @@
+{
+  "id": "2026-09-13-first-caves-karst-day",
+  "eventKey": "unesco-international-day-caves-karst-first-celebration-2026",
+  "category": "环境",
+  "title": "今天第一次，\n世界有了“洞穴日”",
+  "summary": "9月13日迎来首个 UNESCO 国际洞穴与喀斯特日，首届官方庆祝活动在斯洛文尼亚喀斯特研究重镇 Postojna 举行。",
+  "eventDate": "2026-09-13T12:00:00Z",
+  "location": "斯洛文尼亚 · Postojna",
+  "body": [
+    "这个新纪念日不是旅游宣传日。UNESCO 在2025年正式把9月13日定为国际洞穴与喀斯特日，希望公众注意地下水、洞穴生态、地质记录和地下文化遗产的保护。斯洛文尼亚是这项倡议的发起国之一。",
+    "第一次正式庆祝从9月10日至13日展开，包括洞穴与喀斯特可持续管理国际会议、野外考察和科普活动；核心庆典安排在著名的 Postojna Cave。官方资料指出，喀斯特地貌覆盖全球近五分之一陆地，并为超过十亿人提供饮用水来源。"
+  ],
+  "sources": [
+    {
+      "name": "斯洛文尼亚政府",
+      "url": "https://www.gov.si/en/news/2026-09-10-slovenia-to-celebrate-unesco-international-day-of-caves-and-karst-for-the-first-time/"
+    },
+    {
+      "name": "International Day of Caves and Karst",
+      "url": "https://www.caveskarstday.org/"
+    },
+    {
+      "name": "International Union of Speleology (UIS)",
+      "url": "https://uis-speleo.org/index.php/event/unesco-international-day-of-caves-and-karst/"
+    }
+  ],
+  "theme": "sage",
+  "publishedAt": "2026-09-13T20:12:18+08:00",
+  "verifiedAt": "2026-09-13T20:12:18+08:00",
+  "image": {
+    "src": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Postojna_Cave._Brilliant._2012-07-26_13-35-25.jpg",
+    "alt": "斯洛文尼亚 Postojna Cave 内著名的白色钟乳石景观“Brilliant”；这是洞穴代表实拍，并非2026年庆典现场照片",
+    "credit": "Shesmax / Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Postojna_Cave._Brilliant._2012-07-26_13-35-25.jpg",
+    "license": "CC BY-SA 4.0；可在署名并以相同许可分享改编内容的条件下复用",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "kind": "original",
+    "layout": "photo"
+  },
+  "archive": false,
+  "verificationNotes": "本轮先按仓库要求读取README、HOURLY_PROMPT、CONTENT_FORMAT、PUBLISHING，并核对content/cards目录与近期卡片；最近一张为文化类花卷祭，本轮轮换到环境类，且目录检索Postojna、karst、caves与International Day未发现同一事件。斯洛文尼亚政府2026年9月10日公告确认9月13日首次庆祝UNESCO国际洞穴与喀斯特日，并确认10日至13日在Postojna举行国际会议、12日晚在Postojna Cave举行核心庆典；国际纪念日官网和UIS页面独立核对了首届活动、日期与地点。UNESCO正式设立日期由斯洛文尼亚政府2025年11月12日公告与本届活动官网相互印证。来源仅给出9月13日这一日期，eventDate按CONTENT_FORMAT日期精度规则记为当天12:00 UTC，不用新闻发布时间替代事件时间。图片不是本届活动现场图，而是Postojna Cave真实代表照片；Wikimedia Commons文件页确认摄影者Shesmax、许可CC BY-SA 4.0，alt已明确非庆典现场。尝试在本地终端clone仓库以执行npm校验，但运行环境DNS无法解析github.com，因此未伪装执行npm run validate/test/build，改由本次提交触发的GitHub Actions完成正式校验。"
+}
