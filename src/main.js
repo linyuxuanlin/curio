@@ -2,12 +2,13 @@ import './style.css';
 import {READ_KEY, RECENT_KEY, readMap, unread, randomBatch, shouldDismiss, recentIds} from './deck.js';
 
 const app = document.querySelector('#app');
-app.innerHTML = `<header><a class="brand" href="/" aria-label="Curio 首页">curio<span class="brand-dot">.</span></a><span class="brand-note">世界很大，好奇一点。</span><button class="about-button" aria-label="关于 Curio">?</button></header><main><section class="table" aria-label="趣闻卡片"><div class="table-note note-left">留一点时间<br>给意料之外。<span>↘</span></div><div id="deck" class="deck" aria-live="polite"><div class="loading">正在打开卡片盒…</div></div><div class="table-note note-right"><span>↙</span>拿起一张，<br>认识一点世界。</div></section><div id="controls" class="controls" hidden><button id="undo" class="round-button" aria-label="撤回上一张" title="撤回上一张">↶ 撤回</button><button id="next" class="round-button next" aria-label="看完了，下一张" title="看完了，下一张">下一张 →</button></div><p id="notice" class="notice" role="status"></p></main><div id="fireworks" class="fireworks" aria-hidden="true"></div><dialog id="about"><button class="close" aria-label="关闭">×</button><p class="eyebrow">ABOUT CURIO</p><h2>给好奇心一个小角落。</h2><p>这里收集真实、有来源的世界趣闻。每张卡片都配有图片，生成图会明确标注为示意图。</p><p>划走才会标记已读。阅读记录只存在当前浏览器，清除网站数据或更换设备后不会保留。“手气不错”会抽取历史卡片，排除本次阅读和最近 30 分钟划走的内容。</p><p>没有广告，也不需要登录。</p><a href="https://github.com/linyuxuanlin/curio" target="_blank" rel="noopener noreferrer">在 GitHub 看看这个小项目 ↗</a></dialog>`;
+app.innerHTML = `<header><a class="brand" href="/" aria-label="Curio 首页">curio<span class="brand-dot">.</span></a><span class="brand-note">世界很大，好奇一点。</span><button class="about-button" aria-label="关于 Curio">?</button></header><main><section class="table" aria-label="趣闻卡片"><div class="table-note note-left">留一点时间<br>给意料之外。<span>↘</span></div><div id="deck" class="deck" aria-live="polite"><div class="loading">正在打开卡片盒…</div></div><div class="table-note note-right"><span>↙</span>拿起一张，<br>认识一点世界。</div></section><div id="controls" class="controls" hidden><button id="undo" class="round-button" aria-label="撤回上一张" title="撤回上一张">↶ 撤回</button><button id="next" class="round-button next" aria-label="看完了，下一张" title="看完了，下一张">下一张 →</button></div><p id="notice" class="notice" role="status"></p></main><div id="fireworks" class="fireworks" aria-hidden="true"></div><dialog id="about"><button class="close" aria-label="关闭">×</button><p class="eyebrow">ABOUT CURIO</p><h2>给好奇心一个小角落。</h2><p>这里收集真实、有来源的世界趣闻。每张卡片都配有图片，生成图会明确标注为示意图。</p><p>划走才会标记已读。阅读记录只存在当前浏览器，清除网站数据或更换设备后不会保留。“手气不错”会抽取历史卡片，排除本次阅读和最近 30 分钟划走的内容。</p><p class="install-note">手机可在浏览器菜单中选择“添加到主屏幕”。</p><button class="install-app" hidden>安装 Curio</button><a href="https://github.com/linyuxuanlin/curio" target="_blank" rel="noopener noreferrer">在 GitHub 看看这个小项目 ↗</a></dialog>`;
 
 const deck = document.querySelector('#deck');
 const controls = document.querySelector('#controls');
 const notice = document.querySelector('#notice');
 const fireworks = document.querySelector('#fireworks');
+const installButton = document.querySelector('.install-app');
 let storage;
 try { storage = window.localStorage; } catch { storage = {getItem:()=>null,setItem:()=>{throw Error('Storage unavailable');}}; }
 const reduced = matchMedia('(prefers-reduced-motion: reduce)').matches;
@@ -148,5 +149,10 @@ function toggleFlip(card) { const flipped=card.classList.toggle('is-flipped'); c
 document.querySelector('#next').onclick=()=>dismiss(1); document.querySelector('#undo').onclick=undo;
 document.addEventListener('keydown',e=>{if(document.querySelector('dialog[open]')||e.target.closest('button,a,summary,input'))return;if(e.key==='ArrowRight'||e.key==='ArrowLeft'){e.preventDefault();dismiss(e.key==='ArrowRight'?1:-1);}});
 const about=document.querySelector('#about'); document.querySelector('.about-button').onclick=()=>about.showModal(); about.querySelector('.close').onclick=()=>about.close(); about.addEventListener('click',e=>{if(e.target===about&&e.clientX>=0){const r=about.getBoundingClientRect();if(e.clientX<r.left||e.clientX>r.right||e.clientY<r.top||e.clientY>r.bottom)about.close();}});
+let installPrompt=null;
+if ('serviceWorker' in navigator) window.addEventListener('load',()=>navigator.serviceWorker.register('/sw.js').catch(()=>{}));
+window.addEventListener('beforeinstallprompt',event=>{event.preventDefault();installPrompt=event;if(installButton)installButton.hidden=false;});
+installButton?.addEventListener('click',async()=>{if(!installPrompt)return;const prompt=installPrompt;installPrompt=null;installButton.hidden=true;await prompt.prompt();await prompt.userChoice;});
+window.addEventListener('appinstalled',()=>{installPrompt=null;if(installButton)installButton.hidden=true;});
 window.addEventListener('storage',e=>{if(e.key===READ_KEY&&!busy){read=readMap(storage,READ_KEY);queue=queue.filter(c=>!read[c.id]);render();}if(e.key===RECENT_KEY)recent=readMap(storage,RECENT_KEY);});
 document.addEventListener('visibilitychange',()=>{if(!document.hidden)refresh();}); setInterval(()=>{if(!document.hidden)refresh();},300000); refresh(true);
