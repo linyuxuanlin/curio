@@ -1,0 +1,43 @@
+{
+  "id": "2026-09-13-belugas-count-cook-inlet",
+  "eventKey": "noaa-belugas-count-2026-cook-inlet",
+  "category": "动物与自然",
+  "title": "阿拉斯加今天让公众一起数白鲸",
+  "summary": "NOAA 把濒危 Cook Inlet 白鲸监测变成公众参与的一日活动：沿海岸设观测点，大家拿望远镜找鲸、记录出现位置和环境信息。",
+  "eventDate": "2026-09-13T10:00:00-08:00",
+  "location": "美国 · 阿拉斯加 · Cook Inlet",
+  "body": [
+    "Belugas Count! 2026 在9月13日举行。NOAA Fisheries 与多家机构在 Cook Inlet 沿岸设置公众可到达的观测点，由白鲸专家带大家寻找这群只生活在当地水域的白鲸；Alaska Wildlife Conservation Center 的观测时段从10:00开始。",
+    "这不只是看鲸活动。部分站点会把白鲸是否出现、数量以及环境条件记入持续监测；下午 Alaska Zoo 还有免费的科普活动。NOAA 目前给出的 Cook Inlet 白鲸最佳种群估计约为331头，但仍需要持续监测才能判断长期趋势。",
+    "有意思的是，它把一种通常由研究船、飞机或专业团队完成的野生动物监测，拆成普通人也能参与的一天：带上望远镜，站在海岸线上，看到的每一次白色背影都可能成为一条观测记录。"
+  ],
+  "sources": [
+    {
+      "name": "NOAA Fisheries · Belugas Count! 2026",
+      "url": "https://www.fisheries.noaa.gov/alaska/endangered-species-conservation/belugas-count"
+    },
+    {
+      "name": "Alaska Wildlife Conservation Center",
+      "url": "https://alaskawildlife.org/event/belugas_count_2026/"
+    },
+    {
+      "name": "NOAA Fisheries · Beluga Whale",
+      "url": "https://www.fisheries.noaa.gov/species/beluga-whale"
+    }
+  ],
+  "theme": "blue",
+  "publishedAt": "2026-09-14T02:15:00+08:00",
+  "verifiedAt": "2026-09-14T02:15:00+08:00",
+  "image": {
+    "src": "https://www.fisheries.noaa.gov/s3/styles/media_750_x500/s3/2022-05/AKR%20750x500%20CI%20belugas.jpg?itok=32fhYhsP",
+    "alt": "Cook Inlet 白鲸在浑浊海水中一起游动的 NOAA 实拍照片；用于说明本次公众白鲸观测活动",
+    "credit": "NOAA Fisheries · MMPA/ESA Permit #20465",
+    "sourceUrl": "https://www.fisheries.noaa.gov/feature-story/alaska-beluga-monitoring-program-citizen-science",
+    "license": "NOAA 创作照片在美国不受版权保护，可在署名 NOAA 的情况下使用；保留原页面所列 MMPA/ESA Permit #20465 信息",
+    "licenseUrl": "https://www.fisheries.noaa.gov/website-policies-and-disclaimers",
+    "kind": "original",
+    "layout": "photo"
+  },
+  "archive": false,
+  "verificationNotes": "本轮按用户要求读取 README.md、docs/HOURLY_PROMPT.md、docs/CONTENT_FORMAT.md、docs/PUBLISHING.md，并检查 content/cards 目录、最近提交与近期卡片。最近发布主题包括城市生活、设计、机器人、考古、食品、环境等，本轮轮换到动物与自然；仓库代码检索 beluga 未发现同一事件，最近6期没有天文/航天。NOAA Fisheries 2026 Belugas Count 官方页确认活动于2026年9月13日在 Cook Inlet 多个公众观测点举行，并安排 Alaska Zoo 下午活动；Alaska Wildlife Conservation Center 独立活动页核对其站点10:00–15:00开放、10:00–13:00由公众与监测人员共同寻找并记录白鲸及环境观察；NOAA 最新物种页核对 Cook Inlet 白鲸最佳当前种群估计约331头，并说明趋势可能趋稳或略有增长但仍需持续监测，因此正文不沿用旧页面中‘继续下降’的表述。eventDate 使用 AWCC 站点明确开始时间9月13日10:00，阿拉斯加夏令时 UTC-08:00；核查时该活动已经开始且处于24小时内，archive=false。配图采用 NOAA Fisheries 自有 Cook Inlet 白鲸实拍，原页面标注 Credit: NOAA Fisheries 与 MMPA/ESA Permit #20465；NOAA Fisheries 网站政策明确 NOAA 自创照片在美国不受版权保护并请求署名 NOAA，因此优先使用这张官方真实图。当前环境可调用 GitHub 写入但本地 git clone 因 DNS 无法解析 github.com 而失败，因此没有伪装运行 npm run validate/npm test/npm run build；以本提交触发的 GitHub Actions 校验为准。用户本轮明确要求只新增1张，故覆盖仓库旧文档中每轮5张的数量要求。"
+}
