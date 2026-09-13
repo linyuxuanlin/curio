@@ -18,9 +18,9 @@
 
 ## 2. 检索和核实
 
-严格遵循完整提示词。优先当天/前一天及 24–72 小时；只有新鲜候选不足才逐步扩大日期，并给旧内容标记 `archive: true`。每轮一件，2–4 个可点击可靠来源，尽量至少两个独立来源交叉验证。机构新闻与同机构另一页不能假称独立验证。
+严格遵循完整提示词。优先当天/前一天及 24–72 小时；只有新鲜候选不足才逐步扩大日期，并给旧内容标记 `archive: true`。每轮 5 件，5 件之间尽量跨领域；每件提供 2–4 个可点击可靠来源，尽量至少两个独立来源交叉验证。机构新闻与同机构另一页不能假称独立验证。
 
-日期按来源精度记录，新闻发布日不等于发现日。图片必须核对版权、内容与事件一致性。没有图片不影响发布文字卡。
+日期按来源精度记录，新闻发布日不等于发现日。每张卡片都必须有图片，且必须核对版权、内容与事件一致性；图片失败时换题或重试，不能发布文字卡。
 
 ## 3A. 有终端/仓库工作区时
 
@@ -29,19 +29,19 @@ git pull --ff-only origin main
 npm ci
 ```
 
-按规范创建唯一 JSON 文件和必要图片，然后：
+按规范创建本轮 5 个 JSON 文件和必要图片，然后：
 
 ```sh
 npm run validate
 npm test
 npm run build
-git add content/cards/<id>.json public/media/<image>
+git add content/cards/<id-1>.json content/cards/<id-2>.json content/cards/<id-3>.json content/cards/<id-4>.json content/cards/<id-5>.json public/media/<image-1> public/media/<image-2> public/media/<image-3> public/media/<image-4> public/media/<image-5>
 git diff --cached --stat
 git commit -m "content: add <id>"
 git push origin HEAD:main
 ```
 
-没有图片时省略相应路径。使用真实 ID 替换占位符。不要提交 `public/feed.json`、`dist/`、`node_modules/`。网络或冲突失败时重新读取远端并 `git pull --rebase origin main`，重新校验后再推送；禁止强制推送。若处于脱离分支的工作树，用 `git fetch origin main` / `git rebase origin/main` 处理对应流程。
+每张卡片都必须有图片，使用真实 ID 和路径替换占位符。不要提交 `public/feed.json`、`dist/`、`node_modules/`。网络或冲突失败时重新读取远端并 `git pull --rebase origin main`，重新校验后再推送；禁止强制推送。若处于脱离分支的工作树，用 `git fetch origin main` / `git rebase origin/main` 处理对应流程。
 
 ## 3B. 只有 GitHub 写入工具时
 
@@ -52,7 +52,7 @@ git push origin HEAD:main
 5. `update_ref` 将 main 指向新 commit，`force: false`。
 6. 若并发更新导致非快进失败，读取最新 SHA，基于新 base tree 重建提交并重新检查事件是否已经存在；不要覆盖其他任务提交。
 
-只有单个文字卡时，也可通过 `create_file` 在 `main` 新建一份 JSON。工具参数以实际可用工具的定义为准，不要虚构成功输出。如果无法运行本地校验，应逐项检查格式并等待 Pages 构建校验；构建失败必须修正。
+本轮必须提交 5 张带图卡片；不能用单个文字卡代替。工具参数以实际可用工具的定义为准，不要虚构成功输出。如果无法运行本地校验，应逐项检查格式并等待 Pages 构建校验；构建失败必须修正。
 
 ## 4. 验证真正上线
 
@@ -67,10 +67,10 @@ Cloudflare Pages 已连接本仓库，main 推送会自动执行 `npm run build`
 
 ## 5. 完成回执
 
-在任务对话里简短报告：`已发布：趣闻｜<领域>｜<短标题>`、卡片 ID、GitHub 提交链接、网站链接。若失败，明确阶段：检索不足 / GitHub 写入失败 / Pages 构建失败 / 上线验证未通过。
+在任务对话里简短报告：`已发布 5 张`，列出 5 个卡片 ID、GitHub 提交链接和网站链接。若失败，明确阶段：检索不足 / GitHub 写入失败 / Pages 构建失败 / 上线验证未通过。
 
 如果没有合格候选，本轮输出原因和已查来源，保留下一小时运行；不为了满足数量伪造内容或重复事件。失败不会自动禁用、删除或暂停任务。
 
 ## 设置定时任务
 
-复制 [HOURLY_PROMPT.md](HOURLY_PROMPT.md) 到目标 ChatGPT 任务，要求“每小时执行一次，使用已连接的 GitHub 对 linyuxuanlin/curio 进行写入，首次现在手动跑通并验证上线”。用户本次只要求准备网站与文档，因此建站过程没有替你启用新任务，也没有动原有聊天任务。
+仓库对应的 ChatGPT 任务“Curio 每小时维护”目前已启用，使用 [HOURLY_PROMPT.md](HOURLY_PROMPT.md)，每小时生成并发布 5 张卡片。若任务被删除或需要重建，使用该提示词，并先手动跑通一次；不要创建第二个重复任务。
