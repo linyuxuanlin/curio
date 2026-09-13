@@ -95,6 +95,8 @@ dialog .eyebrow { justify-content: flex-start; }
 dialog h2 { font-family: 'Noto Serif SC', serif; font-size: 23px; }
 dialog p { font-size: 15px; line-height: 1.9; }
 dialog a { font-size: 14px; }
+.install-note { color: #777d6b; font-size: 13px !important; margin-bottom: 10px; }
+.install-app { width: 100%; border: 1px solid #c4ccac; border-radius: 999px; padding: 11px 18px; background: #e2e7cf; color: #66754e; font-size: 14px; margin: 3px 0 18px; }
 .close { position: absolute; right: 16px; top: 12px; background: none; border: 0; font-size: 26px; }
 .drop { animation: fall-in .8s cubic-bezier(.22,1.15,.45,1) both; animation-delay: calc((2 - var(--index)) * 90ms); }
 @keyframes fall-in { 0% { opacity: 0; transform: translateY(-700px) rotate(-18deg); } 65% { opacity: 1; } 100% { transform: translateY(calc(var(--index) * 8px)) rotate(calc(var(--index) * 3deg)) scale(calc(1 - var(--index) * .017)); } }
