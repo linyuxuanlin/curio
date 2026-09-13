@@ -1,0 +1,42 @@
+{
+  "id": "2026-09-11-hanamaki-acetylene-floats",
+  "eventKey": "hanamaki-festival-2026-acetylene-furyu-dashi",
+  "category": "文化",
+  "title": "430年老祭典，\n花车还在用真火照明",
+  "summary": "岩手县花卷祭正在举行：华丽花车不用LED，而是继续点亮乙炔灯，让人物与花饰在真正的火光里穿街而过。",
+  "eventDate": "2026-09-11T06:00:00Z",
+  "location": "日本 · 岩手县 · 花卷市",
+  "body": [
+    "2026年的花卷祭从9月11日持续到13日。花卷市公布的节目包括风流山车、神轿、鹿舞、神乐权现舞和花卷囃子舞；最后一天仍安排两段山车巡游，并在晚上继续山车与神轿自由运行。",
+    "最特别的是这些风流山车的夜间照明。日本政府观光局介绍，它们仍以乙炔气灯照亮，真实火焰在人物、季节花饰和传统造型间摇曳；在今天的日本祭典里，这种做法已经很少见。"
+  ],
+  "sources": [
+    {
+      "name": "花卷市",
+      "url": "https://www.city.hanamaki.iwate.jp/kanko/oshirase/1021701.html"
+    },
+    {
+      "name": "日本政府观光局（JNTO）",
+      "url": "https://www.jnto.go.jp/en/news/newsletter_2026_06_2.pdf"
+    },
+    {
+      "name": "LIVE JAPAN",
+      "url": "https://livejapan.com/en/in-tohoku/in-pref-iwate/in-morioka_hiraizumi_hachimantai/article-a3000345/"
+    }
+  ],
+  "theme": "gold",
+  "publishedAt": "2026-09-13T19:09:15+08:00",
+  "verifiedAt": "2026-09-13T19:09:15+08:00",
+  "image": {
+    "src": "https://upload.wikimedia.org/wikipedia/commons/b/b4/%E8%8A%B1%E5%B7%BB%E5%B8%82%E8%A1%97_Hanamaki_City_%28Old_Town%29_-_panoramio.jpg",
+    "alt": "从高处看到的日本岩手县花卷市街景；这是花卷市代表图，并非2026年花卷祭或乙炔灯花车现场",
+    "credit": "佐藤智史 / Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E8%8A%B1%E5%B7%BB%E5%B8%82%E8%A1%97_Hanamaki_City_(Old_Town)_-_panoramio.jpg",
+    "license": "CC BY-SA 3.0；可在署名并以相同许可分享改编内容的条件下复用",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "kind": "original",
+    "layout": "photo"
+  },
+  "archive": false,
+  "verificationNotes": "本轮优先最近24–72小时且与上一期“科技”轮换到“文化”。花卷市官方页确认2026年花卷祭于9月11日至13日在上町“祭典广场”举行，并列出风流山车、神轿、花卷囃子舞、神乐权现舞与鹿舞等节目；eventDate取首日15:00 JST（06:00 UTC）的公开活动开始时间，因此不是把旧闻改日期。JNTO 2026年6月25日英文资料独立介绍同一届花卷祭，明确写明花车以acetylene gas lamps照明，并指出在日本继续用真实明火照亮花车已经非常少见，同时说明祭典拥有430多年历史。LIVE JAPAN近期活动指南再次核对9月11–13日日期、花车/神轿/鹿舞等主要内容。对整个content/cards目录检索Hanamaki、花巻、花卷与acetylene均未发现重复事件。未使用花卷市或JNTO页面的现场照片，因为没有找到足够明确的本站直接复用许可；也没有声称当前环境能确认使用GPT Image 2.5。改用Wikimedia Commons上的花卷市街代表照片，文件页确认作者为佐藤智史、许可为CC BY-SA 3.0；图片并非祭典现场，已在alt中明确标注，避免误导。"
+}
