@@ -105,7 +105,7 @@ async function refresh(initial=false) {
  try { const feed=await loadFeed();
   const previous=new Set(all.map(c=>c.id)); all=feed.cards;
   if(initial){queue=unread(all,read);render();} else {const additions=all.filter(c=>!previous.has(c.id)&&!read[c.id]);if(additions.length){queue.push(...additions);notice.textContent=`又有 ${additions.length} 张新发现，已经放进卡片盒。`;if(!busy)render();}}
- } catch { if(initial){notice.textContent='卡片暂时没能送达';deck.replaceChildren();const box=el('div','empty');box.append(el('h2','','再试一下？'),el('p','','网络有点慢，重新打开卡片盒就好。'));const retry=el('button','lucky','重新加载');retry.onclick=()=>refresh(true);box.append(retry);deck.append(box);} else notice.textContent='暂时无法获取更新，已打开的卡片仍可阅读。';} finally {refreshing=false;}
+ } catch (error) { console.error('[curio] load/render failed', error); if(initial){notice.textContent=`加载失败：${error?.message||'未知错误'}`;deck.replaceChildren();const box=el('div','empty');box.append(el('h2','','再试一下？'),el('p','','网络有点慢，重新打开卡片盒就好。'));const retry=el('button','lucky','重新加载');retry.onclick=()=>refresh(true);box.append(retry);deck.append(box);} else notice.textContent='暂时无法获取更新，已打开的卡片仍可阅读。';} finally {refreshing=false;}
 }
 
 document.querySelector('#next').onclick=()=>dismiss(1); document.querySelector('#undo').onclick=undo; flipButton.onclick=()=>{const card=queue.length&&deck.querySelector('.card[data-id="'+queue[0].id+'"]');if(!card)return;const flipped=card.classList.toggle('is-flipped');flipButton.setAttribute('aria-pressed',String(flipped));flipButton.setAttribute('aria-label',flipped?'翻回正面':'翻面');flipButton.title=flipped?'翻回正面':'翻面';};
