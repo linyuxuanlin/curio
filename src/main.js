@@ -108,7 +108,8 @@ async function dismiss(direction=1,dx=0,dy=0,rotation=0) {
   }
   await Promise.all(animations.map(animation=>animation.finished.catch(()=>{})));
  }
- history.push({card:c,previousRead:read[c.id],previousRecent:recent[c.id],previousSession:session.has(c.id)}); queue.shift(); read[c.id]=Date.now(); recent[c.id]=Date.now(); session.add(c.id); persist(); render(); if(!queue.length&&unread(all,read).length===0)celebrate();
+ const finishingUnread=unread(all,read).length===1&&!read[c.id];
+ history.push({card:c,previousRead:read[c.id],previousRecent:recent[c.id],previousSession:session.has(c.id)}); queue.shift(); read[c.id]=Date.now(); recent[c.id]=Date.now(); session.add(c.id); persist(); render(); if(finishingUnread)celebrate();
 }
 function undo() { if(busy||!history.length)return; const h=history.pop(); queue.unshift(h.card); if(h.previousRead)read[h.card.id]=h.previousRead;else delete read[h.card.id]; if(h.previousRecent)recent[h.card.id]=h.previousRecent;else delete recent[h.card.id]; if(!h.previousSession)session.delete(h.card.id); persist(); render(); }
 
