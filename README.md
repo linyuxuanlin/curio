@@ -56,6 +56,8 @@ npm run build
 
 完整说明：[架构与部署](docs/ARCHITECTURE.md) · [内容格式](docs/CONTENT_FORMAT.md) · [图片授权记录](docs/MEDIA.md)
 
+本地开发副本固定在 `/Users/power/ai-projects/curio`，完整流程见 [本地开发与推送](docs/LOCAL_WORKFLOW.md)。
+
 ## 首批内容
 
 2026-09-12 建站时核实了六则真实事件，其中五则对应 2026-09-10 至 2026-09-12 的近期研究或活动，蓝色章鱼为 2026-05 的往期精选。`eventDate` 是事件或研究公布日期，`publishedAt` 是本站入库时间，绝不通过改日期把旧闻伪装成新闻。首批批量入库的分钟顺序仅用于阅读排序。
