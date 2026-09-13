@@ -55,9 +55,9 @@ main { min-height: 0; flex: 1 1 auto; display: flex; flex-direction: column; ali
 .flip-hint { flex: 0 0 auto; margin: 0 5% 4%; color: #a0a294; font-size: 10px; letter-spacing: .08em; text-align: right; }
 .meta { flex: 0 0 auto; font-size: clamp(9px, 1.9vw, 11px); color: #99998c; margin: 0 0 5px; letter-spacing: .035em; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
 .card h2 { font-family: 'Noto Serif SC', 'Songti SC', serif; font-size: clamp(21px, 5vw, 30px); font-weight: 600; letter-spacing: .015em; line-height: 1.28; margin: 0; overflow: hidden; display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 2; }
-.summary { flex: 0 1 auto; font-size: clamp(11px, 2.5vw, 14px); line-height: 1.5; color: #777a6d; margin: 6px 0 0; overflow: hidden; display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 3; }
+.summary { flex: 0 1 auto; font-size: clamp(13px, 3vw, 16px); line-height: 1.5; color: #777a6d; margin: 7px 0 0; overflow: hidden; display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 3; overflow-wrap: anywhere; }
 .back-body { min-height: 0; flex: 1 1 auto; overflow: hidden; padding: 0 5%; }
-.detail-body { margin: 0 0 5px; color: #656b5d; font-size: clamp(10px, 2.25vw, 13px); line-height: 1.45; overflow: hidden; display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 3; }
+.detail-body { margin: 0 0 7px; color: #656b5d; font-size: clamp(12px, 2.6vw, 15px); line-height: 1.5; overflow: hidden; display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 3; overflow-wrap: anywhere; }
 .sources { display: flex; flex-wrap: wrap; gap: 4px 12px; border-top: 1px solid #e5e6da; padding-top: 7px; margin-top: 5px; }
 .sources-label { flex-basis: 100%; font-size: 10px; color: #929586; }
 .sources a { font-size: clamp(10px, 2.15vw, 12px); text-decoration-color: #c0c4af; text-underline-offset: 3px; line-height: 1.45; }
