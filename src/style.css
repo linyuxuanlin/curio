@@ -28,7 +28,7 @@ header { height: 92px; flex: 0 0 auto; position: relative; z-index: 0; max-width
 main { min-height: 0; flex: 1 1 auto; display: flex; flex-direction: column; align-items: center; padding-top: 14px; overflow: visible; position: relative; z-index: 1; }
 .eyebrow { display: flex; align-items: center; justify-content: center; gap: 8px; font-size: 12px; letter-spacing: .17em; color: #757c60; }
 .table { position: relative; width: 100%; max-width: 1150px; margin: 14px auto 0; padding: 0 24px; min-height: 0; display: flex; justify-content: center; perspective: 1400px; }
-.deck { position: relative; width: min(400px, calc(100vw - 48px), calc((100svh - 280px) * .63)); aspect-ratio: .63; isolation: isolate; }
+.deck { position: relative; width: min(520px, calc(100vw - 48px)); aspect-ratio: .63; isolation: isolate; }
 .card { --paper: #fffdf6; position: absolute; inset: 0; border-radius: 23px; background: var(--paper); border: 1px solid #fffdf6; box-shadow: 0 2px 2px #4d423923, 0 7px 10px -6px #4d423942, 0 26px 45px -17px #3e382752, inset 0 0 0 1px #ffffffb0; transform: translateY(calc(var(--index) * 8px)) rotate(calc(var(--index) * 3deg)) scale(calc(1 - var(--index) * .017)); z-index: calc(4 - var(--index)); will-change: transform; touch-action: none; cursor: grab; overflow: hidden; transform-origin: 50% 75%; transform-style: preserve-3d; -webkit-transform-style: preserve-3d; -webkit-user-select: none; user-select: none; perspective: 1000px; perspective-origin: center center; }
 .card[data-theme="sage"] { --accent: #718057; --tint: #edf0dd; }
 .card[data-theme="clay"] { --accent: #ab7158; --tint: #f4e6da; }
@@ -94,8 +94,8 @@ dialog a { font-size: 14px; }
 .drop { animation: fall-in .8s cubic-bezier(.22,1.15,.45,1) both; animation-delay: calc((2 - var(--index)) * 90ms); }
 @keyframes fall-in { 0% { opacity: 0; transform: translateY(-700px) rotate(-18deg); } 65% { opacity: 1; } 100% { transform: translateY(calc(var(--index) * 8px)) rotate(calc(var(--index) * 3deg)) scale(calc(1 - var(--index) * .017)); } }
 
-@media (min-width: 1400px) { .deck { width: min(420px, calc((100svh - 300px) * .63)); } }
+@media (min-width: 1400px) { .deck { width: 560px; } }
 @media (max-width: 800px) { header { height: 78px; padding: 0 28px; } .brand { font-size: 43px; } .brand-note { font-size: 12px; } .table-note { display: none; } main { padding-top: 4px; } .table { margin-top: 10px; padding: 0 20px; } .controls { margin-top: 10px; } }
-@media (max-width: 480px) { header { height: 68px; padding: 0 23px; gap: 15px; } .brand { font-size: 39px; } .brand-note { font-size: 11px; letter-spacing: 0; padding-top: 7px; } .about-button { width: 27px; height: 27px; } main { padding-top: 4px; } .table { margin-top: 8px; padding: 0 20px; } .deck { width: min(100%, calc((100svh - 280px) * .63)); } .card { border-radius: 19px; } .card-top { padding-top: 4%; } .card-image { border-radius: 10px; } .controls { gap: 13px; margin-top: 8px; } .round-button { width: 39px; height: 39px; } .notice { margin-top: 7px; } }
-@media (max-height: 760px) { .deck { width: min(400px, calc(100vw - 48px), calc((100svh - 315px) * .63)); } }
+@media (max-width: 480px) { header { height: 68px; padding: 0 23px; gap: 15px; } .brand { font-size: 39px; } .brand-note { font-size: 11px; letter-spacing: 0; padding-top: 7px; } .about-button { width: 27px; height: 27px; } main { padding-top: 4px; } .table { margin-top: 8px; padding: 0 20px; } .deck { width: 100%; } .card { border-radius: 19px; } .card-top { padding-top: 4%; } .card-image { border-radius: 10px; } .controls { gap: 13px; margin-top: 8px; } .round-button { width: 39px; height: 39px; } .notice { margin-top: 7px; } }
+@media (max-height: 760px) { .deck { width: min(520px, calc(100vw - 48px), calc((100svh - 315px) * .63)); } }
 @media (prefers-reduced-motion: reduce) { *, *::before, *::after { animation: none !important; transition: none !important; scroll-behavior: auto !important; } }
