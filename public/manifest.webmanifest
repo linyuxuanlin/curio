@@ -1,0 +1,16 @@
+{
+  "name": "Curio · 趣闻，一张一张看",
+  "short_name": "Curio",
+  "lang": "zh-CN",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "display_override": ["window-controls-overlay", "standalone"],
+  "background_color": "#eeeae2",
+  "theme_color": "#eeeae2",
+  "description": "把世界的新鲜发现，变成一叠可以划走的卡片。",
+  "icons": [
+    { "src": "/icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any maskable" },
+    { "src": "/icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable" }
+  ]
+}
