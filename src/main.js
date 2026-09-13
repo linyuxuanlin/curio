@@ -57,7 +57,7 @@ function createCard(c, index) {
 
 function render(drop=false) {
  deck.replaceChildren(); busy=false;
- flipControl.hidden = !queue.length;
+ flipButton.hidden = !queue.length;
  controls.hidden = !queue.length;
  document.querySelector('#undo').disabled=!history.length;
  if (!queue.length) { renderEmpty(); return; }
