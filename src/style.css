@@ -30,7 +30,7 @@ main { min-height: 0; flex: 1 1 auto; display: flex; flex-direction: column; ali
 .live-dot { width: 6px; height: 6px; border-radius: 50%; background: #879852; box-shadow: 0 0 0 4px #87985214; }
 .deck-count { font-size: 13px; color: #8b8c7e; margin: 12px 0 0; }
 .table { position: relative; width: 100%; max-width: 1150px; margin: 22px auto 0; padding: 0 24px; min-height: 0; display: flex; justify-content: center; }
-.deck { position: relative; width: min(520px, calc(100vw - 48px)); aspect-ratio: 1.586; isolation: isolate; }
+.deck { position: relative; width: min(400px, calc(100vw - 48px), calc((100svh - 230px) * .63)); aspect-ratio: .63; isolation: isolate; }
 .card { --paper: #fffdf6; position: absolute; inset: 0; border-radius: 23px; background: var(--paper); border: 1px solid #fffdf6; box-shadow: 0 2px 2px #4d423923, 0 7px 10px -6px #4d423942, 0 26px 45px -17px #3e382752, inset 0 0 0 1px #ffffffb0; transform: translateY(calc(var(--index) * 8px)) rotate(calc(var(--index) * 3deg)) scale(calc(1 - var(--index) * .017)); z-index: calc(4 - var(--index)); will-change: transform; touch-action: none; cursor: grab; overflow: hidden; transform-origin: 50% 75%; -webkit-user-select: none; user-select: none; perspective: 1000px; }
 .card[data-theme="sage"] { --accent: #718057; --tint: #edf0dd; }
 .card[data-theme="clay"] { --accent: #ab7158; --tint: #f4e6da; }
@@ -38,10 +38,13 @@ main { min-height: 0; flex: 1 1 auto; display: flex; flex-direction: column; ali
 .card[data-theme="gold"] { --accent: #998349; --tint: #f3ecd8; }
 .card[data-theme="plum"] { --accent: #897086; --tint: #eee6ed; }
 .card.dragging { cursor: grabbing; box-shadow: 0 3px 4px #4d423923, 0 40px 65px -16px #3e382760; }
-.card-inner { position: relative; width: 100%; height: 100%; transform-style: preserve-3d; transition: transform .55s cubic-bezier(.2,.8,.2,1); }
+.card-inner { position: relative; width: 100%; height: 100%; transform-style: preserve-3d; transform-origin: center center; transition: transform .62s cubic-bezier(.22,.75,.2,1); will-change: transform; }
 .card.is-flipped .card-inner { transform: rotateY(180deg); }
-.card-face { position: absolute; inset: 0; display: flex; flex-direction: column; overflow: hidden; backface-visibility: hidden; }
-.card-back { transform: rotateY(180deg); }
+.card-face { position: absolute; inset: 0; display: flex; flex-direction: column; overflow: hidden; border-radius: inherit; backface-visibility: hidden; -webkit-backface-visibility: hidden; }
+.card-front { pointer-events: auto; }
+.card-back { transform: rotateY(180deg); pointer-events: none; }
+.card.is-flipped .card-front { pointer-events: none; }
+.card.is-flipped .card-back { pointer-events: auto; }
 .card-top { display: flex; justify-content: space-between; align-items: center; flex: 0 0 auto; padding: 4% 5% 2.5%; }
 .category { font-size: clamp(10px, 1.9vw, 12px); color: var(--accent); background: var(--tint); padding: 5px 10px; border-radius: 5px; letter-spacing: .09em; }
 .serial { font: 10px 'SFMono-Regular', Consolas, monospace; letter-spacing: .14em; color: #aaa99b; }
@@ -95,7 +98,7 @@ dialog a { font-size: 14px; }
 .drop { animation: fall-in .8s cubic-bezier(.22,1.15,.45,1) both; animation-delay: calc((2 - var(--index)) * 90ms); }
 @keyframes fall-in { 0% { opacity: 0; transform: translateY(-700px) rotate(-18deg); } 65% { opacity: 1; } 100% { transform: translateY(calc(var(--index) * 8px)) rotate(calc(var(--index) * 3deg)) scale(calc(1 - var(--index) * .017)); } }
 
-@media (min-width: 1400px) { .deck { width: 560px; } }
+@media (min-width: 1400px) { .deck { width: min(420px, calc((100svh - 260px) * .63)); } }
 @media (max-width: 800px) { header { height: 78px; padding: 0 28px; } .brand { font-size: 43px; } .brand-note { font-size: 12px; } .table-note { display: none; } main { padding-top: 10px; } .table { margin-top: 18px; padding: 0 20px; } .controls { margin-top: 18px; } }
 @media (max-width: 480px) { header { height: 68px; padding: 0 23px; gap: 15px; } .brand { font-size: 39px; } .brand-note { font-size: 11px; letter-spacing: 0; padding-top: 7px; } .about-button { width: 27px; height: 27px; } main { padding-top: 8px; } .eyebrow { font-size: 11px; } .deck-count { font-size: 12px; margin-top: 9px; } .table { margin-top: 17px; padding: 0 20px; } .deck { width: 100%; } .card { border-radius: 19px; } .card-top { padding-top: 4%; } .card-image { border-radius: 10px; } .controls { gap: 13px; margin-top: 18px; } .swipe-hint { font-size: 10px; } .round-button { width: 39px; height: 39px; } .notice { margin-top: 9px; } }
 @media (prefers-reduced-motion: reduce) { *, *::before, *::after { animation: none !important; transition: none !important; scroll-behavior: auto !important; } }
