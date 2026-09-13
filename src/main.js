@@ -2,11 +2,12 @@ import './style.css';
 import {READ_KEY, RECENT_KEY, readMap, unread, randomBatch, shouldDismiss, recentIds} from './deck.js';
 
 const app = document.querySelector('#app');
-app.innerHTML = `<header><a class="brand" href="/" aria-label="Curio 首页">curio<span class="brand-dot">.</span></a><span class="brand-note">世界很大，好奇一点。</span><button class="about-button" aria-label="关于 Curio">?</button></header><main><section class="table" aria-label="趣闻卡片"><div class="table-note note-left">留一点时间<br>给意料之外。<span>↘</span></div><div id="deck" class="deck" aria-live="polite"><div class="loading">正在打开卡片盒…</div></div><div class="table-note note-right"><span>↙</span>拿起一张，<br>认识一点世界。</div></section><div id="controls" class="controls" hidden><button id="undo" class="round-button" aria-label="撤回上一张" title="撤回上一张">↶ 撤回</button><button id="next" class="round-button next" aria-label="看完了，下一张" title="看完了，下一张">下一张 →</button></div><p id="notice" class="notice" role="status"></p></main><dialog id="about"><button class="close" aria-label="关闭">×</button><p class="eyebrow">ABOUT CURIO</p><h2>给好奇心一个小角落。</h2><p>这里收集真实、有来源的世界趣闻。每张卡片都配有图片，生成图会明确标注为示意图。</p><p>划走才会标记已读。阅读记录只存在当前浏览器，清除网站数据或更换设备后不会保留。“手气不错”会抽取历史卡片，排除本次阅读和最近 30 分钟划走的内容。</p><p>没有广告，也不需要登录。</p><a href="https://github.com/linyuxuanlin/curio" target="_blank" rel="noopener noreferrer">在 GitHub 看看这个小项目 ↗</a></dialog>`;
+app.innerHTML = `<header><a class="brand" href="/" aria-label="Curio 首页">curio<span class="brand-dot">.</span></a><span class="brand-note">世界很大，好奇一点。</span><button class="about-button" aria-label="关于 Curio">?</button></header><main><section class="table" aria-label="趣闻卡片"><div class="table-note note-left">留一点时间<br>给意料之外。<span>↘</span></div><div id="deck" class="deck" aria-live="polite"><div class="loading">正在打开卡片盒…</div></div><div class="table-note note-right"><span>↙</span>拿起一张，<br>认识一点世界。</div></section><div id="controls" class="controls" hidden><button id="undo" class="round-button" aria-label="撤回上一张" title="撤回上一张">↶ 撤回</button><button id="next" class="round-button next" aria-label="看完了，下一张" title="看完了，下一张">下一张 →</button></div><p id="notice" class="notice" role="status"></p></main><div id="fireworks" class="fireworks" aria-hidden="true"></div><dialog id="about"><button class="close" aria-label="关闭">×</button><p class="eyebrow">ABOUT CURIO</p><h2>给好奇心一个小角落。</h2><p>这里收集真实、有来源的世界趣闻。每张卡片都配有图片，生成图会明确标注为示意图。</p><p>划走才会标记已读。阅读记录只存在当前浏览器，清除网站数据或更换设备后不会保留。“手气不错”会抽取历史卡片，排除本次阅读和最近 30 分钟划走的内容。</p><p>没有广告，也不需要登录。</p><a href="https://github.com/linyuxuanlin/curio" target="_blank" rel="noopener noreferrer">在 GitHub 看看这个小项目 ↗</a></dialog>`;
 
 const deck = document.querySelector('#deck');
 const controls = document.querySelector('#controls');
 const notice = document.querySelector('#notice');
+const fireworks = document.querySelector('#fireworks');
 let storage;
 try { storage = window.localStorage; } catch { storage = {getItem:()=>null,setItem:()=>{throw Error('Storage unavailable');}}; }
 const reduced = matchMedia('(prefers-reduced-motion: reduce)').matches;
@@ -73,6 +74,26 @@ function renderEmpty() {
  if (history.length) { const back=el('button','text-button','↶ 撤回上一张'); back.addEventListener('click',undo); box.append(back); }
  deck.append(box);
 }
+function celebrate() {
+ if (reduced || !fireworks) return;
+ fireworks.replaceChildren();
+ const bursts = [[24,28,'#b6c77d'],[70,24,'#d59673'],[50,18,'#8da8b4'],[78,43,'#c5a36d']];
+ for (const [left, top, color] of bursts) {
+  const burst = el('div', 'firework-burst'); burst.style.left = `${left}%`; burst.style.top = `${top}%`;
+  for (let i = 0; i < 24; i += 1) {
+   const spark = el('i', 'firework-spark');
+   const angle = (Math.PI * 2 * i) / 24 + (Math.random() - .5) * .12;
+   const distance = 46 + Math.random() * 64;
+   spark.style.setProperty('--x', `${Math.cos(angle) * distance}px`);
+   spark.style.setProperty('--y', `${Math.sin(angle) * distance}px`);
+   spark.style.setProperty('--delay', `${Math.random() * 100}ms`);
+   spark.style.setProperty('--color', color);
+   burst.append(spark);
+  }
+  fireworks.append(burst);
+ }
+ window.setTimeout(() => fireworks.replaceChildren(), 1550);
+}
 function deal() { if(busy)return; queue=randomBatch(all,new Set([...session,...recentIds(recent)])); history=[]; render(true); }
 async function dismiss(direction=1,dx=0,dy=0,rotation=0) {
  if(busy||!queue.length)return; busy=true;
@@ -87,7 +108,7 @@ async function dismiss(direction=1,dx=0,dy=0,rotation=0) {
   }
   await Promise.all(animations.map(animation=>animation.finished.catch(()=>{})));
  }
- history.push({card:c,previousRead:read[c.id],previousRecent:recent[c.id],previousSession:session.has(c.id)}); queue.shift(); read[c.id]=Date.now(); recent[c.id]=Date.now(); session.add(c.id); persist(); render();
+ history.push({card:c,previousRead:read[c.id],previousRecent:recent[c.id],previousSession:session.has(c.id)}); queue.shift(); read[c.id]=Date.now(); recent[c.id]=Date.now(); session.add(c.id); persist(); render(); if(!queue.length&&unread(all,read).length===0)celebrate();
 }
 function undo() { if(busy||!history.length)return; const h=history.pop(); queue.unshift(h.card); if(h.previousRead)read[h.card.id]=h.previousRead;else delete read[h.card.id]; if(h.previousRecent)recent[h.card.id]=h.previousRecent;else delete recent[h.card.id]; if(!h.previousSession)session.delete(h.card.id); persist(); render(); }
 
