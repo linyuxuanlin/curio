@@ -1,0 +1,39 @@
+{
+  "id": "2026-09-13-ware-ai-museum-guide",
+  "eventKey": "ware-drill-hall-kushya-guide-ai-tour-2026-09-13",
+  "category": "AI",
+  "title": "英国小镇让游客拿手机试用AI导游",
+  "summary": "9月13日，英国 Ware Drill Hall 把一场特洛伊战争临展变成AI导游测试场：参与者用自己的手机逛展，结束后直接给开发者反馈。",
+  "eventDate": "2026-09-13T15:00:00+01:00",
+  "location": "英国 · 赫特福德郡 · Ware",
+  "body": [
+    "这不是已经大规模商用的博物馆系统，而是一场面向公众的小规模试用。Ware Drill Hall 安排了15:00和16:15两个场次，参与者先听10至15分钟说明，再进行约40至50分钟的AI导览，最后填写一份简短问卷。",
+    "测试对象是当地创业者 David von Huth 正在开发的 Kushya Guide。现场要求参与者年满18岁并自带智能手机，导览内容依托当时正在展出的特洛伊战争、阿喀琉斯与奥德修斯主题临展。",
+    "有意思的是它把博物馆里的AI从后台工具直接交到了普通游客手上：产品还没定型，参观本身就是一次公开用户测试。"
+  ],
+  "sources": [
+    {
+      "name": "Ware Drill Hall · Experience a Museum – AI Tour Guide",
+      "url": "https://waredrillhall.org/event/experience-a-museum-ai-tour-guide/"
+    },
+    {
+      "name": "Herts Community News · Events & Activities in Ware",
+      "url": "https://hertscommunitynews.co.uk/events-activities-in-ware/"
+    }
+  ],
+  "theme": "blue",
+  "publishedAt": "2026-09-14T04:09:48+08:00",
+  "verifiedAt": "2026-09-14T04:09:48+08:00",
+  "image": {
+    "src": "https://upload.wikimedia.org/wikipedia/commons/c/c5/Forum_Entwicklung_-_Smartphones_ohne_Schattenseite_26.jpg",
+    "alt": "一名参观者在博物馆环境中使用智能手机的代表图，并非2026年Ware Drill Hall现场",
+    "credit": "C.Suthorn / Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Forum_Entwicklung_-_Smartphones_ohne_Schattenseite_26.jpg",
+    "license": "CC BY-SA 4.0；代表图，并非2026年Ware Drill Hall现场",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "kind": "original",
+    "layout": "photo"
+  },
+  "archive": false,
+  "verificationNotes": "按用户要求先读取 README.md、docs/HOURLY_PROMPT.md、docs/CONTENT_FORMAT.md、docs/PUBLISHING.md，并检查 content/cards 目录和最近提交；最近发布主题依次包括城市生活、动物与自然、城市生活、设计、机器人、考古等，最近6期无天文/航天，本轮轮换到AI。仓库代码搜索未发现 Kushya Guide 或本次 Ware Drill Hall AI 导游测试。Ware Drill Hall 官方活动页确认活动日期为2026年9月13日，两个场次为15:00与16:15，流程含10–15分钟说明、40–50分钟AI导览和约2分钟问卷，参与者需18岁以上并自带智能手机；Herts Community News 独立活动汇总再次确认同日、同地点、Kushya Guide、David von Huth、自带手机以及导览加问卷流程。eventDate 采用官方首场15:00，当日英国仍为BST UTC+01:00；核查时首场已结束，属于过去24小时内，archive=false。配图使用 Wikimedia Commons 上 C.Suthorn 拍摄的博物馆/智能手机相关真实照片，页面明确为 CC BY-SA 4.0；因与本次现场无关，alt 与 license 明确标注为代表图。当前任务没有可用的本地仓库工作区，因此未伪装运行 npm run validate、npm test、npm run build；以本次提交触发的 GitHub Actions 校验为准。用户本轮明确要求只新增1张，因此覆盖仓库旧文档中每轮5张的数量要求。"
+}
