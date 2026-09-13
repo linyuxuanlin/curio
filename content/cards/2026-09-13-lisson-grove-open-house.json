@@ -1,0 +1,43 @@
+{
+  "id": "2026-09-13-lisson-grove-open-house",
+  "eventKey": "open-house-london-2026-lisson-grove-studios-guided-tours",
+  "category": "城市生活",
+  "title": "伦敦把空商铺切成38间工作室，\n周末第一次带公众进去看",
+  "summary": "一处原本空着的商业空间被改造成五层创意工作室，本周末借 Open House Festival 开门，让公众直接看低成本隔断如何塞进38间工作室。",
+  "eventDate": "2026-09-13T10:30:00+01:00",
+  "location": "英国 · 伦敦 · Lisson Grove",
+  "body": [
+    "Lisson Grove Studios 位于 Daventry House，总面积约1,088平方米。Brown Urbanism 没有把它做成昂贵的精装办公楼，而是用软木框架和半透明板材把原有商业壳体分成一组小型工作室，再把共享走廊、咖啡区和协作空间穿插进去。",
+    "9月12日至13日的 Open House Festival 期间，平时主要供租户使用的空间开放导览。9月13日安排了10:30和14:00两场，由建筑相关人员带访客看38间创意工作室、22个共享工位和展览空间。",
+    "这个项目有意思的地方不只是‘开放参观’，而是把伦敦中心区一个闲置商业空间变成长期、相对可负担的创意基础设施：材料和隔断刻意保持简单、可调整，让租户能继续改自己的小空间。"
+  ],
+  "sources": [
+    {
+      "name": "Open House Festival",
+      "url": "https://programme.openhouse.org.uk/listings/13744"
+    },
+    {
+      "name": "Arbeit Studios",
+      "url": "https://www.arbeit.org.uk/whats-on/2026/9/12/openhousefestival-arbeitlissongrove"
+    },
+    {
+      "name": "Brown Urbanism",
+      "url": "https://www.brownurbanism.com/lisson-grove-studios"
+    }
+  ],
+  "theme": "blue",
+  "publishedAt": "2026-09-14T01:08:24+08:00",
+  "verifiedAt": "2026-09-14T01:08:24+08:00",
+  "image": {
+    "src": "https://commons.wikimedia.org/wiki/Special:Redirect/file/STUDIO%202%201.jpg",
+    "alt": "一处正在使用中的专业创意工作室实拍代表图；照片拍摄于澳大利亚悉尼，并非伦敦 Lisson Grove Studios 或本次 Open House Festival 现场",
+    "credit": "MarkScarrott / Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:STUDIO_2_1.jpg",
+    "license": "CC BY-SA 4.0；可在署名并以相同许可分享改编内容的条件下复用",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "kind": "original",
+    "layout": "photo"
+  },
+  "archive": false,
+  "verificationNotes": "本轮按用户要求先读取 README.md、docs/HOURLY_PROMPT.md、docs/CONTENT_FORMAT.md、docs/PUBLISHING.md，并核对 content/cards 最近提交与仓库检索结果。最近几轮已覆盖设计、机器人、考古、食品、环境、文化、科技、社会、AI、动物等方向，本轮选择城市生活；仓库代码搜索 Lisson Grove 未发现同一事件，最近6期无天文/航天。Open House Festival 官方项目页核对 Lisson Grove Studios 于2026年9月13日有10:30–11:15与14:00–14:45两场导览，并列出约1,088平方米、38间创意工作室、22个共享工位和五个错层楼面；Arbeit Studios 活动页核对活动日期为9月12–13日、由建筑相关人员带领参观，并说明项目目标是把长期可负担的创意工作空间带回伦敦中心区；Brown Urbanism 项目页独立核对38间工作室、22个工位以及木框架和半透明隔断等低成本、可调整设计策略。eventDate 使用9月13日首场导览明确开始时间10:30，伦敦夏令时UTC+01:00；核查时该时点已经发生，且处于72小时窗口内，因此 archive=false。活动现场照片虽有摄影署名，但页面没有看到明确开放复用许可，故不直接使用；代表图采用 Wikimedia Commons 的专业创意工作室实拍，文件页明确标注 MarkScarrott 自有作品并以 CC BY-SA 4.0 发布，alt 明确说明并非本次伦敦现场，避免误导。当前环境有 GitHub 写入工具但没有本地仓库工作区，因此未伪装运行 npm 命令；最终以本提交触发的 GitHub Actions validate/test/build 与线上 feed 验证为准。用户当前明确要求每轮只新增1张，故覆盖仓库旧文档中每轮5张的数量要求。"
+}
