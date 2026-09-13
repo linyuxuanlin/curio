@@ -1,0 +1,42 @@
+{
+  "id": "2026-09-10-china-autonomous-driving-2030",
+  "eventKey": "china-intelligent-connected-nev-15th-five-year-plan-2030-autonomous-driving",
+  "category": "交通",
+  "title": "中国把自动驾驶，\n写进2030路线图",
+  "summary": "九部门最新汽车产业规划提出：到2030年，让具备自动驾驶功能的车辆实现规模化应用，并在高速、城市快速路和部分城市道路推进高度自动驾驶。",
+  "eventDate": "2026-09-10T12:20:00Z",
+  "location": "中国",
+  "body": [
+    "这份《智能网联新能源汽车产业发展“十五五”规划》由工信部等九部门发布。除了自动驾驶，它还把2030年新能源乘用车国内新车销量占比70%、新能源商用车40%写成了阶段目标。",
+    "规划里的措辞是“规模化应用”和分场景推进，并不等于从现在起所有道路都允许无人驾驶。工信部9月11日的发布会也把安全标准、准入监管和软件升级管理列为接下来要继续完善的部分。"
+  ],
+  "sources": [
+    {
+      "name": "工业和信息化部｜《智能网联新能源汽车产业发展“十五五”规划》",
+      "url": "https://wap.miit.gov.cn/jgsj/zbys/wjfb/art/2026/art_6136a59a8ff04922b7c73ddbc575434e.html"
+    },
+    {
+      "name": "工业和信息化部｜9月11日新闻发布会",
+      "url": "https://wap.miit.gov.cn/xwfb/xwfbh/bxwfbh/art/2026/art_05c4683ad9ee4c3c880485f7a8873601.html"
+    },
+    {
+      "name": "Reuters",
+      "url": "https://www.reuters.com/business/autos-transportation/china-targets-mass-deployment-self-driving-vehicles-by-2030-2026-09-11/"
+    }
+  ],
+  "theme": "blue",
+  "publishedAt": "2026-09-13T08:12:00+08:00",
+  "verifiedAt": "2026-09-13T08:12:00+08:00",
+  "image": {
+    "src": "https://commons.wikimedia.org/wiki/Special:Redirect/file/CHRYSLER_PACIFICA_%28RU%29_SELF-DRVING_TEST_CAR_IN_CHINA_%283%29.jpg",
+    "alt": "2022年在深圳拍摄的一辆自动驾驶测试车；用于说明中国自动驾驶道路测试场景，并非2026年规划发布现场",
+    "credit": "Dinkun Chen / Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:CHRYSLER_PACIFICA_(RU)_SELF-DRVING_TEST_CAR_IN_CHINA_(3).jpg",
+    "license": "CC BY-SA 4.0；允许复制与改编，需署名并以相同或兼容许可共享改编作品",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "kind": "original",
+    "layout": "photo"
+  },
+  "archive": false,
+  "verificationNotes": "事件以工信部正式发布规划的时间为准：文件页面标注2026年9月10日20:20发布，因此 eventDate 精确换算为 2026-09-10T12:20:00Z。规划原文明确提出到2030年具备自动驾驶功能的汽车实现规模化应用，并在高速公路、城市快速路及部分城市道路实现高度自动驾驶；同时给出新能源乘用车70%、新能源商用车40%的国内新车销量目标。9月11日工信部新闻发布会进一步核对了该规划的政策背景与监管重点；Reuters 对自动驾驶规模化应用目标进行了独立报道。图片不是规划发布现场，而是2022年深圳自动驾驶测试车实拍，用于说明主题；Wikimedia Commons 文件页确认作者 Dinkun Chen 以 CC BY-SA 4.0 授权。"
+}
