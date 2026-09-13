@@ -37,7 +37,11 @@ function createCard(c, index) {
 
  const figure = el('figure','card-image');
  const img = el('img'); img.src = c.image.src; img.alt = c.image.alt; img.draggable = false; img.loading = index ? 'lazy' : 'eager'; img.style.objectFit = c.image.layout === 'poster' ? 'contain' : 'cover';
- img.addEventListener('error',()=> { figure.replaceChildren(el('p','image-error','图片暂时无法加载 · 可查看背面来源')); });
+ let imageTimeout;
+ const imageFailed=()=>{clearTimeout(imageTimeout);if(img.isConnected)figure.replaceChildren(el('p','image-error','图片暂时无法加载 · 可查看背面来源'));};
+ img.addEventListener('error',imageFailed);
+ img.addEventListener('load',()=>clearTimeout(imageTimeout));
+ if(!index)imageTimeout=setTimeout(imageFailed,12000);
  figure.append(img);
  if (c.image.kind === 'generated') figure.append(el('span','image-label','示意图 · 非现场照片'));
  front.append(figure);

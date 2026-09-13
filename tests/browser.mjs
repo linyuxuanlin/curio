@@ -31,7 +31,7 @@ for(const expected of feed.cards){
  assert.ok(links.includes(expected.image.licenseUrl));await page.locator('#next').click();
 }
 await page.getByRole('heading',{name:'已读完',exact:true}).waitFor();assert.ok(await page.getByRole('button',{name:'手气不错'}).isDisabled());
-console.log('all 25 cards: complete body, links, credit, exhausted state pass');
+console.log(`all ${feed.cards.length} cards: complete body, links, credit, exhausted state pass`);
 const second=await page.context().newPage();await second.goto(process.env.CURIO_TEST_URL || 'http://127.0.0.1:5173',{waitUntil:'domcontentloaded'});
 await second.evaluate(()=>localStorage.clear());await page.waitForSelector('.card[tabindex]');
 assert.equal(await page.locator('.card[tabindex]').getAttribute('data-id'),feed.cards[0].id);
