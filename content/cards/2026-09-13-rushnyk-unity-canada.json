@@ -1,0 +1,43 @@
+{
+  "id": "2026-09-13-rushnyk-unity-canada",
+  "eventKey": "rushnyk-unity-north-american-premiere-carleton-place-2026-09-13",
+  "category": "文化",
+  "title": "160米刺绣长布，第一次来到北美",
+  "summary": "9月13日，一条由欧洲多国社群共同接成长达160.5米的乌克兰传统刺绣巾，在加拿大 Carleton Place 首次亮相北美，125名参与者一起把它抬进节庆现场。",
+  "eventDate": "2026-09-13T11:00:00-04:00",
+  "location": "加拿大 · 安大略省 · Carleton Place",
+  "body": [
+    "这条长布叫 Rushnyk of Unity – Rushnyk of Victory。普通 rushnyk 是乌克兰及东斯拉夫传统中的刺绣仪式布，会出现在婚礼、迎接和家庭仪式里；这一次，不同社群把一块块作品接成了一条仍在继续增长的长布。",
+    "活动方公布的数据是160.5米、103块独立 rushnyk、来自13个欧洲国家的120多名刺绣者。9月13日上午，组织者招募125名成人和孩子，从 Roy Brown Statue 出发，抬着整条刺绣巾穿过街道进入 Riverside Park。",
+    "它此前主要在欧洲各地展出。这次 Carleton Place 被活动方和当地政府列为首次北美亮相，之后还计划继续前往加拿大其他城市。"
+  ],
+  "sources": [
+    {
+      "name": "UAFest · The Rushnyk of Unity — Rushnyk of Victory",
+      "url": "https://www.uafest.ca/rushnyk"
+    },
+    {
+      "name": "Town of Carleton Place · Ukrainian Fest Lanark County",
+      "url": "https://carletonplace.ca/event/ukrainian-fest-lanark-county"
+    },
+    {
+      "name": "Lanark County · UA Fest",
+      "url": "https://www.lanarkcounty.ca/event/ua-fest/"
+    }
+  ],
+  "theme": "plum",
+  "publishedAt": "2026-09-14T05:14:12+08:00",
+  "verifiedAt": "2026-09-14T05:14:12+08:00",
+  "image": {
+    "src": "https://upload.wikimedia.org/wikipedia/commons/1/10/Rushnyk_Ukraine_embroidered_decorative_towels.jpg",
+    "alt": "乌克兰传统 rushnyk 刺绣巾代表图，拍摄于乌克兰博物馆，并非2026年加拿大活动现场",
+    "credit": "Pavlo Boyko / Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Rushnyk_Ukraine_embroidered_decorative_towels.jpg",
+    "license": "CC BY-SA 2.0；rushnyk代表图，并非2026年加拿大活动现场",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+    "kind": "original",
+    "layout": "photo"
+  },
+  "archive": false,
+  "verificationNotes": "按用户要求读取 README.md、docs/HOURLY_PROMPT.md、docs/CONTENT_FORMAT.md、docs/PUBLISHING.md，并检查最近提交与仓库代码搜索；最近发布依次为 AI、城市生活、动物与自然、城市生活、设计、机器人、考古、食品等，本轮轮换到文化，最近6期无天文/航天。仓库搜索未发现 Rushnyk、UAFest 或 Carleton Place 本事件。UAFest 官方页面确认 Rushnyk of Unity – Rushnyk of Victory 于2026年9月13日在 Carleton Place 首次亮相北美，并给出160.5米、103块独立rushnyk、13个欧洲国家、120+刺绣者等数据；其 procession 页面确认11:00集合、125人共同抬布进入 Riverside Park。Carleton Place 市政府和 Lanark County 官方活动页分别确认9月13日当地 UAFest 以及160.5米、北美首秀等核心信息。eventDate 使用公开 procession 的11:00，当地9月13日仍采用 EDT UTC-04:00；核查时当地已过该时间，属于过去24小时。配图没有使用活动官网版权状态未明确的现场图，而采用 Wikimedia Commons 上 Pavlo Boyko 拍摄的乌克兰 rushnyk 博物馆实拍代表图；文件页明确许可 CC BY-SA 2.0，alt 与 license 明确标注并非本次活动现场。当前容器确实尝试 git clone 以运行 npm 校验，但 DNS 无法解析 github.com，因此没有伪装运行 npm run validate、npm test、npm run build；后续以本次提交触发的 GitHub Actions 为准。用户本轮明确要求只新增1张，覆盖仓库文档中的每轮5张旧规则。"
+}
