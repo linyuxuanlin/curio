@@ -1,0 +1,39 @@
+{
+  "id": "2026-09-13-alberta-biodiversity-festival",
+  "eventKey": "alberta-biodiversity-festival-calgary-zoo-2026-09-11-13",
+  "category": "环境",
+  "title": "动物园把“遇到熊怎么办”\n做成了一座互动营地",
+  "summary": "卡尔加里动物园9月11日至13日办第五届阿尔伯塔生物多样性节，把熊安全、候鸟迁徙、传粉昆虫和野生动物共处做成可参与的体验。",
+  "eventDate": "2026-09-13T12:00:00-06:00",
+  "location": "加拿大 · 阿尔伯塔省 · 卡尔加里",
+  "body": [
+    "这场活动没有把“保护生物多样性”只做成展板。现场设置了模拟营地，让家庭用互动方式测试遇到熊时的安全知识；另一边则用游戏和活动追踪美洲鹤、穴鸮等迁徙物种的旅程。",
+    "今年还加入了更多社区机构。Parks Canada、Green Calgary 和 Calgary Wildlife 分别围绕节水、人与野生动物共处以及自然环境保护与游客交流。",
+    "主办方说，这是该活动第五年举行；今年还首次把活动延伸出动物园，7月已在 Camrose 做过一次快闪版本。"
+  ],
+  "sources": [
+    {
+      "name": "Wilder Institute / Calgary Zoo",
+      "url": "https://www.calgaryzoo.com/news/alberta-biodiversity-festival-2026/"
+    },
+    {
+      "name": "To Do Canada · Calgary weekend guide",
+      "url": "https://www.todocanada.ca/things-to-do-calgary-this-weekend/"
+    }
+  ],
+  "theme": "sage",
+  "publishedAt": "2026-09-14T07:09:35+08:00",
+  "verifiedAt": "2026-09-14T07:09:35+08:00",
+  "image": {
+    "src": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Grus_americana_Sasata.jpg",
+    "alt": "卡尔加里动物园内的美洲鹤实拍代表图，并非2026年生物多样性节活动现场",
+    "credit": "Sasata / Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Grus_americana_Sasata.jpg",
+    "license": "CC BY-SA 3.0；卡尔加里动物园美洲鹤代表图，并非2026年活动现场",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "kind": "original",
+    "layout": "photo"
+  },
+  "archive": false,
+  "verificationNotes": "按用户要求先读取 README.md、docs/HOURLY_PROMPT.md、docs/CONTENT_FORMAT.md、docs/PUBLISHING.md，并检查 content/cards/ 最近内容与整库关键词。最近内容已覆盖社会、文化、AI、城市生活、动物与自然、设计、考古、食品、机器人等，本轮轮换到环境；最近6期未见天文/航天。整库搜索未发现 Alberta Biodiversity Festival 本事件。Wilder Institute's Calgary Zoo 官方公告确认第五届 Alberta Biodiversity Festival 于2026年9月11日至13日在 Calgary Zoo 举行，并明确列出互动熊安全营地、传粉活动、美洲鹤和穴鸮迁徙主题、鸣禽保护及昆虫活动；公告还确认 Parks Canada、Green Calgary、Calgary Wildlife 等社区伙伴参与，以及今年7月首次在 Camrose 做园外快闪。独立活动媒体 To Do Canada 的当周卡尔加里活动指南再次确认活动日期、地点和面向公众的互动生物多样性主题。eventDate 取9月13日公开活动时段的12:00 MDT；官方只给出日期，To Do Canada 列出12:00至15:00，因此时间精度以活动指南为准。核查时该日活动已结束不久，属于过去24小时内事件。配图未使用活动官网新闻图，因为未确认其可复用授权；改用 Wikimedia Commons 上 Sasata 于2010年在 Calgary Zoo 拍摄的美洲鹤实拍，文件页明确许可 CC BY-SA 3.0，并在 alt 与 license 中注明并非2026年活动现场。当前环境没有本地仓库工作区，因此未伪装运行 npm run validate、npm test、npm run build；后续以本提交触发的 GitHub Actions 校验、测试、构建和线上 feed 验证为准。用户本轮明确要求只新增1张，覆盖仓库文档中旧的每轮5张规则。"
+}
