@@ -68,7 +68,7 @@ main { min-height: 0; flex: 1 1 auto; display: flex; flex-direction: column; ali
 .note-left span { text-align: right; padding-right: 10px; }
 .note-right span { padding-left: 10px; margin-top: -55px; }
 .controls { position: fixed; left: 0; right: 0; bottom: 0; z-index: 80; display: flex; align-items: center; justify-content: center; gap: 18px; width: 100%; margin: 0; padding: 12px 20px calc(12px + env(safe-area-inset-bottom)); border-top: 1px solid #dcdcd1; background: #eeeae2e8; box-shadow: 0 -8px 24px #c9c8bb35; backdrop-filter: blur(10px); -webkit-backdrop-filter: blur(10px); }
-.round-button { height: 43px; width: 43px; border-radius: 50%; font-size: 24px; line-height: 1; border: 1px solid #d4d3c8; background: linear-gradient(#faf9f3,#e8e6dc); box-shadow: 0 2px 2px #b4b1a552, inset 0 1px 0 #fff; transition: transform .15s, box-shadow .15s; }
+.round-button { height: 46px; min-width: 116px; padding: 0 22px; border-radius: 999px; font-size: 15px; line-height: 1; border: 1px solid #d4d3c8; background: linear-gradient(#faf9f3,#e8e6dc); box-shadow: 0 2px 2px #b4b1a552, inset 0 1px 0 #fff; transition: transform .15s, box-shadow .15s; }
 .round-button:hover { transform: translateY(-2px); }
 .round-button:active { transform: translateY(2px); box-shadow: inset 0 1px 3px #a4a49455; }
 .next { background: linear-gradient(#e2e7cf,#d3dab8); border-color: #c4ccac; color: #66754e; }
@@ -95,7 +95,7 @@ dialog a { font-size: 14px; }
 @keyframes fall-in { 0% { opacity: 0; transform: translateY(-700px) rotate(-18deg); } 65% { opacity: 1; } 100% { transform: translateY(calc(var(--index) * 8px)) rotate(calc(var(--index) * 3deg)) scale(calc(1 - var(--index) * .017)); } }
 
 @media (min-width: 1400px) { .deck { width: 560px; } }
-@media (max-width: 800px) { header { height: 78px; padding: 0 28px; } .brand { font-size: 43px; } .brand-note { font-size: 12px; } .table-note { display: none; } main { padding-top: 4px; } .table { margin-top: 10px; padding: 0 10px; } }
-@media (max-width: 480px) { header { height: 68px; padding: 0 23px; gap: 15px; } .brand { font-size: 39px; } .brand-note { font-size: 11px; letter-spacing: 0; padding-top: 7px; } .about-button { width: 27px; height: 27px; } main { padding-top: 4px; } .table { margin-top: 8px; padding: 0 6px; } .deck { width: 100%; } .card { border-radius: 19px; } .card-top { padding-top: 4%; } .card-image { border-radius: 10px; } .controls { gap: 16px; } .round-button { width: 39px; height: 39px; } .notice { margin-top: 7px; } }
+@media (max-width: 800px) { header { height: 78px; padding: 0 28px; } .brand { font-size: 43px; } .brand-note { font-size: 12px; } .table-note { display: none; } main { padding-top: 4px; } .table { margin-top: 10px; padding: 0; } .deck { width: calc(100vw - 12px); } }
+@media (max-width: 480px) { header { height: 68px; padding: 0 23px; gap: 15px; } .brand { font-size: 39px; } .brand-note { font-size: 11px; letter-spacing: 0; padding-top: 7px; } .about-button { width: 27px; height: 27px; } main { padding-top: 4px; } .table { margin-top: 8px; padding: 0; } .deck { width: calc(100vw - 12px); } .card { border-radius: 19px; } .card-top { padding-top: 4%; } .card-image { border-radius: 10px; } .controls { gap: 12px; } .round-button { min-width: 124px; height: 46px; padding: 0 16px; } .notice { margin-top: 7px; } }
 @media (max-height: 760px) { .deck { width: min(520px, calc(100vw - 12px), calc((100svh - 315px) * .63)); } }
 @media (prefers-reduced-motion: reduce) { *, *::before, *::after { animation: none !important; transition: none !important; scroll-behavior: auto !important; } }
