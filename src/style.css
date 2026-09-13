@@ -53,7 +53,7 @@ main { min-height: 0; flex: 1 1 auto; display: flex; flex-direction: column; ali
 .card-body { min-height: 0; flex: 1 1 auto; display: flex; flex-direction: column; padding: 3% 5% 4%; }
 .flip-hint { flex: 0 0 auto; margin: 0 5% 4%; color: #a0a294; font-size: 10px; letter-spacing: .08em; text-align: right; }
 .meta { flex: 0 0 auto; font-size: clamp(9px, 1.9vw, 11px); color: #99998c; margin: 0 0 5px; letter-spacing: .035em; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
-.card h2 { font-family: 'Noto Serif SC', 'Songti SC', serif; font-size: clamp(17px, 4vw, 25px); font-weight: 600; letter-spacing: .015em; line-height: 1.28; margin: 0; overflow: hidden; display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 2; }
+.card h2 { font-family: 'Noto Serif SC', 'Songti SC', serif; font-size: clamp(19px, 4.6vw, 27px); font-weight: 600; letter-spacing: .015em; line-height: 1.28; margin: 0; overflow: hidden; display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 2; }
 .summary { flex: 0 1 auto; font-size: clamp(11px, 2.5vw, 14px); line-height: 1.5; color: #777a6d; margin: 6px 0 0; overflow: hidden; display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 3; }
 .back-body { min-height: 0; flex: 1 1 auto; overflow: hidden; padding: 0 5%; }
 .detail-body { margin: 0 0 5px; color: #656b5d; font-size: clamp(10px, 2.25vw, 13px); line-height: 1.45; overflow: hidden; display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 3; }
