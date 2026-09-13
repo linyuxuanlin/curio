@@ -1,0 +1,42 @@
+{
+  "id": "2026-09-10-wyoming-chunky-belemnite",
+  "eventKey": "doi-10.1002-spp2.70123",
+  "category": "动物与自然",
+  "title": "一块老化石，认出了\n侏罗纪最胖的箭石",
+  "summary": "怀俄明两件约1.6亿年前的化石被确认为新箭石种；它的内部硬壳最宽约6厘米，比当地常见箭石粗得多。",
+  "eventDate": "2026-09-10T12:00:00Z",
+  "location": "美国怀俄明州",
+  "body": [
+    "新种名为 Wyoteuthis linsterorum。箭石是已经灭绝的头足类，和今天的鱿鱼、章鱼是远亲；常见化石其实是它身体内部坚硬的“护甲”部分。研究团队用 CT 扫描观察两件标本内部结构，确认它属于 Megateuthididae 科。",
+    "有意思的是，其中第一件标本早在上世纪90年代末就被发现，却在博物馆收藏中放了多年；直到2019年出现第二件相似标本，证据才足够完整。研究者估计这种动物活着时连同腕足总长可能约60厘米，但大型体型是否与捕食方式有关，目前仍只是解释之一。"
+  ],
+  "sources": [
+    {
+      "name": "University of Manchester",
+      "url": "https://www.manchester.ac.uk/about/news/peculiar-new-species-of-jurassic-squid-found-in-wyoming/"
+    },
+    {
+      "name": "Papers in Palaeontology",
+      "url": "https://onlinelibrary.wiley.com/doi/10.1002/spp2.70123"
+    },
+    {
+      "name": "Discover Wildlife",
+      "url": "https://www.discoverwildlife.com/prehistoric-life/wyoteuthis-linsterorum-wyoming-usa"
+    }
+  ],
+  "theme": "clay",
+  "publishedAt": "2026-09-13T10:15:00+08:00",
+  "verifiedAt": "2026-09-13T10:15:00+08:00",
+  "image": {
+    "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/BelemnitesJurassicWyoming.jpg/960px-BelemnitesJurassicWyoming.jpg",
+    "alt": "一批来自怀俄明州侏罗纪地层的箭石化石；仅作为同地区同类群代表图，不是新种 Wyoteuthis linsterorum 的两件模式标本",
+    "credit": "Mark A. Wilson / Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:BelemnitesJurassicWyoming.jpg",
+    "license": "Public domain；怀俄明州侏罗纪箭石代表图，非本次新种模式标本",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/File:BelemnitesJurassicWyoming.jpg#Licensing",
+    "kind": "original",
+    "layout": "photo"
+  },
+  "archive": false,
+  "verificationNotes": "University of Manchester 于 2026-09-10 发布研究消息，确认团队依据两件约 1.6 亿年前、来自怀俄明州的标本描述新箭石种 Wyoteuthis linsterorum；官方新闻和论文均指出其桶状 rostrum 最宽约 6 cm，明显粗于当地常见箭石。Discover Wildlife 于 2026-09-12 的独立报道交叉确认两件标本、约 60 cm 的活体总长估计、CT 扫描和 Megateuthididae 归属。论文 DOI 为 10.1002/spp2.70123。University of Manchester Research Explorer 的书目信息显示卷期记录为 2026-09-01，而官方新闻稿与期刊链接在 9 月 10 日集中公开报道，因此 eventDate 采用 9 月 10 日这次公开研究消息日期，按仅有日期的仓库规则记 12:00 UTC；不把最初化石发现年代当作新闻发生日。本轮仍在 72 小时窗口内，archive=false。配图来自 Wikimedia Commons，文件页明确说明是怀俄明州侏罗纪箭石并由版权持有人释放至公共领域；它只是同地区同类群的代表照片，不是 Wyoteuthis linsterorum 的模式标本。"
+}
