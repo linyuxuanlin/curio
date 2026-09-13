@@ -1,0 +1,42 @@
+{
+  "id": "2026-09-10-dinosaur-poop-feather",
+  "eventKey": "doi-10-1016-j-cub-2026-08-054",
+  "category": "动物与自然",
+  "title": "一根羽毛，藏在六千六百万年前的恐龙便便里",
+  "summary": "研究者从一块恐龙粪化石里找到保存异常完整的古鸟羽毛，还顺带留下了一条“鱼→鸟→恐龙”的食物链线索。",
+  "eventDate": "2026-09-10T12:00:00Z",
+  "location": "美国蒙大拿州，Hell Creek Formation",
+  "body": [
+    "这块粪化石在2016年被发现，后来用微型CT扫描后，研究者在里面看到了多根羽毛、古鸟腿骨和雀鳝类鱼鳞。骨骼指向已经灭绝的黄昏鸟类群，因此团队认为羽毛也来自同一只潜水鸟。",
+    "更有意思的是，鱼鳞很可能原本在这只鸟的胃里，随后鸟又被大型肉食恐龙吞下。羽毛同时保留现代化和较原始的结构特征，研究者据此提出：保温能力和换羽方式，可能是解释为什么只有一支鸟类熬过白垩纪末大灭绝的线索之一，但目前仍是需要更多化石检验的假说。"
+  ],
+  "sources": [
+    {
+      "name": "Field Museum",
+      "url": "https://www.fieldmuseum.org/about/press/fossil-feather-preserved-inside-dinosaur-poop-could-help-explain-why-birds-surv"
+    },
+    {
+      "name": "University of Washington News",
+      "url": "https://www.washington.edu/news/2026/09/10/fossil-feathers-preserved-inside-dinosaur-poop-could-help-explain-why-some-birds-survived-the-dinosaur-mass-extinction/"
+    },
+    {
+      "name": "ABC News Australia",
+      "url": "https://www.abc.net.au/news/science/2026-09-11/preserved-feather-coprolite-t-rex-66-million-years-fossil/107125056"
+    }
+  ],
+  "theme": "clay",
+  "publishedAt": "2026-09-13T15:12:00+08:00",
+  "verifiedAt": "2026-09-13T15:12:00+08:00",
+  "image": {
+    "src": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Hesperornis_at_AMNH.jpg",
+    "alt": "美国自然历史博物馆展出的 Hesperornis 骨架，作黄昏鸟类群代表图；不是本次粪化石中的个体",
+    "credit": "Ryan Schwark / Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hesperornis_at_AMNH.jpg",
+    "license": "CC0 1.0；黄昏鸟类群代表图，非本次研究标本或发现现场",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "kind": "original",
+    "layout": "photo"
+  },
+  "archive": false,
+  "verificationNotes": "Current Biology论文《Bird feathers from a Late Cretaceous coprolite》于2026-09-10发表（DOI 10.1016/j.cub.2026.08.054）；来源只给出日期，因此eventDate按当天12:00 UTC记录，仍处72小时窗口内。Field Museum与University of Washington均为论文作者所在机构，二者不能视为完全独立的交叉验证；ABC News Australia另行采访昆士兰大学古脊椎动物学者Steven Salisbury，并独立报道微型CT、黄昏鸟类群、鱼鳞与羽毛结构等关键事实。关于“保温能力帮助现代鸟类祖先熬过撞击寒冬”仅按作者假说表述，没有写成定论。图片未使用论文或新闻稿中的研究图，因为未确认可自由复用许可；改用Wikimedia Commons中Ryan Schwark拍摄的Hesperornis骨架照片，文件页明确CC0 1.0，并在alt与license中标明不是本次标本。"
+}
