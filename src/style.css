@@ -133,3 +133,7 @@ dialog a { font-size: 14px; }
 
 .notification-button { width: 100%; border: 1px solid #c4ccac; border-radius: 999px; padding: 11px 18px; background: #e2e7cf; color: #53613e; }
 .notification-status { font-size: 12px !important; line-height: 1.6 !important; color: #777d6b; }
+
+.image-status { position: absolute; inset: 0; display: flex; flex-direction: column; justify-content: center; align-items: center; gap: 10px; padding: 20px; background: #e7e6de; color: #696e5f; text-align: center; font-size: 12px; }
+.image-status p { margin: 0; line-height: 1.6; }
+.image-status button { border: 1px solid #b7bda5; border-radius: 999px; padding: 8px 14px; background: #f7f4eb; font-size: 12px; }

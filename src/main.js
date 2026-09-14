@@ -1,4 +1,5 @@
 import './style.css';
+import {createCardImage} from './card-image.js';
 import {setupNotifications} from './notifications.js';
 import {READ_KEY, RECENT_KEY, readMap, unread, randomBatch, shouldDismiss, recentIds, usableCard} from './deck.js';
 
@@ -35,15 +36,7 @@ function createCard(c, index) {
  const topBack = el('div', 'card-top'); topBack.append(el('span','category',c.category),el('span','serial',`${serial} · BACK`));
  front.append(top); back.append(topBack);
 
- const figure = el('figure','card-image');
- const img = el('img'); img.src = c.image.src; img.alt = c.image.alt; img.draggable = false; img.loading = index ? 'lazy' : 'eager'; img.style.objectFit = c.image.layout === 'poster' ? 'contain' : 'cover';
- let imageTimeout;
- const imageFailed=()=>{clearTimeout(imageTimeout);if(img.isConnected)figure.replaceChildren(el('p','image-error','图片暂时无法加载 · 可查看背面来源'));};
- img.addEventListener('error',imageFailed);
- img.addEventListener('load',()=>clearTimeout(imageTimeout));
- if(!index)imageTimeout=setTimeout(imageFailed,12000);
- figure.append(img);
- if (c.image.kind === 'generated') figure.append(el('span','image-label','示意图 · 非现场照片'));
+ const figure = createCardImage(c.image,index);
  front.append(figure);
 
  const frontBody = el('div','card-body');
@@ -195,7 +188,7 @@ document.querySelector('#next').onclick=()=>dismiss(1); document.querySelector('
 document.addEventListener('keydown',e=>{if(document.querySelector('dialog[open]')||e.target.closest('button,a,summary,input'))return;if(e.key==='ArrowRight'||e.key==='ArrowLeft'){e.preventDefault();dismiss(e.key==='ArrowRight'?1:-1);}});
 const about=document.querySelector('#about'); document.querySelector('.about-button').onclick=()=>about.showModal(); about.querySelector('.close').onclick=()=>about.close(); about.addEventListener('click',e=>{if(e.target===about&&e.clientX>=0){const r=about.getBoundingClientRect();if(e.clientX<r.left||e.clientX>r.right||e.clientY<r.top||e.clientY>r.bottom)about.close();}});
 let installPrompt=null;
-if ('serviceWorker' in navigator) window.addEventListener('load',()=>navigator.serviceWorker.register('/sw.js').catch(()=>{}));
+if ('serviceWorker' in navigator) navigator.serviceWorker.register('/sw.js').catch(()=>{});
 window.addEventListener('beforeinstallprompt',event=>{event.preventDefault();installPrompt=event;if(installButton)installButton.hidden=false;});
 installButton?.addEventListener('click',async()=>{if(!installPrompt)return;const prompt=installPrompt;installPrompt=null;installButton.hidden=true;await prompt.prompt();await prompt.userChoice;});
 window.addEventListener('appinstalled',()=>{installPrompt=null;if(installButton)installButton.hidden=true;});

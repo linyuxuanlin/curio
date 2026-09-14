@@ -9,10 +9,13 @@
     "validate": "node scripts/build-content.mjs --check",
     "test": "node --test tests/*.test.mjs",
     "preview": "vite preview --host 127.0.0.1",
-    "test:ui": "node tests/browser.mjs && node tests/browser-scenarios.mjs && node tests/interaction.mjs"
+    "test:ui": "node tests/browser.mjs && node tests/browser-scenarios.mjs && node tests/interaction.mjs",
+    "test:images": "node tests/image-browser.mjs"
   },
   "devDependencies": {
     "playwright": "^1.63.0",
+    "sharp": "^0.35.4",
+    "undici": "^8.10.2",
     "vite": "^7.1.0"
   }
 }

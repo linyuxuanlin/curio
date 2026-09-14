@@ -1,6 +1,7 @@
 import {readdir,readFile,writeFile,mkdir,stat} from 'node:fs/promises';
 import {fileURLToPath} from 'node:url';
 import path from 'node:path';
+import {prepareImages} from './prepare-images.mjs';
 const root=fileURLToPath(new URL('../',import.meta.url));
 export const categories=['科技','AI','机器人','交通','工程','动物与自然','城市生活','设计','文化','考古','食品','环境','社会','天文/航天'];
 const assert=(ok,message)=>{if(!ok)throw Error(message);};
@@ -27,5 +28,5 @@ export function validateCard(c){
  return c;
 }
 export function validateCollection(cards){const ids=new Set(),keys=new Set();for(const c of cards){validateCard(c);assert(!ids.has(c.id),`重复 id: ${c.id}`);assert(!keys.has(c.eventKey),`重复事件: ${c.eventKey}`);ids.add(c.id);keys.add(c.eventKey);}return cards;}
-async function main(){const files=(await readdir(path.join(root,'content/cards'))).filter(f=>f.endsWith('.json'));const cards=[];for(const f of files){try{const c=JSON.parse(await readFile(path.join(root,'content/cards',f),'utf8'));validateCard(c);assert(f===c.id+'.json','文件名须与 id 一致');if(c.image?.src.startsWith('/media/'))assert((await stat(path.join(root,'public',c.image.src))).isFile(),'本地图片不存在');cards.push(c);}catch(e){throw Error(`${f}: ${e.message}`);}}validateCollection(cards);cards.sort((a,b)=>Date.parse(b.publishedAt)-Date.parse(a.publishedAt)||b.id.localeCompare(a.id));if(!process.argv.includes('--check')){await mkdir(path.join(root,'public'),{recursive:true});await writeFile(path.join(root,'public/feed.json'),JSON.stringify({version:1,updatedAt:cards[0]?.publishedAt??null,cards})+'\n');}console.log(`Validated ${cards.length} cards${process.argv.includes('--check')?'':' → public/feed.json'}`);}
+async function main(){const files=(await readdir(path.join(root,'content/cards'))).filter(f=>f.endsWith('.json'));const cards=[];for(const f of files){try{const c=JSON.parse(await readFile(path.join(root,'content/cards',f),'utf8'));validateCard(c);assert(f===c.id+'.json','文件名须与 id 一致');if(c.image?.src.startsWith('/media/'))assert((await stat(path.join(root,'public',c.image.src))).isFile(),'本地图片不存在');cards.push(c);}catch(e){throw Error(`${f}: ${e.message}`);}}validateCollection(cards);cards.sort((a,b)=>Date.parse(b.publishedAt)-Date.parse(a.publishedAt)||b.id.localeCompare(a.id));if(!process.argv.includes('--check')){await mkdir(path.join(root,'public'),{recursive:true});const prepared=await prepareImages(cards,path.join(root,'public'));await writeFile(path.join(root,'public/feed.json'),JSON.stringify({version:1,updatedAt:cards[0]?.publishedAt??null,cards:prepared})+'\n');}console.log(`Validated ${cards.length} cards${process.argv.includes('--check')?'':' → public/feed.json'}`);}
 if(process.argv[1]&&path.resolve(process.argv[1])===fileURLToPath(import.meta.url))main().catch(e=>{console.error(e.message);process.exitCode=1;});

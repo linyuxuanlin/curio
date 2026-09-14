@@ -43,6 +43,7 @@ npm run build
 # 浏览器回归（另一个终端先运行 npm run dev）
 npx playwright install chromium
 npm run test:ui
+npm run test:images
 ```
 
 ## 架构
@@ -72,3 +73,5 @@ npm run test:ui
 界面和项目代码由本仓库维护；第三方照片版权归各署名方。新闻素材仅用于相应事件报道，具体许可见各卡片 `image.licenseUrl` 与 [MEDIA.md](docs/MEDIA.md)，不视为可任意复用的图库。项目没有发信功能，也不调用 Gmail。
 
 产品要求与交付核对记录见 [PRODUCT_SPEC.md](docs/PRODUCT_SPEC.md)。
+
+图片在构建时转为本站 480/960 像素 WebP，并预加载下一张。慢图不会在超时后被移除，加载成功可自动恢复；失败可直接重试。
