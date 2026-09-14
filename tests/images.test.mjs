@@ -28,6 +28,11 @@ test('prepared local feed uses same-origin responsive images and keeps attributi
   await writeFile(path.join(root,'media/a.png'),await sharp({create:{width:30,height:20,channels:3,background:'#abc'}}).png().toBuffer());
   const card={id:'sample',image:{src:'/media/a.png',credit:'Author',sourceUrl:'https://example.org/source',license:'CC BY'}};
   const [result]=await prepareImages([card],root,{cacheOrigin:''});
-  assert.match(result.image.src,/^\/media\/optimized\/[a-f0-9]+-960.webp$/);assert.match(result.image.srcset,/480w, .*960w/);assert.equal(result.image.credit,'Author');assert.equal(card.image.src,'/media/a.png');
+  assert.match(result.image.src,/^\/media\/optimized\/[a-f0-9]+-960.webp$/);assert.equal(result.image.srcset,`${result.image.src} 30w`);assert.equal(result.image.credit,'Author');assert.equal(card.image.src,'/media/a.png');
  }finally{await rm(root,{recursive:true,force:true});}
+});
+
+test('portrait variants advertise their actual width, not the longest edge',async()=>{
+ const input=await sharp({create:{width:1200,height:1800,channels:3,background:'#abc'}}).png().toBuffer();
+ const meta=await sharp(await optimizeImage(input,960)).metadata();assert.equal(meta.width,640);assert.equal(meta.height,960);
 });

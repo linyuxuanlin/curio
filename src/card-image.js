@@ -13,7 +13,7 @@ export function createCardImage(image,index) {
  const start=()=>{
   clearTimeout(timer);status.hidden=false;status.classList.remove('image-error');message.textContent='正在加载图片…';retry.hidden=true;
   img.sizes='(max-width: 600px) 90vw, 480px';
-  if(typeof image.srcset==='string'&&/^\/media\/optimized\/[a-f0-9]+-480\.webp 480w, \/media\/optimized\/[a-f0-9]+-960\.webp 960w$/.test(image.srcset))img.srcset=image.srcset;
+  if(typeof image.srcset==='string'&&/^\/media\/optimized\/[a-f0-9]+-(?:480|960)\.webp [1-9][0-9]{0,3}w(?:, \/media\/optimized\/[a-f0-9]+-960\.webp [1-9][0-9]{0,3}w)?$/.test(image.srcset))img.srcset=image.srcset;
   img.src=image.src;
   if(index<2)timer=setTimeout(slow,12000);
  };

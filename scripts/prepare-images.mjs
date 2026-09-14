@@ -53,7 +53,9 @@ export async function prepareImages(cards,publicDir,{cacheOrigin=process.env.CUR
    for(let i=0;i<2;i++)await writeFile(files[i],await optimizeImage(bytes,[480,960][i]));
   }
   const sizes=await Promise.all(files.map(async f=>(await readFile(f)).length));totalBytes+=sizes[1];
-  output[index]={...card,image:{...card.image,src:paths[1],srcset:`${paths[0]} 480w, ${paths[1]} 960w`}};
+  const dimensions=await Promise.all(files.map(f=>sharp(f).metadata()));
+  const srcset=dimensions[0].width===dimensions[1].width?`${paths[1]} ${dimensions[1].width}w`:`${paths[0]} ${dimensions[0].width}w, ${paths[1]} ${dimensions[1].width}w`;
+  output[index]={...card,image:{...card.image,src:paths[1],srcset}};
   console.log(`Image ${index+1}/${cards.length}: ${card.id} (${Math.round(sizes[1]/1024)} KB)`);
  }}
  await Promise.all(Array.from({length:3},worker));
