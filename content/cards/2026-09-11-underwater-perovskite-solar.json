@@ -1,0 +1,42 @@
+{
+  "id": "2026-09-11-underwater-perovskite-solar",
+  "eventKey": "joule-submerged-wide-bandgap-perovskite-solar-2026",
+  "category": "科技",
+  "title": "太阳能电池潜到10米海下\n还能给电池充电",
+  "summary": "云南大学团队把宽带隙钙钛矿太阳能电池带到南海10米深处，2小时收集324毫瓦时电能。",
+  "eventDate": "2026-09-11T12:00:00Z",
+  "location": "中国 · 南海涠洲岛附近",
+  "body": [
+    "海水会过滤红外和红光，团队因此把电池调到更适合水下蓝至橙光的宽带隙，并做成较大面积模块。",
+    "模块还装上水下机器人实测；这项工作把此前约2米以内的水下光伏验证推进到了10米。"
+  ],
+  "sources": [
+    {
+      "name": "Cell Press / EurekAlert · Underwater solar cells at 10 meters",
+      "url": "https://www.eurekalert.org/news-releases/1142532"
+    },
+    {
+      "name": "pv magazine · Perovskite solar functions 10 meters below sea surface",
+      "url": "https://www.pv-magazine.com/2026/09/14/researchers-find-perovskite-solar-functions-10-meters-below-sea-surface/"
+    },
+    {
+      "name": "Ocean News · Perovskite solar cells proven at 10-meter depth",
+      "url": "https://oceannews.com/news/science-technology/perovskite-solar-cells-proven-to-power-underwater-robots-at-10-meter-depth/"
+    }
+  ],
+  "theme": "blue",
+  "publishedAt": "2026-09-15T01:10:43+08:00",
+  "verifiedAt": "2026-09-15T01:10:43+08:00",
+  "image": {
+    "src": "https://www.eurekalert.org/multimedia/1142532",
+    "alt": "云南大学团队的水下钙钛矿太阳能应用示意图",
+    "credit": "Simin Ma / Yunnan University",
+    "sourceUrl": "https://www.eurekalert.org/news-releases/1142532",
+    "license": "Cell Press 新闻稿随附研究图片；署名 Simin Ma, Yunnan University",
+    "licenseUrl": "https://www.eurekalert.org/news-releases/1142532",
+    "kind": "original",
+    "layout": "poster"
+  },
+  "archive": true,
+  "verificationNotes": "按用户本轮明确要求只新增1张卡片，覆盖仓库文档中每轮5张的旧数量规则。已读取 README.md、docs/HOURLY_PROMPT.md、docs/CONTENT_FORMAT.md、docs/PUBLISHING.md，并检查近期目录及整库关键词，未发现同一水下钙钛矿光伏事件。最近一张为AI，本轮轮换到科技；最近6期无新增天文/航天。候选优先检索最近24–72小时；本研究由 Cell Press 于9月11日发布，至本轮略超过72小时，因此作为扩展候选并标 archive=true。Cell Press/EurekAlert 新闻稿核实：团队在南海10米深处实测水下太阳能电池，两小时产生324 mWh，并集成到水下机器人；pv magazine 与 Ocean News 于9月14日的独立报道交叉核对了10米深度、324 mWh、宽带隙钙钛矿及南海实测。来源只给论文发布日期，eventDate 按日期精度记当天12:00 UTC。图片采用 Cell Press 新闻稿随附、署名 Simin Ma / Yunnan University 的研究示意图；不声称为现场照片。当前 GitHub 写入工具只能直接创建 UTF-8 文本文件，无法把二进制图片原子上传到 public/media，因此引用研究新闻稿中的原图地址；最终以仓库 Action 的图片/构建校验为准。"
+}
