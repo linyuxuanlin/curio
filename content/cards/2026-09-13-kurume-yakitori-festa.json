@@ -1,0 +1,42 @@
+{
+  "id": "2026-09-13-kurume-yakitori-festa",
+  "eventKey": "kurume-yakitori-nihonichi-festa-2026",
+  "category": "食品",
+  "title": "一座公园同时开烤\n12家烧鸟名店",
+  "summary": "9月12日至13日，福冈久留米把10家本地烧鸟名店和2家客店搬进东町公园，还让小学生体验亲手烤串。",
+  "eventDate": "2026-09-12T10:45:00+09:00",
+  "location": "日本 · 福冈县 · 久留米市东町公园",
+  "body": [
+    "这是第24届“久留米烧鸟日本一嘉年华”。除了鸡皮和猪五花，久留米常见的白内脏串“ダルム”也会出现在摊位上。",
+    "两天共有12家烧鸟店参加，现场还集合久留米拉面等本地吃食；儿童烤串体验每天限额50人。"
+  ],
+  "sources": [
+    {
+      "name": "久留米市官方观光网站 · 第24回 久留米焼きとり日本一フェスタ",
+      "url": "https://welcome-kurume.com/events/detail/67027762-be8e-44a1-ad42-d1524c42a56e"
+    },
+    {
+      "name": "福冈县官方观光网站 · 久留米焼きとり日本一フェスタ",
+      "url": "https://www.crossroadfukuoka.jp/event/13324"
+    },
+    {
+      "name": "九州朝日放送 KBC · 第24回 久留米焼きとり日本一フェスタ",
+      "url": "https://cdn.kbc.co.jp/wish/article/47265/"
+    }
+  ],
+  "theme": "gold",
+  "publishedAt": "2026-09-14T20:18:00+08:00",
+  "verifiedAt": "2026-09-14T20:18:00+08:00",
+  "image": {
+    "src": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Yakitori_001.jpg",
+    "alt": "一盘烤至焦香的葱鸡肉串，作为日本烧鸟代表图；并非2026年久留米活动现场",
+    "credit": "Ocdp / Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Yakitori_001.jpg",
+    "license": "CC0 1.0；烧鸟代表图，并非2026年久留米活动现场",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "kind": "original",
+    "layout": "photo"
+  },
+  "archive": false,
+  "verificationNotes": "按用户本轮明确要求只新增1张卡片，覆盖仓库文档中每轮5张的旧数量规则。已读取 README.md、docs/HOURLY_PROMPT.md、docs/CONTENT_FORMAT.md、docs/PUBLISHING.md，并检查近期 content/cards 与整库关键词；未发现久留米烧鸟日本一嘉年华同一事件。最近一张为动物与自然类，本轮轮换到食品类；最近6期未新增天文/航天。久留米市官方观光网站与福冈县官方观光网站均确认第24届活动于2026年9月12日至13日在东町公园举行，12日10:45开幕、13日16:00结束；KBC独立报道核实10家久留米名店加2家客店共12家、以及小学生烧鸟体验。KBC还提到久留米特色ダルム等串品。eventDate采用官方明确的开幕时间2026-09-12 10:45 JST，仍在本轮优先的24–72小时范围内。配图来自Wikimedia Commons，文件页确认作者Ocdp并以CC0 1.0放弃版权；图片仅作烧鸟代表图，alt和license明确注明并非2026年久留米现场。本地容器具备命令执行能力，实际尝试git clone并准备运行npm校验链，但clone因无法解析github.com失败，因此未伪装执行npm run validate、npm test、npm run build；后续以该提交触发的GitHub Actions实际结果为准。"
+}
