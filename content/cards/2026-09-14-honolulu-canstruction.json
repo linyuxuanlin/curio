@@ -28,15 +28,15 @@
   "publishedAt": "2026-09-14T18:09:52+08:00",
   "verifiedAt": "2026-09-14T18:09:52+08:00",
   "image": {
-    "src": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Mushroom_structure.jpg",
-    "alt": "2010年纽约 Canstruction 活动中用罐头搭成的蘑菇造型结构，作为 Canstruction 活动形式代表图；并非2026年檀香山作品或现场",
+    "src": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Canstruction_and_disney.JPG",
+    "alt": "2010年一件用食品罐头搭成的大型 Canstruction 结构，作为该类活动形式代表图；并非2026年檀香山作品或现场",
     "credit": "Chakshu101 / Wikimedia Commons",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mushroom_structure.jpg",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Canstruction_and_disney.JPG",
     "license": "CC BY-SA 3.0；历史 Canstruction 代表图，并非2026年檀香山现场",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
     "kind": "original",
     "layout": "photo"
   },
   "archive": false,
-  "verificationNotes": "按用户本轮明确要求只新增1张卡片，覆盖仓库文档中每轮5张的旧数量规则。已读取 README.md、docs/HOURLY_PROMPT.md、docs/CONTENT_FORMAT.md、docs/PUBLISHING.md，并列出近期 content/cards；整库搜索 Canstruction 未发现同一事件，最近内容已覆盖交通、科技、社会、AI、自然等，本轮轮换到设计。AIA Honolulu 官方主页与 Hawaiʻi Public Radio 独立活动页均确认专业团队 Build Day 为2026年9月12日09:00–14:00 HST，8支团队参赛；AIA官方页还确认主题为 CANtennial: Design of the Decades，结构使用约1,500至13,000个罐头，展后食品捐给 Hawaiʻi Foodbank。公开展示与 People's Choice 投票安排在9月14日至18日；HONOLULU Magazine 独立核实公开展示时段、罐头作品和投票。AIA另一活动子页把Build Day误列为9月14日，与官方主页、HPR及Foodbank信息冲突，因此不用该单页时间，eventDate采用两源一致且已发生的9月12日09:00 HST。配图来自Wikimedia Commons，文件页确认是2010年纽约 Canstruction 作品、作者Chakshu101、CC BY-SA 3.0；alt和license明确注明并非2026年檀香山现场。当前容器虽有本地命令执行能力，但 git clone 实际失败，错误为无法解析 github.com，因此没有伪装运行 npm run validate、npm test、npm run build；以GitHub Actions实际校验为准。"
+  "verificationNotes": "按用户本轮明确要求只新增1张卡片，覆盖仓库文档中每轮5张的旧数量规则。已读取 README.md、docs/HOURLY_PROMPT.md、docs/CONTENT_FORMAT.md、docs/PUBLISHING.md，并列出近期 content/cards；整库搜索 Canstruction 未发现同一事件，最近内容已覆盖交通、科技、社会、AI、自然等，本轮轮换到设计。AIA Honolulu 官方主页与 Hawaiʻi Public Radio 独立活动页均确认专业团队 Build Day 为2026年9月12日09:00–14:00 HST，8支团队参赛；AIA官方页还确认主题为 CANtennial: Design of the Decades，结构使用约1,500至13,000个罐头，展后食品捐给 Hawaiʻi Foodbank。公开展示与 People's Choice 投票安排在9月14日至18日；HONOLULU Magazine 独立核实公开展示时段、罐头作品和投票。AIA另一活动子页把Build Day误列为9月14日，与官方主页、HPR及Foodbank信息冲突，因此不用该单页时间，eventDate采用两源一致且已发生的9月12日09:00 HST。配图来自Wikimedia Commons的2010年Canstruction实拍，文件页确认作者Chakshu101并以CC BY-SA 3.0许可；alt和license明确注明并非2026年檀香山现场。前一版误填了不存在的Commons文件名导致构建图片抓取404，本次改为已实际核对存在的 File:Canstruction and disney.JPG。当前容器虽有本地命令执行能力，但 git clone 实际失败，错误为无法解析 github.com，因此没有伪装运行 npm run validate、npm test、npm run build；以GitHub Actions实际校验为准。"
 }
