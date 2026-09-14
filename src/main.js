@@ -1,3 +1,4 @@
+import {createAds} from './ads.js';
 import './style.css';
 import {createCardImage} from './card-image.js';
 import {setupNotifications} from './notifications.js';
@@ -14,6 +15,7 @@ const installButton = document.querySelector('.install-app');
 let storage;
 try { storage = window.localStorage; } catch { storage = {getItem:()=>null,setItem:()=>{throw Error('Storage unavailable');}}; }
 const notifications=setupNotifications(document.querySelector('.notification-button'),document.querySelector('.notification-status'),storage);
+const ads=createAds();
 const reduced = matchMedia('(prefers-reduced-motion: reduce)').matches;
 let all = [], queue = [], read = readMap(storage, READ_KEY), recent = readMap(storage, RECENT_KEY), session = new Set(), history = [], busy = false, refreshing = false, initialized = false, syncPending = false;
 
@@ -54,12 +56,13 @@ function createCard(c, index) {
  const pager=el('nav','pager'); pager.setAttribute('aria-label','详情分页');
  const prev=el('button','','上一页'), pageLabel=el('span'), nextPage=el('button','','下一页');
  pager.append(prev,pageLabel,nextPage); back.append(backBody,pager);
- card.paginate = () => paginate(backBody, prev, nextPage, pageLabel);
+ card.paginate = () => { paginate(backBody, prev, nextPage, pageLabel); card.checkAd?.(); };
+ if (!index) card.checkAd=ads.attach(card,backBody,back,()=>!busy && queue[0]?.id===c.id);
 
  inner.append(front,back); card.append(inner);
  if (!index) { bindDrag(card); card.addEventListener('keydown',e=>{if(e.target===card && ['Enter',' '].includes(e.key)){e.preventDefault();if(!busy)toggleFlip(card);}}); }
  card.addEventListener('click', e => {
-  if (index || busy || e.target.closest('a,button,summary,details') || card.classList.contains('dragging') || card.suppressClick) return;
+  if (index || busy || e.target.closest('a,button,summary,details,.card-ad') || card.classList.contains('dragging') || card.suppressClick) return;
   toggleFlip(card);
  });
  return card;
@@ -129,7 +132,7 @@ function stopCardMotion(card) {
 function bindDrag(card) {
  let drag=null;
  const table=card.closest('.table');
- card.addEventListener('pointerdown',e=> { if(busy||!e.isPrimary||(e.pointerType==='mouse'&&e.button!==0)||e.target.closest('a,button,summary,details'))return; stopCardMotion(card); drag={x:e.clientX,y:e.clientY,t:e.timeStamp,lastX:e.clientX,lastY:e.clientY,lastT:e.timeStamp,v:0,dx:0,dy:0,locked:false}; });
+ card.addEventListener('pointerdown',e=> { if(busy||!e.isPrimary||(e.pointerType==='mouse'&&e.button!==0)||e.target.closest('a,button,summary,details,.card-ad'))return; stopCardMotion(card); drag={x:e.clientX,y:e.clientY,t:e.timeStamp,lastX:e.clientX,lastY:e.clientY,lastT:e.timeStamp,v:0,dx:0,dy:0,locked:false}; });
  card.addEventListener('pointermove',e=> { if(!drag||!e.isPrimary||busy)return; const dx=e.clientX-drag.x,dy=e.clientY-drag.y; if(!drag.locked){if(Math.max(Math.abs(dx),Math.abs(dy))<8)return;drag.locked=true;card.setPointerCapture(e.pointerId);card.classList.add('dragging');table?.classList.add('is-dragging');} e.preventDefault(); const dt=Math.max(1,e.timeStamp-drag.lastT);drag.v=Math.hypot(e.clientX-drag.lastX,e.clientY-drag.lastY)/dt;drag.lastX=e.clientX;drag.lastY=e.clientY;drag.lastT=e.timeStamp;drag.dx=dx;drag.dy=dy;drag.rotation=dx*.045-dy*.02;card.style.transform=`translate(${dx}px,${dy}px) rotate(${drag.rotation}deg)`; },{passive:false});
  const end=(e,cancel=false)=> { if(!drag)return; const d=drag;drag=null; if(d.locked){card.suppressClick=true;setTimeout(()=>card.suppressClick=false,0);}card.classList.remove('dragging');if(card.hasPointerCapture(e.pointerId))card.releasePointerCapture(e.pointerId);if(!cancel&&d.locked&&shouldDismiss(Math.hypot(d.dx,d.dy),e.timeStamp-d.lastT<100?d.v:0,card.offsetWidth)){dismiss(1,d.dx,d.dy,d.rotation);}else{table?.classList.remove('is-dragging');card.style.transition=reduced?'none':'transform 460ms cubic-bezier(.18,1.5,.35,1)';card.style.transform='';card.returnTimer=setTimeout(()=>card.style.transition='',470);} };
  card.addEventListener('pointerup',e=>end(e)); card.addEventListener('pointercancel',e=>end(e,true)); card.addEventListener('lostpointercapture',e=>{if(e.target===card)end(e,true);}); card.addEventListener('touchmove',e=>{if(drag?.locked)e.preventDefault();},{passive:false});
@@ -154,6 +157,7 @@ async function refresh(initial=false) {
 
 function toggleFlip(card) {
  const flipped=card.classList.toggle('is-flipped');
+ card.checkAd?.();
  const front=card.querySelector('.card-front'), back=card.querySelector('.card-back');
  front.inert=flipped; back.inert=!flipped;
  front.setAttribute('aria-hidden',String(flipped));back.setAttribute('aria-hidden',String(!flipped));
@@ -179,7 +183,7 @@ function paginate(body, prev, next, label) {
    nodes.push(node);
   }
  }
- finish();let page=0;
+ finish();body.dataset.pages=String(pages.length||1);let page=0;
  const show=()=>{body.replaceChildren(...(pages[page]||[]));label.textContent=`${page+1} / ${pages.length||1}`;prev.disabled=page===0;next.disabled=page>=pages.length-1;};
  prev.onclick=()=>{page--;show();};next.onclick=()=>{page++;show();};show();
 }

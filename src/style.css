@@ -137,3 +137,7 @@ dialog a { font-size: 14px; }
 .image-status { position: absolute; inset: 0; display: flex; flex-direction: column; justify-content: center; align-items: center; gap: 10px; padding: 20px; background: #e7e6de; color: #696e5f; text-align: center; font-size: 12px; }
 .image-status p { margin: 0; line-height: 1.6; }
 .image-status button { border: 1px solid #b7bda5; border-radius: 999px; padding: 8px 14px; background: #f7f4eb; font-size: 12px; }
+
+.card-ad{position:absolute;left:50%;transform:translateX(-50%);width:300px;height:274px;box-sizing:border-box;cursor:default;user-select:text;touch-action:auto;overflow:hidden}
+.card-ad>span{display:block;height:24px;font-size:10px;line-height:18px;color:#85877c;text-align:center}
+.card-ad .adsbygoogle[data-ad-status="unfilled"]{visibility:hidden}
