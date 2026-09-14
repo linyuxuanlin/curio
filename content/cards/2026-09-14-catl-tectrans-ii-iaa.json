@@ -1,0 +1,42 @@
+{
+  "id": "2026-09-14-catl-tectrans-ii-iaa",
+  "eventKey": "catl-tectrans-ii-iaa-2026",
+  "category": "交通",
+  "title": "一套电池平台想让电动卡车\n最长跑到1000公里",
+  "summary": "宁德时代在汉诺威 IAA 发布 TECTRANS II 商用车平台，用标准化电池包适配不同载荷、续航和补能方式。",
+  "eventDate": "2026-09-14T12:00:00Z",
+  "location": "德国 · 汉诺威 IAA Transportation",
+  "body": [
+    "宁德时代称，最高配置续航可达1000公里，并可在25分钟充至80%；平台同时支持充电与换电。",
+    "它还统一外形、电气接口和通信协议，目标是让未来电池升级时，不必大改整车平台。"
+  ],
+  "sources": [
+    {
+      "name": "CATL / PR Newswire · TECTRANS II launch",
+      "url": "https://www.prnewswire.com/news-releases/catl-launches-tectrans-ii-at-iaa-transportation-2026-to-accelerate-global-commercial-vehicle-electrification-302877799.html"
+    },
+    {
+      "name": "IAA Transportation · 2026 event information",
+      "url": "https://www.iaa-transportation.com/"
+    },
+    {
+      "name": "卡车之家 · 宁德时代商用车电动化方案现场报道",
+      "url": "https://www.360che.com/news/260914/206134.html"
+    }
+  ],
+  "theme": "blue",
+  "publishedAt": "2026-09-15T03:12:42+08:00",
+  "verifiedAt": "2026-09-15T03:12:42+08:00",
+  "image": {
+    "src": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Tevva%207.5T%20electric%20truck.jpg",
+    "alt": "一辆 Tevva 7.5 吨纯电卡车；仅作电动商用车代表图，并非宁德时代 TECTRANS II 展车",
+    "credit": "Spielvogel / Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tevva_7.5T_electric_truck.jpg",
+    "license": "CC BY-SA 4.0；代表图，非本次发布现场或搭载 TECTRANS II 的车辆",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "kind": "original",
+    "layout": "photo"
+  },
+  "archive": false,
+  "verificationNotes": "按用户本轮明确要求只新增1张卡片，覆盖仓库文档中每轮5张的旧数量规则。已读取 README.md、docs/HOURLY_PROMPT.md、docs/CONTENT_FORMAT.md、docs/PUBLISHING.md，并检查近期提交与整库关键词；搜索 TECTRANS 未发现同一事件。上一张为机器人，本轮轮换到交通；最近6期无新增天文/航天。PR Newswire 上的宁德时代发布稿确认：9月14日 IAA Transportation 媒体日在汉诺威发布 TECTRANS II 商用车平台；标准化电池包可按场景组合，最高配置宣称续航1000公里、25分钟充至80%，并支持充电与换电。IAA 官方确认2026展会在汉诺威举行，9月14日为媒体日；卡车之家当日现场报道交叉确认宁德时代在媒体日展示商用车电动化方案。续航和充电数字属于厂商规格声明，不表述为独立实测。来源没有统一给出发布会精确时刻，因此 eventDate 按日期精度记当天12:00 UTC。没有找到明确允许复用的本次发布原图，故使用 Spielvogel 拍摄、CC BY-SA 4.0 授权的 Tevva 纯电卡车实拍作为电动商用车代表图，并在 alt 与 license 中明确并非本次现场或 TECTRANS II 搭载车辆。本地容器实际尝试 clone 仓库以执行 npm run validate、npm test、npm run build，但 DNS 无法解析 github.com，故未伪装执行本地校验，后续以本提交触发的 GitHub Actions 为准。"
+}
