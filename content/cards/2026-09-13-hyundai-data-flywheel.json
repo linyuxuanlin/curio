@@ -1,0 +1,43 @@
+{
+  "id": "2026-09-13-hyundai-data-flywheel",
+  "eventKey": "hyundai-data-flywheel-full-operation-2026-09-13",
+  "category": "AI",
+  "title": "现代把自动驾驶训练\n做成一只“数据飞轮”",
+  "summary": "现代汽车集团宣布自动驾驶 Data Flywheel 已全面运行：道路数据进训练和验证，再把改进后的模型部署回车辆，继续收集更难的真实场景。",
+  "eventDate": "2026-09-13T12:00:00Z",
+  "location": "韩国 · 京畿道 · 城南",
+  "body": [
+    "这套系统的重点不是单次训练一个模型，而是缩短“发现问题—训练—验证—重新上车”的循环。现代称目前约有40辆专用数据采集车持续采集施工区、恶劣天气、突然变道、狭窄道路等边缘场景，还会把真实道路数据重建成3D环境反复测试。",
+    "为了让研发几乎不停转，韩国和美国团队采用跨时区的 Follow-the-Sun 开发方式：一边完成采集和问题分析，另一边接手模型改进。集团同时计划把特殊事件记录器接入这条数据链，让自动驾驶遇到的重要异常场景更容易被自动保存并回流训练。",
+    "路线图仍然分两条走：短期借助 NVIDIA 平台推进2028年的 Level 2+ / Level 2++量产，长期继续开发自有的 Atria AI，目标是在2029年下半年进入自有 Level 2++ 车型。Reuters 的报道也指出，自研方案相比原目标有所延后，因此这套“数据飞轮”更像是在补齐自动驾驶软件迭代速度。"
+  ],
+  "sources": [
+    {
+      "name": "Hyundai Motor Group",
+      "url": "https://org.hyundai.com/worldwide/en/newsroom/detail/0000001273"
+    },
+    {
+      "name": "Reuters",
+      "url": "https://www.reuters.com/business/autos-transportation/hyundai-motor-roll-out-in-house-driver-assist-system-2029-2026-09-13/"
+    },
+    {
+      "name": "The Korea Times",
+      "url": "https://www.koreatimes.co.kr/business/companies/20260913/hyundai-motor-group-targets-hands-free-urban-driving-by-2029"
+    }
+  ],
+  "theme": "blue",
+  "publishedAt": "2026-09-14T10:12:02+08:00",
+  "verifiedAt": "2026-09-14T10:12:02+08:00",
+  "image": {
+    "src": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Hyundai%20IONIQ%205%20NE1%20RoboTaxi%20%281%29.jpg",
+    "alt": "Hyundai IONIQ 5 自动驾驶测试车辆实拍代表图；并非2026年9月13日媒体日现场，也不是本次约40辆专用数据采集车之一的确认照片",
+    "credit": "Damian B Oh / Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hyundai_IONIQ_5_NE1_RoboTaxi_(1).jpg",
+    "license": "CC BY-SA 4.0；2024年自动驾驶测试车辆实拍代表图，非2026年9月13日媒体日现场",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "kind": "original",
+    "layout": "photo"
+  },
+  "archive": false,
+  "verificationNotes": "本轮先读取 README.md、docs/HOURLY_PROMPT.md、docs/CONTENT_FORMAT.md、docs/PUBLISHING.md，并检查近期卡片与整库关键词。刚入库的 Hallstatt 卡片属于考古，之前依次有工程、食品、环境、社会、文化等，本轮轮换到 AI；最近6期未见天文/航天。整库搜索 Hyundai / Data Flywheel / Atria / NVIDIA 未发现同一事件。现代汽车集团2026年9月13日官方稿确认 Data Flywheel 已全面运行，约40辆专用数据采集车持续采集真实道路数据，系统覆盖数据采集、AI训练、验证、部署回车端，并使用3D Gaussian Splatting重建难以安全复现的场景；韩国与美国团队采用 Follow-the-Sun 模式，SER将逐步接入。Reuters 独立报道核对了2028年使用 NVIDIA 平台推进 Level 2+ / 2++、自有驾驶辅助软件延至2029年，以及这一路线调整的背景；The Korea Times 同日独立报道再次核对量产时间表和媒体日信息。eventDate 采用官方新闻稿日期，来源只精确到日期，因此按内容规范记为当天12:00 UTC。配图采用 Wikimedia Commons 上 Damian B Oh 于2024年拍摄的 Hyundai IONIQ 5 RoboTaxi 自动驾驶测试车辆实照，文件页明确为作者自有作品并采用 CC BY-SA 4.0；为避免误导，alt 和 license 明确说明它不是本次媒体日现场，也没有把它声称为官方所说的约40辆数据采集车之一。当前环境只有 GitHub 写入工具，没有本地仓库工作区，因此未伪装运行 npm run validate、npm test、npm run build；发布后以该提交触发的 GitHub Actions 实际结果为准。用户本轮明确要求每次只新增1张，覆盖仓库文档中旧的每轮5张规则。"
+}
