@@ -1,0 +1,42 @@
+{
+  "id": "2026-09-14-auckland-global-walk",
+  "eventKey": "cvu-2026-auckland-global-walking-tour",
+  "category": "城市生活",
+  "title": "建筑师沿海港走一圈\n专看高楼怎么落到街上",
+  "summary": "9月14日下午，奥克兰一场建筑步行沿 Wynyard Quarter 展开，不看天际线打卡，专门观察住宅、广场、步道和街道怎样接在一起。",
+  "eventDate": "2026-09-14T15:30:00+12:00",
+  "location": "新西兰 · 奥克兰 · Wynyard Quarter",
+  "body": [
+    "路线从132 Halsey Street出发，经过 Wynyard Central、30 Madden Street、Orams Marine 与 Wynyard Point。",
+    "今年全球步行主题是“居住空间”，关注高层住宅如何在地面层支持步行、公共空间和邻里生活，而不只是看楼有多高。"
+  ],
+  "sources": [
+    {
+      "name": "Council on Vertical Urbanism · Auckland Global Walking Tour 2026",
+      "url": "https://verticalurbanism.org/event/cvu-global-walking-tour-2026-auckland/"
+    },
+    {
+      "name": "Athfield Architects · 132 Halsey",
+      "url": "https://athfieldarchitects.co.nz/projects/residential/132-halsey"
+    },
+    {
+      "name": "New Zealand Green Building Council · 132 Halsey Street",
+      "url": "https://nzgbc.org.nz/case-studies/132-halsey-street"
+    }
+  ],
+  "theme": "blue",
+  "publishedAt": "2026-09-14T21:15:55+08:00",
+  "verifiedAt": "2026-09-14T21:15:55+08:00",
+  "image": {
+    "src": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Wynyard_Quarter_Auckland_03.jpg",
+    "alt": "2024年拍摄的奥克兰 Wynyard Quarter 城市街区实景，作为本次建筑步行所在片区代表图；并非2026年9月14日活动现场",
+    "credit": "Jigglypudding / Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Wynyard_Quarter_Auckland_03.jpg",
+    "license": "CC BY 4.0；片区代表图，并非2026年9月14日活动现场",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "kind": "original",
+    "layout": "photo"
+  },
+  "archive": false,
+  "verificationNotes": "按用户本轮明确要求只新增1张卡片，覆盖仓库文档中每轮5张的旧数量规则。已读取 README.md、docs/HOURLY_PROMPT.md、docs/CONTENT_FORMAT.md、docs/PUBLISHING.md，列出 content/cards 整棵目录并检查近期至少20期文件名与主题；整库搜索 Wynyard、Auckland、Halsey、Global Walking 未发现同一事件。最近几轮依次出现食品、动物与自然、设计、交通、科技、社会等，本轮轮换到城市生活；最近6期未新增天文/航天。Council on Vertical Urbanism 官方活动页确认奥克兰站于2026年9月14日15:30从132 Halsey St出发，由Architectus的Severin Soder带队，路线包括Wynyard Central、30 Madden Street、Orams Marine Development和Te Ara Tukutuku Wynyard Point；CVU全球总页进一步说明2026主题为高层居住与街道、广场及公共空间的关系。Athfield Architects与New Zealand Green Building Council分别核实起点132 Halsey位于Wynyard Quarter、包含公共广场与步行联系，并有7–8 Homestar评级，用于交叉核对地点与建筑背景。eventDate采用官方明确的当地开始时间15:30；新西兰当日仍为NZST UTC+12，本轮核查时活动已结束。配图来自Wikimedia Commons，文件页确认作者Jigglypudding、拍摄于2024年9月21日并以CC BY 4.0授权；仅作Wynyard Quarter片区代表图，alt与license明确注明并非本次活动现场。当前容器具备命令执行能力，实际尝试git clone后准备运行npm校验链，但clone因无法解析github.com失败，因此未伪装执行npm run validate、npm test、npm run build；后续以该提交触发的GitHub Actions实际结果为准。"
+}
