@@ -1,0 +1,43 @@
+{
+  "id": "2026-09-03-sysma-viking-silver-hoard",
+  "eventKey": "sysma-finland-largest-late-iron-age-coin-hoard-2026-09-03",
+  "category": "考古",
+  "title": "芬兰最大维京时代银币窖藏\n装在两只白桦树皮容器里",
+  "summary": "金属探测爱好者在芬兰 Sysmä 找到约4.5公斤银币与银器；两批宝藏相距约12米，竟都保留了白桦树皮容器痕迹。",
+  "eventDate": "2026-09-03T12:00:00Z",
+  "location": "芬兰 · Päijät-Häme · Sysmä",
+  "body": [
+    "Kalle Lappinen 在9月3日用金属探测器发现第一批银币，第二天由 Lahti Museums 考古学家 Esko Tikkala 带队回收。博物馆称，这是芬兰目前已知规模最大的晚期铁器时代银币窖藏。",
+    "银币和银器被分装在两只白桦树皮容器中，埋在石块之间约45厘米深处，两处相距约12米。除了数千枚尚未清理和计数的银币，还发现碎银、银手镯、银饰件和银珠。",
+    "目前约4.5公斤只是初步重量，精确币数、年代和组成仍要等清理研究后才能确定。此前芬兰最大的同类窖藏是1895年在 Nousiainen 发现的一批，约1700枚硬币及其他物件，总重约2.2公斤。"
+  ],
+  "sources": [
+    {
+      "name": "Lahti Museums / ePressi",
+      "url": "https://www.epressi.com/tiedotteet/kulttuuri-ja-taide/largest-viking-age-silver-coin-hoard-ever-found-in-finland-discovered-in-sysma.html"
+    },
+    {
+      "name": "Yle News",
+      "url": "https://yle.fi/a/74-20244974"
+    },
+    {
+      "name": "Live Science",
+      "url": "https://www.livescience.com/archaeology/vikings/finlands-largest-viking-age-silver-hoard-discovered-by-metal-detectorist-and-it-has-thousands-of-coins-and-pieces-of-jewelry"
+    }
+  ],
+  "theme": "gold",
+  "publishedAt": "2026-09-14T11:10:55+08:00",
+  "verifiedAt": "2026-09-14T11:10:55+08:00",
+  "image": {
+    "src": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Viking%20age%20coin%20hoard%20from%20Sysma%20-%206%20Islamic%2C%2015%20English%2C%20and%2076%20German%20coins%2C%20latest%20coin%20dates%20from%201006-1029%20-%20National%20Museum%20of%20Finland%20-%20DSC04150.JPG",
+    "alt": "芬兰国家博物馆收藏的另一批 Sysmä 维京时代银币窖藏实拍代表图；并非2026年9月新发现的窖藏",
+    "credit": "Daderot / Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Viking_age_coin_hoard_from_Sysma_-_6_Islamic,_15_English,_and_76_German_coins,_latest_coin_dates_from_1006-1029_-_National_Museum_of_Finland_-_DSC04150.JPG",
+    "license": "CC0 1.0；2012年拍摄的芬兰国家博物馆既有 Sysmä 维京时代银币窖藏，非2026年新发现实物",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "kind": "original",
+    "layout": "photo"
+  },
+  "archive": true,
+  "verificationNotes": "本轮按用户要求只新增1张，覆盖仓库文档中旧的每轮5张规则。先读取 README.md、docs/HOURLY_PROMPT.md、docs/CONTENT_FORMAT.md、docs/PUBLISHING.md，并检查近期提交；最近依次为 AI、工程、食品、环境、社会、文化等，本轮轮换到考古，最近6期没有天文/航天。整库搜索 Sysmä / Viking silver hoard 未发现同一事件。事件实际发现于2026年9月3日，已超过72小时；由于最近24–72小时内经核实且不重复、同时具有合格授权图片的候选不足，本轮扩大日期范围并标记 archive=true，绝不修改事件日期伪装新闻。Lahti Museums 9月9日官方新闻稿确认发现日、约4.5公斤、数千枚银币、两只白桦树皮容器、约45厘米埋深和约12米间距；Yle 独立报道核对发现经过、重量、容器与芬兰纪录；Live Science 再次核对主要事实并明确精确数量与年代仍待研究。eventDate 来源只精确到日期，按内容规范记当天12:00 UTC。新发现现场图由 Lahti Museums 提供但检索页未见明确可复用许可，因此没有直接引用；配图改用 Wikimedia Commons 上 Daderot 于2012年在芬兰国家博物馆拍摄的另一批 Sysmä 维京时代银币窖藏，文件页明确 CC0 1.0。alt 与 license 明确说明它不是2026年新发现实物，避免误导。当前环境只有 GitHub 写入工具，没有本地仓库工作区，因此未伪装运行 npm run validate、npm test、npm run build；提交后以该提交触发的 GitHub Actions 实际结果为准。"
+}
