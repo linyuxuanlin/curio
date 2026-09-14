@@ -1,0 +1,43 @@
+{
+  "id": "2026-09-14-bronx-public-address-signs",
+  "eventKey": "alex-strada-public-address-bronx-joyce-kilmer-park-2026-09-14",
+  "category": "社会",
+  "title": "收容所里的手写留言\n被做成了城市路牌",
+  "summary": "纽约布朗克斯把收容所居民和一线工作人员的手写文字印上城市交通标牌，并把这些“公共留言”放进公园和各社区街头。",
+  "eventDate": "2026-09-14T12:00:00Z",
+  "location": "美国 · 纽约市 · 布朗克斯",
+  "body": [
+    "艺术家 Alex Strada 多年来在纽约收容所组织“日志写作”工作坊，把原本用于内部记录的文字和绘画转化成公开表达。内容涉及住房不稳定、迁徙、照护和在收容系统中的日常经验。",
+    "9月14日起，项目 Public Address 的布朗克斯版本在 Joyce Kilmer Park 设置大型标牌，同时在布朗克斯每个社区委员会辖区布置小型标牌。它们由纽约市交通局标牌工坊制作，外观沿用熟悉的市政路牌语言，但承载的是通常不会出现在城市基础设施上的个人声音。",
+    "项目此前已在曼哈顿和布鲁克林展出，之后还将继续巡回纽约其他行政区。这里有意思的不只是把文字做成艺术，而是把一种原本用于指挥交通的公共介面，临时改造成让城市居民彼此看见的留言板。"
+  ],
+  "sources": [
+    {
+      "name": "The Bronx Museum",
+      "url": "https://bronxmuseum.org/exhibition/public-address/"
+    },
+    {
+      "name": "NYC Department of Cultural Affairs",
+      "url": "https://www.nyc.gov/site/dcla/about/pressrelease/PR-2026-3-31-Public-Address-by-Artist-Alex-Strada-Moves-from-Manhattan-to-Brooklyn-as-Part-of-a-Citywide-Project.page"
+    },
+    {
+      "name": "Storefront for Art and Architecture",
+      "url": "https://storefront.nyc/program/public-address-by-alex-strada/"
+    }
+  ],
+  "theme": "clay",
+  "publishedAt": "2026-09-14T14:26:00+08:00",
+  "verifiedAt": "2026-09-14T14:26:00+08:00",
+  "image": {
+    "src": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Wall-Street-Sign-New-York.jpg",
+    "alt": "纽约街头交通路牌实拍代表图；并非 Public Address 项目现场或项目作品",
+    "credit": "Acediscovery / Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Wall-Street-Sign-New-York.jpg",
+    "license": "CC BY 4.0；纽约城市路牌代表图，非2026年 Public Address 项目现场",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "kind": "original",
+    "layout": "photo"
+  },
+  "archive": false,
+  "verificationNotes": "本轮按用户最新明确要求只新增1张，覆盖仓库 README/PUBLISHING/HOURLY_PROMPT 中旧的每轮5张规则。已读取 README.md、docs/HOURLY_PROMPT.md、docs/CONTENT_FORMAT.md、docs/PUBLISHING.md，并检查近期卡片；上一轮为设计类，本轮轮换到社会类。整库搜索 Public Address / Alex Strada 未发现同一事件。The Bronx Museum 官方页面明确确认布朗克斯版本自2026年9月14日起在 Joyce Kilmer Park 展出大型标牌，并在布朗克斯每个 community board district 设置小型标牌；NYC Department of Cultural Affairs 的官方项目资料核实该项目源于 Strada 在纽约收容所持续开展的日志写作工作坊，300余名收容所居民和工作人员参与，文字与绘画被印到由 NYC DOT Sign Shop 制作的再利用铝制街牌上；Storefront for Art and Architecture 进一步核实项目结构、制作单位与跨行政区巡回背景。Storefront 当前页面把 Bronx 下一站年份写成2027，与 Bronx Museum 2026年9月14日的最新具体项目页冲突，因此日期以 Bronx Museum 最新页面为准，并在卡片正文中不采用 Storefront 的冲突年份。来源仅提供布朗克斯版本开始日期、未给出当天具体开幕时刻，故 eventDate 按内容格式约定以当天12:00 UTC记录日期精度。图片未直接使用项目官方现场图，因为未找到明确可复用授权；改用 Wikimedia Commons 上 Acediscovery 拍摄的纽约街道路牌代表图，文件页明确授权 CC BY 4.0，并在 alt/license 明确注明并非项目现场或项目作品。当前容器有命令执行能力，已实际尝试 git clone 以运行 npm run validate、npm test、npm run build，但环境 DNS 无法解析 github.com，未取得本地工作区，因此没有伪装运行本地 npm；提交后以该提交触发的 GitHub Actions 实际校验、测试、构建和线上 feed 验证为准。"
+}
