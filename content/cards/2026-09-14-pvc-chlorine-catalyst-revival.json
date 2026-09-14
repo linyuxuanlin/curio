@@ -1,0 +1,38 @@
+{
+  "id": "2026-09-14-pvc-chlorine-catalyst-revival",
+  "eventKey": "doi-10-1038-s41467-026-77736-1",
+  "category": "环境",
+  "title": "被氯“毒倒”的回收催化剂\n室温就能洗活",
+  "summary": "苏州大学团队用硼氢化钠在室温下清除钌催化剂表面的氯，让被 PVC 混入物“毒坏”的催化剂恢复活性并可重复使用。",
+  "eventDate": "2026-09-14T12:00:00Z",
+  "location": "中国 · 苏州大学",
+  "body": [
+    "混合塑料里少量PVC分解出的氯会占住金属催化剂活性位点，让聚烯烃升级回收很快失效。",
+    "研究用NaBH₄重构催化剂表面，不靠高温再生；论文称处理后的钌催化剂耐氯性和循环使用能力都提高。"
+  ],
+  "sources": [
+    {
+      "name": "Nature Communications · PVC-contaminated plastic upcycling",
+      "url": "https://www.nature.com/articles/s41467-026-77736-1"
+    },
+    {
+      "name": "Nature Sustainability · chlorine-contaminated plastic background",
+      "url": "https://www.nature.com/articles/s41893-023-01147-z"
+    }
+  ],
+  "theme": "sage",
+  "publishedAt": "2026-09-15T05:08:18+08:00",
+  "verifiedAt": "2026-09-15T05:08:18+08:00",
+  "image": {
+    "src": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Zapfendorf%20Plastic%20Recycling-20180621-RM-114359.jpg",
+    "alt": "塑料回收设施中的塑料废料；仅作混合塑料回收代表图，并非本次苏州大学实验现场",
+    "credit": "reinhold moeller / Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Zapfendorf_Plastic_Recycling-20180621-RM-114359.jpg",
+    "license": "CC BY-SA 4.0；代表图，非本次实验现场",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "kind": "original",
+    "layout": "photo"
+  },
+  "archive": false,
+  "verificationNotes": "按用户本轮明确要求只新增1张卡片，覆盖仓库文档中每轮5张的旧数量规则。已读取 README.md、docs/HOURLY_PROMPT.md、docs/CONTENT_FORMAT.md、docs/PUBLISHING.md，并检查近期卡片及整库关键词；搜索 DOI 10.1038/s41467-026-77736-1、PVC、chlorine catalyst 未发现同一事件。最近内容覆盖文化、交通、机器人、AI、科技、工程、考古与城市生活，本轮轮换到环境；最近6期未发现天文/航天。Nature Communications 论文确认该研究于2026年9月14日在线发表：PVC 分解产生的氯会使金属催化剂失活，团队使用 NaBH4 在室温下去除表面氯并恢复钌催化剂活性，处理后在 PVC-聚烯烃混合物氢解中表现出更好的耐氯性与可循环性。2023年 Nature Sustainability 同行评议论文独立确认 PVC/含氯杂质会严重毒化用于聚烯烃升级回收的贵金属催化剂，为问题背景提供交叉核实；新方法的具体性能仍以2026年原始论文为准，不表述为第三方复现实验。论文页面只给出发表日期，eventDate 按日期精度记当天12:00 UTC。未找到明确允许直接复用且适合卡面展示的本次实验照片，因此使用 reinhold moeller 拍摄、CC BY-SA 4.0 授权的塑料回收设施实拍作为代表图，并明确不是本次实验现场。本地容器实际尝试 clone 仓库以运行 npm run validate、npm test、npm run build，但 DNS 无法解析 github.com，因此未伪装执行本地校验；后续以本提交触发的 GitHub Actions 为准。"
+}
