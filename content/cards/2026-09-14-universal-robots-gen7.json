@@ -27,7 +27,16 @@
   "theme": "gold",
   "publishedAt": "2026-09-15T02:11:46+08:00",
   "verifiedAt": "2026-09-15T02:11:46+08:00",
-  "image": null,
+  "image": {
+    "src": "https://commons.wikimedia.org/wiki/Special:Redirect/file/UR16e_robot_arm.png",
+    "alt": "Universal Robots 旧款 UR16e 协作机械臂、控制器和示教器；仅作品牌协作机器人代表图，并非 Gen 7",
+    "credit": "Auledas / Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:UR16e_robot_arm.png",
+    "license": "CC BY-SA 4.0；代表图，非 Gen 7 发布现场或本代产品",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "kind": "original",
+    "layout": "photo"
+  },
   "archive": false,
-  "verificationNotes": "按用户本轮明确要求只新增1张卡片，覆盖仓库文档中每轮5张的旧数量规则；并按用户明确允许的图片降级规则，在没有找到明确允许复用且可稳定抓取的本次发布原图时使用 image:null。已读取 README.md、docs/HOURLY_PROMPT.md、docs/CONTENT_FORMAT.md、docs/PUBLISHING.md，并检查近期卡片与整库关键词；整库搜索 Universal Robots Gen 7 未发现同一事件。上一张为科技，本轮轮换到机器人；最近6期无新增天文/航天。Universal Robots 经 Business Wire 发布的信息核实：Gen 7 于9月14日在芝加哥 IMTS 发布，包含 UR10g-1750、UR17g-1300、UR18g-950 三款新机械臂；g-Series 工具法兰直接提供数据、电源与安全连接，并内置力矩传感与实时数据接口；CB7 Core 控制器相较前代算力提升40%、体积缩小30%。Unite.AI 当日报道交叉核对了发布事件与平台定位；IMTS 官方日程确认 Universal Robots 在9月14日安排了发布会。来源未给出可作为事件发生时刻的统一精确时间，因此 eventDate 按日期精度记当天12:00 UTC。当前没有确认到明确允许复用的本次发布原图，且当前图像工具并未向本轮提供可核验为 GPT Image 2.5 的模型标识，因此不冒充生成模型，按用户规则设 image:null。本地容器实际尝试 clone 仓库以运行 npm run validate、npm test、npm run build，但 DNS 无法解析 github.com，故未伪装执行本地校验，后续以该提交触发的 GitHub Actions 为准。"
+  "verificationNotes": "按用户本轮明确要求只新增1张卡片，覆盖仓库文档中每轮5张的旧数量规则。已读取 README.md、docs/HOURLY_PROMPT.md、docs/CONTENT_FORMAT.md、docs/PUBLISHING.md，并检查近期卡片与整库关键词；整库搜索 Universal Robots Gen 7 未发现同一事件。上一张为科技，本轮轮换到机器人；最近6期无新增天文/航天。Universal Robots 经 Business Wire 发布的信息核实：Gen 7 于9月14日在芝加哥 IMTS 发布，包含 UR10g-1750、UR17g-1300、UR18g-950 三款新机械臂；g-Series 工具法兰直接提供数据、电源与安全连接，并内置力矩传感与实时数据接口；CB7 Core 控制器相较前代算力提升40%、体积缩小30%。Unite.AI 当日报道交叉核对了发布事件与平台定位；IMTS 官方日程确认 Universal Robots 在9月14日安排了发布会。来源未给出可作为事件发生时刻的统一精确时间，因此 eventDate 按日期精度记当天12:00 UTC。没有找到明确允许复用的本次发布原图；为满足仓库 validator 的强制图片要求，使用 Auledas 拍摄、CC BY-SA 4.0 授权的旧款 UR16e 实拍作为 Universal Robots 协作机器人代表图，并在 alt 与 license 明确标注并非 Gen 7 或本次发布现场。本地容器此前实际尝试 clone 仓库以运行 npm run validate、npm test、npm run build，但 DNS 无法解析 github.com，故未伪装执行本地校验，后续以该提交触发的 GitHub Actions 为准。"
 }
