@@ -1,0 +1,43 @@
+{
+  "id": "2026-09-13-volturara-quarantino-bean-festival",
+  "eventKey": "volturara-irpina-quarantino-bean-festival-2026",
+  "category": "食品",
+  "title": "意大利小镇给一种小白豆\n办了三天节",
+  "summary": "意大利南部 Volturara Irpina 9月11日至13日举办第14届 Quarantino 豆节，三座广场一起摆摊、做饭、听民乐，还带游客去看这颗豆子的产地。",
+  "eventDate": "2026-09-13T19:00:00+02:00",
+  "location": "意大利 · 坎帕尼亚 · Volturara Irpina",
+  "body": [
+    "Quarantino 是当地很有辨识度的一种白豆：颗粒小而不规则，表皮薄，传统上在高原冷凉多雨的环境里人工种植。Slow Food 把它列为 Presidio，生产范围就在 Volturara Irpina 一带。",
+    "今年的节庆从9月11日持续到13日，活动不只吃豆子。地方资料显示，三座广场同时安排了餐饮摊位和音乐，白天还有高原与民俗博物馆导览、徒步和骑行等活动。",
+    "它的名字和成熟周期有关。Slow Food 的品种资料直接说明，quarantino 这个称呼来自较短的成熟周期；当地报道通常把这个周期概括成大约40天。"
+  ],
+  "sources": [
+    {
+      "name": "Sistema Irpinia",
+      "url": "https://sistemairpinia.provincia.avellino.it/index.php/it/festa-del-fagiolo-quarantino"
+    },
+    {
+      "name": "Giornale dell'Irpinia",
+      "url": "https://www.giornaledellirpinia.it/volturara-irpina-xiv-edizione-della-festa-del-fagiolo-quarantino-della-valle-del-dragone-da-venerdi-11-a-domenica-13-settembre/"
+    },
+    {
+      "name": "Fondazione Slow Food",
+      "url": "https://www.fondazioneslowfood.com/it/presidi-slow-food/fagiolo-quarantino-di-volturara-irpina/"
+    }
+  ],
+  "theme": "gold",
+  "publishedAt": "2026-09-14T08:10:34+08:00",
+  "verifiedAt": "2026-09-14T08:10:34+08:00",
+  "image": {
+    "src": "https://commons.wikimedia.org/wiki/Special:Redirect/file/White_beans.jpg",
+    "alt": "一碗白色菜豆的代表图；并非 Quarantino 豆或2026年 Volturara Irpina 节庆现场",
+    "credit": "Heather Kennedy / Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:White_beans.jpg",
+    "license": "CC BY 2.0；白豆代表图，并非 Quarantino 品种或本次节庆现场",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+    "kind": "original",
+    "layout": "photo"
+  },
+  "archive": false,
+  "verificationNotes": "按用户本轮要求先读取 README.md、docs/HOURLY_PROMPT.md、docs/CONTENT_FORMAT.md、docs/PUBLISHING.md，并检查最近提交与整库关键词。最近数期依次覆盖环境、社会、文化、AI、城市生活、动物与自然、设计、考古、机器人等，本轮轮换到食品；最近6期没有天文/航天。整库搜索 quarantino 未发现重复事件。Provincia di Avellino 资助的 Sistema Irpinia 页面确认第14届 Festa del Fagiolo Quarantino 于2026年9月11日至13日在 Volturara Irpina 举行；独立地方媒体 Giornale dell'Irpinia 再次确认日期、三座广场以及音乐、徒步、骑行、博物馆与 Piana del Dragone 导览等安排。Fondazione Slow Food 的 Presidio 资料核实该豆为 Volturara Irpina 当地小型不规则白豆、人工种植，并解释 quarantino 名称来自成熟周期。eventDate 采用公开活动列表对9月13日晚间时段的19:00 CEST；本轮核查时该活动已经结束，属于过去24小时内的近期事件。配图没有使用节庆宣传图，因为未确认复用授权；改用 Wikimedia Commons 的通用白豆实拍，文件页明确为 Heather Kennedy 拍摄并以 CC BY 2.0 发布，alt 与 license 均明确说明并非 Quarantino 品种或2026年活动现场。当前容器有本地命令执行能力，已实际尝试 git clone 以运行 npm 校验，但 DNS 无法解析 github.com，因此没有伪装执行 npm run validate、npm test、npm run build；后续以该提交触发的 GitHub Actions 校验、测试、构建和线上 feed 验证为准。用户本轮明确要求只新增1张，覆盖仓库文档中旧的每轮5张规则。"
+}
