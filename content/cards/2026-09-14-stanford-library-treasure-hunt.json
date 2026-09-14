@@ -1,0 +1,42 @@
+{
+  "id": "2026-09-14-stanford-library-treasure-hunt",
+  "eventKey": "stanford-library-treasure-hunt-2026",
+  "category": "文化",
+  "title": "斯坦福把逛图书馆\n做成一场校园寻宝",
+  "summary": "斯坦福图书馆把开学季校园探索做成寻宝：参与者跨图书馆和研究中心找线索，探索得越多，抽奖机会越多。",
+  "eventDate": "2026-09-14T12:00:00-07:00",
+  "location": "美国 · 加州斯坦福大学",
+  "body": [
+    "活动从9月14日持续到10月2日，参与者要跨校园寻找馆藏与研究资源，不只是坐在一间图书馆里解谜。",
+    "头奖是进入Doerr可持续发展学院的岩石、矿物和化石收藏幕后库房，看平时不容易见到的“真宝藏”。"
+  ],
+  "sources": [
+    {
+      "name": "Stanford Events · Library Treasure Hunt 2026",
+      "url": "https://events.stanford.edu/event/LibTreasureHunt26"
+    },
+    {
+      "name": "Stanford University Libraries · News and events",
+      "url": "https://library.stanford.edu/news-and-events"
+    },
+    {
+      "name": "Stanford Events · Science Library Open House 2026",
+      "url": "https://events.stanford.edu/event/sciencelibrary_openhouse_2026"
+    }
+  ],
+  "theme": "plum",
+  "publishedAt": "2026-09-15T04:12:49+08:00",
+  "verifiedAt": "2026-09-15T04:12:49+08:00",
+  "image": {
+    "src": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Cecil%20H.%20Green%20Library%C2%B4s%20Bing%20Wing%2C%20Stanford%20University%2C%20California%2004.jpg",
+    "alt": "斯坦福大学 Cecil H. Green Library 的 Bing Wing；仅作校园图书馆代表图，并非寻宝活动现场",
+    "credit": "GualdimG / Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cecil_H._Green_Library%C2%B4s_Bing_Wing,_Stanford_University,_California_04.jpg",
+    "license": "CC BY-SA 4.0；代表图，非本次寻宝活动现场",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "kind": "original",
+    "layout": "photo"
+  },
+  "archive": false,
+  "verificationNotes": "按用户本轮明确要求只新增1张卡片，覆盖仓库文档中每轮5张的旧数量规则。已读取 README.md、docs/HOURLY_PROMPT.md、docs/CONTENT_FORMAT.md、docs/PUBLISHING.md，并检查近期卡片与整库关键词；搜索 Stanford treasure hunt 未发现同一事件。最近连续内容为交通、机器人、AI、科技、工程、考古、城市生活、食品、动物与自然、设计等，本轮轮换到文化；最近6期无新增天文/航天。Stanford Events 官方页确认 Library Treasure Hunt 2026 于9月14日开始、10月2日17:00结束，参与者通过探索图书馆和研究中心增加获奖机会，头奖为 Doerr School 岩石、矿物和化石收藏的幕后参观；Stanford University Libraries 的活动页独立列出同一活动日期区间；Science Library 9月16日开放日页面进一步确认寻宝题目分布在馆内活动中。以上来源均属斯坦福官方，可靠但机构上并非完全独立，因此只用于核对活动事实，不夸大外部验证强度。活动页未给出9月14日具体开启时刻，eventDate 按当地日期精度记当天12:00 PT。没有找到明确允许复用的本次活动现场图，故使用 GualdimG 拍摄、CC BY-SA 4.0 授权的 Green Library Bing Wing 实拍作为校园图书馆代表图，并在 alt 与 license 中明确不是本次活动现场。本地容器实际尝试 clone 仓库以运行 npm run validate、npm test、npm run build，但 DNS 无法解析 github.com，因此未伪装执行本地校验，后续以本提交触发的 GitHub Actions 为准。"
+}
