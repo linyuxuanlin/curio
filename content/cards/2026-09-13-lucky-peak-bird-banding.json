@@ -1,0 +1,42 @@
+{
+  "id": "2026-09-13-lucky-peak-bird-banding",
+  "eventKey": "boise-state-ibo-lucky-peak-fall-migration-2026",
+  "category": "动物与自然",
+  "title": "一座山头从清晨到夜里\n都在给迁徙鸟做体检",
+  "summary": "9月13日，爱达荷州 Lucky Peak 研究站继续秋季迁徙监测：研究人员分时段给鸣禽、猛禽和猫头鹰环志、测量，再放它们继续赶路。",
+  "eventDate": "2026-09-13T12:00:00Z",
+  "location": "美国 · 爱达荷州 · Boise Ridge",
+  "body": [
+    "Lucky Peak 自1993年起持续做鸟类迁徙研究。秋季高峰时，这座研究站可观察到100多种鸟，公众也能到现场看环志过程。",
+    "不同鸟类错峰研究：鸣禽主要在清晨，猛禽在白天，猫头鹰在夜间；遇到大风、雨雪或空气质量差时会临时停站。"
+  ],
+  "sources": [
+    {
+      "name": "Boise State University · Bird Migration Research at Lucky Peak",
+      "url": "https://events.boisestate.edu/event/bird-migration-research-at-lucky-peak"
+    },
+    {
+      "name": "Intermountain Bird Observatory · Lucky Peak Station",
+      "url": "https://www.boisestate.edu/ibo/science/lucky/"
+    },
+    {
+      "name": "Visit Idaho · Intermountain Bird Observatory",
+      "url": "https://visitidaho.org/things-to-do/wildlife-viewing-birding/intermountain-bird-observatory/"
+    }
+  ],
+  "theme": "sage",
+  "publishedAt": "2026-09-14T19:10:37+08:00",
+  "verifiedAt": "2026-09-14T19:10:37+08:00",
+  "image": {
+    "src": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Bird_Banding_(4977128670).jpg",
+    "alt": "美国鱼类及野生动物管理局人员手持一只正在进行环志的鸟，作为鸟类环志研究方式代表图；并非2026年Lucky Peak现场",
+    "credit": "USFWS Mountain Prairie / Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bird_Banding_(4977128670).jpg",
+    "license": "Public Domain（美国联邦政府作品）；鸟类环志代表图，并非2026年Lucky Peak现场",
+    "licenseUrl": "https://www.fws.gov/help/policies-and-regulations/copyrights",
+    "kind": "original",
+    "layout": "photo"
+  },
+  "archive": false,
+  "verificationNotes": "按用户本轮明确要求只新增1张卡片，覆盖仓库文档中每轮5张的旧数量规则。已读取 README.md、docs/HOURLY_PROMPT.md、docs/CONTENT_FORMAT.md、docs/PUBLISHING.md，并检查近期 content/cards 与整库关键词；未发现 Lucky Peak 同一事件。最近发布内容依次覆盖设计、文化、交通、科技、社会等，本轮轮换到动物与自然；最近6期没有新增天文/航天。Boise State 2026活动页明确列出9月13日 Bird Migration Research at Lucky Peak，并说明天气允许时秋季每日进行鸣禽、猛禽和猫头鹰环志；Intermountain Bird Observatory 官方站点确认该站自1993年运行、秋季7月至10月对公众开放，高峰期可观察100多种鸟，并给出鸣禽清晨、猛禽白天、猫头鹰夜间的分时研究安排及天气停站条件；Visit Idaho 独立页面核实 Lucky Peak 是该机构主要研究点且迁徙季对公众开放。活动页只给日期、没有统一开始时刻，因此 eventDate 采用2026-09-13 12:00 UTC作为日期精度占位，不声称中午发生；9月13日已完整过去，仍在24–72小时优先窗口内。配图来自Wikimedia Commons，文件页确认作者为USFWS Mountain Prairie，并标注为美国鱼类及野生动物管理局公务作品、公有领域；图片只用于说明鸟类环志方式，alt和license明确注明并非Lucky Peak现场。本地容器具备命令执行能力，因此实际尝试 git clone 后运行 npm 校验链；但 clone 在第一步因无法解析 github.com 失败，故未伪装执行 npm run validate、npm test、npm run build，后续以GitHub Actions实际结果为准。"
+}
