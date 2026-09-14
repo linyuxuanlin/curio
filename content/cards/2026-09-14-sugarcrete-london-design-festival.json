@@ -1,0 +1,42 @@
+{
+  "id": "2026-09-14-sugarcrete-london-design-festival",
+  "eventKey": "sugarcrete-london-design-festival-vitra-2026-09-14",
+  "category": "设计",
+  "title": "甘蔗榨完的纤维\n被做成了建筑材料",
+  "summary": "伦敦设计节正在展出 Sugarcrete：把制糖后的甘蔗渣与矿物黏结剂结合，做成低碳建筑块材和声学构件。",
+  "eventDate": "2026-09-14T09:00:00+01:00",
+  "location": "英国 · 伦敦 · VitrA Specification & Design Hub",
+  "body": [
+    "Sugarcrete 由东伦敦大学团队研发，原料中的甘蔗渣是制糖副产物。展览把材料样品、研发过程和建筑应用放到一起。",
+    "团队称这种材料的碳足迹可低至传统黏土砖的约六分之一，并已测试防火、抗压、导热和耐久性能。"
+  ],
+  "sources": [
+    {
+      "name": "London Design Festival",
+      "url": "https://londondesignfestival.com/activities/sugarcrete-new-ways-of-thinking-about-land-time-and-buildings"
+    },
+    {
+      "name": "University of East London",
+      "url": "https://www.uel.ac.uk/sugarcrete"
+    },
+    {
+      "name": "VitrA UK Press Room",
+      "url": "https://www.vitra.co.uk/press-room/london-design-festival"
+    }
+  ],
+  "theme": "sage",
+  "publishedAt": "2026-09-15T07:13:35+08:00",
+  "verifiedAt": "2026-09-15T07:13:35+08:00",
+  "image": {
+    "src": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Sugarcane%20bagasse.jpg",
+    "alt": "制糖后留下的甘蔗渣纤维实拍代表图；并非 Sugarcrete 成品或伦敦展览现场",
+    "credit": "Thamizhpparithi Maari / Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sugarcane_bagasse.jpg",
+    "license": "CC BY-SA 3.0；甘蔗渣原料代表图，非 Sugarcrete 成品或本次展览现场",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "kind": "original",
+    "layout": "photo"
+  },
+  "archive": false,
+  "verificationNotes": "本轮按用户最新明确要求只新增1张，覆盖仓库文档中旧的每轮5张规则。已读取 README.md、docs/HOURLY_PROMPT.md、docs/CONTENT_FORMAT.md、docs/PUBLISHING.md，并检查 content/cards 近期目录；最近一轮为动物与自然，本轮轮换到设计。整库目录未发现 Sugarcrete 同事件卡片。London Design Festival 官方活动页确认展览 Sugarcrete: New Ways of Thinking About Land, Time and Buildings 于2026年9月14日至18日在 VitrA London Specification and Design Hub 举行，并说明材料由东伦敦大学 Sustainability Research Institute 与 AKT II 等合作开发、使用甘蔗副产物。VitrA 官方新闻稿独立确认展期、地点和展览内容。东伦敦大学项目页核实 Sugarcrete 由甘蔗渣与砂-矿物黏结剂制成，并给出相较传统黏土砖约六分之一碳足迹以及防火、抗压、导热、耐久测试信息；这些性能数字按研发方公开资料表述，不当作本次展览现场独立实测。活动页列出9月14日09:00–17:00，eventDate 采用首日开放时间并保留英国夏令时。图片未直接使用展览新闻图，因为页面未提供足够明确的通用复用许可；改用 Wikimedia Commons 上 Thamizhpparithi Maari 拍摄的甘蔗渣实拍，文件页明确为 CC BY-SA 3.0，并在 alt/license 中注明只是原料代表图、不是 Sugarcrete 成品或展览现场。当前无可用本地仓库工作区，因此未伪装运行 npm 命令；提交后以 GitHub Actions 的 validate、test、build 和线上 feed 验证为准。"
+}
