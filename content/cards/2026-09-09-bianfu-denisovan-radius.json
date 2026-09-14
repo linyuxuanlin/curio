@@ -1,0 +1,42 @@
+{
+  "id": "2026-09-09-bianfu-denisovan-radius",
+  "eventKey": "nature-2026-bianfu-denisovan-radius-s41586-026-10976-9",
+  "category": "考古",
+  "title": "云南洞穴认出第一根\n丹尼索瓦人前臂骨",
+  "summary": "研究者用古蛋白给云南蝙蝠洞的碎骨“验身份”，确认其中一段桡骨属于丹尼索瓦人，这是目前首根被确认的丹尼索瓦人前臂长骨。",
+  "eventDate": "2026-09-09T12:00:00Z",
+  "location": "中国 · 云南 · 鹤庆县蝙蝠洞",
+  "body": [
+    "五件人类化石都带有丹尼索瓦人特异蛋白标记，其中一段桡骨是目前首个被确认的丹尼索瓦人前臂长骨。",
+    "同址石器和动物骨显示，这群古人类在约19万至7万年前间反复利用洞穴，并猎取鹿和大型牛科动物。"
+  ],
+  "sources": [
+    {
+      "name": "Nature · Ancient proteins identify various Denisovan remains from Southwest China",
+      "url": "https://www.nature.com/articles/s41586-026-10976-9"
+    },
+    {
+      "name": "Nature · Denisovans from southwestern China and their subsistence strategies",
+      "url": "https://www.nature.com/articles/s41586-026-10997-4"
+    },
+    {
+      "name": "National Geographic · Researchers Discover Rare Denisovan Bones in a Cave in China",
+      "url": "https://www.nationalgeographic.com/history/article/denisovans-forearm-bone-china"
+    }
+  ],
+  "theme": "clay",
+  "publishedAt": "2026-09-14T22:21:12+08:00",
+  "verifiedAt": "2026-09-14T22:21:12+08:00",
+  "image": {
+    "src": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Denisova_3_Denisovan_phalanx_tertia_shaft.jpg",
+    "alt": "丹尼索瓦3号个体指骨化石实拍，作为丹尼索瓦人化石代表图；并非本次云南蝙蝠洞发现的桡骨",
+    "credit": "Thilo Parg / Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Denisova_3_Denisovan_phalanx_tertia_shaft.jpg",
+    "license": "CC BY-SA 4.0；丹尼索瓦人化石代表图，并非本次云南蝙蝠洞出土物",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "kind": "original",
+    "layout": "photo"
+  },
+  "archive": true,
+  "verificationNotes": "按用户本轮明确要求只新增1张卡片，覆盖仓库文档中每轮5张的旧数量规则。已读取 README.md、docs/HOURLY_PROMPT.md、docs/CONTENT_FORMAT.md、docs/PUBLISHING.md，并读取/列出近期卡片与整库检索 Denisovan、radius、Bianfu、蝙蝠洞，未发现同一事件。最近几轮依次为城市生活、食品、动物与自然、设计、文化、交通等，本轮轮换到考古；最近6期无天文/航天。优先检索2026年9月12日至14日候选后，没有找到同时满足事实强度、非重复性和图片授权条件且明显优于本题的24–72小时候选，因此扩展至9月9日并标记archive=true，不改写事件日期。Nature 两篇同行评议论文均于2026年9月9日发表：古蛋白研究确认蝙蝠洞两枚牙齿、两块顶骨和一段桡骨属于丹尼索瓦人，BFD771为目前首个确认的丹尼索瓦人桡骨；另一篇研究核实洞穴的人类活动、石器与动物利用背景。National Geographic 独立报道交叉核对地点、年代和首根桡骨结论。来源仅提供论文发布日期，eventDate按CONTENT_FORMAT.md的日期精度规则记当天12:00 UTC。配图采用Wikimedia Commons上的Denisova 3指骨化石实拍，文件页明确作者Thilo Parg并以CC BY-SA 4.0授权；仅作为丹尼索瓦人化石代表图，alt和license明确注明并非本次云南蝙蝠洞桡骨。当前没有可用的本地仓库工作区，因此未伪装运行npm run validate、npm test、npm run build；以后续该提交触发的GitHub Actions实际结果为准。"
+}
