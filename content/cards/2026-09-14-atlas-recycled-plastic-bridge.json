@@ -1,0 +1,42 @@
+{
+  "id": "2026-09-14-atlas-recycled-plastic-bridge",
+  "eventKey": "atlas-usace-recycled-composite-wetland-bridge-2026",
+  "category": "工程",
+  "title": "废塑料被打印成桁架\n搭起一座湿地小桥",
+  "summary": "9月14日，MIT披露创业公司 Atlas 已把废塑料和玻纤做成3D打印复合桁架，用于美国陆军工程兵团在马萨诸塞州湿地建设的一座40英尺桥。",
+  "eventDate": "2026-09-14T12:00:00Z",
+  "location": "美国 · 马萨诸塞州",
+  "body": [
+    "塑料先被粉碎、熔融，再与美国制造的玻纤结合；大型打印系统把材料做成可用于地板、墙、屋顶和桥梁的桁架。",
+    "MIT称这座桥不到一天就完成安装。Atlas还在开发分布式工厂，希望把当地塑料废物流直接变成建筑构件。"
+  ],
+  "sources": [
+    {
+      "name": "MIT News · Atlas recycled-plastic building materials",
+      "url": "https://news.mit.edu/2026/mit-spinout-turns-plastic-waste-into-resilient-building-materials-0914"
+    },
+    {
+      "name": "Tech & Business · Army Corps bridge report",
+      "url": "https://www.techandbusiness.org/newswire/H6sGIp7VxOkWeQdKFkV6KO"
+    },
+    {
+      "name": "Northeastern Roux Institute · ClimateTech Incubator",
+      "url": "https://roux.northeastern.edu/entrepreneurship/climatetech-incubator/"
+    }
+  ],
+  "theme": "gold",
+  "publishedAt": "2026-09-14T23:12:20+08:00",
+  "verifiedAt": "2026-09-14T23:12:20+08:00",
+  "image": {
+    "src": "https://news.mit.edu/sites/default/files/download/202609/MIT-Atlas-Composites-01-press.jpg",
+    "alt": "四人步行通过马萨诸塞州湿地中的一座低矮桁架桥，桥体使用 Atlas 回收塑料复合桁架",
+    "credit": "Courtesy of Atlas / MIT News",
+    "sourceUrl": "https://news.mit.edu/2026/mit-spinout-turns-plastic-waste-into-resilient-building-materials-0914",
+    "license": "CC BY-NC-ND；MIT News 下载图片允许非商业实体、媒体及公众使用，仅可裁切并须署名",
+    "licenseUrl": "https://news.mit.edu/terms-of-use",
+    "kind": "original",
+    "layout": "photo"
+  },
+  "archive": false,
+  "verificationNotes": "按用户本轮明确要求只新增1张卡片，覆盖仓库文档中每轮5张的旧数量规则。已读取 README.md、docs/HOURLY_PROMPT.md、docs/CONTENT_FORMAT.md、docs/PUBLISHING.md，并检查近期 content/cards 文件与整库关键词；整库搜索 Atlas、recycled plastic、composite trusses、bridge 未发现同一事件。最近内容已连续覆盖考古、城市生活、食品、动物与自然、设计、文化、交通和科技，本轮轮换到工程；最近6期无新增天文/航天。MIT News 于2026年9月14日确认 Atlas 最近向美国陆军工程兵团提供美国制造的回收复合桁架，在马萨诸塞州湿地建成一座40英尺桥，并称安装耗时不到一天；同页说明废塑料经粉碎、熔融后与玻纤结合，再由大型增材制造系统打印桁架。Tech & Business 当日独立报道交叉核对40英尺桥、陆军工程兵团、回收复合桁架与马萨诸塞湿地等关键事实；Northeastern Roux Institute 的 ClimateTech Incubator 页面独立核对 Atlas 将废塑料转化为耐用结构建筑材料及其机器人制造方向。公开来源没有给出桥梁实际安装的精确日期，因此 eventDate 采用MIT News披露日期，按日期精度统一记当天12:00 UTC，并不声称桥在该时刻安装。配图为MIT News本报道提供的桥梁现场原图，页面明确标注 Courtesy of Atlas；MIT News Terms of Use 说明下载图片以 CC BY-NC-ND 条款供非商业实体、媒体及公众使用，仅允许裁切且须署名。本轮容器具备命令执行能力，实际尝试 git clone 以运行 npm run validate、npm test、npm run build，但因环境无法解析 github.com 而失败，因此未伪装执行本地校验，后续以该提交触发的 GitHub Actions 结果为准。"
+}
