@@ -1,0 +1,42 @@
+{
+  "id": "2026-09-14-aikawa-loop-bus",
+  "eventKey": "sado-aikawa-district-loop-bus-launch-2026-09-14",
+  "category": "交通",
+  "title": "佐渡把看病和逛金山的巴士\n合成了100日元环线",
+  "summary": "9月14日，佐渡市相川地区的新循环巴士开始运行：一次100日元，把诊所、商店街、佐渡金山和住宿区串到同一条线上。",
+  "eventDate": "2026-09-14T08:30:00+09:00",
+  "location": "日本 · 新潟县 · 佐渡市相川地区",
+  "body": [
+    "新线把原本分开的诊所巴士和观光巴士整合起来，每天14班、共26个停靠点，中学生及以下免费。",
+    "相川没有出租车运营商，这条小型环线同时服务老人就医购物和游客，并可在相川站接驳去两津港方向的主干巴士。"
+  ],
+  "sources": [
+    {
+      "name": "佐渡汽船 · 相川地区循环巴士",
+      "url": "https://www.sadokisen.co.jp/news/20260904-2/"
+    },
+    {
+      "name": "佐渡市 · 地区公共交通资料",
+      "url": "https://www.city.sado.niigata.jp/soshiki/3002/48581.html"
+    },
+    {
+      "name": "Response.jp · 运行报道",
+      "url": "https://s.response.jp/article/2026/09/10/416419.html"
+    }
+  ],
+  "theme": "gold",
+  "publishedAt": "2026-09-14T16:09:19+08:00",
+  "verifiedAt": "2026-09-14T16:09:19+08:00",
+  "image": {
+    "src": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Tabi_miyage_dai_nish%C5%AB%2C_Sado_Aikawa-machi_by_Kawase_Hasui.jpg",
+    "alt": "川濑巴水1921年描绘佐渡相川町的木版画，作为相川地区代表图；并非2026年循环巴士或其车辆",
+    "credit": "Kawase Hasui / Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tabi_miyage_dai_nish%C5%AB,_Sado_Aikawa-machi_by_Kawase_Hasui.jpg",
+    "license": "Public domain；相川地区历史代表图，并非2026年循环巴士现场或车辆",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/File:Tabi_miyage_dai_nish%C5%AB,_Sado_Aikawa-machi_by_Kawase_Hasui.jpg",
+    "kind": "original",
+    "layout": "photo"
+  },
+  "archive": false,
+  "verificationNotes": "按用户本轮明确要求只新增1张卡片，覆盖仓库旧文档中每轮5张的数量规则。已读取 README.md、docs/HOURLY_PROMPT.md、docs/CONTENT_FORMAT.md、docs/PUBLISHING.md，列出 content/cards 并检查近期内容；最近两张分别为科技和社会类，本轮轮换到交通类，最近6期没有天文/航天超额。整库搜索“相川地区循環バス”未发现同一事件。佐渡汽船官方公告确认2026年9月14日08:30从相川巴士站首发，每天14班、单次100日元、中学生以下免费，可用现金及多种无现金支付；佐渡市官方相川地区配布页确认8月已向居民发放循环巴士宣传单，交通政策部门公开资料也把该线路列为9月14日起运行；Response.jp独立报道核实线路合并原诊所巴士与观光巴士、共26站，并说明相川地区缺少出租车运营商，线路同时服务居民通院购物和游客前往佐渡金山等地点。eventDate采用官方明确的首班08:30 JST，因此不是仅有日期的推定时间。未找到本次新车或首班现场照片的明确开放复用许可；为避免误用新闻或企业图片，采用Wikimedia Commons上川濑巴水1921年《佐渡 相川町》木版画作为地点代表图，文件页说明作品在日本已进入公有领域；alt和license明确注明并非2026年循环巴士、车辆或现场。当前任务没有可用的本地仓库工作区，因此未伪装运行 npm run validate、npm test、npm run build；提交后以该提交触发的GitHub Actions实际校验、测试、构建和线上feed验证为准。"
+}
