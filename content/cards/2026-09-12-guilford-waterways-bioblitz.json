@@ -1,0 +1,43 @@
+{
+  "id": "2026-09-12-guilford-waterways-bioblitz",
+  "eventKey": "guilford-courthouse-waterways-bioblitz-2026-09-12-13",
+  "category": "动物与自然",
+  "title": "把战场公园的溪流\n变成一场物种寻宝",
+  "summary": "北卡一座独立战争战场公园请公众走进溪流和泉水，用 iNaturalist 记录鱼、水生昆虫、淡水贝类、两栖爬行动物和甲壳类，帮公园补长期物种清单。",
+  "eventDate": "2026-09-12T09:00:00-04:00",
+  "location": "美国 · 北卡罗来纳州 · Greensboro",
+  "body": [
+    "这次 Waterways BioBlitz 在9月12日至13日连续进行。参与者不是只在岸边看一眼，而是跟着国家公园管理局工作人员进入林地、溪流和泉水周边，寻找并记录水生和半水生物种。",
+    "记录工具是 iNaturalist。公园特别列出了鱼类、水生昆虫、淡水贻贝、两栖动物、爬行动物和甲壳类，希望把公众观察转成一份可继续更新的物种清单，用于了解当地生物多样性和之后的自然资源管理。",
+    "Guilford Courthouse 更常被当作独立战争战场参观；这次活动把同一片保护地换了一个视角：游客脚下的溪水、林地和小型生物，也属于国家公园需要长期记录和管理的资源。"
+  ],
+  "sources": [
+    {
+      "name": "National Park Service",
+      "url": "https://www.nps.gov/guco/learn/news/identify-aquatic-species.htm"
+    },
+    {
+      "name": "NPS Event Calendar",
+      "url": "https://www.nps.gov/planyourvisit/event-details.htm?id=C2A91484-C6A5-A479-F5A121C632890C17"
+    },
+    {
+      "name": "The Liberty Trail",
+      "url": "https://thelibertytrail.org/nc/travel-inspirations/events/guilford-courthouse-waterways-bioblitz-0"
+    }
+  ],
+  "theme": "sage",
+  "publishedAt": "2026-09-14T12:24:00+08:00",
+  "verifiedAt": "2026-09-14T12:24:00+08:00",
+  "image": {
+    "src": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Guilford%20Courthouse%20National%20Military%20Park%20GUCO1001.jpg",
+    "alt": "Guilford Courthouse National Military Park 的 NPS 档案实拍代表图；并非2026年9月 Waterways BioBlitz 现场",
+    "credit": "National Park Service Digital Image Archives / Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Guilford_Courthouse_National_Military_Park_GUCO1001.jpg",
+    "license": "Public domain (U.S. National Park Service)；同一公园的档案代表图，非2026年 BioBlitz 现场",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/File:Guilford_Courthouse_National_Military_Park_GUCO1001.jpg",
+    "kind": "original",
+    "layout": "photo"
+  },
+  "archive": false,
+  "verificationNotes": "本轮按用户最新要求只新增1张，覆盖仓库文档中旧的每轮5张规则。已先读取 README.md、docs/HOURLY_PROMPT.md、docs/CONTENT_FORMAT.md、docs/PUBLISHING.md，并核对近期 content/cards 与最近提交；最近依次覆盖考古、AI、工程、食品、环境、社会、文化、城市、动物等，本轮在最新考古之后轮换到动物与自然，最近6期没有天文/航天。整库搜索 Guilford Courthouse / BioBlitz 未发现同一事件。NPS 2026年8月31日官方新闻稿确认活动在9月12日至13日进行，公众使用 iNaturalist 识别公园溪流和泉水中的鱼、水生昆虫、淡水贝类、两栖动物、爬行动物和甲壳类，并将结果用于物种清单、生物多样性理解和自然资源管理；NPS 活动日历核对了地点、日期、9:00–15:00时段及合作方 Deep River Riverkeeper；The Liberty Trail 的9月13日独立活动记录再次核对日期、地点和公众参与方式。两份 NPS 页面属于同一机构，因此不把它们假称为两个独立来源；关键活动事实另外由 The Liberty Trail 交叉核对。eventDate 使用首日活动明确的当地时间 09:00（EDT, UTC-4）。活动发生在当前72小时窗口内，因此 archive=false。现场活动宣传图没有看到单独的明确复用授权，未直接使用；配图改用 Wikimedia Commons 上由 National Park Service Digital Image Archives 提供的同一公园档案实拍，文件页明确说明该 NPS 档案图片为 public domain、可无需 NPS release 复用；alt 与 license 明确注明并非本次 BioBlitz 现场，避免误导。当前容器有命令执行能力，已实际尝试 clone 仓库，但 DNS 无法解析 github.com，故无法取得本地工作区，也没有伪装运行 npm run validate、npm test、npm run build；提交后以本提交触发的 GitHub Actions 实际校验、测试、构建和线上 feed 验证为准。"
+}
