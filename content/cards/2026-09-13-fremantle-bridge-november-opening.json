@@ -1,0 +1,43 @@
+{
+  "id": "2026-09-13-fremantle-bridge-november-opening",
+  "eventKey": "fremantle-traffic-bridge-opening-date-announced-2026-09-13",
+  "category": "工程",
+  "title": "澳洲第一座外置预应力桥\n提前到11月通车",
+  "summary": "澳大利亚弗里曼特尔新交通桥确认将于11月1日开放，比原先预计的2027年上半年明显提前；开放当天公众还能先步行上桥。",
+  "eventDate": "2026-09-13T12:00:00Z",
+  "location": "澳大利亚 · 西澳大利亚州 · Fremantle",
+  "body": [
+    "这座桥跨越天鹅河，采用外置预应力（extradosed）结构：它介于连续梁桥和斜拉桥之间，用较低的塔柱与外部斜索共同承担荷载。澳大利亚联邦基础设施部门此前称，它将成为澳大利亚首座这种结构的桥。",
+    "旧的木结构 Fremantle Traffic Bridge 已于2026年2月1日关闭。9月13日，联邦与西澳州政府把新桥开放日正式定为11月1日，并表示快速施工方法让原本计划到2027年上半年才开放的工程提前完成。",
+    "11月1日当天会先办社区开放活动，让公众步行穿过新桥；机动车交通则计划在当天稍晚恢复。项目收尾和特色照明仍会在通车后继续完成。"
+  ],
+  "sources": [
+    {
+      "name": "Australian Infrastructure Ministers",
+      "url": "https://minister.infrastructure.gov.au/c-king/media-release/new-fremantle-traffic-bridge-open-1-november"
+    },
+    {
+      "name": "Main Roads Western Australia",
+      "url": "https://www.mainroads.wa.gov.au/projects-initiatives/all-projects/metropolitan/Swan-River-Crossings/"
+    },
+    {
+      "name": "ABC News Australia",
+      "url": "https://www.abc.net.au/news/2026-08-09/fremantle-traffic-bridge-to-reopen-ahead-of-schedule/107014768"
+    }
+  ],
+  "theme": "blue",
+  "publishedAt": "2026-09-14T09:08:28+08:00",
+  "verifiedAt": "2026-09-14T09:08:28+08:00",
+  "image": {
+    "src": "https://commons.wikimedia.org/wiki/Special:Redirect/file/New_bridge_in_Fremantle_05.jpg",
+    "alt": "2024年11月 Fremantle 新交通桥施工现场的起重机；并非2026年9月公告当天现场",
+    "credit": "Sam Wilson / Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:New_bridge_in_Fremantle_05.jpg",
+    "license": "CC BY-SA 4.0；2024年施工实拍，非2026年9月公告当天现场",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "kind": "original",
+    "layout": "photo"
+  },
+  "archive": false,
+  "verificationNotes": "本轮按用户要求先读取 README.md、docs/HOURLY_PROMPT.md、docs/CONTENT_FORMAT.md、docs/PUBLISHING.md，并检查 main 分支最近提交与整库关键词。最近几期依次覆盖食品、环境、社会、文化、AI、城市生活、动物与自然等，本轮轮换到工程；最近6期未见天文/航天。整库搜索 Fremantle 未发现重复事件。澳大利亚联邦基础设施部长官网在2026年9月13日正式确认新 Fremantle Traffic Bridge 将于11月1日提前开放，并说明旧桥2月1日关闭、原计划新桥在2027年上半年开放、11月1日社区可先步行过桥；Main Roads Western Australia 项目页核实工程位置、结构和施工状态；ABC News 8月9日的独立报道交叉确认工程已明显提前、旧桥关闭背景以及该桥为澳大利亚首座 extradosed bridge。eventDate 采用官方公告日期；来源只提供日期，因此按内容规范记为当天12:00 UTC。配图使用 Wikimedia Commons 上 Sam Wilson 于2024年11月18日拍摄的新桥施工实照，文件页明确标注自有作品并以 CC BY-SA 4.0 发布；alt 和 license 已说明并非2026年9月公告当天现场。当前自动化环境没有可用的本地仓库工作区，因此未伪装运行 npm run validate、npm test、npm run build，发布后以该提交触发的 GitHub Actions 实际结果为准。用户本轮明确要求每次只新增1张，覆盖仓库文档中旧的每轮5张规则。"
+}
