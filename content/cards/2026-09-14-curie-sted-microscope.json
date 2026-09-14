@@ -1,0 +1,39 @@
+{
+  "id": "2026-09-14-curie-sted-microscope",
+  "eventKey": "rosalind-franklin-institute-curie-sted-microscope-2026-09-14",
+  "category": "科技",
+  "title": "一台叫“Curie”的显微镜\n把活细胞看到约20纳米",
+  "summary": "英国 Rosalind Franklin Institute 展示了一台定制 STED 显微镜：分辨率约20纳米，还能在接近体温的条件下观察活组织。",
+  "eventDate": "2026-09-14T00:00:00+01:00",
+  "location": "英国 · 牛津郡 · Harwell Campus",
+  "body": [
+    "这台显微镜的核心不是单纯把镜头做得更大，而是用第二束环形“耗尽”激光压掉焦点周围的荧光，只留下中心很小区域的信号。Rosalind Franklin Institute 给出的指标是把传统共聚焦显微镜约200纳米的分辨率提升到约20纳米。",
+    "研究团队还给系统加入可变形镜面做自适应光学校正，用来减少厚样本中的像差，并配有控温载台，因此可以研究三维类器官和活组织，而不只看固定切片。当前重点之一是观察肠道上皮细胞中的蛋白、脂质和糖类如何组织与相互作用。",
+    "它被昵称为 Curie。研究者希望借这类超分辨活体成像找出炎症性肠病等疾病中细胞界面究竟从哪里开始失常；目前这是研究工具和研究方向，并不意味着已经找到病因或治疗方法。"
+  ],
+  "sources": [
+    {
+      "name": "Rosalind Franklin Institute · STED",
+      "url": "https://www.rfi.ac.uk/focus/platforms/stimulated-emission-depletion-microscopy-sted/"
+    },
+    {
+      "name": "The Guardian · Curie microscope",
+      "url": "https://www.theguardian.com/society/2026/sep/14/new-microscope-discovery-hopes-incurable-inflammatory-bowel-disease-crohns-science-treatment"
+    }
+  ],
+  "theme": "blue",
+  "publishedAt": "2026-09-14T15:16:00+08:00",
+  "verifiedAt": "2026-09-14T15:16:00+08:00",
+  "image": {
+    "src": "https://commons.wikimedia.org/wiki/Special:Redirect/file/2color-STED-example.png",
+    "alt": "STED显微镜拍摄的细胞核蛋白双色超分辨图像代表图；并非Curie显微镜本次实验结果",
+    "credit": "Tassekaffee / Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:2color-STED-example.png",
+    "license": "CC BY-SA 3.0；STED成像代表图，并非2026年Curie显微镜实验结果",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "kind": "original",
+    "layout": "photo"
+  },
+  "archive": false,
+  "verificationNotes": "按用户最新明确要求，本轮只新增1张卡片，覆盖仓库旧文档中的每轮5张数量规则。已读取 README.md、docs/HOURLY_PROMPT.md、docs/CONTENT_FORMAT.md、docs/PUBLISHING.md，检查 content/cards 目录与近期卡片，并整库搜索 Curie / STED / Rosalind Franklin Institute，未发现同一事件；上一张最新卡片为社会类，本轮轮换到科技类，近期6期无天文/航天超额问题。Rosalind Franklin Institute 官方 STED 平台页确认其定制超分辨 STED 系统可达到约20 nm、相对传统共聚焦约200 nm提高约10倍，并使用可变形镜面自适应光学校正，重点研究上皮组织、肠道、类器官及活体/固定样本；The Guardian 2026年9月14日报道独立核实该系统昵称 Curie、位于 Harwell，并报道研究团队正在把它用于炎症性肠病相关研究。来源没有给出9月14日具体揭幕时刻，因此 eventDate 记英国当地当日00:00，仅表示日期精度，不声称午夜发生。正文避免把研究目标写成已发现病因或疗法。图片未使用授权状态不明确的本次设备新闻照；改用 Wikimedia Commons 上 Tassekaffee 制作的 STED 显微成像代表图，文件页明确 CC BY-SA 3.0，alt/license 明确注明并非 Curie 本次实验结果。当前没有可用的本地仓库工作区，因此未伪装运行 npm run validate、npm test、npm run build；提交后以该提交触发的 GitHub Actions 实际 validate、test、build 和线上 feed 验证为准。"
+}
