@@ -1,0 +1,42 @@
+{
+  "id": "2026-09-14-sundarbans-crocodile-homing",
+  "eventKey": "doi-10-1071-WR25141-sundarbans-crocodile-homing",
+  "category": "动物与自然",
+  "title": "养了很多年的鳄鱼放归后\n竟没急着回“家”",
+  "summary": "孟加拉孙德尔本斯的卫星追踪显示，3只长期圈养的成年湾鳄放归后没有朝原饲养地返回，反而在野外建立了较小活动范围。",
+  "eventDate": "2026-09-14T12:00:00Z",
+  "location": "孟加拉国 · 孙德尔本斯",
+  "body": [
+    "研究追踪5只湾鳄，其中3只圈养个体已在人工环境生活8至22年；放归后都没有表现出明显返圈养地行为。",
+    "对照的一只异地转移野生鳄却持续朝原捕获地移动，单日最远超过30公里。样本很小，结论仍需更多放归验证。"
+  ],
+  "sources": [
+    {
+      "name": "Wildlife Research · What is home?",
+      "url": "https://connectsci.au/wr/article/53/4/WR25141/271767/What-is-home-Post-release-movements-of-captive"
+    },
+    {
+      "name": "ScienceDaily · Crocodiles are famous for finding their way home",
+      "url": "https://www.sciencedaily.com/releases/2026/09/260913081913.htm"
+    },
+    {
+      "name": "The Daily Star · Satellite-tagged crocodiles released in Sundarbans",
+      "url": "https://www.thedailystar.net/environment/natural-resources/wildlife/news/satellite-tag-put-saltwater-crocodile-sundarbans-the-first-time-3566676"
+    }
+  ],
+  "theme": "sage",
+  "publishedAt": "2026-09-15T06:13:56+08:00",
+  "verifiedAt": "2026-09-15T06:13:56+08:00",
+  "image": {
+    "src": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Crocodylus%20porosus%20-%20Wilhelma.jpg",
+    "alt": "一只湾鳄的实拍照片；仅作物种代表图，并非孟加拉孙德尔本斯本次追踪个体",
+    "credit": "H. Zell / Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Crocodylus_porosus_-_Wilhelma.jpg",
+    "license": "CC BY-SA 3.0；物种代表图，非本次研究现场",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "kind": "original",
+    "layout": "photo"
+  },
+  "archive": false,
+  "verificationNotes": "按用户本轮明确要求只新增1张卡片，覆盖仓库文档中每轮5张的旧数量规则。已读取 README.md、docs/HOURLY_PROMPT.md、docs/CONTENT_FORMAT.md、docs/PUBLISHING.md，并检查近期卡片与整库关键词；搜索 crocodile、Sundarbans、WR25141 未发现同一事件。近期内容已连续覆盖环境、文化、交通、机器人、AI、科技、工程等领域，本轮轮换到动物与自然；最近6期未发现天文/航天。Wildlife Research 原始论文 DOI 10.1071/WR25141 确认研究追踪5只湾鳄：3只长期圈养个体、1只原地放归野生个体和1只异地转移野生个体；3只圈养个体未显示朝原饲养地返航，异地转移个体则呈明显返乡方向和更大活动范围。ScienceDaily 于2026年9月14日基于 Murdoch University 材料重新报道该研究，因此 eventDate 记录本轮公众发布日，并明确原始论文实际发表于2026年3月23日；不把9月14日误写成论文发表日。The Daily Star 2024年现场报道独立确认孟加拉森林部门、IUCN 与 GIZ 当时启动了5只湾鳄的卫星标记与放归项目及研究目的。样本量仅5只，卡片避免外推为所有圈养鳄鱼的普遍规律。未采用研究现场图，因为当前可确认的媒体图片复用许可不够明确；改用 H. Zell 拍摄、CC BY-SA 3.0 授权的湾鳄实拍作为物种代表图，并清楚标注不是本次研究个体。本地容器实际尝试 clone 仓库以运行 npm run validate、npm test、npm run build，但 DNS 无法解析 github.com，因此未伪装执行本地校验，后续以本提交触发的 GitHub Actions 为准。"
+}
