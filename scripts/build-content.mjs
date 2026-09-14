@@ -15,7 +15,8 @@ export function validateCard(c){
  assert(text(c.title,36)&&!c.title.includes('趣事'),'标题须为 1–36 字，不能使用“趣事”');
  assert(text(c.summary,100),'summary 须为 1–100 字');
  assert(text(c.location,60),'缺少 location');
- assert(Array.isArray(c.body)&&c.body.length>0&&c.body.length<=5&&c.body.every(p=>text(p,500)),'body 须为 1–5 段文字');
+ assert(Array.isArray(c.body)&&c.body.length>0&&c.body.length<=2&&c.body.every(p=>text(p,80)),'body 须为 1–2 段，每段不超过 80 字');
+ assert(c.body.join('').length<=140,'body 总长度不得超过 140 字');
  for(const k of ['eventDate','publishedAt','verifiedAt'])assert(typeof c[k]==='string'&&/^\d{4}-\d{2}-\d{2}T.*(?:Z|[+-]\d{2}:\d{2})$/.test(c[k])&&Number.isFinite(Date.parse(c[k])),`${k} 必须是带时区的 ISO 时间`);
  assert(Date.parse(c.eventDate)<=Date.parse(c.publishedAt),'不能把未来事件当作已发生的事件发布');
  assert(typeof c.archive==='boolean','archive 必须为 boolean');

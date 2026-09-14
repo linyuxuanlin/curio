@@ -46,7 +46,6 @@ function createCard(c, index) {
  front.append(el('p','flip-hint','点击卡片翻面'));
 
  const backBody = el('div','back-body');
- backBody.append(el('p','detail-body',c.title),el('p','detail-body',c.summary));
  for (const p of c.body) backBody.append(el('p','detail-body',p));
  const sources = el('div','sources'); sources.append(el('span','sources-label','来源'));
  for (const s of c.sources) { const a=el('a','',`${s.name} ↗`); a.href=s.url; a.target='_blank'; a.rel='noopener noreferrer'; sources.append(a); }
@@ -167,7 +166,7 @@ function paginate(body, prev, next, label) {
  const fits=()=>body.scrollHeight<=body.clientHeight+1;
  const finish=()=>{if(nodes.length)pages.push(nodes);nodes=[];body.replaceChildren();};
  for(const original of originals){
-  const parts=original.classList.contains('sources')?[...original.children]:[original];
+  const parts=[original];
   for(const part of parts){
    let node=part.cloneNode(true);body.append(node);
    if(fits()){nodes.push(node);continue;}

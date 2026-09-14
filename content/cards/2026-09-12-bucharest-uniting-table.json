@@ -7,14 +7,26 @@
   "eventDate": "2026-09-12T12:00:00Z",
   "location": "罗马尼亚 · 布加勒斯特 · 宪法广场与统一大道",
   "body": [
-    "这张“Table that Unites”沿统一大道铺到宪法广场，最终测得5,055米。Associated Press现场报道确认，主办方 Bloom The World 当天获得 Guinness World Records 颁发的“最长回收材料餐桌”证书，现场约有2万人参加。",
-    "它不只是为破纪录而搭。主办方把活动与 Metropolis Foundation 的募款项目绑定，目标是在布加勒斯特 Obregia 医院院区建设一座儿童精神科医院。Bloom The World 去年已经在 Alba Iulia 以2,782.968米保持过同一纪录，这次把长度几乎翻了一倍。"
+    "回收材料餐桌实测长5,055米，获吉尼斯纪录认证，现场约有2万人参加。",
+    "活动还为儿童精神科医院项目募款。主办方去年在罗马尼亚另一城市创下约2,783米的同类纪录，这次几乎翻倍。"
   ],
   "sources": [
-    {"name": "Associated Press", "url": "https://apnews.com/article/f57ec0b098ac42ff15bbb02d9ece0e6d"},
-    {"name": "Masa care Unește / Bloom The World", "url": "https://www.masacareuneste.ro/en"},
-    {"name": "Guinness World Records", "url": "https://www.guinnessworldrecords.com/world-records/777663-longest-table-made-from-recycled-materials"},
-    {"name": "BURSA", "url": "https://www.bursa.ro/bucurestiul-incearca-un-nou-record-mondial-cu-o-masa-de-5-5-kilometri-in-piata-constitutiei-87779954"}
+    {
+      "name": "Associated Press",
+      "url": "https://apnews.com/article/f57ec0b098ac42ff15bbb02d9ece0e6d"
+    },
+    {
+      "name": "Masa care Unește / Bloom The World",
+      "url": "https://www.masacareuneste.ro/en"
+    },
+    {
+      "name": "Guinness World Records",
+      "url": "https://www.guinnessworldrecords.com/world-records/777663-longest-table-made-from-recycled-materials"
+    },
+    {
+      "name": "BURSA",
+      "url": "https://www.bursa.ro/bucurestiul-incearca-un-nou-record-mondial-cu-o-masa-de-5-5-kilometri-in-piata-constitutiei-87779954"
+    }
   ],
   "theme": "clay",
   "publishedAt": "2026-09-13T17:10:05+08:00",

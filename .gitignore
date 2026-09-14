@@ -5,3 +5,6 @@ dist/
 .wrangler/
 public/feed.json
 .DS_Store
+
+# New optimized images are build outputs; existing tracked seed images remain versioned.
+/public/media/optimized/

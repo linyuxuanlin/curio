@@ -19,3 +19,10 @@ test('feed guard rejects malformed dates, nested data, unsafe links and selector
  assert.equal(usableCard(card),true);
  for(const patch of [{eventDate:'invalid'},{body:[null]},{sources:[null]},{sources:[{name:'bad',url:'javascript:alert(1)'}]},{id:'bad"id'},{image:{...card.image,sourceUrl:'javascript:alert(1)'}}]) assert.equal(usableCard({...card,...patch}),false);
 });
+
+test('editorial limits reject oversized or overly fragmented back text',()=>{
+ assert.throws(()=>validateCard({...card,body:['字'.repeat(81)]}),/80/);
+ assert.throws(()=>validateCard({...card,body:['字'.repeat(71),'字'.repeat(70)]}),/140/);
+ assert.throws(()=>validateCard({...card,body:['第一段','第二段','第三段']}),/1–2/);
+ assert.doesNotThrow(()=>validateCard({...card,body:['字'.repeat(70),'字'.repeat(70)]}));
+});
