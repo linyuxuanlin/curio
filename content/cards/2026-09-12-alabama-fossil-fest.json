@@ -1,0 +1,42 @@
+{
+  "id": "2026-09-12-alabama-fossil-fest",
+  "eventKey": "alabama-museum-natural-history-fossil-fest-2026-09-12",
+  "category": "文化",
+  "title": "去博物馆看远古鲨鱼\n还能领一颗化石牙",
+  "summary": "阿拉巴马自然历史博物馆把年度化石节变成了一场“鲨鱼牙辨认课”：观众能看化石、问古生物学家，还可领一颗化石鲨鱼牙。",
+  "eventDate": "2026-09-12T13:00:00-05:00",
+  "location": "美国 · 阿拉巴马州 · 塔斯卡卢萨",
+  "body": [
+    "今年主题是化石鲨鱼和其他远古海洋生物，现场还开出一堂“BITE CLUB”，教人像古生物学家一样辨认鲨鱼牙。",
+    "活动免费，博物馆称阿拉巴马州的化石记录跨度约5亿年；赠送化石牙数量有限，送完即止。"
+  ],
+  "sources": [
+    {
+      "name": "Alabama Museum of Natural History · Alabama Fossil Fest",
+      "url": "https://almnh.museums.ua.edu/alabama-fossil-fest/"
+    },
+    {
+      "name": "Visit Tuscaloosa · Alabama Fossil Fest",
+      "url": "https://visittuscaloosa.com/event/alabama-fossil-fest/"
+    },
+    {
+      "name": "University of Alabama News · Fossil Fest preview",
+      "url": "https://news.ua.edu/2026/09/alabama-fossil-fest-dives-into-alabamas-prehistoric-past/"
+    }
+  ],
+  "theme": "plum",
+  "publishedAt": "2026-09-14T17:12:46+08:00",
+  "verifiedAt": "2026-09-14T17:12:46+08:00",
+  "image": {
+    "src": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Dent_de_requin_dos.jpg",
+    "alt": "一枚史前鲨鱼牙化石实拍代表图；并非2026年 Alabama Fossil Fest 现场展品或赠品",
+    "credit": "Tgd3 / Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Dent_de_requin_dos.jpg",
+    "license": "Public domain；仅作化石鲨鱼牙代表图，并非本次活动现场或具体展品",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/File:Dent_de_requin_dos.jpg",
+    "kind": "original",
+    "layout": "photo"
+  },
+  "archive": false,
+  "verificationNotes": "按用户本轮明确要求只新增1张卡片，覆盖仓库旧文档中每轮5张的数量规则。已读取 README.md、docs/HOURLY_PROMPT.md、docs/CONTENT_FORMAT.md、docs/PUBLISHING.md，并检查近期内容；最近发布大类依次包含交通、科技、社会、设计、动物与自然、考古、AI，本轮轮换到文化类；最近6期无天文/航天超额。整库搜索“Alabama Fossil Fest”未发现同一事件。Alabama Museum of Natural History 官方活动页确认活动于2026年9月12日13:00–16:00 CDT在 University of Alabama 的 Smith Hall 举办，主题为化石鲨鱼和其他远古海洋生物，包含新展览、化石展示、公众讲座和赠送化石鲨鱼牙；Visit Tuscaloosa 的独立活动页核实时间、地点、免费入场和主题；University of Alabama News 补充核实阿拉巴马州化石记录约5亿年及主讲人信息。eventDate采用官方明确的13:00 CDT。事件距本轮入库不足72小时，因此 archive=false。未找到本次活动现场照片的明确开放复用许可，因此采用Wikimedia Commons上一枚史前鲨鱼牙化石的公有领域实拍作为代表图，并在alt与license中明确注明不是活动现场、展品或赠品。当前运行环境有终端能力，因此实际尝试 git clone 后运行 npm 校验，但容器DNS无法解析 github.com，clone失败，故未伪装运行 npm run validate、npm test、npm run build；提交后以该提交触发的GitHub Actions实际校验、测试、构建和线上feed验证为准。"
+}
