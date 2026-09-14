@@ -1,0 +1,42 @@
+{
+  "id": "2026-09-14-hardflow-hard-constraints",
+  "eventKey": "hardflow-hard-constrained-flow-matching-2026",
+  "category": "AI",
+  "title": "让生成式AI最后一步\n必须守住硬约束",
+  "summary": "9月14日，MIT介绍 HardFlow：它让生成模型在最终输出时严格满足安全或物理约束，同时尽量保留解的质量。",
+  "eventDate": "2026-09-14T12:00:00Z",
+  "location": "美国 · 麻省理工学院",
+  "body": [
+    "它不要求生成过程的每一步都合法，而把采样改写成轨迹优化，只在终点强制满足不可妥协的约束。",
+    "在机器人避障、迷宫导航和图像编辑实验中，HardFlow 都实现了约束满足，并优于多种基线方法。"
+  ],
+  "sources": [
+    {
+      "name": "MIT News · New method enables AI for safety-critical situations",
+      "url": "https://news.mit.edu/2026/new-method-enables-ai-safety-critical-situations-0914"
+    },
+    {
+      "name": "arXiv · HardFlow paper",
+      "url": "https://arxiv.org/abs/2511.08425"
+    },
+    {
+      "name": "PubMed · HardFlow in IEEE TPAMI",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42384531/"
+    }
+  ],
+  "theme": "blue",
+  "publishedAt": "2026-09-15T00:12:29+08:00",
+  "verifiedAt": "2026-09-15T00:12:29+08:00",
+  "image": {
+    "src": "https://news.mit.edu/sites/default/files/download/202609/MIT-Hard-Constrained-01-Press.jpg",
+    "alt": "MIT News 为 HardFlow 报道制作的锁与网络节点概念配图",
+    "credit": "MIT News; iStock",
+    "sourceUrl": "https://news.mit.edu/2026/new-method-enables-ai-safety-critical-situations-0914",
+    "license": "MIT News 下载图按 CC BY-NC-ND 提供；仅可裁切并须署名",
+    "licenseUrl": "https://news.mit.edu/terms-of-use",
+    "kind": "original",
+    "layout": "photo"
+  },
+  "archive": false,
+  "verificationNotes": "按用户本轮明确要求只新增1张卡片，覆盖仓库文档中每轮5张的旧数量规则。已读取 README.md、docs/HOURLY_PROMPT.md、docs/CONTENT_FORMAT.md、docs/PUBLISHING.md，并检查近期卡片目录与整库关键词；整库搜索 HardFlow 未发现同一事件。最近连续内容已覆盖工程、考古、城市生活、食品、动物与自然、设计等领域，本轮轮换到 AI；最近6期未见新增天文/航天。MIT News 于2026年9月14日介绍 HardFlow，并明确说明其把硬约束采样重写为轨迹优化，在最终输出强制满足约束；同文报告机器人操作、迷宫导航和文本引导图像编辑实验中约束满足率为100%，且解质量优于基线。arXiv 原论文核对了方法、实验域与核心结论；PubMed 记录该论文已发表于 IEEE Transactions on Pattern Analysis and Machine Intelligence（DOI 10.1109/TPAMI.2026.3708824），用于独立核对论文元数据。公开新闻只给出发布日期，因此 eventDate 按日期精度记当天12:00 UTC，不声称算法在该时刻完成。配图使用 MIT News 本报道提供的下载图，页面标注 Credit: MIT News; iStock，并明确说明下载图片可由非商业实体、媒体和公众按 CC BY-NC-ND 使用，只可裁切且须署名。本地容器实际尝试 clone 仓库以运行 npm run validate、npm test、npm run build，但 DNS 无法解析 github.com，故未伪装执行本地校验，后续以该提交触发的 GitHub Actions 为准。"
+}
