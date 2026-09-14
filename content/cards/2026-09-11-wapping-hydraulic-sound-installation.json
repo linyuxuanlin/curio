@@ -1,0 +1,43 @@
+{
+  "id": "2026-09-11-wapping-hydraulic-sound-installation",
+  "eventKey": "wapping-hydraulic-power-station-art-of-sound-ldf-2026",
+  "category": "设计",
+  "title": "停摆13年的水力站\n变成了空间声音装置",
+  "summary": "伦敦一座1890年的水力发电站在关闭公众13年后重新开门，旧机器大厅里装进两套空间声音作品，让工业遗产本身变成听觉展场。",
+  "eventDate": "2026-09-11T10:00:00+01:00",
+  "location": "英国 · 伦敦 · Wapping Hydraulic Power Station",
+  "body": [
+    "这座维多利亚时代工业建筑曾靠高压水网为伦敦的升降机、剧院舞台和码头设备提供动力。如今原有机械和粗粝空间被保留下来，重新作为文化场所向公众开放。",
+    "9月11日至15日的 The Art of Sound 把两套空间音频作品放进旧动力站：Max Cooper 的《Feeling Is Structure》和自然录音师 Chris Watson 的《Trent Falls》。声音不只从正前方传来，而是借多声道系统在建筑内部形成方向、距离和移动感。",
+    "这也是 Glass Castle Foundation 接手后首次在这里进行文化项目。对参观者来说，重点不只是听作品，而是同时感受一栋原本为水压机器设计的建筑，如何被声音重新利用。"
+  ],
+  "sources": [
+    {
+      "name": "London Design Festival",
+      "url": "https://londondesignfestival.com/activities/the-art-of-sound-featuring-max-cooper-chris-watson"
+    },
+    {
+      "name": "Wallpaper*",
+      "url": "https://www.wallpaper.com/architecture/architecture-events/2026-london-open-house-festival-uk"
+    },
+    {
+      "name": "Tower Hamlets Slice",
+      "url": "https://towerhamletsslice.co.uk/borough/open-house-tower-hamlets-highlights-2/"
+    }
+  ],
+  "theme": "plum",
+  "publishedAt": "2026-09-14T13:15:00+08:00",
+  "verifiedAt": "2026-09-14T13:15:00+08:00",
+  "image": {
+    "src": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Wapping%20Hydraulic%20Power%20Station%2C%20London%2021.JPG",
+    "alt": "Wapping Hydraulic Power Station 旧机器大厅的历史实拍；并非2026年空间声音装置现场",
+    "credit": "Edwardx / Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Wapping_Hydraulic_Power_Station,_London_21.JPG",
+    "license": "CC BY-SA 3.0；2013年同一建筑实拍代表图，非2026年活动现场",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "kind": "original",
+    "layout": "photo"
+  },
+  "archive": false,
+  "verificationNotes": "本轮按用户最新明确要求只新增1张，覆盖仓库 README/PUBLISHING/HOURLY_PROMPT 中旧的每轮5张规则。已读取 README.md、docs/HOURLY_PROMPT.md、docs/CONTENT_FORMAT.md、docs/PUBLISHING.md，并检查近期提交与最新卡片；最近主题依次包含动物与自然、考古、AI、工程、食品、环境、社会、文化、城市生活等，本轮轮换到设计，最近6期未见天文/航天。整库搜索 Wapping Hydraulic Power Station 未发现同一事件。London Design Festival 官方活动页确认 The Art of Sound 于2026年9月11日至15日在 Wapping Hydraulic Power Station 举行，包含 Max Cooper 的 Feeling Is Structure 与 Chris Watson 的 Trent Falls 两套空间声音装置；独立建筑媒体 Wallpaper* 核对2026 Open House Festival 于9月12日至20日举行并把复兴中的 Wapping Hydraulic Power Station 列为重点开放场所；Tower Hamlets Slice 进一步核对该站曾以高压水网驱动伦敦升降机、剧院舞台和码头设备，并在本届 Open House 向公众开放。ArtRabbit 的活动资料称这是 Glass Castle Foundation 接手以来首次文化项目，并指出建筑此前已对公众关闭13年；该信息与当前开放背景相符，但为避免把非主要来源作为核心核实，卡片来源仅保留官方与两家独立媒体。eventDate 采用 LDF 官方活动首日明确时间 2026-09-11 10:00，伦敦当日处于 BST (UTC+1)。截至核实时首日距当前约74小时、活动本身仍持续至9月15日；按用户要求优先24–72小时并在候选不足时扩大范围，本事件仅略超首日72小时且仍在进行，因此 archive=false，并在此说明扩展原因。图片使用 Wikimedia Commons 上 Edwardx 于2013年拍摄的同一建筑内部实拍，文件页明确授权 CC BY-SA 3.0；alt 与 license 明确注明不是2026年活动现场。当前容器具有命令执行能力，已实际尝试 git clone 后运行本地校验，但 DNS 无法解析 github.com，未取得本地工作区，因此没有伪装运行 npm run validate、npm test、npm run build；提交后以该提交触发的 GitHub Actions 实际 validate/test/build 和线上 feed 验证为准。"
+}
