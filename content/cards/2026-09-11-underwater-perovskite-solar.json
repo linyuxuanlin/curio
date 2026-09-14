@@ -27,7 +27,16 @@
   "theme": "blue",
   "publishedAt": "2026-09-15T01:10:43+08:00",
   "verifiedAt": "2026-09-15T01:10:43+08:00",
-  "image": null,
+  "image": {
+    "src": "https://commons.wikimedia.org/wiki/Special:Redirect/file/ROV_Leonard.jpg",
+    "alt": "LIRMM 的水下机器人 Leonard；仅作水下机器人代表图，并非此次南海钙钛矿光伏实验设备",
+    "credit": "Vincent Creuze / Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:ROV_Leonard.jpg",
+    "license": "CC BY-SA 4.0；代表图，非本次实验现场或设备",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "kind": "original",
+    "layout": "photo"
+  },
   "archive": true,
-  "verificationNotes": "按用户本轮明确要求只新增1张卡片，覆盖仓库文档中每轮5张的旧数量规则；并按用户明确允许的图片降级规则，在无法取得可直接构建的研究原图时使用 image:null，覆盖仓库文档中旧的强制有图规则。已读取 README.md、docs/HOURLY_PROMPT.md、docs/CONTENT_FORMAT.md、docs/PUBLISHING.md，并检查近期目录及整库关键词，未发现同一水下钙钛矿光伏事件。最近一张为AI，本轮轮换到科技；最近6期无新增天文/航天。候选优先检索最近24–72小时；本研究由 Cell Press 于9月11日发布，至本轮略超过72小时，因此作为扩展候选并标 archive=true。Cell Press/EurekAlert 新闻稿核实：团队在南海10米深处实测水下太阳能电池，两小时产生324 mWh，并集成到水下机器人；pv magazine 与 Ocean News 于9月14日的独立报道交叉核对了10米深度、324 mWh、宽带隙钙钛矿及南海实测。来源只给论文发布日期，eventDate 按日期精度记当天12:00 UTC。研究新闻稿有署名 Simin Ma / Yunnan University 的示意图，但当前工具无法取得可供构建器直接抓取的稳定原图 URL，也不能确认当前图像生成能力名为 GPT Image 2.5，因此不冒充生成模型，按用户本轮规则设 image:null。"
+  "verificationNotes": "按用户本轮明确要求只新增1张卡片，覆盖仓库文档中每轮5张的旧数量规则。已读取 README.md、docs/HOURLY_PROMPT.md、docs/CONTENT_FORMAT.md、docs/PUBLISHING.md，并检查近期目录及整库关键词，未发现同一水下钙钛矿光伏事件。最近一张为AI，本轮轮换到科技；最近6期无新增天文/航天。候选优先检索最近24–72小时；本研究由 Cell Press 于9月11日发布，至本轮略超过72小时，因此作为扩展候选并标 archive=true。Cell Press/EurekAlert 新闻稿核实：团队在南海10米深处实测水下太阳能电池，两小时产生324 mWh，并集成到水下机器人；pv magazine 与 Ocean News 于9月14日的独立报道交叉核对了10米深度、324 mWh、宽带隙钙钛矿及南海实测。来源只给论文发布日期，eventDate 按日期精度记当天12:00 UTC。此前按用户允许的降级规则设为 image:null，但仓库当前 validator 强制要求 image 对象并因此导致 GitHub Actions 失败；本次为恢复发布链，仅补入明确授权的代表图。图片是 LIRMM（Université de Montpellier–CNRS）水下机器人 Leonard 的实拍，由 Vincent Creuze 以 CC BY-SA 4.0 发布；不是此次南海实验设备，已在 alt 与 license 中明确说明。"
 }
