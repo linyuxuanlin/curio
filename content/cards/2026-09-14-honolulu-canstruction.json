@@ -1,14 +1,14 @@
 {
   "id": "2026-09-14-honolulu-canstruction",
-  "eventKey": "aia-honolulu-canstruction-public-display-2026",
+  "eventKey": "aia-honolulu-canstruction-2026-build-day",
   "category": "设计",
   "title": "建筑师把几千个罐头\n搭成会被吃掉的雕塑",
-  "summary": "9月14日，檀香山年度 Canstruction 开始公开展示：建筑、工程团队用数千个食品罐头搭成大型结构，展期结束后全部捐给 Hawaiʻi Foodbank。",
-  "eventDate": "2026-09-14T08:00:00-10:00",
+  "summary": "9月12日，檀香山年度 Canstruction 完成搭建：建筑、工程团队用数千个食品罐头做成大型结构，展期结束后食品将全部捐给 Hawaiʻi Foodbank。",
+  "eventDate": "2026-09-12T09:00:00-10:00",
   "location": "美国 · 夏威夷州 · 檀香山",
   "body": [
     "今年主题是“百年设计”，呼应 AIA Hawaiʻi 成立100周年；8支团队把不同年代的标志性意象变成立体罐头作品。",
-    "公众可在9月14日至18日看展并投票，每1美元算1票；食物与募款最终都支持 Hawaiʻi Foodbank。"
+    "作品计划在9月14日至18日公开展示并接受投票，每1美元算1票；食物与募款最终都支持 Hawaiʻi Foodbank。"
   ],
   "sources": [
     {
@@ -38,5 +38,5 @@
     "layout": "photo"
   },
   "archive": false,
-  "verificationNotes": "按用户本轮明确要求只新增1张卡片，覆盖仓库文档中每轮5张的旧数量规则。已读取 README.md、docs/HOURLY_PROMPT.md、docs/CONTENT_FORMAT.md、docs/PUBLISHING.md，并列出近期 content/cards；整库搜索 Canstruction 未发现同一事件，最近内容已覆盖交通、科技、社会、AI、自然等，本轮轮换到设计。AIA Honolulu 官方页确认2026年主题为 CANtennial: Design of the Decades，8支团队参赛，公开展示与 People's Choice 投票从9月14日至18日，结构使用约1,500至13,000个罐头，展后食品捐给 Hawaiʻi Foodbank；Hawaiʻi Public Radio 独立活动页核实8支团队、公共展示日期、新地点及捐赠机制；HONOLULU Magazine 独立核实9月14日至18日8:00–16:00公开展示、罐头作品和投票。eventDate采用本地媒体明确的公开展示首日08:00 HST；AIA不同页面对Build Day日期有冲突，因此正文不写Build Day，只采用多源一致的公开展示日期。配图来自Wikimedia Commons，文件页确认是2010年纽约 Canstruction 作品、作者Chakshu101、CC BY-SA 3.0；alt和license明确注明并非2026年檀香山现场。当前容器虽有本地命令执行能力，但 git clone 实际失败，错误为无法解析 github.com，因此没有伪装运行 npm run validate、npm test、npm run build；以本提交触发的 GitHub Actions 校验为准。"
+  "verificationNotes": "按用户本轮明确要求只新增1张卡片，覆盖仓库文档中每轮5张的旧数量规则。已读取 README.md、docs/HOURLY_PROMPT.md、docs/CONTENT_FORMAT.md、docs/PUBLISHING.md，并列出近期 content/cards；整库搜索 Canstruction 未发现同一事件，最近内容已覆盖交通、科技、社会、AI、自然等，本轮轮换到设计。AIA Honolulu 官方主页与 Hawaiʻi Public Radio 独立活动页均确认专业团队 Build Day 为2026年9月12日09:00–14:00 HST，8支团队参赛；AIA官方页还确认主题为 CANtennial: Design of the Decades，结构使用约1,500至13,000个罐头，展后食品捐给 Hawaiʻi Foodbank。公开展示与 People's Choice 投票安排在9月14日至18日；HONOLULU Magazine 独立核实公开展示时段、罐头作品和投票。AIA另一活动子页把Build Day误列为9月14日，与官方主页、HPR及Foodbank信息冲突，因此不用该单页时间，eventDate采用两源一致且已发生的9月12日09:00 HST。配图来自Wikimedia Commons，文件页确认是2010年纽约 Canstruction 作品、作者Chakshu101、CC BY-SA 3.0；alt和license明确注明并非2026年檀香山现场。当前容器虽有本地命令执行能力，但 git clone 实际失败，错误为无法解析 github.com，因此没有伪装运行 npm run validate、npm test、npm run build；以GitHub Actions实际校验为准。"
 }
