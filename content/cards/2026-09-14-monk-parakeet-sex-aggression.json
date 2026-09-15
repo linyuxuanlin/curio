@@ -1,0 +1,42 @@
+{
+  "id": "2026-09-14-monk-parakeet-sex-aggression",
+  "eventKey": "doi-10-1093-icb-icag102-monk-parakeet-sex-aggression",
+  "category": "动物与自然",
+  "title": "和尚鹦鹉争地位时\n雌雄都一样爱吵",
+  "summary": "对5组和尚鹦鹉的观察发现，性别几乎不能预测谁先挑起冲突、谁被针对，或谁最后爬到群体等级的高位。",
+  "eventDate": "2026-09-14T12:00:00Z",
+  "location": "美国 · 辛辛那提",
+  "body": [
+    "研究比较5个混合性别群体、每组10只鸟。结果没有发现某一性别整体更好斗，雌雄成为高等级个体的机会也相近。",
+    "这些冲突多是抢栖木等低强度争执。研究者认为，频繁的小摩擦可能帮助群体建立秩序，减少更危险的打斗。"
+  ],
+  "sources": [
+    {
+      "name": "University of Cincinnati · Parakeet males, females equally likely to fight",
+      "url": "https://www.uc.edu/news/articles/2026/09/monk-parakeet-males-females-equally-likely-to-fight.html"
+    },
+    {
+      "name": "Oxford Academic · The Role of Sex in Structuring Aggression, Rank, and Hierarchy in Monk Parakeets",
+      "url": "https://academic.oup.com/icb/article-abstract/doi/10.1093/icb/icag102/8723305"
+    },
+    {
+      "name": "Duke Scholars · The Role of Sex in Structuring Aggression, Rank, and Hierarchy in Monk Parakeets",
+      "url": "https://scholars.duke.edu/publication/1909518"
+    }
+  ],
+  "theme": "sage",
+  "publishedAt": "2026-09-15T08:12:40+08:00",
+  "verifiedAt": "2026-09-15T08:12:40+08:00",
+  "image": {
+    "src": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Monk%20Parakeet%20%28Myiopsitta%20monachus%29%20RWD.jpg",
+    "alt": "一只和尚鹦鹉的实拍照片；仅作物种代表图，并非本次研究中的实验个体",
+    "credit": "Dick Daniels / Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Monk_Parakeet_(Myiopsitta_monachus)_RWD.jpg",
+    "license": "CC BY-SA 3.0；物种代表图，非本次研究现场",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "kind": "original",
+    "layout": "photo"
+  },
+  "archive": false,
+  "verificationNotes": "按用户本轮明确要求只新增1张卡片，覆盖仓库文档中每轮5张的旧数量规则。已读取 README.md、docs/HOURLY_PROMPT.md、docs/CONTENT_FORMAT.md、docs/PUBLISHING.md，并检查近期卡片与整库关键词；搜索 monk parakeet 未发现同一事件。近期已覆盖设计、动物与自然、环境、文化、交通、机器人等领域；本轮仍选动物与自然是因为这是9月14日新发布的机构研究解读，且与上一动物卡的鳄鱼迁移主题不同；最近6期未见天文/航天。University of Cincinnati 于2026年9月14日发布研究解读，确认研究由 Cincinnati 与 Duke 团队完成；原论文 DOI 10.1093/icb/icag102 已在 Oxford Academic 和 Duke Scholars 核对，研究对象为5组、每组10只圈养和尚鹦鹉，结果显示性别对攻击性、攻击对象选择和等级排名影响有限。eventDate 记录本轮公众发布日；原论文已于2026年7月公开，未把新闻日误写成论文发表日。卡片措辞限定在这5个圈养混合性别群体，不外推为所有和尚鹦鹉。未直接使用 UC 新闻页照片，因为当前页面未给出明确的公开复用许可；改用 Dick Daniels 拍摄、CC BY-SA 3.0 授权的和尚鹦鹉实拍作为物种代表图，并明确不是研究个体。当前运行环境没有可用的本地仓库工作区，因此未伪装运行 npm run validate、npm test、npm run build；后续以本提交触发的 GitHub Actions 校验为准。"
+}
