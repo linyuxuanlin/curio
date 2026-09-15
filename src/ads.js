@@ -1,3 +1,4 @@
+import {adsenseConfig} from './ads-config.js';
 // Explicit opt-in: account category blocks and Auto ads settings must be reviewed first.
 export function createAdPolicy() {
  let position=0, lastAd=-Infinity;
@@ -12,9 +13,10 @@ export function hasAdSpace(width,height,used,pages) {
  return pages===1 && width>=300 && used<=height*.55 && height-used>=302;
 }
 export function createAds() {
- const client=import.meta.env.VITE_ADSENSE_CLIENT||'';
- const slot=import.meta.env.VITE_ADSENSE_SLOT||'';
- const enabled=import.meta.env.VITE_ADSENSE_ENABLED==='true' && /^ca-pub-\d{16}$/.test(client) && /^\d+$/.test(slot);
+ const client=import.meta.env.VITE_ADSENSE_CLIENT||adsenseConfig.client;
+ const slot=import.meta.env.VITE_ADSENSE_SLOT||adsenseConfig.slot;
+ const enabled=(import.meta.env.VITE_ADSENSE_ENABLED===undefined ? adsenseConfig.enabled && location.hostname===adsenseConfig.hostname : import.meta.env.VITE_ADSENSE_ENABLED==='true') && /^ca-pub-\d{16}$/.test(client) && /^\d+$/.test(slot);
+ const startsAt=import.meta.env.VITE_ADSENSE_ENABLED==='true' ? 0 : Date.parse(adsenseConfig.notBefore)||0;
  const policy=createAdPolicy();let loading;
  function load() {
   return loading ||= new Promise((resolve,reject)=>{
@@ -31,7 +33,7 @@ export function createAds() {
    const css=getComputedStyle(body);
    return hasAdSpace(body.clientWidth-parseFloat(css.paddingLeft)-parseFloat(css.paddingRight),body.clientHeight,used,Number(body.dataset.pages));
   }
-  function ready() {return card.isConnected && current() && !document.hidden && card.classList.contains('is-flipped') && !card.classList.contains('dragging') && space();}
+  function ready() {return Date.now()>=startsAt && card.isConnected && current() && !document.hidden && card.classList.contains('is-flipped') && !card.classList.contains('dragging') && space();}
   async function show() {
    if(!ready()||requested||!policy.eligible(card.dataset.id,visit))return;
    try {await load();}catch{return;}
