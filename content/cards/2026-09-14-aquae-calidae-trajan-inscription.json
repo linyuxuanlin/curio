@@ -1,0 +1,29 @@
+{
+  "id": "2026-09-14-aquae-calidae-trajan-inscription",
+  "eventKey": "aquae-calidae-trajan-inscription-2026-09-14",
+  "category": "考古",
+  "title": "古罗马温泉遗址，\n又挖出一段图拉真时代铭文",
+  "summary": "保加利亚 Aquae Calidae 新发现一块约公元1世纪末至2世纪初的铭文，正由铭文学者解读。",
+  "body": [
+    "铭文出自图拉真统治早期。这个遗址此前已发现尼禄时期铭文和2世纪献给宁芙的祭坛。",
+    "新文字尚在解读中，因此目前只能确认年代与考古背景，不能提前猜测铭文具体内容。"
+  ],
+  "eventDate": "2026-09-14T12:00:00Z",
+  "publishedAt": "2026-09-15T01:12:10Z",
+  "verifiedAt": "2026-09-15T01:12:10Z",
+  "location": "Aquae Calidae，Burgas，Bulgaria",
+  "sources": [
+    {
+      "name": "The Sofia Globe",
+      "url": "https://sofiaglobe.com/2026/09/14/new-roman-inscription-from-time-of-emperor-trajan-discovered-in-aquae-calidae-in-bulgarias-bourgas/"
+    },
+    {
+      "name": "Regional Historical Museum Burgas",
+      "url": "https://www.burgasmuseums.bg/en/encdetail/aqaue-calidae-24"
+    }
+  ],
+  "verificationNotes": "The Sofia Globe 2026-09-14 报道明确转述 Burgas Regional Historical Museum 当日公告：Dimcho Momchilov 团队发现一块年代落在图拉真统治早期（98–117 CE）的铭文，Nikolay Sharankov 正在进行释读与学术解释；因此卡片不推断尚未公布的铭文正文。Burgas Regional Historical Museum 的 Aquae Calidae 官方遗址资料独立核对了图拉真时期该温泉、公共浴场及道路驿站的历史背景。事件来源只给出发现公告日期，eventDate 以 2026-09-14 12:00 UTC 记录日级精度。最近内容已连续覆盖动物与自然、设计、环境、文化、交通、机器人等领域，本轮转到考古；GitHub 全仓搜索未发现 Aquae Calidae / Trajan 同事件卡片。找到的现场代表图虽有明确 CC BY 4.0 授权，但当前 GitHub Contents 写入工具无法安全上传二进制图片；按用户本轮明确指令，在无法取得合适可提交真实图时使用 image:null，不以无关旧图冒充本事件图片。",
+  "theme": "clay",
+  "archive": false,
+  "image": null
+}
