@@ -17,7 +17,9 @@ for(const viewport of [{width:390,height:844},{width:1440,height:900},{width:320
   }
   await page.locator('#next').click();
  }
- if(viewport.width===320){assert.deepEqual(shown,[]);assert.equal(requests,0);}else assert.deepEqual(shown,[3,8]);
+ const expected=viewport.width===320?[]:viewport.width===390?[4,9]:[3,8];
+ assert.deepEqual(shown,expected);
+ if(viewport.width===320)assert.equal(requests,0);
  await page.reload();await page.locator('.card[tabindex]').focus();await page.keyboard.press('Enter');await page.waitForTimeout(780);assert.equal(await page.locator('.card-ad').count(),0);
  console.log(viewport,shown);await context.close();
 }
