@@ -170,17 +170,7 @@ function paginate(body, prev, next, label) {
  const fits=()=>body.scrollHeight<=body.clientHeight+1;
  const finish=()=>{if(nodes.length)pages.push(nodes);nodes=[];body.replaceChildren();};
  for(const original of originals){
-  let parts=[original];
-  if(original.classList.contains('sources')){
-   const probe=original.cloneNode(true);body.append(probe);
-   const tooTall=probe.offsetHeight>body.clientHeight;probe.remove();
-   if(tooTall)parts=[...original.querySelectorAll('a')].map(link=>{
-    const group=original.cloneNode(false);
-    const heading=original.querySelector('.sources-label');
-    if(heading)group.append(heading.cloneNode(true));
-    group.append(link.cloneNode(true));return group;
-   });
-  }
+  const parts=[original];
   for(const part of parts){
    let node=part.cloneNode(true);body.append(node);
    if(fits()){nodes.push(node);continue;}

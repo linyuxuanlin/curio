@@ -51,7 +51,8 @@ jobs:
         shell: bash
         run: |
           set -euo pipefail
-          CARD_PATH="$(git diff-tree --no-commit-id --name-only -r "$GITHUB_SHA" -- 'content/cards/*.json' | tail -n 1 || true)"
+          # A moved or deleted draft must not be treated as the card to verify.
+          CARD_PATH="$(git diff-tree --no-commit-id --name-only --diff-filter=AM -r "$GITHUB_SHA" -- 'content/cards/*.json' | tail -n 1 || true)"
           if [[ -n "$CARD_PATH" ]]; then
             CARD_ID="$(node -e "const fs=require('fs');const c=JSON.parse(fs.readFileSync(process.argv[1],'utf8'));console.log(c.id)" "$CARD_PATH")"
           else
