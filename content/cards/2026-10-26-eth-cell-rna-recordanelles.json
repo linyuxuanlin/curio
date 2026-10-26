@@ -1,0 +1,38 @@
+{
+  "id": "2026-10-26-eth-cell-rna-recordanelles",
+  "eventKey": "doi-10-1038-s41587-026-03327-6",
+  "category": "科技",
+  "title": "给细胞装一份RNA档案\n几天后还能追查它做过什么",
+  "summary": "苏黎世联邦理工开发细胞内RNA存档技术，让研究者事后回看短暂的基因活动。",
+  "body": [
+    "普通RNA检测只能看到采样当下。新方法用改造蛋白保护部分RNA，使细胞能保留数日的活动记录。",
+    "目前在培养的人类细胞中验证；团队希望未来研究免疫反应与肿瘤耐药，并未用于临床。配图为其他实验的细胞显微照片。"
+  ],
+  "eventDate": "2026-10-26T12:00:00Z",
+  "location": "瑞士·巴塞尔",
+  "sources": [
+    {
+      "name": "ETH Zurich｜10月26日研究公告",
+      "url": "https://ethz.ch/en/news-and-events/eth-news/news/2026/10/new-method-reveals-what-a-cell-did-days-ago.html"
+    },
+    {
+      "name": "Nature Biotechnology｜原始论文",
+      "url": "https://doi.org/10.1038/s41587-026-03327-6"
+    }
+  ],
+  "verificationNotes": "ETH研究公告发表于2026-10-26，原论文发表于2026-10-21；eventDate按公告日12:00 UTC表示日期精度。论文与大学公告共同核实RNA存档机制、培养细胞实验及尚未临床应用。图片为2014年其他实验的HeLa细胞共聚焦显微照片，非本研究RNA存档实验；Wikimedia Commons CC BY-SA 4.0。",
+  "theme": "blue",
+  "archive": false,
+  "image": {
+    "src": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Multicolor%20fluorescence%20image%20of%20living%20HeLa%20cells.jpg",
+    "alt": "2014年活体HeLa细胞共聚焦显微照片，非此次RNA存档实验",
+    "credit": "8x57is / Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Multicolor_fluorescence_image_of_living_HeLa_cells.jpg",
+    "license": "CC BY-SA 4.0；历史细胞显微照片，非本次实验",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "kind": "original",
+    "layout": "photo"
+  },
+  "publishedAt": "2026-10-26T13:28:19.492Z",
+  "verifiedAt": "2026-10-26T13:28:19.492Z"
+}
