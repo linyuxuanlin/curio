@@ -1,0 +1,42 @@
+{
+  "id": "2026-10-03-ghent-design-museum-waste-brick-annex",
+  "eventKey": "design-museum-gent-ding-waste-brick-reopening-2026-10-03",
+  "category": "设计",
+  "title": "旧玻璃和碎混凝土\n变成设计博物馆的外墙砖",
+  "summary": "比利时根特设计博物馆新翼使用逾8万块再生砖，其中约63%原料来自当地废料。",
+  "body": [
+    "这些砖以废混凝土、玻璃与瓷器等为原料，不用传统高温窑烧，而靠石灰固化。",
+    "博物馆10月3日重新开放；20至23日媒体再次聚焦新翼材料。配图是2017年的旧馆外观，不含新翼。"
+  ],
+  "eventDate": "2026-10-03T12:00:00Z",
+  "location": "比利时·根特",
+  "sources": [
+    {
+      "name": "Fast Company｜再生砖新翼报道",
+      "url": "https://www.fastcompany.com/91626072/design-museum-gent-annex-bricks-made-from-rubble-and-waste"
+    },
+    {
+      "name": "The Guardian｜废料建造博物馆",
+      "url": "https://www.theguardian.com/artanddesign/2026/oct/20/ghent-design-museum-co2-absorbing-recycling"
+    },
+    {
+      "name": "Visit Gent｜重新开放日期",
+      "url": "https://visit.gent.be/en/calendar/reopening-design-museum-gent"
+    }
+  ],
+  "verificationNotes": "Visit Gent确认2026-10-03重新开放；The Guardian 10月20日及Fast Company 10月22日独立报道再生砖材料与比例。eventDate按开馆日12:00 UTC记，archive=true，不把报道日当开馆日。2017年EvelienBauwens拍摄旧馆外观，不能显示2026新翼；alt和正文已明确。CC BY-SA 4.0。",
+  "theme": "clay",
+  "archive": true,
+  "image": {
+    "src": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Gent%20eb%20WIKI045%20designmuseum.jpg",
+    "alt": "2017年根特设计博物馆旧馆外观，不是2026年再生砖新翼",
+    "credit": "EvelienBauwens / Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Gent_eb_WIKI045_designmuseum.jpg",
+    "license": "CC BY-SA 4.0；2017年旧馆历史照片，非新翼",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "kind": "original",
+    "layout": "photo"
+  },
+  "publishedAt": "2026-10-26T13:28:19.492Z",
+  "verifiedAt": "2026-10-26T13:28:19.492Z"
+}

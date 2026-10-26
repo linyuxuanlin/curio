@@ -1,0 +1,42 @@
+{
+  "id": "2026-08-20-amazon-laimosemion-laranja-killifish",
+  "eventKey": "doi-10-3897-zse-102-187659",
+  "category": "动物与自然",
+  "title": "亚马孙发现橙色斑点小鱼\n已知栖地只有三处",
+  "summary": "研究者描述新鳉鱼Laimosemion laranja，雄鱼有鲜亮橙色斑纹，已知分布范围很小。",
+  "body": [
+    "它的标准体长不到3厘米，栖息在巴西亚马孙地区阿马帕州的林间小水体。",
+    "研究团队建议评估为濒危，并扩大附近保护区；这不是已获IUCN正式列级。论文8月发表，10月大学再报道。"
+  ],
+  "eventDate": "2026-08-20T12:00:00Z",
+  "location": "巴西·阿马帕州",
+  "sources": [
+    {
+      "name": "Zoosystematics and Evolution｜原论文",
+      "url": "https://doi.org/10.3897/zse.102.187659"
+    },
+    {
+      "name": "University of West Florida｜10月22日报道",
+      "url": "https://news.uwf.edu/uwf-researcher-leads-discovery-of-new-killifish-species/"
+    },
+    {
+      "name": "WKRG｜10月23日地方新闻",
+      "url": "https://www.aol.com/articles/university-west-florida-researcher-discovers-135022000.html"
+    }
+  ],
+  "verificationNotes": "新种原论文2026-08-20发表，UWF于10月22日及WKRG于10月23日再次报道；eventDate按原论文日期12:00 UTC记，archive=true，不把8月发现伪称为10月新研究。当前仅已知3处栖地，团队建议濒危评级而非IUCN已确认。图片为Yuri Abrantes拍摄的Laimosemion laranja雄性模式标本；EurekAlert配图页标注CC BY、要求署名，未经AI修改。",
+  "theme": "plum",
+  "archive": true,
+  "image": {
+    "src": "https://scx1.b-cdn.net/csz/news/800a/2026/vivid-orange-killifish.jpg",
+    "alt": "研究者拍摄的Laimosemion laranja雄性模式标本，橙色斑点明显",
+    "credit": "Yuri Abrantes / Pensoft Publishers",
+    "sourceUrl": "https://www.eurekalert.org/multimedia/1152859",
+    "license": "CC BY；EurekAlert媒体授权页明确要求署名",
+    "licenseUrl": "https://www.eurekalert.org/multimedia/1152859",
+    "kind": "original",
+    "layout": "photo"
+  },
+  "publishedAt": "2026-10-26T13:28:19.492Z",
+  "verifiedAt": "2026-10-26T13:28:19.492Z"
+}
