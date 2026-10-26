@@ -1,0 +1,42 @@
+{
+  "id": "2026-10-22-crows-235ms-visual-decisions",
+  "eventKey": "doi-10-1126-science-aed6459",
+  "category": "动物与自然",
+  "title": "乌鸦看点阵作决定\n平均只要235毫秒",
+  "summary": "两只小嘴乌鸦在视觉判断实验中，平均235毫秒就能选出移动方向；这一速度约为过往人和猴子同类实验的两倍。",
+  "body": [
+    "研究者让乌鸦啄选屏幕上点阵的移动方向，同时记录脑神经元活动。",
+    "与选择有关的信号在刺激出现约70毫秒后就已显现。样本仅两只，跨物种比较也并非同场实验。"
+  ],
+  "eventDate": "2026-10-22T12:00:00Z",
+  "location": "德国图宾根",
+  "archive": true,
+  "theme": "sage",
+  "sources": [
+    {
+      "name": "图宾根大学｜研究公告",
+      "url": "https://uni-tuebingen.de/universitaet/aktuelles-und-publikationen/pressemitteilung/kraehen-entscheiden-doppelt-so-schnell-wie-menschen-und-affen/"
+    },
+    {
+      "name": "Science｜原始论文 DOI",
+      "url": "https://doi.org/10.1126/science.aed6459"
+    },
+    {
+      "name": "Live Science｜独立报道",
+      "url": "https://www.livescience.com/animals/birds/crows-may-make-lightning-fast-decisions-sometimes-twice-as-fast-as-humans-study-hints"
+    }
+  ],
+  "verificationNotes": "2026-10-22为Science论文发表及大学新闻日期，来源只给出日期，记12:00 UTC作日期精度占位。图宾根大学原始公告、Science论文及Live Science独立报道交叉核对：两只Corvus corone，平均235毫秒，神经信号约70毫秒。与人类/猴子比较基于既有研究而非同条件同步测试；样本极小。已超72小时，因近期不同领域候选搭配而扩展并标archive。配图是2022年法国拍摄的同种乌鸦代表照片，不是实验个体；Commons作者Alexis Lours明确CC BY 4.0。",
+  "image": {
+    "src": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Carrion%20crow%20(Corvus%20corone)%20head.jpg",
+    "alt": "法国拍摄的小嘴乌鸦头部特写；非图宾根大学本次实验个体",
+    "credit": "Alexis Lours / Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Carrion%20crow%20(Corvus%20corone)%20head.jpg",
+    "license": "CC BY 4.0；同种乌鸦代表照片，非实验个体",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "kind": "original",
+    "layout": "photo"
+  },
+  "publishedAt": "2026-10-26T04:18:31.556Z",
+  "verifiedAt": "2026-10-26T04:18:31.556Z"
+}

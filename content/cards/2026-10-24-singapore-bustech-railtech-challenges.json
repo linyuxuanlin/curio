@@ -1,0 +1,42 @@
+{
+  "id": "2026-10-24-singapore-bustech-railtech-challenges",
+  "eventKey": "singapore-lta-bustech-railtech-grand-challenges-2026-10-24",
+  "category": "交通",
+  "title": "修电动巴士、设计助乘系统\n成了交通技能赛题",
+  "summary": "新加坡公交与轨道交通技能挑战赛，把电动巴士高压电池诊断、无障碍助乘原型和铁路检修搬进竞赛。",
+  "body": [
+    "公交技师组有8支队伍比拼电动巴士故障排查；学生组12支队伍开发自主乘客辅助系统原型。",
+    "轨道组还让技术人员与学生组队处理信号、车辆、供电和轨道工程任务。"
+  ],
+  "eventDate": "2026-10-24T12:00:00Z",
+  "location": "新加坡 ITE College West",
+  "archive": false,
+  "theme": "blue",
+  "sources": [
+    {
+      "name": "新加坡陆路交通管理局｜官方新闻",
+      "url": "https://www.lta.gov.sg/content/ltagov/en/newsroom/2026/10/news-releases/developing-future-ready-technical-capabilities-and-driving-innov.html"
+    },
+    {
+      "name": "新加坡交通部｜部长现场讲话",
+      "url": "https://www.mot.gov.sg/news-resources/newsroom/speech-by-minister-for-transport-mr-jeffrey-siow-at-lta-s-singapore-bustech---railtech-grand-challenge-2026/"
+    },
+    {
+      "name": "The Independent Singapore｜独立报道",
+      "url": "https://theindependent.sg/lta-singapore-bustech-and-railtech-grand-challenges-showcase-innovation-in-public-transport"
+    }
+  ],
+  "verificationNotes": "LTA 2026-10-24现场新闻稿、交通部同日部长讲话与2026-10-25独立媒体报道交叉核实举办日期地点及比赛性质；8支公交技师队和12支学生队来自LTA公告。未获比赛开始时刻，eventDate以当天12:00 UTC作日期精度占位。配图是2024年拍摄的SBS Transit BYD B12电动巴士，不是2026比赛现场或参赛车辆；摄影者S5A-0043在Commons明确授予CC BY 4.0。",
+  "image": {
+    "src": "https://commons.wikimedia.org/wiki/Special:Redirect/file/(SGP-Singapore)%20SBS%20Transit%20SG4013A%20265%202024-05-19%20(2).jpg",
+    "alt": "2024年拍摄的新加坡SBS Transit BYD B12电动巴士；非2026比赛现场",
+    "credit": "S5A-0043 / Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:(SGP-Singapore)%20SBS%20Transit%20SG4013A%20265%202024-05-19%20(2).jpg",
+    "license": "CC BY 4.0；新加坡电动公交代表图，非赛事现场",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "kind": "original",
+    "layout": "photo"
+  },
+  "publishedAt": "2026-10-26T04:18:32.556Z",
+  "verifiedAt": "2026-10-26T04:18:31.556Z"
+}

@@ -46,44 +46,52 @@ jobs:
       - name: Build site
         run: npm run build
 
-      - name: Resolve card ID to verify
-        id: card
+      - name: Resolve all five new card IDs
+        id: cards
         shell: bash
         run: |
           set -euo pipefail
-          # A moved or deleted draft must not be treated as the card to verify.
-          CARD_PATH="$(git diff-tree --no-commit-id --name-only --diff-filter=AM -r "$GITHUB_SHA" -- 'content/cards/*.json' | tail -n 1 || true)"
-          if [[ -n "$CARD_PATH" ]]; then
-            CARD_ID="$(node -e "const fs=require('fs');const c=JSON.parse(fs.readFileSync(process.argv[1],'utf8'));console.log(c.id)" "$CARD_PATH")"
-          else
-            CARD_ID="$(node --input-type=module <<'NODE'
-          import {readdir,readFile} from 'node:fs/promises';
-          const files=(await readdir('content/cards')).filter(f=>f.endsWith('.json'));
-          const cards=[];
-          for(const file of files)cards.push(JSON.parse(await readFile(`content/cards/${file}`,'utf8')));
-          cards.sort((a,b)=>Date.parse(b.publishedAt)-Date.parse(a.publishedAt)||b.id.localeCompare(a.id));
-          if(!cards[0])throw Error('No cards found');
-          console.log(cards[0].id);
-          NODE
-            )"
+          mapfile -t CARD_PATHS < <(git diff-tree --no-commit-id --name-only --diff-filter=A -r "$GITHUB_SHA" -- 'content/cards/*.json')
+          if [[ "${#CARD_PATHS[@]}" -ne 5 ]]; then
+            echo "Expected exactly 5 newly added card JSON files; found ${#CARD_PATHS[@]}" >&2
+            exit 1
           fi
-          echo "Verifying card: $CARD_ID"
-          echo "id=$CARD_ID" >> "$GITHUB_OUTPUT"
+          {
+            echo 'ids<<CURIO_CARD_IDS'
+            for CARD_PATH in "${CARD_PATHS[@]}"; do
+              CARD_ID="$(node -e "const fs=require('fs');const c=JSON.parse(fs.readFileSync(process.argv[1],'utf8'));console.log(c.id)" "$CARD_PATH")"
+              echo "Verifying card: $CARD_ID" >&2
+              echo "$CARD_ID"
+            done
+            echo 'CURIO_CARD_IDS'
+          } >> "$GITHUB_OUTPUT"
 
-      - name: Wait for Cloudflare Pages and verify live feed
+      - name: Wait for Cloudflare Pages and verify all five live cards
         shell: bash
         env:
-          CARD_ID: ${{ steps.card.outputs.id }}
+          CARD_IDS: ${{ steps.cards.outputs.ids }}
         run: |
           set -euo pipefail
-          for attempt in $(seq 1 24); do
-            echo "Live verification attempt $attempt/24 for $CARD_ID"
-            if node scripts/verify-live.mjs "$CARD_ID"; then
-              exit 0
-            fi
-            if [[ "$attempt" -lt 24 ]]; then
-              sleep 15
+          mapfile -t IDS <<< "$CARD_IDS"
+          if [[ "${#IDS[@]}" -ne 5 ]]; then
+            echo "Expected five card IDs for live verification" >&2
+            exit 1
+          fi
+          for CARD_ID in "${IDS[@]}"; do
+            verified=0
+            for attempt in $(seq 1 24); do
+              echo "Live verification attempt $attempt/24 for $CARD_ID"
+              if node scripts/verify-live.mjs "$CARD_ID"; then
+                verified=1
+                break
+              fi
+              if [[ "$attempt" -lt 24 ]]; then
+                sleep 15
+              fi
+            done
+            if [[ "$verified" -ne 1 ]]; then
+              echo "Card not in production feed: $CARD_ID" >&2
+              exit 1
             fi
           done
-          echo "Card did not appear in either production feed within the verification window." >&2
-          exit 1
+          echo "All 5 newly added card IDs live verified: ${IDS[*]}"

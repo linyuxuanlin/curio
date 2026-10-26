@@ -1,0 +1,42 @@
+{
+  "id": "2026-10-24-bangkok-thai-local-rice-fest-gi",
+  "eventKey": "thai-local-rice-fest-2-paradise-park-2026",
+  "category": "食品",
+  "title": "曼谷办了一场米饭品鉴会\n一次尝15种地理标志米",
+  "summary": "泰国本地米节在曼谷展示15种地理标志认证米，观众能比较不同地区米粒的香气、口感与用途。",
+  "body": [
+    "活动还请两位厨师在两天内示范四道创意米料理，让传统米种走进现代菜单。",
+    "主办方希望把品种、产地和烹饪知识连起来，为本地种植者和米制品寻找更多市场。"
+  ],
+  "eventDate": "2026-10-24T12:00:00Z",
+  "location": "泰国曼谷 Paradise Park",
+  "archive": false,
+  "theme": "gold",
+  "sources": [
+    {
+      "name": "The Nation Thailand｜活动报道",
+      "url": "https://www.nationthailand.com/news/general/40072650"
+    },
+    {
+      "name": "Daily News Thailand｜活动报道",
+      "url": "https://www.dailynews.co.th/news/6297524/"
+    },
+    {
+      "name": "Bangkok Biz News｜泰国米节报道",
+      "url": "https://www.bangkokbiznews.com/news/corporate-moves/1257521"
+    }
+  ],
+  "verificationNotes": "泰国The Nation、Daily News及Bangkok Biz News三家2026-10-23报道均确认10月24—25日在Paradise Park举行Thai Local Rice Fest #2，展示15种GI米并有两位厨师示范。活动开始时刻未核实，eventDate记首日12:00 UTC作为日期精度占位；不声称已核实现场实际到场人数。配图为Miansari66拍摄的泰国茉莉香米代表照片，非15个品种集合或本次现场；Commons授权CC0。",
+  "image": {
+    "src": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Thai%20Jasmine%20Rice.jpg",
+    "alt": "泰国茉莉香米代表照片；不代表本次米节全部15种地理标志米",
+    "credit": "Miansari66 / Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Thai%20Jasmine%20Rice.jpg",
+    "license": "CC0 1.0；泰国茉莉香米代表图，非本次15种米或活动现场",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "kind": "original",
+    "layout": "photo"
+  },
+  "publishedAt": "2026-10-26T04:18:33.556Z",
+  "verifiedAt": "2026-10-26T04:18:31.556Z"
+}

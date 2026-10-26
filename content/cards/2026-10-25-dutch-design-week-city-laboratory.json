@@ -1,0 +1,42 @@
+{
+  "id": "2026-10-25-dutch-design-week-city-laboratory",
+  "eventKey": "dutch-design-week-2026-eindhoven-17-25-oct",
+  "category": "设计",
+  "title": "荷兰设计周把一座城市\n变成未来设计实验场",
+  "summary": "埃因霍温设计周在10月25日收官：从水主题装置到毕业设计与回收材料作品，展览散落在城市空间。",
+  "body": [
+    "一场名为“权力之桌”的展览还把企业董事会议桌的象征，改写成让人参与讨论的长桌。",
+    "这场展览持续9天；城市的旧厂房、街区与建筑本身也成为参观体验的一部分。"
+  ],
+  "eventDate": "2026-10-25T12:00:00Z",
+  "location": "荷兰埃因霍温",
+  "archive": false,
+  "theme": "plum",
+  "sources": [
+    {
+      "name": "Dutch Design Week｜2026展期与项目",
+      "url": "https://site.ddw.nl/en/"
+    },
+    {
+      "name": "Dutch Design Week｜Table of Power展览",
+      "url": "https://ddw.nl/en/programme/table-of-power"
+    },
+    {
+      "name": "Wallpaper*｜2026设计周现场精选",
+      "url": "https://www.wallpaper.com/design-interiors/design-events/dutch-design-week-2026"
+    }
+  ],
+  "verificationNotes": "DDW官方确定2026-10-17至25日展期，Table of Power官方项目页列出每日开放和主题；Wallpaper*于2026-10-24发布设计周走访报道，介绍水主题装置、毕业展与城市作为共同策展者。此卡聚焦10月25日闭幕日，非声称当天才开幕；具体闭幕时刻未查，12:00 UTC作日期精度占位。配图为AnandChowdhary0在2018年DDW拍摄的Mind the Step展览历史代表图，非2026年展览或Table of Power现场；Commons CC BY-SA 4.0。",
+  "image": {
+    "src": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Dutch%20Design%20Week%20-%20Mind%20the%20Step.jpg",
+    "alt": "2018年荷兰设计周Mind the Step展览实拍；不是2026年展览现场",
+    "credit": "AnandChowdhary0 / Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Dutch%20Design%20Week%20-%20Mind%20the%20Step.jpg",
+    "license": "CC BY-SA 4.0；2018年DDW历史代表图，非2026现场",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "kind": "original",
+    "layout": "photo"
+  },
+  "publishedAt": "2026-10-26T04:18:35.556Z",
+  "verifiedAt": "2026-10-26T04:18:31.556Z"
+}

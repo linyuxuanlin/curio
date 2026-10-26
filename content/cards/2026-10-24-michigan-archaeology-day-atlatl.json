@@ -1,0 +1,42 @@
+{
+  "id": "2026-10-24-michigan-archaeology-day-atlatl",
+  "eventKey": "michigan-history-center-archaeology-day-2026-10-24",
+  "category": "考古",
+  "title": "考古日不只看文物\n还能试投古代掷矛器",
+  "summary": "密歇根州的考古日让公众亲手试投atlatl掷矛器、制作陶器，并向考古学家请教自己发现的物件。",
+  "body": [
+    "现场还有石器打制、珠饰制作、考古调查技术展示和讲座，活动与停车均免费。",
+    "组织方特别提醒：专家可以帮助辨认带来的发现，但不会替文物估价，以鼓励正确报告遗址。"
+  ],
+  "eventDate": "2026-10-24T14:00:00Z",
+  "location": "美国密歇根州兰辛",
+  "archive": false,
+  "theme": "clay",
+  "sources": [
+    {
+      "name": "密歇根州自然资源部｜官方活动说明",
+      "url": "https://www.michigan.gov/dnr/about/newsroom/releases/2026/10/13/explore-michigan-archaeology-day-oct"
+    },
+    {
+      "name": "美国考古学会 AIA｜活动登记",
+      "url": "https://www.archaeological.org/event/michigan-archaeology-day-5/"
+    },
+    {
+      "name": "Pure Michigan｜州旅游活动页",
+      "url": "https://www.michigan.org/event/michigan-history-museum-michigan-archaeology-day-2026"
+    }
+  ],
+  "verificationNotes": "官方2026-10-13活动公告、美国考古学会活动日历及密歇根旅游活动页共同确认2026-10-24 10:00—16:00（当地夏令时EDT）、兰辛Michigan History Museum，折合开始14:00 UTC。活动安排包括atlatl、陶器、考古专家交流及免费入场；依据活动公告而非活动后到场统计。图片为BLM Alaska/Lisa Gleason于2019年拍摄的掷矛器教学实拍，非本次密歇根活动现场；Commons CC BY 2.0。",
+  "image": {
+    "src": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Atlatl%20spear%20throwing%20(47903161941).jpg",
+    "alt": "2019年阿拉斯加学生练习投掷atlatl掷矛器；非2026密歇根考古日现场",
+    "credit": "Lisa Gleason / BLM Alaska / Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Atlatl%20spear%20throwing%20(47903161941).jpg",
+    "license": "CC BY 2.0；2019年掷矛器教学代表图，非密歇根2026现场",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+    "kind": "original",
+    "layout": "photo"
+  },
+  "publishedAt": "2026-10-26T04:18:34.556Z",
+  "verifiedAt": "2026-10-26T04:18:31.556Z"
+}
