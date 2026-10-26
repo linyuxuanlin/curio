@@ -1,0 +1,42 @@
+{
+  "id": "2026-10-24-alison-kuo-cantonese-opera-new-museum",
+  "eventKey": "new-museum-alison-kuo-a-flame-latches-to-a-bit-of-straw-oct22-24-2026",
+  "category": "文化",
+  "title": "纽约唐人街淘来的旧物\n变成一场粤剧的新舞台",
+  "summary": "艺术家Alison Kuo在纽约新博物馆把家族粤剧记忆搬上舞台，戏服和道具还用到唐人街淘来的物件，演出持续至10月24日。",
+  "body": [
+    "她的祖母曾在香港参与粤剧表演。作品让粤剧演员、艺术家和音乐人同台，讲述迁徙、离别与传承。",
+    "演出将1939年的英文歌曲《We'll Meet Again》译成粤语演唱，借翻译重谈重逢。"
+  ],
+  "eventDate": "2026-10-24T19:00:00Z",
+  "location": "美国纽约新博物馆",
+  "theme": "plum",
+  "archive": false,
+  "sources": [
+    {
+      "name": "New Museum｜10月24日演出官方页面",
+      "url": "https://www.newmuseum.org/event/10-24-2026/"
+    },
+    {
+      "name": "The Art Newspaper｜10月22日艺术家专访",
+      "url": "https://production.tan-mgmt.co.uk/2026/10/22/alison-kuo-pays-homage-to-cantonese-opera-at-the-new-museum"
+    },
+    {
+      "name": "Goldscene｜10月23日演出报道",
+      "url": "https://www.mygoldscene.com/todays-radar/alison-kuo-new-museum-cantonese-opera-2026"
+    }
+  ],
+  "verificationNotes": "New Museum官方日程明确演出2026-10-22、23、24三天，10月24日当地15:00开始（eventDate记19:00Z，即纽约15:00 EDT），独立艺术媒体报道补充家族传承与演出细节；不声称已见到实际演出观众反馈。图片为Jnzl's Photos于2014年拍摄的另一场粤剧表演，Flickr许可经Wikimedia Commons复核，非Alison Kuo的作品或纽约现场。",
+  "image": {
+    "src": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Cantonese%20opera%20performance%2C%20Mun%20San%20Fook%20Tuck%20Chee%20%E8%90%AC%E5%B1%B1%E7%A6%8F%E5%BE%B7%E7%A5%A0%20(13141052303).jpg",
+    "alt": "2014年另一场粤剧表演的历史照片，不是Alison Kuo在纽约新博物馆的演出",
+    "credit": "Jnzl's Photos / Flickr / Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cantonese%20opera%20performance%2C%20Mun%20San%20Fook%20Tuck%20Chee%20%E8%90%AC%E5%B1%B1%E7%A6%8F%E5%BE%B7%E7%A5%A0%20(13141052303).jpg",
+    "license": "CC BY 2.0；粤剧代表照片，非本次演出",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+    "kind": "original",
+    "layout": "photo"
+  },
+  "publishedAt": "2026-10-26T11:23:56.957Z",
+  "verifiedAt": "2026-10-26T11:23:56.957Z"
+}

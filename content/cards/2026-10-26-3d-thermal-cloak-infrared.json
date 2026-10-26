@@ -1,0 +1,38 @@
+{
+  "id": "2026-10-26-3d-thermal-cloak-infrared",
+  "eventKey": "doi-10-1038-s41467-026-73167-0",
+  "category": "工程",
+  "title": "给物体披上3D热隐身衣\n红外镜头里仿佛没它",
+  "summary": "伊利诺伊大学团队展示三维热隐身结构，让热量绕开被遮蔽物体，使特定实验中的红外温度分布看起来更接近周围环境。",
+  "body": [
+    "这不是光学隐身：肉眼仍看得见物体。装置由铝和橡胶等材料构成，重点是重新引导热流。",
+    "论文其实在5月20日已发表；10月26日是大学研究新闻再介绍该成果，并非当天才完成实验。"
+  ],
+  "eventDate": "2026-10-26T00:00:00Z",
+  "location": "美国伊利诺伊州厄巴纳—香槟",
+  "theme": "blue",
+  "archive": false,
+  "sources": [
+    {
+      "name": "伊利诺伊大学新闻稿／ScienceDaily｜10月26日介绍",
+      "url": "https://www.sciencedaily.com/releases/2026/10/261025073051.htm"
+    },
+    {
+      "name": "Nature Communications｜5月20日原始论文",
+      "url": "https://www.nature.com/articles/s41467-026-73167-0"
+    }
+  ],
+  "verificationNotes": "2026-10-26大学新闻发布/转述研究，原始Nature Communications论文发表于2026-05-20，DOI 10.1038/s41467-026-73167-0；eventDate记研究新闻介绍日期精度，不把旧论文说成新发表。实验实现3D方向适应的热流绕行和红外温度场伪装，非可见光隐身或任何环境下完全不可见。图片为2014年冰块与热水瓶的热成像实拍，仅解释红外热成像，不是该装置、论文图或实验现场。",
+  "image": {
+    "src": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Thermal%20image%20-%20face%20-%20Ice%20block%20and%20warm%20water%20carafe.jpg",
+    "alt": "2014年冰块与温水瓶的红外热成像示例，并非本次热隐身实验",
+    "credit": "Alex and Jarek Tuszyński / Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Thermal%20image%20-%20face%20-%20Ice%20block%20and%20warm%20water%20carafe.jpg",
+    "license": "CC BY-SA 3.0；历史热成像示例，非本次实验",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "kind": "original",
+    "layout": "photo"
+  },
+  "publishedAt": "2026-10-26T11:23:56.957Z",
+  "verifiedAt": "2026-10-26T11:23:56.957Z"
+}

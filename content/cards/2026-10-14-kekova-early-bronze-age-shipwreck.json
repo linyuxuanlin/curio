@@ -1,0 +1,42 @@
+{
+  "id": "2026-10-14-kekova-early-bronze-age-shipwreck",
+  "eventKey": "kekova-early-bronze-age-shipwreck-2026-hakan-oniz",
+  "category": "考古",
+  "title": "土耳其海底一批陶罐\n可能来自最古老的沉船之一",
+  "summary": "土耳其凯科瓦岛附近约30米深的海底发现青铜时代陶罐与石锚，研究者推测沉船可能距今约4400—4700年。",
+  "body": [
+    "木质船体没有保存下来，年代主要依据陶器形制推定；“世界最古老”仍应保留考古判断的不确定性。",
+    "陶罐形制与地中海东岸器物相近，或能为早期海上贸易路线提供线索。"
+  ],
+  "eventDate": "2026-10-14T12:00:00Z",
+  "location": "土耳其安塔利亚省凯科瓦岛近海",
+  "theme": "clay",
+  "archive": true,
+  "sources": [
+    {
+      "name": "The Independent｜10月14日考古论文报道",
+      "url": "https://www.independent.co.uk/news/science/archaeology/oldest-shipwreck-turkey-coast-discovery-b3066435.html"
+    },
+    {
+      "name": "Al Jazeera｜10月14日文旅部消息与发掘细节",
+      "url": "https://www.aljazeera.com/news/2026/10/14/worlds-oldest-shipwreck-found-off-coast-of-turkiye"
+    },
+    {
+      "name": "ScienceDaily／The Conversation｜10月26日研究参与者解读",
+      "url": "https://www.sciencedaily.com/releases/2026/10/261025073036.htm"
+    }
+  ],
+  "verificationNotes": "The Independent、Al Jazeera与参与发掘的考古研究者文章核实：土耳其凯科瓦岛海域约30米深处的早期青铜时代陶罐遗存，推测年代约公元前2700—2400年，木质船体不存，船只是否最古老仍属研究判断。10月14日已报道，10月26日的解读不改变发现/公布日期；超过72小时扩展日期范围，archive=true。图片是2006年拍摄的凯科瓦另一处较晚时期的水下遗迹，不是此次沉船及陶罐，避免将不同年代遗址混为一谈。",
+  "image": {
+    "src": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Kekova%2C%20Turkey.jpg",
+    "alt": "2006年拍摄的凯科瓦海岸水下古迹，非本次青铜时代沉船和陶罐遗存",
+    "credit": "Htkava / Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kekova%2C%20Turkey.jpg",
+    "license": "CC BY-SA 3.0；同地区不同年代遗迹代表照片，非本次沉船",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "kind": "original",
+    "layout": "photo"
+  },
+  "publishedAt": "2026-10-26T11:23:56.957Z",
+  "verifiedAt": "2026-10-26T11:23:56.957Z"
+}

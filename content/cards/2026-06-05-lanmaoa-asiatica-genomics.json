@@ -1,0 +1,42 @@
+{
+  "id": "2026-06-05-lanmaoa-asiatica-genomics",
+  "eventKey": "doi-10-1080-00275514-2026-2670968",
+  "category": "食品",
+  "title": "吃野蘑菇后看到“小人”？\n基因里没找到已知致幻路径",
+  "summary": "一项真菌基因组研究发现，云南等地引发异常幻视的兰茂牛肝菌，缺少合成两类常见致幻物质的典型基因，真正原因仍待查。",
+  "body": [
+    "研究分析53份蘑菇样本的基因组，厘清这一属的亲缘关系；这不代表已经找到新的致幻化合物。",
+    "相关幻觉报告涉及食用未充分煮熟的野生蘑菇。未知毒性不可尝试，不能把它当成安全食物。"
+  ],
+  "eventDate": "2026-06-05T12:00:00Z",
+  "location": "美国犹他州（研究团队）；中国云南等地（相关食用记录）",
+  "theme": "gold",
+  "archive": true,
+  "sources": [
+    {
+      "name": "Mycologia｜6月5日原始研究",
+      "url": "https://www.tandfonline.com/doi/abs/10.1080/00275514.2026.2670968"
+    },
+    {
+      "name": "University of Utah／ScienceDaily｜10月25日研究解读",
+      "url": "https://www.sciencedaily.com/releases/2026/10/261024222021.htm"
+    },
+    {
+      "name": "Food Science & Nutrition｜该物种早期代谢研究 DOI",
+      "url": "https://doi.org/10.1002/fsn3.70583"
+    }
+  ],
+  "verificationNotes": "Mycologia原论文2026-06-05上线，DOI 10.1080/00275514.2026.2670968，测序53份标本并未检出典型裸盖菇素或鹅膏蕈氨酸合成基因；2026-10-25 University of Utah署名报道为旧研究解读，不可伪装为新发现。该蘑菇异常幻视与食用相关，但具体活性成分尚未确认，不应声称所有食用者都会出现幻觉。因近期合格跨领域候选有限扩展到旧研究，archive=true，eventDate严格采用论文上线日日期精度。图片为2025年相关食品科学研究的同种Lanmaoa asiatica实拍，原图经Wikimedia Commons明确标CC BY 4.0，非本次基因测序现场。",
+  "image": {
+    "src": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Lanmaoa%20asiatica.jpg",
+    "alt": "2025年研究中的Lanmaoa asiatica蘑菇实拍；不是2026年基因组研究现场",
+    "credit": "Ruanxian Dai 等 / Food Science & Nutrition / Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lanmaoa%20asiatica.jpg",
+    "license": "CC BY 4.0；同物种已授权研究照片，非本次测序现场",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "kind": "original",
+    "layout": "photo"
+  },
+  "publishedAt": "2026-10-26T11:23:56.957Z",
+  "verifiedAt": "2026-10-26T11:23:56.957Z"
+}

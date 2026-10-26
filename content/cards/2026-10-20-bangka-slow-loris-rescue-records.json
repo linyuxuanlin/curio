@@ -1,0 +1,42 @@
+{
+  "id": "2026-10-20-bangka-slow-loris-rescue-records",
+  "eventKey": "spixiana-2026-neglected-but-still-alive-nycticebus-bancanus",
+  "category": "动物与自然",
+  "title": "科学界以为它失踪近百年\n当地救助站却救过90多只",
+  "summary": "印尼邦加岛懒猴多年没有正式科学记录，但当地救助中心2015—2025年接触过90多只，新论文确认这一极危物种仍然存在。",
+  "body": [
+    "86只获救个体在康复后被放归；这些记录不能当作野外种群普查，也不代表濒危风险解除。",
+    "当地居民一直知道它们存在。锡矿开采、油棕种植园和电线伤害仍威胁剩余栖地。"
+  ],
+  "eventDate": "2026-10-20T12:00:00Z",
+  "location": "印度尼西亚邦加岛",
+  "theme": "sage",
+  "archive": true,
+  "sources": [
+    {
+      "name": "Re:wild｜10月20日研究与救助中心记录",
+      "url": "https://www.rewild.org/press/bangka-slow-loris-rediscovered"
+    },
+    {
+      "name": "Reuters｜10月20日独立采访报道",
+      "url": "https://www.reuters.com/business/environment/feared-extinct-bangka-slow-loris-primate-rediscovered-indonesia-2026-10-20/"
+    },
+    {
+      "name": "People｜10月新闻整理",
+      "url": "https://people.com/bangka-slow-loris-rediscovered-after-it-was-previously-lost-to-science-12184393"
+    }
+  ],
+  "verificationNotes": "Re:wild、Reuters及People核对：2015—2025年Alobi救助中心记录90多只，86只康复后放归；新论文发表于2026年10月Spixiana，报道2026-10-20发布。'失踪'仅指正式科学文献记录中断，非当地居民首次发现，也非2026年才救出90只。事件公布已超过72小时，跨领域扩展日期并标archive=true。图片是不同物种倭懒猴Nycticebus pygmaeus的2007年授权实拍，仅作同属动物外观示例，不是邦加懒猴、不是本次救助照片。",
+  "image": {
+    "src": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Nycticebus%20pygmaeus%20008.jpg",
+    "alt": "2007年柬埔寨的倭懒猴（另一物种），仅展示懒猴外观；不是邦加懒猴或本次救助现场",
+    "credit": "Dr. K.A.I. Nekaris / Wikimedia Commons VRT",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Nycticebus%20pygmaeus%20008.jpg",
+    "license": "CC BY-SA 3.0；同属不同物种代表照片，非本次发现",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "kind": "original",
+    "layout": "photo"
+  },
+  "publishedAt": "2026-10-26T11:23:56.957Z",
+  "verifiedAt": "2026-10-26T11:23:56.957Z"
+}
