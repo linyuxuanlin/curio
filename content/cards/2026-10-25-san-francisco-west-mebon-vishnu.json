@@ -1,0 +1,42 @@
+{
+  "id": "2026-10-25-san-francisco-west-mebon-vishnu",
+  "eventKey": "asian-art-museum-vishnus-cosmic-ocean-2026-oct25-opening-celebration",
+  "category": "文化",
+  "title": "近六米长的卧毗湿奴青铜像\n在旧金山迎来祝福仪式",
+  "summary": "柬埔寨西梅奔卧毗湿奴青铜像在旧金山展出，博物馆于10月25日举行水祝福与高棉舞蹈开幕活动。",
+  "body": [
+    "这件约千年前的青铜巨像原在吴哥寺庙中，展览呈现它与水、神话及古代王权的联系。",
+    "展览实际于10月23日开放，持续至2027年1月25日；25日是公开庆祝仪式，不是展品首次亮相。"
+  ],
+  "eventDate": "2026-10-25T18:30:00Z",
+  "location": "美国旧金山亚洲艺术博物馆",
+  "theme": "plum",
+  "archive": false,
+  "sources": [
+    {
+      "name": "旧金山亚洲艺术博物馆｜展览说明",
+      "url": "https://exhibitions.asianart.org/exhibitions/vishnus-cosmic-ocean/"
+    },
+    {
+      "name": "亚洲艺术博物馆｜10月25日开幕活动安排",
+      "url": "https://calendar.asianart.org/event/opening-celebration-vishnus-cosmic-ocean/"
+    },
+    {
+      "name": "Cambodianess｜10月25日柬埔寨媒体报道",
+      "url": "https://cambodianess.com/article/the-reclining-vishnu-on-display-in-san-francisco-before-returning-home"
+    }
+  ],
+  "verificationNotes": "馆方展览页与活动日历、Cambodianess 10月25日报道交叉核对：展览10月23日开始，10月25日11:30 PDT(18:30 UTC)举办祝福仪式和高棉舞蹈；文物为柬埔寨西梅奔卧毗湿奴青铜像，接近20英尺。不要把其称作佛像，中文标题中的'卧佛像'易误导，应改为'卧毗湿奴'。2013年Clay Gilliland在柬埔寨国家博物馆拍摄同一件文物，CC BY-SA 2.0，非2026年旧金山现场。",
+  "image": {
+    "src": "https://commons.wikimedia.org/wiki/Special:Redirect/file/West%20Mebon%20Vishnu.jpg",
+    "alt": "2013年柬埔寨国家博物馆展出的西梅奔卧毗湿奴青铜像；非2026年旧金山展厅现场",
+    "credit": "Clay Gilliland / Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:West_Mebon_Vishnu.jpg",
+    "license": "CC BY-SA 2.0；同一文物历史实拍，非本次展览现场",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+    "kind": "original",
+    "layout": "photo"
+  },
+  "publishedAt": "2026-10-26T08:29:23.627Z",
+  "verifiedAt": "2026-10-26T08:29:23.627Z"
+}
