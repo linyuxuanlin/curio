@@ -1,0 +1,42 @@
+{
+  "id": "2026-10-24-fortuna-roman-inscription-museum-transfer",
+  "eventKey": "fortuna-roman-baths-monumental-inscription-2026-october-extraction",
+  "category": "考古",
+  "title": "罗马浴场墙里\n藏着一块超大字的石碑",
+  "summary": "西班牙Fortuna罗马浴场出土巨型铭文残块，最大字母高23厘米，原文可能长达4.8米。",
+  "body": [
+    "考古人员发现它被二次砌进墙体，文字残存两行；年代初判在公元前1世纪末至公元2世纪。",
+    "10月24日报道石块已进入提取转运流程，将交穆尔西亚考古博物馆研究，原文用途仍待确认。"
+  ],
+  "eventDate": "2026-10-24T12:00:00Z",
+  "location": "西班牙穆尔西亚自治区Fortuna",
+  "theme": "clay",
+  "archive": false,
+  "sources": [
+    {
+      "name": "穆尔西亚自治区公告转刊｜10月20日发现说明",
+      "url": "https://www.ciudaddemurcia.es/2026/10/20-el-museo-arqueologico-de-murcia-custodiara-para-su-estudio-una-inscripcion-romana-descubierta-en-los-banos-romanos-de.asp"
+    },
+    {
+      "name": "Europa Press｜10月24日提取转运报道",
+      "url": "https://www.europapress.es/murcia/noticia-fortuna-traslada-museo-arqueologico-murcia-inscripcion-romana-monumental-hallada-banos-romanos-20261024095957.html"
+    },
+    {
+      "name": "Murcia Today｜10月21日背景与尺寸核实",
+      "url": "https://murciatoday.com/town-page/a-roman-inscription-hidden-in-a-wall-holds-new-clues-to-fortuna%E2%80%99s-ancient-past_1000275775-a.html"
+    }
+  ],
+  "verificationNotes": "发现最早于10月20日公布；本卡关注10月24日媒体报道的提取转运阶段，eventDate按10月24日日期精度12:00 UTC，并不声称10月24日才首次发现。自治区资料、Europa Press与Murcia Today核对字母高23厘米、原铭文至少约4.8米的推测、再利用墙体和年代范围；并非已经复原完整文本。图片是2017年Cartagena博物馆另一块被改用为雕像的罗马铭文（同属穆尔西亚），不是Fortuna新发现，作者P4K1T0，Commons双许可中选择CC0。",
+  "image": {
+    "src": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Ancient%20Roman%20inscription%20recycled%20as%20statue%20of%20Saint%20Catherine%2C%20Cartagena%20-%20Inscription%20at%20full%20length.jpg",
+    "alt": "卡塔赫纳博物馆另一件古罗马铭文石材，曾被改作雕像；非Fortuna本次发现",
+    "credit": "P4K1T0 / Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ancient_Roman_inscription_recycled_as_statue_of_Saint_Catherine,_Cartagena_-_Inscription_at_full_length.jpg",
+    "license": "CC0 1.0；同地区罗马铭文代表照片，非本次出土文物",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "kind": "original",
+    "layout": "photo"
+  },
+  "publishedAt": "2026-10-26T08:29:23.627Z",
+  "verifiedAt": "2026-10-26T08:29:23.627Z"
+}
