@@ -1,0 +1,42 @@
+{
+  "id": "2026-10-26-mitsubishi-humanoid-cnc-jimtof",
+  "eventKey": "mitsubishi-electric-2026-10-21-humanoid-cnc-physical-ai-jimtof2026",
+  "category": "机器人",
+  "title": "东京机床展上\n人形机器人要帮CNC干活",
+  "summary": "三菱电机宣布在10月26日开幕的JIMTOF展示人形机器人与数控机床协作的系统。",
+  "body": [
+    "官方介绍，系统把简短作业指令分配给机器人和机床，覆盖清理、取件、搬运、检查等任务。",
+    "这是企业公布的展会演示方案，尚不能据此认定已实现大规模无人化工厂。"
+  ],
+  "eventDate": "2026-10-26T01:00:00Z",
+  "location": "日本东京国际展示场",
+  "theme": "blue",
+  "archive": false,
+  "sources": [
+    {
+      "name": "三菱电机｜10月21日技术公告",
+      "url": "https://www.mitsubishielectric.com/en/pr/2026/1021_rd/"
+    },
+    {
+      "name": "三菱电机FA｜JIMTOF 10月26日至31日展出信息",
+      "url": "https://fa-site.mitsubishielectric.co.jp/fa/events-seminars/exhibitions/2026/jimtof2026/index.html"
+    },
+    {
+      "name": "Robrief｜10月21日技术报道",
+      "url": "https://robrief.com/fr/articles/mitsubishi-electric-humanoid-cnc-machining"
+    }
+  ],
+  "verificationNotes": "2026-10-26为JIMTOF展会首日，日本当地10:00开馆折合01:00 UTC，来源为三菱电机FA官网；系统首次公布日期是10月21日。官方声称业界首创，未作独立行业穷尽性核验，卡片不复述首创断言。展会资料与企业研发公告核对用途，Robrief补充报道；未获得本日实际演示现场独立核验。照片为2015年其他地点的CNC铣削过程，仅作数控机床代表图，不是三菱设备或人形机器人，Impressionmanufacturer CC BY-SA 4.0。",
+  "image": {
+    "src": "https://commons.wikimedia.org/wiki/Special:Redirect/file/CNC_milling_machine.jpg",
+    "alt": "2015年拍摄的数控铣床加工过程；并非三菱电机新系统或2026年展会现场",
+    "credit": "Impressionmanufacturer / Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:CNC_milling_machine.jpg",
+    "license": "CC BY-SA 4.0；CNC机床代表照片，非本次展品",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "kind": "original",
+    "layout": "photo"
+  },
+  "publishedAt": "2026-10-26T06:10:00Z",
+  "verifiedAt": "2026-10-26T06:10:00Z"
+}

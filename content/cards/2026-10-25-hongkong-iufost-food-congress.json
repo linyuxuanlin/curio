@@ -1,0 +1,42 @@
+{
+  "id": "2026-10-25-hongkong-iufost-food-congress",
+  "eventKey": "iufost-23rd-world-food-congress-hong-kong-2026-oct25-29",
+  "category": "食品",
+  "title": "香港食品科学大会开场\n连3D打印食物都要聊",
+  "summary": "第23届世界食品科学与技术大会10月25日在香港开幕，议题涵盖新食品、精准营养与3D食品打印。",
+  "body": [
+    "会议安排至29日，在亚洲国际博览馆及附近酒店举办，邀请研究人员与产业界交流食品技术。",
+    "3D食品打印是会议讨论方向之一，不能据此认定现场已经发布可量产的新食品。"
+  ],
+  "eventDate": "2026-10-25T04:00:00Z",
+  "location": "中国香港亚洲国际博览馆",
+  "theme": "plum",
+  "archive": false,
+  "sources": [
+    {
+      "name": "IUFoST大会官网｜新食品议题",
+      "url": "https://iufost2026.org/innovation-and-novel-foods"
+    },
+    {
+      "name": "IUFoST｜大会欢迎与日程",
+      "url": "https://www.iufost2026.org/welcome"
+    },
+    {
+      "name": "香港会议展览拓展机构｜场地与日期",
+      "url": "https://www.mehongkong.com/eng/home/planning/events/detail/2026-10-25-86446-IUFoST-World-Food-Congress-2026.html"
+    }
+  ],
+  "verificationNotes": "IUFoST大会官网确认10月25日至29日、3D food printing等主题；香港旅游发展局旗下会议展览活动信息独立核对日期与亚洲国际博览馆及香港天际万豪酒店场地。仅确认会议举办日与议题，不声称已公布新技术成果。10月25日04:00 UTC为香港当地中午，代表日期精度，不是经核实的开幕时刻。图片是2010年亚洲国际博览馆大厅历史实拍，不是2026年大会现场，HK Arun CC BY-SA 3.0。",
+  "image": {
+    "src": "https://commons.wikimedia.org/wiki/Special:Redirect/file/AsiaWorld-Expo_Hall.JPG",
+    "alt": "2010年拍摄的香港亚洲国际博览馆大厅；非2026年世界食品科学大会现场",
+    "credit": "HK Arun / Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:AsiaWorld-Expo_Hall.JPG",
+    "license": "CC BY-SA 3.0；会场历史代表照片，非本届活动现场",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "kind": "original",
+    "layout": "photo"
+  },
+  "publishedAt": "2026-10-26T06:10:00Z",
+  "verifiedAt": "2026-10-26T06:10:00Z"
+}

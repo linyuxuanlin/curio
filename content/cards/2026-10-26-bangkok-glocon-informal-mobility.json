@@ -1,0 +1,42 @@
+{
+  "id": "2026-10-26-bangkok-glocon-informal-mobility",
+  "eventKey": "glocon26-bangkok-first-global-convening-informal-shared-mobility",
+  "category": "交通",
+  "title": "曼谷开会研究交通\n嘟嘟车和小巴也是主角",
+  "summary": "首届全球非正规与共享交通大会10月26日在曼谷开幕，把嘟嘟车、小巴及其驾驶者纳入交通规划讨论。",
+  "body": [
+    "主办方预计汇集400多名研究者、政府人员、运营者和劳动者，讨论这些日常交通服务如何与公共交通衔接。",
+    "大会持续至28日；400多人是主办方预计规模，不是已核实的现场到场人数。"
+  ],
+  "eventDate": "2026-10-26T02:00:00Z",
+  "location": "泰国曼谷朱拉隆功大学",
+  "theme": "gold",
+  "archive": false,
+  "sources": [
+    {
+      "name": "世界资源研究所｜GLOCON26会议介绍",
+      "url": "https://hub.wri.org/events/2026/10/1st-global-convening-informal-and-shared-mobility-glocon26"
+    },
+    {
+      "name": "Volvo Research and Educational Foundations｜大会资料",
+      "url": "https://vref.se/event/first-global-convening-on-informal-and-shared-mobility-bangkok-2026/"
+    },
+    {
+      "name": "GLOCON26｜主办方会议官网",
+      "url": "https://www.informalandsharedmobility.net/"
+    }
+  ],
+  "verificationNotes": "WRI、资助方VREF及大会官网核对10月26日至28日、曼谷朱拉隆功大学、首届大会及预期400+参会者；均是组织方或合作机构信息，并非独立现场人数统计。当地开幕日10月26日，准确开幕时刻未查，02:00 UTC为当地09:00的日期代表时刻，不能解释为经证实的开幕时刻。图片为2023年曼谷素坤逸路嘟嘟车实拍，非大会现场；ProtoplasmaKid CC BY-SA 4.0。",
+  "image": {
+    "src": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Tuk-tuk_en_Sukhumvit_Road.jpg",
+    "alt": "2023年曼谷街头停靠的嘟嘟车；不是2026年交通大会现场",
+    "credit": "ProtoplasmaKid / Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tuk-tuk_en_Sukhumvit_Road.jpg",
+    "license": "CC BY-SA 4.0；曼谷交通工具代表图，非大会现场",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "kind": "original",
+    "layout": "photo"
+  },
+  "publishedAt": "2026-10-26T06:10:00Z",
+  "verifiedAt": "2026-10-26T06:10:00Z"
+}

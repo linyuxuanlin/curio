@@ -1,0 +1,38 @@
+{
+  "id": "2026-10-20-yamaguchi-japanese-squirrel-45-years",
+  "eventKey": "yamaguchi-prefecture-2026-10-20-sciurus-lis-45-year-rediscovery",
+  "category": "动物与自然",
+  "title": "山口县45年没见的日本松鼠\n又被镜头拍到了",
+  "summary": "山口县公布调查成果：当地自1981年后缺乏确证的日本松鼠，终于重新确认存在，而且不止一只。",
+  "body": [
+    "联合调查队在2025年11月首次发现踪迹，随后用自动相机等方法确认多个个体。",
+    "这不代表松鼠刚刚回归；此前可能一直存在，只是缺少可靠记录。"
+  ],
+  "eventDate": "2026-10-20T12:00:00Z",
+  "location": "日本山口县山口市",
+  "theme": "sage",
+  "archive": true,
+  "sources": [
+    {
+      "name": "山口县政府｜10月20日调查公布",
+      "url": "https://www.pref.yamaguchi.lg.jp/press/366919.html"
+    },
+    {
+      "name": "每日新闻｜10月22日影像报道",
+      "url": "https://video.mainichi.jp/detail/videos/%E6%96%B0%E7%9D%80/video/6407213050112"
+    }
+  ],
+  "verificationNotes": "2026-10-20是山口县政府对外公布日期（仅日期精度，记12:00 UTC），不是松鼠首次拍到的日期：官方称调查队2025年11月发现，1981年以来缺乏确证，追加调查发现多个个体；每日新闻2026-10-22的报道和研究影像交叉核实。因消息已超过72小时而扩展收录，archive=true。配图为2006年拍摄的日本松鼠物种代表照片，不是本次山口县调查个体；Ma2bara在Commons将照片释入公有领域。",
+  "image": {
+    "src": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Japanese_Squirrel.jpg",
+    "alt": "2006年在日本拍摄的日本松鼠物种代表照；非山口县本次监测个体",
+    "credit": "Ma2bara / Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Japanese_Squirrel.jpg",
+    "license": "作者释入公有领域（PD-self）；物种代表图，非本次监测现场",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/File:Japanese_Squirrel.jpg",
+    "kind": "original",
+    "layout": "photo"
+  },
+  "publishedAt": "2026-10-26T06:10:00Z",
+  "verifiedAt": "2026-10-26T06:10:00Z"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "2026-10-21-gunma-shaman-haniwa-announcement",
+  "eventKey": "gunma-nishikaminomiya-2026-female-shaman-haniwa-announcement",
+  "category": "考古",
+  "title": "1500年前的巫女陶俑\n脸上的红彩还在",
+  "summary": "日本群马县公布一件5世纪后半叶的巫女形象埴轮，头部、衣带与腕饰上的红色颜料仍清晰可见。",
+  "body": [
+    "陶俑从西上之宫遗址一号古坟的周沟出土，保留头部与躯干，左手持棒状器物。",
+    "当地计划10月28日起公开展出；“巫女”是根据服饰和造型作出的考古解释。"
+  ],
+  "eventDate": "2026-10-21T12:00:00Z",
+  "location": "日本群马县伊势崎市",
+  "theme": "clay",
+  "archive": true,
+  "sources": [
+    {
+      "name": "群马县政府｜10月21日发布",
+      "url": "https://www.pref.gunma.jp/site/houdou/779767.html"
+    },
+    {
+      "name": "群马县博物馆联络协会｜10月22日展出公告",
+      "url": "https://www.gunpaku.com/news/462/"
+    },
+    {
+      "name": "HeritageDaily｜10月25日发现报道",
+      "url": "https://www.heritagedaily.com/2026/10/1500-year-old-female-shaman-figurine-discovered-in-japan/159781"
+    }
+  ],
+  "verificationNotes": "2026-10-21是群马县官方公布日期，非准确发掘日，按12:00 UTC记日期精度。县政府和群马县考古馆公告核实地点、5世纪后半叶、红彩和10月28日展期；HeritageDaily独立整理报道但核心信息仍来自官方通报，不能视作独立年代鉴定。因公告超过72小时，archive=true。图片是大英博物馆收藏的另一件日本埴轮女性陶俑，由Szilas于2010年拍摄，CC BY-SA 4.0；并非本次新出土文物。",
+  "image": {
+    "src": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Haniwa%2C_young_woman.jpg",
+    "alt": "大英博物馆所藏另一件古代日本女性埴轮的照片；非本次群马县出土陶俑",
+    "credit": "Szilas / Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Haniwa%2C_young_woman.jpg",
+    "license": "CC BY-SA 4.0；同类文物代表图，非本次出土物",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "kind": "original",
+    "layout": "photo"
+  },
+  "publishedAt": "2026-10-26T06:10:00Z",
+  "verifiedAt": "2026-10-26T06:10:00Z"
+}
