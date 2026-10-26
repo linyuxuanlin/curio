@@ -1,0 +1,38 @@
+{
+  "id": "2026-10-26-london-register-global-co2-storage-2024",
+  "eventKey": "london-register-subsurface-co2-storage-2026-annual-report-43point6mt",
+  "category": "环境",
+  "title": "地下封存二氧化碳创纪录\n一年约4360万吨",
+  "summary": "伦敦地下碳封存登记册10月26日发布新报告：2024年全球已报告地质封存量达4360万吨。",
+  "body": [
+    "报告汇集17个国家约70个项目，累计登记约4.217亿吨；其中部分项目服务于石油增产。",
+    "研究者提醒，各地计量口径不一，回采后重复注入的二氧化碳可能影响统计，数字仍有不确定性。"
+  ],
+  "eventDate": "2026-10-26T12:00:00Z",
+  "location": "英国·伦敦／全球项目",
+  "sources": [
+    {
+      "name": "Imperial College London｜10月26日报告新闻",
+      "url": "https://www.imperial.ac.uk/news/articles/engineering/earth-science/2026/global-underground-co-storage-hits-record-436-million-tonnes-as-london-register-expands-reach/"
+    },
+    {
+      "name": "PressTemps｜10月26日独立分析报道",
+      "url": "https://www.presstemps.com/science/global-underground-co2-storage-hit-a-record-436-million-tonnes-in-2024-new-register-shows"
+    }
+  ],
+  "verificationNotes": "Imperial College London 2026-10-26公告与PressTemps独立分析均确认2024年43.6 Mt、约70个项目和17国范围；2024是最新完整统计年度，并非2026当年注入量。Imperial正文一处说70项目，受访者称69个单独项目，卡片使用约70。部分为提高采油率的CO2注入，报告承认再注入和计量口径不确定；不得称为已核证净负排放。eventDate为报告公开日12:00 UTC日期精度。配图是Zypres 2023年拍摄挪威Northern Lights碳封存设施旧照，非伦敦登记册研究现场或全球项目全貌；Commons CC BY-SA 4.0。",
+  "theme": "sage",
+  "archive": false,
+  "image": {
+    "src": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Northern%20lights%20ccs.jpg",
+    "alt": "挪威Northern Lights二氧化碳封存设施2023年旧照，仅代表碳封存工程，不是本次报告发布现场",
+    "credit": "Zypres / Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Northern_lights_ccs.jpg",
+    "license": "CC BY-SA 4.0；2023年实际设施代表照片",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "kind": "original",
+    "layout": "photo"
+  },
+  "publishedAt": "2026-10-26T14:24:00Z",
+  "verifiedAt": "2026-10-26T14:24:00Z"
+}

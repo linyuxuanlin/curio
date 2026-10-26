@@ -1,0 +1,42 @@
+{
+  "id": "2026-10-24-lingnan-face-fortress-innocarnival",
+  "eventKey": "lingnan-face-fortress-innocarnival-2026-10-24-showcase",
+  "category": "AI",
+  "title": "香港大学用AI查假学历\n先识别深伪人脸",
+  "summary": "岭南大学在创新科技嘉年华展示Face Fortress：先检查照片质量与深伪，再做人脸验证。",
+  "body": [
+    "校方称系统已用于筛查假学历的其中一种方法，目的是降低合成人脸冒用身份的风险。",
+    "目前公开报道没有提供误判率或独立性能测试，不能据此认定能完全识破伪造。"
+  ],
+  "eventDate": "2026-10-24T12:00:00Z",
+  "location": "中国香港·香港科学园",
+  "sources": [
+    {
+      "name": "岭南大学｜10月24日官方新闻稿",
+      "url": "https://www.ln.edu.hk/news/press-releases/20261024/lingnan-university-showcases-five-new-projects-at-innocarnival2026-including-its-ai-facial-verification-system-that-screens-for-fake-academic-qualifications"
+    },
+    {
+      "name": "东方日报东网｜10月24日新闻报道",
+      "url": "https://hk.on.cc/hk/bkn/cnt/news/20261024/bkn-20261024195922205-1024_00822_001.html"
+    },
+    {
+      "name": "星岛日报｜嘉年华科研展示报道",
+      "url": "https://www.stheadline.com/edu-insights/3629613/%E5%89%B5%E6%96%B0%E7%A7%91%E6%8A%80%E5%98%89%E5%B9%B4%E8%8F%AF2026%E5%B1%95%E9%96%8B-%E5%B6%BA%E5%A4%A7%E6%B5%B8%E5%A4%A7%E5%B1%95%E7%A4%BA%E7%A7%91%E7%A0%94%E6%88%90%E6%9E%9C"
+    }
+  ],
+  "verificationNotes": "岭南大学官方2026-10-24发布及东方日报、星岛日报同日媒体报道交叉确认展会地点、五项项目和Face Fortress已作为校方筛查假学历的方法之一；未见独立准确率验证。eventDate为10月24日展示报道日12:00 UTC日期精度。配图为Wpcpey于2018年拍摄的香港科学园全景，非2026年展位或该AI系统；Commons CC BY-SA 4.0。",
+  "theme": "blue",
+  "archive": false,
+  "image": {
+    "src": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Hong%20Kong%20Science%20Park%20Overview%20201806.jpg",
+    "alt": "2018年香港科学园全景照片，仅为本次展会场地代表图，不展示Face Fortress系统",
+    "credit": "Wpcpey / Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hong_Kong_Science_Park_Overview_201806.jpg",
+    "license": "CC BY-SA 4.0；2018年场地旧照，非2026年展会",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "kind": "original",
+    "layout": "photo"
+  },
+  "publishedAt": "2026-10-26T14:24:00Z",
+  "verifiedAt": "2026-10-26T14:24:00Z"
+}

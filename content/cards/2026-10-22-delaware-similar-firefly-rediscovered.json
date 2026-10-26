@@ -1,0 +1,38 @@
+{
+  "id": "2026-10-22-delaware-similar-firefly-rediscovered",
+  "eventKey": "rewild-2026-10-22-pyractomena-similis-delaware-rediscovery",
+  "category": "动物与自然",
+  "title": "失踪四十多年的萤火虫\n靠一串琥珀色闪光找回",
+  "summary": "美国特拉华州研究者凭独特闪光节奏，重新记录了自1983年后未见于科学记录的相似萤火虫。",
+  "body": [
+    "研究者6月3日在Brandywine Creek州立公园看到约8至12只，随后用显微特征确认物种。",
+    "它并非刚刚进化出的新物种；10月22日的消息公布了较早完成的野外调查，种群规模仍待研究。"
+  ],
+  "eventDate": "2026-10-22T12:00:00Z",
+  "location": "美国·特拉华州 Brandywine Creek州立公园",
+  "sources": [
+    {
+      "name": "Re:wild｜10月22日研究与发现公告",
+      "url": "https://www.rewild.org/press/similar-firefly-rediscovered"
+    },
+    {
+      "name": "PEOPLE｜10月24日独立新闻报道",
+      "url": "https://people.com/firefly-lost-to-science-rediscovered-in-nature-preserve-in-delaware-12190438"
+    }
+  ],
+  "verificationNotes": "Re:wild原始2026-10-22公告与PEOPLE 10月24日报道核对物种Pyractomena similis、1983年上次记录、2026年6月3日野外观测、琥珀色10至20次脉冲闪光及显微鉴定。eventDate采用2026-10-22消息公布日12:00 UTC，发现发生在2026年5至6月而非10月。因距本站入库已超过72小时，扩展为往期精选archive=true。图片为Judy Gallagher 2014年拍摄同属Pyractomena其他未定种，绝非本次发现的P. similis个体，Commons CC BY 2.0。",
+  "theme": "sage",
+  "archive": true,
+  "image": {
+    "src": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Firefly%20-%20Pyractomena%20species%2C%20Leesylvania%20State%20Park%2C%20Woodbridge%2C%20Virginia.jpg",
+    "alt": "2014年弗吉尼亚州拍摄的Pyractomena属萤火虫代表照，未确认是P. similis，更非本次发现个体",
+    "credit": "Judy Gallagher / Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Firefly_-_Pyractomena_species,_Leesylvania_State_Park,_Woodbridge,_Virginia.jpg",
+    "license": "CC BY 2.0；同属其他未定种历史代表照片",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+    "kind": "original",
+    "layout": "photo"
+  },
+  "publishedAt": "2026-10-26T14:24:00Z",
+  "verifiedAt": "2026-10-26T14:24:00Z"
+}

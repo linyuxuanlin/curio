@@ -1,0 +1,42 @@
+{
+  "id": "2026-10-23-uk-schooling-reform-dementia-study",
+  "eventKey": "doi-10-1073-pnas-2529506123",
+  "category": "社会",
+  "title": "英国多上一年学\n几十年后痴呆诊断更少",
+  "summary": "研究利用1972年英国延长义务教育的政策变化，发现受影响群体后来痴呆诊断率较低。",
+  "body": [
+    "研究者比较法定入学年龄门槛两侧出生的人，并结合超过10万名参与者的医疗记录。",
+    "样本追踪至约65岁，病例仍少，效果大小不精确；其他研究对同一改革也曾得出不同结果。"
+  ],
+  "eventDate": "2026-10-23T12:00:00Z",
+  "location": "英国·英格兰、威尔士与苏格兰／美国研究团队",
+  "sources": [
+    {
+      "name": "USC Schaeffer｜10月23日研究说明",
+      "url": "https://schaeffer.usc.edu/research/more-education-reduces-dementia-risk-decades-later/"
+    },
+    {
+      "name": "美国国立卫生研究院｜10月23日研究解读",
+      "url": "https://www.nih.gov/news-events/news-releases/extra-year-secondary-school-lowered-dementia-diagnoses-later-life"
+    },
+    {
+      "name": "PNAS｜2026年原始论文 DOI",
+      "url": "https://doi.org/10.1073/pnas.2529506123"
+    }
+  ],
+  "verificationNotes": "USC研究团队、美国NIH独立解读与PNAS论文DOI核对：研究利用1972年英国把最低离校年龄15岁提高至16岁的制度断点，比较UK Biobank样本截至约65岁的痴呆诊断。研究报告较低诊断率但绝对效应估计不精确，不能宣称每人多读一年必能预防痴呆；另一2026年Social Science & Medicine研究对同一改革未发现显著降低，提示研究结果尚有争议。论文2026-10-23公开，eventDate按论文公开日12:00 UTC记日期精度；超过72小时作为archive=true扩展选题。图片为威尔士国家图书馆馆藏Geoff Charles拍摄的历史教室旧照，拍摄时间未明确，非1972年政策或研究对象现场，Commons CC BY-SA 4.0。",
+  "theme": "plum",
+  "archive": true,
+  "image": {
+    "src": "https://commons.wikimedia.org/wiki/Special:Redirect/file/School%20classroom%20(1565607).jpg",
+    "alt": "威尔士国家图书馆收藏的历史教室照片，拍摄年代不详；仅为学校教育代表图，非研究对象",
+    "credit": "Geoff Charles / National Library of Wales / Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:School_classroom_(1565607).jpg",
+    "license": "CC BY-SA 4.0；历史教室代表照片，非研究现场",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "kind": "original",
+    "layout": "photo"
+  },
+  "publishedAt": "2026-10-26T14:24:00Z",
+  "verifiedAt": "2026-10-26T14:24:00Z"
+}
