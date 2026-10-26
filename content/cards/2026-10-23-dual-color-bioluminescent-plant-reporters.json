@@ -1,0 +1,38 @@
+{
+  "id": "2026-10-23-dual-color-bioluminescent-plant-reporters",
+  "eventKey": "doi-10-1038-s41477-026-02437-y",
+  "category": "科技",
+  "title": "发光植物不只看亮不亮\n红绿光比例更能说明问题",
+  "summary": "《Nature Plants》新研究用两种颜色的自发光信号区分基因活动与代谢波动，让植物防御反应更容易被连续追踪。",
+  "body": [
+    "团队改造真菌荧光素酶，使它与绿色发光系统共享底物、发出不同颜色的光。",
+    "在拟南芥实验中，红绿光比例帮助研究者识别感染区域的局部免疫信号；目前是研究工具。"
+  ],
+  "eventDate": "2026-10-23T12:00:00Z",
+  "location": "英国伦敦（MRC实验室等团队）",
+  "theme": "gold",
+  "archive": false,
+  "sources": [
+    {
+      "name": "Nature Plants｜10月23日开放获取原论文",
+      "url": "https://www.nature.com/articles/s41477-026-02437-y"
+    },
+    {
+      "name": "Phys.org／MRC Laboratory of Medical Sciences｜研究解读",
+      "url": "https://phys.org/news/2026-10-reveal-immune-responses-infection-sites.html"
+    }
+  ],
+  "verificationNotes": "Nature Plants原论文2026-10-23发表，DOI 10.1038/s41477-026-02437-y，开放获取CC BY 4.0；MRC Laboratory of Medical Sciences署名研究解读说明双颜色比率可减少代谢变化对发光强度的干扰，并在拟南芥中展示防御信号追踪。不是植物在自然环境中自行显示可见的红绿灯，也不代表已应用于人体。图片为2004年上传的正常光照下拟南芥实拍（Roepers，CC BY-SA 3.0），不是本次实验的发光植物或数据图。",
+  "image": {
+    "src": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Arabidopsis_thaliana.jpg",
+    "alt": "普通光照下的拟南芥历史照片，并非本研究红绿双色自发光实验图像",
+    "credit": "Roepers / Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Arabidopsis_thaliana.jpg",
+    "license": "CC BY-SA 3.0；同物种代表照片，非本次发光实验",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "kind": "original",
+    "layout": "photo"
+  },
+  "publishedAt": "2026-10-26T10:24:28.216Z",
+  "verifiedAt": "2026-10-26T10:24:28.216Z"
+}

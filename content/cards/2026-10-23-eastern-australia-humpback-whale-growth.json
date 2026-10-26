@@ -1,0 +1,42 @@
+{
+  "id": "2026-10-23-eastern-australia-humpback-whale-growth",
+  "eventKey": "doi-10-1111-mms-70296",
+  "category": "动物与自然",
+  "title": "无人机量了865头座头鲸\n它们小时候长得特别快",
+  "summary": "澳大利亚东部座头鲸的新生长曲线显示：约5岁时体长接近10.9米，约6至7岁已达到成年体长的九成。",
+  "body": [
+    "团队把2021—2024年无人机测量结果与鲸尾照片识别档案结合，不用捕捉鲸鱼就能估算生长速度。",
+    "这是该鲸群的统计估计，不代表每一头鲸都在同一岁数达到相同体长。"
+  ],
+  "eventDate": "2026-10-23T12:00:00Z",
+  "location": "澳大利亚东海岸赫维湾等海域",
+  "theme": "sage",
+  "archive": false,
+  "sources": [
+    {
+      "name": "Griffith University｜10月23日研究发布",
+      "url": "https://news.griffith.edu.au/2026/10/23/study-finds-humpback-whales-growing-faster-than-expected/"
+    },
+    {
+      "name": "Marine Mammal Science｜同行评议原论文",
+      "url": "https://doi.org/10.1111/mms.70296"
+    },
+    {
+      "name": "Scienmag｜10月23日研究报道",
+      "url": "https://scienmag.com/eastern-australian-humpback-whales-grow-faster-than-other-measured-populations/"
+    }
+  ],
+  "verificationNotes": "格里菲斯大学2026-10-23发布研究消息；Marine Mammal Science论文实际在线首发为2026-10-15，eventDate采用10月23日公众发布日（日期精度），并非论文首发或测量日期。原论文核实865头鲸、5岁体长中位数10.93米、达到90%渐近成年体长的中位年龄6.58岁；模型基于2021—2024年测量及最小年龄估计，不宜理解为每头鲸的精确生长轨迹。图为Susanne Steen于2010年在澳大利亚Hervey Bay拍摄的座头鲸，CC BY-SA 4.0，非本研究测量个体。",
+  "image": {
+    "src": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Humpback_Whale.jpg",
+    "alt": "2010年澳大利亚赫维湾的座头鲸实拍，非本次865头鲸研究的特定测量个体",
+    "credit": "Susanne Steen / Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Humpback_Whale.jpg",
+    "license": "CC BY-SA 4.0；2010年同地区同物种历史实拍",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "kind": "original",
+    "layout": "photo"
+  },
+  "publishedAt": "2026-10-26T10:24:28.216Z",
+  "verifiedAt": "2026-10-26T10:24:28.216Z"
+}

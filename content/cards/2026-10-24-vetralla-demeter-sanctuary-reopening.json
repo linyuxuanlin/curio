@@ -1,0 +1,42 @@
+{
+  "id": "2026-10-24-vetralla-demeter-sanctuary-reopening",
+  "eventKey": "italy-vetralla-macchia-delle-valli-demeter-reopening-2026-10-24",
+  "category": "考古",
+  "title": "意大利古圣所迎来修复开放\n活动史追溯到原史时期",
+  "summary": "意大利文保部门安排10月24日展示德墨忒耳圣所修复成果；新发掘把这里的人类活动史向前推进到原史时期。",
+  "body": [
+    "考古队在未调查区域发现采石痕迹，也修复了历史喷泉和山坡梯田。",
+    "研究显示圣所历经晚期伊特鲁里亚和罗马阶段；这次开放介绍的是持续多年的保护工作。"
+  ],
+  "eventDate": "2026-10-24T13:30:00Z",
+  "location": "意大利拉齐奥大区Vetralla",
+  "theme": "clay",
+  "archive": false,
+  "sources": [
+    {
+      "name": "意大利文化部地方文保署｜10月24日开放安排",
+      "url": "https://sabapviterboetruria.cultura.gov.it/vetralla-vt-nuove-scoperte-al-santuario-di-demetra-inaugurazione-di-un-luogo-sacro-delletruria/"
+    },
+    {
+      "name": "Finestre sull'Arte｜10月19日独立报道",
+      "url": "https://www.finestresullarte.info/en/archaeology/the-shrine-of-demeter-in-vetralla-reopens-to-the-public-new-discoveries-date-back-to-protohistory"
+    },
+    {
+      "name": "Archaeology News｜10月20日研究与开放报道",
+      "url": "https://archaeologymag.com/2026/10/sanctuary-of-demeter-in-italy-after-excavations/"
+    }
+  ],
+  "verificationNotes": "意大利文化部地方文保署10月20日公告与Finestre sull'Arte、Archaeology News交叉核对：Vetralla的Macchia delle Valli德墨忒耳圣所计划10月24日15:30当地时间举行修复与发掘介绍会；未取得活动结束后的独立现场报道，故不宣称已实际举行或统计到场人数。发掘延长了遗址活动时间跨度，原史时期不等于圣所本身从原史时期就已建成。eventDate采用官方活动计划时间，2026-10-24当地夏令时15:30即13:30 UTC。图片为Raymond.ellis 2011年拍摄的伦敦大英博物馆德墨忒耳雕像（CC0），并非意大利该圣所出土物。",
+  "image": {
+    "src": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Marble_Statue_of_Demeter.jpg",
+    "alt": "伦敦大英博物馆德墨忒耳雕像历史实拍，并非意大利Vetralla圣所出土文物",
+    "credit": "Raymond.ellis / Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Marble_Statue_of_Demeter.jpg",
+    "license": "CC0 1.0；同神祇代表雕像，非本次考古发现",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "kind": "original",
+    "layout": "photo"
+  },
+  "publishedAt": "2026-10-26T10:24:28.216Z",
+  "verifiedAt": "2026-10-26T10:24:28.216Z"
+}

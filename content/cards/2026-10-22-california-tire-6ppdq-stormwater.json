@@ -1,0 +1,42 @@
+{
+  "id": "2026-10-22-california-tire-6ppdq-stormwater",
+  "eventKey": "doi-10-1021-acs-estlett-6c00745",
+  "category": "环境",
+  "title": "一场暴雨冲刷公路\n轮胎化学物进了鱼类栖地",
+  "summary": "加州一次暴雨期间采集的水样中，78%的样本6PPD-醌浓度超过美国环保署的潜在急性危害参考值。",
+  "body": [
+    "研究覆盖道路排水口、溪河和河口；69%的样本浓度超过幼年银鲑24小时暴露的半数致死参考水平。",
+    "这是单次暴雨的浓度快照，不能据此推断所有河流常年超标或现场鱼类实际死亡比例。"
+  ],
+  "eventDate": "2026-10-22T12:00:00Z",
+  "location": "美国加利福尼亚州旧金山湾区及附近海岸",
+  "theme": "blue",
+  "archive": true,
+  "sources": [
+    {
+      "name": "美国化学会ACS｜10月22日研究公告",
+      "url": "https://www.acs.org/pressroom/presspacs/2026/october/tire-derived-pollutant-found-at-elevated-levels-in-critical-fish-habitats.html"
+    },
+    {
+      "name": "Environmental Science & Technology Letters｜原始论文",
+      "url": "https://doi.org/10.1021/acs.estlett.6c00745"
+    },
+    {
+      "name": "Scienmag｜10月22日独立编辑解读",
+      "url": "https://scienmag.com/potentially-lethal-tire-pollutant-concentrations-found-in-california-fish-habitats/"
+    }
+  ],
+  "verificationNotes": "美国化学会2026-10-22新闻稿与同行评议论文核对：一次暴雨期间对6处道路排水口、14处溪河、2处河口取样；78%超过EPA潜在急性危害参考值，69%超过幼年银鲑24小时暴露的LC50浓度参考值，均为实验风险阈值比较而非现场死亡统计。该事件公布距本轮超过72小时，因更近且跨领域的合格候选有限扩展日期范围，archive=true；eventDate按ACS公告日12:00 UTC记日期精度。图为Rg Mski 2018年拍摄的轮胎胎纹，CC BY-SA 4.0，仅作污染物来源代表图，不是本次采样现场。",
+  "image": {
+    "src": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Highway_Tire_Tread.jpg",
+    "alt": "公路轮胎胎纹历史实拍，用来示意污染物来源；不是加州本次采样现场",
+    "credit": "Rg Mski / Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Highway_Tire_Tread.jpg",
+    "license": "CC BY-SA 4.0；轮胎代表图，非本次采样现场",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "kind": "original",
+    "layout": "photo"
+  },
+  "publishedAt": "2026-10-26T10:24:28.216Z",
+  "verifiedAt": "2026-10-26T10:24:28.216Z"
+}

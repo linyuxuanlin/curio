@@ -1,0 +1,42 @@
+{
+  "id": "2026-10-26-tokyo-film-festival-sukiyaki-opening",
+  "eventKey": "tiff-39th-opening-2026-10-26",
+  "category": "文化",
+  "title": "东京电影节开幕\n开场电影讲一首世界名曲",
+  "summary": "第39届东京国际电影节10月26日启幕，开幕片《SUKIYAKI 上を向いて歩こう》讲述同名歌曲背后的故事。",
+  "body": [
+    "电影节持续至11月4日，放映场馆分布在日比谷、有乐町、丸之内与银座一带。",
+    "本届新增亚洲电影合作单元CROSSCUT ASIA+，以及面向日本新锐导演的竞赛机制。"
+  ],
+  "eventDate": "2026-10-26T03:00:00Z",
+  "location": "日本东京",
+  "theme": "plum",
+  "archive": false,
+  "sources": [
+    {
+      "name": "东京国际电影节｜第39届官方日程与新单元",
+      "url": "https://2026.tiff-jp.net/en/tiff/outline.html"
+    },
+    {
+      "name": "The Japan Times｜2026年10月9日影展指南",
+      "url": "https://www.japantimes.co.jp/culture/2026/10/09/film/tokyo-international-film-festival-2026-guide/"
+    },
+    {
+      "name": "映画.com｜开幕片及重点作品公告",
+      "url": "https://eiga.com/news/20260902/1/"
+    }
+  ],
+  "verificationNotes": "东京国际电影节官网与《日本时报》、映画.com分别确认第39届于2026-10-26至11-04举行，开幕片为瀬々敬久执导的《SUKIYAKI 上を向いて歩こう》；官网确认新增CROSSCUT ASIA+。eventDate为东京当地开幕日12:00（日期精度，非开幕式准确时间），不宣称仪式已完成。图片是Dick Thomas Johnson于2024年拍摄的同一电影节红毯照片，人物为唐季礼，不是2026年开幕现场，也不暗示他参加本届。",
+  "image": {
+    "src": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Stanley_Tong_at_Red_Carpet_of_the_Tokyo_International_Film_Festival_2024.jpg",
+    "alt": "2024年东京国际电影节红毯上的唐季礼；仅为往届活动实拍，并非2026年开幕现场",
+    "credit": "Dick Thomas Johnson / Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Stanley_Tong_at_Red_Carpet_of_the_Tokyo_International_Film_Festival_2024.jpg",
+    "license": "CC BY 2.0；2024年往届红毯代表照片，非本届现场",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+    "kind": "original",
+    "layout": "photo"
+  },
+  "publishedAt": "2026-10-26T10:24:28.216Z",
+  "verifiedAt": "2026-10-26T10:24:28.216Z"
+}
