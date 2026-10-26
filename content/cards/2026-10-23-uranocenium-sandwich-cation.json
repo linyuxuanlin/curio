@@ -1,0 +1,42 @@
+{
+  "id": "2026-10-23-uranocenium-sandwich-cation",
+  "eventKey": "doi-10-1038-s41467-026-77066-2",
+  "category": "科技",
+  "title": "化学家终于捉到\n“铀三明治”的带电版",
+  "summary": "曼彻斯特与兰卡斯特大学团队首次分离出铀茂的带正电形式：它能在合适条件下室温稳定，解开困扰化学界半个多世纪的难题。",
+  "eventDate": "2026-10-23T12:00:00Z",
+  "location": "英国 · 曼彻斯特大学、兰卡斯特大学",
+  "body": [
+    "这个分子像三明治：一个铀原子夹在两片八元碳环之间。过去尝试氧化它时，常被实验用的含氟电解质破坏。",
+    "研究者改换氧化剂和溶剂，得到了可做晶体结构分析的产物。铀失去一个电子后，分子的形状竟几乎没变。"
+  ],
+  "sources": [
+    {
+      "name": "Nature Communications · 原始同行评议论文",
+      "url": "https://www.nature.com/articles/s41467-026-77066-2"
+    },
+    {
+      "name": "University of Manchester · 研究解读",
+      "url": "https://www.manchester.ac.uk/about/news/elusive-uranium-sandwich-cation-isolated/"
+    },
+    {
+      "name": "American Chemical Society · 铀茂分子背景",
+      "url": "https://www.acs.org/molecule-of-the-week/archive/u/uranocene.html"
+    }
+  ],
+  "theme": "blue",
+  "publishedAt": "2026-10-26T03:11:58.032Z",
+  "verifiedAt": "2026-10-26T03:11:58.032Z",
+  "image": {
+    "src": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41467-026-77066-2/MediaObjects/41467_2026_77066_Fig1_HTML.png",
+    "alt": "2026年论文图1：铀茂及铀茂阳离子的反应路线、伏安曲线和新阳离子的单晶结构模型；这是科研图表，并非实验现场照片",
+    "credit": "Deakin et al. / Nature Communications (2026), Figure 1",
+    "sourceUrl": "https://www.nature.com/articles/s41467-026-77066-2",
+    "license": "CC BY 4.0；原论文图1，未作修改",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "kind": "original",
+    "layout": "poster"
+  },
+  "archive": false,
+  "verificationNotes": "本轮按用户最新明确要求只新增1张卡片，优先于仓库文档中每轮5张的旧指令。已读取 README.md、docs/HOURLY_PROMPT.md、docs/CONTENT_FORMAT.md、docs/PUBLISHING.md，列出61张现有卡片并读取最近约30张，整库检索 uranocenium、uranocene、DOI 77066 均无重复；近期最后发布为动物与自然、设计、动物与自然、环境等，本轮轮换至科技，最近6期无天文/航天。Nature Communications 同行评议论文发表于2026-10-23，DOI 10.1038/s41467-026-77066-2，首次分离并用晶体衍射、磁性和电子顺磁共振确认铀茂阳离子，研究指出铀与碳的共价性抵消了氧化后预期的键长收缩；曼彻斯特大学2026-10-23官方新闻确认旧实验中的含氟电解质引发分解，更换试剂与溶剂后得到在合适条件下室温稳定的晶体；美国化学会2021年独立资料核实铀茂1968年首次制得及其夹心分子结构。ACS仅用于历史背景核实，未声称独立重复新实验。论文仅提供发布日期，eventDate按日期精度记当天12:00 UTC，不代表实验发生时刻。图采用本次 Nature Communications 论文图1，论文明确整篇及未另标第三方版权的图按 CC BY 4.0 许可；它是原始科研图表，不是现场照片。当前本地终端可运行Node但网络DNS无法解析github.com，不能取得完整仓库，因此未伪装运行本地npm校验；提交后必须以GitHub Actions validate/test/build和线上feed核验为准。"
+}
