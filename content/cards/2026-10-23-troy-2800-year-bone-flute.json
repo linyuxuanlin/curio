@@ -1,0 +1,42 @@
+{
+  "id": "2026-10-23-troy-2800-year-bone-flute",
+  "eventKey": "turkiye-troy-2026-excavation-bone-flute-idol-head",
+  "category": "考古",
+  "title": "特洛伊挖出2800年前骨笛\n160多年首次发现乐器",
+  "summary": "土耳其文旅部长公布，特洛伊出土一支约2800年前的骨笛，以及约4500年前的人形偶像头部。",
+  "body": [
+    "骨笛属于古风时期，笛头仍与笛身相连，为研究古城音乐活动提供罕见实物证据。",
+    "偶像头部出土于特洛伊第二层城门附近，年代更早；两件文物并不属于同一时期。"
+  ],
+  "eventDate": "2026-10-23T12:00:00Z",
+  "location": "土耳其恰纳卡莱省特洛伊遗址",
+  "theme": "clay",
+  "archive": false,
+  "sources": [
+    {
+      "name": "Hürriyet Daily News｜10月23日报道",
+      "url": "https://www.hurriyetdailynews.com/2-800-year-old-bone-flute-found-at-troy-the-first-in-160-years-228492"
+    },
+    {
+      "name": "Türkiye Today｜出土文物与部长声明",
+      "url": "https://www.turkiyetoday.com/culture/2800-year-old-bone-flute-4500-year-old-idol-head-unearthed-at-ancient-troy-in-turkiye-3230806"
+    },
+    {
+      "name": "HeritageDaily｜考古发现报道",
+      "url": "https://www.heritagedaily.com/2026/10/2800-year-old-bone-flute-unearthed-in-troy/159750"
+    }
+  ],
+  "verificationNotes": "2026-10-23为土耳其媒体报道文化与旅游部长公布的发现日期，只有日期精度，记12:00 UTC。Hürriyet Daily News、Türkiye Today、HeritageDaily核对骨笛约2800年、偶像头部约4500年、逾160年发掘中首次出土乐器；三篇均主要基于同一政府公告，不能视作三份独立现场鉴定。两件文物属于不同年代。Commons照片拍摄于2020年，仅为特洛伊古城墙代表图，不是新出土文物；Ebru Sargın L.授权CC BY-SA 4.0。",
+  "image": {
+    "src": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Walls_of_Ancient_Troy.jpg",
+    "alt": "2020年拍摄的土耳其特洛伊古城遗址城墙；非本次出土骨笛或偶像头部照片",
+    "credit": "Ebru Sargın L. / Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Walls_of_Ancient_Troy.jpg",
+    "license": "CC BY-SA 4.0；特洛伊遗址代表图，非本次出土文物",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "kind": "original",
+    "layout": "photo"
+  },
+  "publishedAt": "2026-10-26T05:14:35.053Z",
+  "verifiedAt": "2026-10-26T05:14:35.053Z"
+}

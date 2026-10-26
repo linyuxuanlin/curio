@@ -1,0 +1,38 @@
+{
+  "id": "2026-10-23-fava-potato-protein-meat-texture",
+  "eventKey": "doi-10-1016-j-foodhyd-2026-113018",
+  "category": "食品",
+  "title": "蚕豆加马铃薯蛋白\n能做出有嚼劲的植物肉",
+  "summary": "研究发现75%蚕豆蛋白配25%马铃薯蛋白，经高水分挤压后可形成适合植物肉的纤维结构。",
+  "body": [
+    "这种配方不用小麦面筋，也能形成较坚实的结构，为无麸质肉类替代品提供新思路。",
+    "不过电子味觉测试显示苦味、涩感和余味偏强，口感仍需改进，不能说已是成熟产品。"
+  ],
+  "eventDate": "2026-10-23T12:00:00Z",
+  "location": "英国（格林尼治大学与赫瑞瓦特大学）",
+  "theme": "gold",
+  "archive": false,
+  "sources": [
+    {
+      "name": "Heriot-Watt University / Phys.org｜研究解读",
+      "url": "https://phys.org/news/2026-10-potatoes-secret-based-meat-food.html"
+    },
+    {
+      "name": "Food Hydrocolloids｜原始论文 DOI",
+      "url": "https://doi.org/10.1016/j.foodhyd.2026.113018"
+    }
+  ],
+  "verificationNotes": "2026-10-23为大学研究新闻公开日期，来源仅有日期，12:00 UTC作日期精度占位；不冒充实验发生日。大学研究解读与Food Hydrocolloids原论文核对：75%蚕豆蛋白、25%马铃薯蛋白经高水分挤压产生结构；电子味觉系统显示较明显苦涩和余味，未完成商业产品验证。Commons照片是蚕豆原料，不是植物肉样品；Rasbak/Hohum衍生图许可CC BY-SA 3.0。",
+  "image": {
+    "src": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Fava_beans_1.jpg",
+    "alt": "蚕豆原料代表照片；不是本次实验的植物肉成品",
+    "credit": "Rasbak / Hohum / Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Fava_beans_1.jpg",
+    "license": "CC BY-SA 3.0；蚕豆原料代表图，非实验成品",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "kind": "original",
+    "layout": "photo"
+  },
+  "publishedAt": "2026-10-26T05:14:35.053Z",
+  "verifiedAt": "2026-10-26T05:14:35.053Z"
+}

@@ -1,0 +1,38 @@
+{
+  "id": "2026-10-23-ucla-cell-squeeze-crispra-neurons",
+  "eventKey": "doi-10-1016-j-matt-2026-103064",
+  "category": "科技",
+  "title": "把皮肤细胞挤一下\n转神经元效率大增",
+  "summary": "UCLA团队让小鼠皮肤细胞经过微流控芯片短暂挤压，使CRISPR激活工具更容易接触DNA。",
+  "body": [
+    "只用CRISPRa时，约3%的细胞变成神经元；配合挤压和额外预处理后，实验比例达到约40%。",
+    "结果来自小鼠细胞，不代表人类疗法已经可用；CRISPRa用于激活基因，而非切断DNA。"
+  ],
+  "eventDate": "2026-10-23T12:00:00Z",
+  "location": "美国加利福尼亚州洛杉矶",
+  "theme": "plum",
+  "archive": false,
+  "sources": [
+    {
+      "name": "UCLA / Phys.org｜研究公开解读",
+      "url": "https://phys.org/news/2026-10-quick-crispr-skin-cells-neurons.html"
+    },
+    {
+      "name": "Matter｜原始研究论文 DOI",
+      "url": "https://doi.org/10.1016/j.matt.2026.103064"
+    }
+  ],
+  "verificationNotes": "2026-10-23是UCLA研究新闻报道日，精度仅日期，以12:00 UTC记；不将其伪装为首次实验日。UCLA研究说明与Matter论文核对。40%是挤压配合Oct4预处理、再激活Ascl1/Brn2后的最佳实验条件；仅挤压结合CRISPRa时约10%，CRISPRa单独约3%。所有数据为小鼠皮肤细胞，不能外推临床。Commons微流控芯片为2022年其他作者设备代表照片，不是UCLA实验装置；CC BY-SA 4.0。",
+  "image": {
+    "src": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Microfluidic_Chip.jpg",
+    "alt": "2022年拍摄的微流控芯片代表图；并非本次UCLA实验使用的芯片",
+    "credit": "Niftyfiftycat / Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Microfluidic_Chip.jpg",
+    "license": "CC BY-SA 4.0；微流控技术代表图，非本次实验装置",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "kind": "original",
+    "layout": "photo"
+  },
+  "publishedAt": "2026-10-26T05:14:35.053Z",
+  "verifiedAt": "2026-10-26T05:14:35.053Z"
+}

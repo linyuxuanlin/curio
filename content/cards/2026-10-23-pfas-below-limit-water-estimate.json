@@ -1,0 +1,38 @@
+{
+  "id": "2026-10-23-pfas-below-limit-water-estimate",
+  "eventKey": "doi-10-1016-j-crsus-2026-100893",
+  "category": "环境",
+  "title": "自来水里“测不到”PFAS\n并不等于浓度为零",
+  "summary": "研究建模美国饮水监测数据，估计把低于报告限的数据当作零，会漏掉不少PFAS浓度。",
+  "body": [
+    "团队分析180多万条检测记录，98%的结果低于最低报告限；模型估计常用统计只覆盖25种PFAS平均浓度的44%。",
+    "这些数值是统计估计，不是逐份水样的实测浓度，也不能据此直接判断健康风险。"
+  ],
+  "eventDate": "2026-10-23T12:00:00Z",
+  "location": "美国（全国公共供水系统数据）",
+  "theme": "sage",
+  "archive": false,
+  "sources": [
+    {
+      "name": "Cell Press / Phys.org｜研究说明",
+      "url": "https://phys.org/news/2026-10-pfas.html"
+    },
+    {
+      "name": "Cell Reports Sustainability｜原始论文 DOI",
+      "url": "https://doi.org/10.1016/j.crsus.2026.100893"
+    }
+  ],
+  "verificationNotes": "2026-10-23为Cell Reports Sustainability研究公开发表报道日期，只有日期精度，统一记12:00 UTC。研究使用EPA监测数据库的逾180万条记录、9,991个供水系统，25种至少检出过一次的PFAS；模型对低于报告限的数据作500次估计，推算常用置零口径只得到平均估计浓度44%。论文及Cell Press公开解读交叉核对；模型结果不是直接测得浓度或饮用安全结论。Commons水龙头为2021年以色列拍摄的代表图，不是美国采样现场，CC BY-SA 4.0。",
+  "image": {
+    "src": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Water_faucet_4.jpg",
+    "alt": "2021年拍摄的公共水龙头代表照片；不代表本次美国PFAS检测水样或检测结果",
+    "credit": "Yasmine.shal / Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Water_faucet_4.jpg",
+    "license": "CC BY-SA 4.0；水龙头代表照片，非研究现场",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "kind": "original",
+    "layout": "photo"
+  },
+  "publishedAt": "2026-10-26T05:14:35.053Z",
+  "verifiedAt": "2026-10-26T05:14:35.053Z"
+}

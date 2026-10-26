@@ -1,0 +1,38 @@
+{
+  "id": "2026-10-24-plasma-single-xray-multiscale",
+  "eventKey": "doi-10-1038-s42005-026-02872-5",
+  "category": "工程",
+  "title": "一束X射线一台相机\n看清等离子体的细微变化",
+  "summary": "研究团队用单次X射线脉冲，同时捕捉10至500纳米尺度的等离子体结构变化。",
+  "body": [
+    "研究采用无挡光片小角散射法，记录强激光作用下微结构靶材解体和稀疏的过程。",
+    "团队报告亚皮秒级时间分辨率；这是实验室测量技术进展，尚不是聚变反应堆的实际部署。"
+  ],
+  "eventDate": "2026-10-24T12:00:00Z",
+  "location": "日本（核融合科学研究所等研究团队）",
+  "theme": "blue",
+  "archive": false,
+  "sources": [
+    {
+      "name": "Phys.org｜10月24日研究报道",
+      "url": "https://phys.org/news/2026-10-ray-pulse-reveals-plasma-nanostructures.html"
+    },
+    {
+      "name": "Communications Physics｜原始论文",
+      "url": "https://doi.org/10.1038/s42005-026-02872-5"
+    }
+  ],
+  "verificationNotes": "2026-10-24为研究机构公开报道日期，来源仅给日期，按12:00 UTC记日期精度；不冒充论文首发日。Phys.org所载日本国家核融合科学研究所稿件与Communications Physics原论文交叉核对：单个X射线自由电子激光脉冲、单台相机、10–500纳米空间尺度、亚皮秒时间分辨率。照片为2024年另一处常规X射线衍射仪，仅示意测量设备，并非自由电子激光装置或本研究现场，Commons作者Sufangxi许可CC BY-SA 4.0。",
+  "image": {
+    "src": "https://commons.wikimedia.org/wiki/Special:Redirect/file/X-ray_diffractometer-1.jpg",
+    "alt": "2024年拍摄的常规X射线衍射仪，代表X射线测量设备；并非本次自由电子激光实验装置",
+    "credit": "Sufangxi / Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:X-ray_diffractometer-1.jpg",
+    "license": "CC BY-SA 4.0；设备代表图，非本次实验现场",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "kind": "original",
+    "layout": "photo"
+  },
+  "publishedAt": "2026-10-26T05:14:35.053Z",
+  "verifiedAt": "2026-10-26T05:14:35.053Z"
+}
