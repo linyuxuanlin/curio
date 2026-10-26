@@ -1,0 +1,42 @@
+{
+  "id": "2026-10-23-tucker-ranch-botanical-park-opening",
+  "eventKey": "winter-garden-tucker-ranch-phase-ii-botanical-garden-open-2026-10-23",
+  "category": "城市生活",
+  "title": "旧高尔夫球场的拱门\n走进一座新植物园",
+  "summary": "美国佛罗里达州Winter Garden于10月23日开放Tucker Ranch二期25.6英亩的健康公园与植物园，保留老球场拱门。",
+  "body": [
+    "园区有步道、湿地栈道、池塘和授粉植物区，还设置室内活动空间与示范厨房。",
+    "开园剪彩安排在当地上午10时，免费入场；25.6英亩只是新二期面积，不是整个209英亩保护区。"
+  ],
+  "eventDate": "2026-10-23T14:00:00Z",
+  "location": "美国佛罗里达州Winter Garden",
+  "theme": "sage",
+  "archive": false,
+  "sources": [
+    {
+      "name": "Winter Garden市政府｜10月23日开园公告",
+      "url": "https://www.wgfl.gov/924/Grand-Opening-Ceremony-of-Tucker-Ranch-H"
+    },
+    {
+      "name": "West Orange Times & Observer｜10月20日报道",
+      "url": "https://www.orangeobserver.com/news/2026/oct/20/winter-garden-to-celebrate-opening-of-tucker-ranch/"
+    },
+    {
+      "name": "Winter Garden Journal｜10月11日详细说明",
+      "url": "https://wintergardenjournal.com/tucker-ranch-wellness-park-botanical-garden-opening/"
+    }
+  ],
+  "verificationNotes": "市政府官方开园公告与West Orange Times & Observer、Winter Garden Journal独立报道核对：2026-10-23当地10:00 EDT剪彩=14:00 UTC；25.6英亩二期、209英亩原保护区、保留West Orange Country Club拱门、免费入场和园内设施。现有报道主要预告开幕安排，不能据此宣称已经核实当天实际访客人数。照片为2017年佛罗里达Naples Botanical Garden的栈道，Daderot CC0；不是Tucker Ranch现场。",
+  "image": {
+    "src": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Boardwalk%20-%20Naples%20Botanical%20Garden%20-%20Naples%2C%20Florida%20-%20DSC09971.jpg",
+    "alt": "2017年佛罗里达Naples Botanical Garden的栈道；不是Tucker Ranch新植物园",
+    "credit": "Daderot / Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Boardwalk%20-%20Naples%20Botanical%20Garden%20-%20Naples%2C%20Florida%20-%20DSC09971.jpg",
+    "license": "CC0 1.0；佛罗里达另一处植物园栈道代表图，非新园现场",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "kind": "original",
+    "layout": "photo"
+  },
+  "publishedAt": "2026-10-26T07:28:41Z",
+  "verifiedAt": "2026-10-26T07:28:41Z"
+}

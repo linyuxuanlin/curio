@@ -1,0 +1,42 @@
+{
+  "id": "2026-10-24-surgeons-prefer-ai-certainty-maps",
+  "eventKey": "doi-10-1038-s41598-026-74953-y",
+  "category": "AI",
+  "title": "手术AI该怎样解释自己\n47名神经外科医生更看重把握度",
+  "summary": "新发表的跨国调查发现，47名神经外科医生更喜欢AI明确标出判断的可信程度，而不是只展示算法关注哪里。",
+  "body": [
+    "研究比较置信分数、置信区域图、显著性图及相似病例等解释方式；置信信息更贴近术中决策。",
+    "问卷采用静态手术影像，不是临床结局试验，不能据此证明AI能让手术更安全。"
+  ],
+  "eventDate": "2026-10-24T12:00:00Z",
+  "publishedAt": "2026-10-26T07:28:41Z",
+  "verifiedAt": "2026-10-26T07:28:41Z",
+  "location": "英国等多国神经外科医生（研究团队位于伦敦）",
+  "theme": "plum",
+  "archive": false,
+  "sources": [
+    {
+      "name": "Scientific Reports｜10月24日同行评议论文",
+      "url": "https://www.nature.com/articles/s41598-026-74953-y"
+    },
+    {
+      "name": "medRxiv｜2026年6月作者原始预印本",
+      "url": "https://www.medrxiv.org/content/10.64898/2026.06.02.26354729v1.full"
+    },
+    {
+      "name": "Risolnet｜10月25日研究解读",
+      "url": "https://risolnet.com/science-technology-news-review-october-25-2026/"
+    }
+  ],
+  "verificationNotes": "Scientific Reports 2026-10-24同行评议发表、2026-06 medRxiv作者预印本及Risolnet 10月25日研究解读核对：47名神经外科医生的跨国横断面问卷，以内镜垂体手术的AI解剖分割为示例；置信分数与置信区域图获更高偏好，显著性与相似性解释评价较低。问卷使用静态匿名影像，未检验真实手术安全或诊断准确率；预印本与期刊论文来自同一研究团队，不是独立复现实验。事件日期为正式同行评议版本2026-10-24，12:00 UTC仅表示日期精度。配图采用Scientific Reports原论文图2，文章按CC BY 4.0开放许可，图表而非手术现场照片；未获得独立现场照片。",
+  "image": {
+    "src": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41598-026-74953-y/MediaObjects/41598_2026_74953_Fig2_HTML.png",
+    "alt": "2026年Scientific Reports论文图2的研究数据图表；不是手术现场照片",
+    "credit": "Khan et al. / Scientific Reports (2026), Figure 2",
+    "sourceUrl": "https://www.nature.com/articles/s41598-026-74953-y",
+    "license": "CC BY 4.0；原论文研究图表",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "kind": "original",
+    "layout": "poster"
+  }
+}

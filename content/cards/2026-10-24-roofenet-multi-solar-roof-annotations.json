@@ -1,0 +1,42 @@
+{
+  "id": "2026-10-24-roofenet-multi-solar-roof-annotations",
+  "eventKey": "doi-10-1038-s41597-026-08480-w",
+  "category": "AI",
+  "title": "AI先认屋顶\n人类再挑错：12761组标注",
+  "summary": "新发布的RoofeNet-Multi数据集整理捷克5359张建筑航拍图，共12761组屋顶标注，保留AI初稿与人工修订。",
+  "body": [
+    "数据既标记平屋顶、坡屋顶，也标记天窗、烟囱等障碍物，方便研究屋顶光伏评估中的分歧。",
+    "人工标注从同一AI建议出发，并非相互独立的标准答案；数据集也不等于可直接施工的光伏规划。"
+  ],
+  "eventDate": "2026-10-24T12:00:00Z",
+  "location": "捷克（研究数据覆盖范围）",
+  "theme": "gold",
+  "archive": false,
+  "sources": [
+    {
+      "name": "Scientific Data｜10月24日数据论文",
+      "url": "https://www.nature.com/articles/s41597-026-08480-w"
+    },
+    {
+      "name": "Research Square｜作者早期预印本",
+      "url": "https://doi.org/10.21203/rs.3.rs-8615745/v1"
+    },
+    {
+      "name": "Risolnet｜10月25日独立研究解读",
+      "url": "https://risolnet.com/science-technology-news-review-october-25-2026/"
+    }
+  ],
+  "verificationNotes": "Scientific Data 2026-10-24正式论文、2026-01预印本与10月25日Risolnet整理核对：5359幅捷克建筑正射影像、12761组标注，其中7402组人工复核、5359组AI初稿；人工复核起点来自Google Gemini建议，不能当作完全独立标注。此次事件是同行评议版本发表而非数据第一次出现；eventDate为正式论文发布日期12:00 UTC（日期精度）。照片为2010年捷克Slavkov u Brna某住宅屋顶太阳能板，Martin Strachoň CC BY-SA 3.0；非RoofeNet-Multi数据图或2026研究现场。",
+  "image": {
+    "src": "https://commons.wikimedia.org/wiki/Special:Redirect/file/D%C5%AFm%20Zlat%C3%A1%20Hora%20272%20Slavkov%20u%20Brna.jpg",
+    "alt": "2010年捷克住宅屋顶的太阳能板；不是RoofeNet-Multi航拍图或标注成果",
+    "credit": "Martin Strachoň / Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:D%C5%AFm%20Zlat%C3%A1%20Hora%20272%20Slavkov%20u%20Brna.jpg",
+    "license": "CC BY-SA 3.0；捷克住宅太阳能板代表图，非数据集图像",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "kind": "original",
+    "layout": "photo"
+  },
+  "publishedAt": "2026-10-26T07:28:41Z",
+  "verifiedAt": "2026-10-26T07:28:41Z"
+}

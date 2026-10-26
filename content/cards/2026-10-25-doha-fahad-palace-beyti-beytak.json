@@ -1,0 +1,42 @@
+{
+  "id": "2026-10-25-doha-fahad-palace-beyti-beytak",
+  "eventKey": "qatar-museums-2026-10-25-fahad-bin-ali-palace-reopening-exhibitions",
+  "category": "文化",
+  "title": "多哈老宫殿重新开门\n展览把“家”变成主题",
+  "summary": "卡塔尔博物馆在10月25日为Fahad bin Ali Palace的新展揭幕，修复后的宫殿向公众展示建筑与生活记忆。",
+  "body": [
+    "“我家就是你家”展览从威尼斯延伸至多哈，集合40多位建筑师与创作者的作品，探讨待客与归属。",
+    "同期还有卡塔尔木门与前伊斯兰考古展；官网标注展览10月26日起开放，周一例行闭馆。"
+  ],
+  "eventDate": "2026-10-25T12:00:00Z",
+  "location": "卡塔尔多哈Fahad bin Ali Palace",
+  "theme": "plum",
+  "archive": false,
+  "sources": [
+    {
+      "name": "Qatar Museums｜展览与开放日期",
+      "url": "https://qm.org.qa/en/calendar/beyti-beytak-2026/"
+    },
+    {
+      "name": "Qatar Museums｜宫殿修复与访客信息",
+      "url": "https://qm.org.qa/en/visit/heritage-sites/fahad-bin-ali-palace/"
+    },
+    {
+      "name": "The Peninsula Qatar｜10月26日报道揭幕",
+      "url": "https://thepeninsulaqatar.com/article/26/10/2026/qatar-museums-opens-beyti-beytak-exhibition"
+    }
+  ],
+  "verificationNotes": "The Peninsula 2026-10-26报道称10月25日举行开幕活动，Qatar Museums官网列展览10月26日开始、宫殿从10月25日起迎客且周一闭馆；区分揭幕日与官网展期，不声称周一实际开馆。展览40余位建筑/设计从业者、威尼斯2025首展由新闻核实。eventDate为10月25日日期精度12:00 UTC，不代表准确仪式时刻。照片是2021年Ziad Hunesh拍摄的卡塔尔国家博物馆旧宫殿（谢赫阿卜杜拉宫），并非Fahad bin Ali Palace或本次展览，CC BY-SA 4.0。",
+  "image": {
+    "src": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Old%20Palace%20General%20view.jpg",
+    "alt": "2021年卡塔尔国家博物馆旧宫殿实拍；不是Fahad bin Ali Palace或本次展览现场",
+    "credit": "Ziad Hunesh / Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Old%20Palace%20General%20view.jpg",
+    "license": "CC BY-SA 4.0；卡塔尔另一处历史宫殿代表图，非本次会场",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "kind": "original",
+    "layout": "photo"
+  },
+  "publishedAt": "2026-10-26T07:28:41Z",
+  "verifiedAt": "2026-10-26T07:28:41Z"
+}

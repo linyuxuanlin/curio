@@ -1,0 +1,38 @@
+{
+  "id": "2026-10-24-portable-liver-ultrasound-robot",
+  "eventKey": "doi-10-1038-s41467-026-79007-5",
+  "category": "机器人",
+  "title": "贴在肚子上的超声机器人\n末端装置只有588克",
+  "summary": "清华等团队发表一套贴附腹部的自动肝脏超声系统，机器人末端装置重588克，能在呼吸扰动下采集图像。",
+  "body": [
+    "研究在102名健康参与者和17名患者中评估，采集到可供临床判读的图像，并在高海拔环境尝试筛查。",
+    "它是实验性扫描系统，尚不能取代医生诊断，也不代表已完成大规模临床验证。"
+  ],
+  "eventDate": "2026-10-24T12:00:00Z",
+  "location": "中国北京、青海（研究团队与试验场景）",
+  "theme": "blue",
+  "archive": false,
+  "sources": [
+    {
+      "name": "Nature Communications｜10月24日原始论文",
+      "url": "https://www.nature.com/articles/s41467-026-79007-5"
+    },
+    {
+      "name": "Swil-News｜10月24日研究整理",
+      "url": "https://news.supwil.com/en/news/science/2026-10-24"
+    }
+  ],
+  "verificationNotes": "Nature Communications 2026-10-24同行评议论文和Swil-News同日研究整理核对：588克是贴腹末端执行器而非全系统总重；102名健康参与者、17名患者；青藏高原筛查和车载动态环境测试均属于研究报告。Swil-News为基于论文的二次整理，并非独立复现实验；不将结果表述为诊断有效性或商业化。论文仅有日期精度，eventDate记12:00 UTC。未获得可自由复用的本次装置照片；采用2024年Harrison Keely的医用超声探头代表照片，CC BY 4.0，明确不是本研究机器人。",
+  "image": {
+    "src": "https://commons.wikimedia.org/wiki/Special:Redirect/file/A%20medical%20ultrasound%20linear%20array%20probe%2C%20scan%20head%2C%20transducer.jpg",
+    "alt": "2024年拍摄的常规医用超声探头；不是清华团队的贴腹机器人",
+    "credit": "Harrison Keely / Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:A%20medical%20ultrasound%20linear%20array%20probe%2C%20scan%20head%2C%20transducer.jpg",
+    "license": "CC BY 4.0；超声探头代表照片，非本次机器人",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "kind": "original",
+    "layout": "photo"
+  },
+  "publishedAt": "2026-10-26T07:28:41Z",
+  "verifiedAt": "2026-10-26T07:28:41Z"
+}
