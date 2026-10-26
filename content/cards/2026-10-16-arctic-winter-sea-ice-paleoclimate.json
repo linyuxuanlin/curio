@@ -1,0 +1,42 @@
+{
+  "id": "2026-10-16-arctic-winter-sea-ice-paleoclimate",
+  "eventKey": "doi-10-1038-s41561-026-02123-w",
+  "category": "环境",
+  "title": "拿六千年前的海底沉积物\n校准未来北极冰量",
+  "summary": "研究用约6000年前的海冰藻类化学痕迹重新衡量气候模型，推算未来北极冬季海冰面积可能比旧预测少约100万平方公里。",
+  "body": [
+    "研究者比较27套气候模型与古环境记录，重新分配模型权重；部分预测的不确定范围缩小了约85%。",
+    "这是模型修正而非卫星已测到的减少量。配图为NASA的2025年北极海冰观测图，非研究预测图。"
+  ],
+  "eventDate": "2026-10-16T12:00:00Z",
+  "location": "北极／英国剑桥大学与墨西哥CIMAT",
+  "theme": "sage",
+  "archive": true,
+  "sources": [
+    {
+      "name": "Nature Geoscience｜10月16日原论文",
+      "url": "https://www.nature.com/articles/s41561-026-02123-w"
+    },
+    {
+      "name": "University of Cambridge／ScienceDaily｜10月26日研究解读",
+      "url": "https://www.sciencedaily.com/releases/2026/10/261022081259.htm"
+    },
+    {
+      "name": "NASA Earth Observatory｜海冰观测图来源",
+      "url": "https://earthobservatory.nasa.gov/images/154122/winter-sea-ice-reached-new-lows-in-the-arctic"
+    }
+  ],
+  "verificationNotes": "原论文2026-10-16发表于Nature Geoscience，DOI 10.1038/s41561-026-02123-w；剑桥大学新闻稿10月26日由ScienceDaily转载。研究使用中全新世5–7千年前的海冰生物标志物与气候模型进行贝叶斯加权，结果指未来冬季海冰范围比未加权模型约少100万平方公里，不确定性在所分析投影中可缩减85%；这是模型推算而非已发生的海冰损失，也不等同于完全无冰。eventDate按论文发表日12:00 UTC表示日期精度，旧研究因10月26日有官方解读而作为往期精选。NASA Earth Observatory绘制的2025年3月22日北极海冰浓度图为公共领域、与论文图不同；Wikimedia Commons核实PD-NASA，图中数值不能当作2026年研究的预测结果。",
+  "image": {
+    "src": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Arctic%20nsidc%2020250322.jpg",
+    "alt": "NASA绘制的2025年3月22日北极海冰观测图，非2026年论文预测结果",
+    "credit": "NASA Earth Observatory / Lauren Dauphin / NSIDC",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Arctic_nsidc_20250322.jpg",
+    "license": "NASA美国联邦政府作品，公共领域；2025年历史观测图",
+    "licenseUrl": "https://www.nasa.gov/nasa-brand-center/images-and-media/",
+    "kind": "original",
+    "layout": "poster"
+  },
+  "publishedAt": "2026-10-26T12:40:00Z",
+  "verifiedAt": "2026-10-26T12:40:00Z"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "2026-10-15-toyota-walk-me-red-dot-luminary",
+  "eventKey": "red-dot-luminary-2026-toyota-walk-me",
+  "category": "设计",
+  "title": "一张会走路的椅子\n拿下红点概念设计大奖",
+  "summary": "丰田的Walk Me概念座椅不用轮子，而用四条机器人腿跨越台阶；它获得2026年红点概念设计最高荣誉Luminary。",
+  "body": [
+    "设计者想让行动不便者既能上下台阶，也能升高座椅，与站立的人平视。",
+    "它仍是概念原型，并非已上市的辅助器具。配图为新加坡红点设计博物馆旧照，不是Walk Me实物。"
+  ],
+  "eventDate": "2026-10-15T12:00:00Z",
+  "location": "新加坡（颁奖）／日本（设计）",
+  "theme": "clay",
+  "archive": true,
+  "sources": [
+    {
+      "name": "Red Dot｜2026颁奖典礼与获奖公告",
+      "url": "https://www.red-dot.org/magazine/red-dot-award-design-concept-award-ceremony-2026-en"
+    },
+    {
+      "name": "Red Dot｜Walk Me设计说明",
+      "url": "https://www.red-dot.org/magazine/walk-me-crowned-red-dot-luminary-2026-en"
+    },
+    {
+      "name": "The Business Times｜独立设计报道",
+      "url": "https://www.businesstimes.com.sg/lifestyle/arts-design/9-must-have-design-solutions-chic-wearable-tech-mobility-aid-climbs-stairs"
+    }
+  ],
+  "verificationNotes": "Red Dot官方确认2026-10-15于新加坡Capitol Theatre举行概念设计颁奖，Toyota Walk Me获最高Luminary奖，设计团队为Takashi Nishimura和Misako Kawata；新加坡Business Times独立报道四腿、AI步态控制和可升降座椅。获奖是设计概念荣誉，不代表已获医疗认证、商业销售或在任意楼梯可安全使用。eventDate按10月15日颁奖日12:00 UTC表示日期精度，超过72小时标往期精选；10月24日再有相关报道并不改变颁奖日期。由于官方机器人照片无明确自由复用许可，选用Wikimedia Commons所载2024年新加坡红点设计博物馆外观实拍作活动场所代表图，非获奖座椅或颁奖现场；作者JudiciousGoat，CC BY-SA 4.0。",
+  "image": {
+    "src": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Red%20dot%20design%20museum%20singapore%20surroundings.jpg",
+    "alt": "新加坡红点设计博物馆的历史外观照片，非丰田Walk Me机器人座椅",
+    "credit": "JudiciousGoat / Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Red_dot_design_museum_singapore_surroundings.jpg",
+    "license": "CC BY-SA 4.0；2024年博物馆外观代表照，非本届颁奖现场",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "kind": "original",
+    "layout": "photo"
+  },
+  "publishedAt": "2026-10-26T12:40:00Z",
+  "verifiedAt": "2026-10-26T12:40:00Z"
+}

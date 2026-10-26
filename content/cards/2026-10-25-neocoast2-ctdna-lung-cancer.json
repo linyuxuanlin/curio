@@ -1,0 +1,42 @@
+{
+  "id": "2026-10-25-neocoast2-ctdna-lung-cancer",
+  "eventKey": "doi-10-1038-s41586-026-11328-3",
+  "category": "科技",
+  "title": "治肺癌时验血找DNA\n可能更早看出疗效",
+  "summary": "10月25日发表的NeoCOAST-2研究发现，治疗期间血液中肿瘤DNA信号消失，与较长的无事件生存期相关。",
+  "body": [
+    "这项Ⅱ期试验比较了不同的术前后联合治疗；血液信号消失与更好的结局相关，并不证明检测本身能治癌。",
+    "研究者仍需在更大规模试验中确认如何据此调整治疗。配图仅为常规实验室试管代表照。"
+  ],
+  "eventDate": "2026-10-25T12:00:00Z",
+  "location": "国际多中心临床研究／ESMO大会",
+  "theme": "blue",
+  "archive": false,
+  "sources": [
+    {
+      "name": "Nature｜10月25日原始研究",
+      "url": "https://www.nature.com/articles/s41586-026-11328-3"
+    },
+    {
+      "name": "MD Anderson｜ESMO 2026研究发布",
+      "url": "https://www.newswise.com/articles/esmo-2026-ut-md-anderson-highlights-innovative-approaches-to-monitor-prevent-and-treat-cancer"
+    },
+    {
+      "name": "ClinicalTrials.gov｜NeoCOAST-2试验登记",
+      "url": "https://clinicaltrials.gov/study/NCT05061550"
+    }
+  ],
+  "verificationNotes": "Nature论文《ctDNA clearance and outcomes for resectable lung cancer from NeoCOAST-2》于2026-10-25在线发表，DOI 10.1038/s41586-026-11328-3，Ⅱ期随机平台试验的预设次要终点和探索性分析。合并组ctDNA清除与较长EFS相关（HR 0.22，95%CI 0.11–0.45）；MD Anderson ESMO公告确认10月25日Tina Cascone报告并同期发表于Nature，试验注册NCT05061550核对设计。关联性不等于因果性，不可据此直接指导个人医疗或夸称治愈。eventDate按论文/大会发布日12:00 UTC表示日期精度。图片为2017年生化实验室试管旧照，不是本研究样本或仪器；Wikimedia Commons CC BY-SA 4.0，注明仅为实验室代表图。",
+  "image": {
+    "src": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Test%20tubes%20in%20biochemistry%20lab.jpg",
+    "alt": "实验室中的试管照片，仅作血液生物标志物检测场景示例，非本次肺癌试验",
+    "credit": "Kateryna Kot / Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Test_tubes_in_biochemistry_lab.jpg",
+    "license": "CC BY-SA 4.0；2017年实验室代表照片，非研究现场",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "kind": "original",
+    "layout": "photo"
+  },
+  "publishedAt": "2026-10-26T12:40:00Z",
+  "verifiedAt": "2026-10-26T12:40:00Z"
+}

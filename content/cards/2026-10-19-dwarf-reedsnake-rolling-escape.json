@@ -1,0 +1,42 @@
+{
+  "id": "2026-10-19-dwarf-reedsnake-rolling-escape",
+  "eventKey": "doi-10-1016-j-cub-2026-08-057",
+  "category": "动物与自然",
+  "title": "小蛇逃跑不只会爬\n还会像车轮一样翻滚",
+  "summary": "研究人员用多角度摄影发现，东南亚矮芦蛇翻滚逃跑的峰值速度约为普通蜿蜒爬行的4倍，头部却能保持相对稳定。",
+  "body": [
+    "团队观察到的翻滚峰值速度为每秒1.72至3.69米，蛇还能沿20厘米宽的通道前进。",
+    "身体两侧交替触地，弯曲的躯干像划桨般推动前行。照片为研究涉及的同属物种旧照，不是实验画面。"
+  ],
+  "eventDate": "2026-10-19T12:00:00Z",
+  "location": "日本东邦大学／东南亚蛇类",
+  "theme": "sage",
+  "archive": true,
+  "sources": [
+    {
+      "name": "Current Biology｜原始论文",
+      "url": "https://doi.org/10.1016/j.cub.2026.08.057"
+    },
+    {
+      "name": "Smithsonian Magazine｜10月21日报道",
+      "url": "https://www.smithsonianmag.com/smart-news/these-snakes-can-cartwheel-away-from-danger-scientists-just-uncovered-how-the-slithering-creatures-perform-their-acrobatic-rolls-180989720/"
+    },
+    {
+      "name": "ScienceDaily／东邦大学｜10月24日解读",
+      "url": "https://www.sciencedaily.com/releases/2026/10/261023023718.htm"
+    }
+  ],
+  "verificationNotes": "原论文《Locomotor kinematics and head stabilization in rolling snakes》于2026-10-19见Current Biology，DOI 10.1016/j.cub.2026.08.057；Smithsonian 10月21日独立采访/报道，东邦大学稿件于10月24日经ScienceDaily转载。多角度拍摄涉及Pseudorabdion属蛇，研究报告峰值1.72–3.69 m/s，约为常规侧向蜿蜒峰值的四倍；这不是所有蛇都能做到的普遍行为。eventDate按论文发表日12:00 UTC表示日期精度；由于距今超过72小时，作为往期精选。配图为2020年Pseudorabdion longiceps实拍，属论文涉及的物种之一，但非本次实验现场、非翻滚瞬间；Wikimedia Commons页面确认CC BY-SA 2.0，作者/所有者按原页面署名。",
+  "image": {
+    "src": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Pseudorabdion%20longiceps%2C%20Dwarf%20reed%20snake%20-%20Bang%20Lang%20National%20Park%20%2850770216747%29.jpg",
+    "alt": "2020年拍摄的Pseudorabdion longiceps矮芦蛇静态照片，非此次翻滚实验画面",
+    "credit": "Rushen / Thai National Parks / Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pseudorabdion_longiceps,_Dwarf_reed_snake_-_Bang_Lang_National_Park_(50770216747).jpg",
+    "license": "CC BY-SA 2.0；历史物种照片，非研究现场",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+    "kind": "original",
+    "layout": "photo"
+  },
+  "publishedAt": "2026-10-26T12:40:00Z",
+  "verifiedAt": "2026-10-26T12:40:00Z"
+}

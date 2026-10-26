@@ -1,0 +1,42 @@
+{
+  "id": "2026-09-29-dianjunus-rex-giant-fungus",
+  "eventKey": "doi-10-3389-ffunb-2026-1940464",
+  "category": "动物与自然",
+  "title": "云南发现真菌界大块头\n最高半米重达2.2公斤",
+  "summary": "科研团队在云南描述新物种Dianjunus rex，巨大的直立子实体可高50厘米、重2.2公斤，还独立组成一个新真菌科。",
+  "body": [
+    "它不像常见伞状蘑菇，更像从树根旁冒出的粗壮指状物。基因分析估计这一谱系起源于约6500万年前。",
+    "这不代表眼前个体活了6500万年；年代来自分子钟估算。配图为原论文野外实拍拼图。"
+  ],
+  "eventDate": "2026-09-29T12:00:00Z",
+  "location": "中国云南省／中国科学院昆明植物研究所",
+  "theme": "gold",
+  "archive": true,
+  "sources": [
+    {
+      "name": "Frontiers in Fungal Biology｜9月29日原始论文",
+      "url": "https://www.frontiersin.org/journals/fungal-biology/articles/10.3389/ffunb.2026.1940464/full"
+    },
+    {
+      "name": "Frontiers｜10月13日研究新闻",
+      "url": "https://www.frontiersin.org/news/2026/10/13/frontiers-fungal-biology-giant-fungus-yunnan-dianjunus-rex"
+    },
+    {
+      "name": "中国科学院｜10月16日成果介绍",
+      "url": "https://english.cas.cn/newsroom/cas-in-media/202610/t20261021_1209208.shtml"
+    }
+  ],
+  "verificationNotes": "论文2026-09-29正式发表于Frontiers in Fungal Biology，DOI 10.3389/ffunb.2026.1940464；Frontiers 10月13日发布解读，中科院网站10月16日介绍。Dianjunus rex为子囊菌门新科Dianjunaceae，野外样本最高50cm，最大单体2.2kg，谱系约6500万年前起源为分子钟估算；样本采集在2024–2025年，不能说2026年10月刚在野外发现。因近期其他领域候选不足，收录为明确标记的往期精选。配图直接取开放获取原论文Figure 4野外实拍拼图，论文明确CC BY 4.0，未改动，保留图内小标识；不是生成图。图片URL已通过网页实际打开。",
+  "image": {
+    "src": "https://www.frontiersin.org/files/Articles/1940464/xml-images/ffunb-07-1940464-g004.webp",
+    "alt": "论文Figure 4：云南野外拍摄的Dianjunus rex真菌不同生长形态及最大标本称重照片拼图",
+    "credit": "Song et al. / Frontiers in Fungal Biology (2026), Figure 4",
+    "sourceUrl": "https://www.frontiersin.org/journals/fungal-biology/articles/10.3389/ffunb.2026.1940464/full",
+    "license": "CC BY 4.0；原论文Figure 4，未作修改",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "kind": "original",
+    "layout": "poster"
+  },
+  "publishedAt": "2026-10-26T12:40:00Z",
+  "verifiedAt": "2026-10-26T12:40:00Z"
+}
