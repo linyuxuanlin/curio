@@ -1,0 +1,42 @@
+{
+  "id": "2026-10-22-algae-light-powered-soft-gripper",
+  "eventKey": "doi-10-1038-s41467-026-78653-z",
+  "category": "机器人",
+  "title": "让微藻当动力\n一条软机械臂见光就弯",
+  "summary": "荷兰团队把微藻固定在水凝胶上，借光合作用引起的酸碱变化驱动微型夹爪。",
+  "body": [
+    "原型长约2厘米、厚约1毫米，能抓取小金属球或橡胶圈；光照与黑暗让两层凝胶产生不同形变。",
+    "这是实验室概念验证，动作并非瞬间完成。配图为另一研究中的莱茵衣藻电子显微照片，不是机械臂。"
+  ],
+  "eventDate": "2026-10-22T12:00:00Z",
+  "location": "荷兰·代尔夫特",
+  "sources": [
+    {
+      "name": "Nature Communications｜10月22日原论文",
+      "url": "https://doi.org/10.1038/s41467-026-78653-z"
+    },
+    {
+      "name": "Phys.org｜代尔夫特大学研究介绍",
+      "url": "https://phys.org/news/2026-10-algae-powered-soft-robot-arm.html"
+    },
+    {
+      "name": "TU Delft｜研究公告",
+      "url": "https://www.tudelft.nl/en/2026/tnw/soft-robot-arm-powered-by-algae"
+    }
+  ],
+  "verificationNotes": "2026-10-22论文及TU Delft研究公告核对微藻、水凝胶和夹爪演示，论文发表于Nature Communications；eventDate以发表日12:00 UTC记，精度为日。距本次入库超过72小时，archive=true。配图为2007年达特茅斯电子显微镜中心公开领域的同种微藻历史照片，非本次实验装置。",
+  "theme": "sage",
+  "archive": true,
+  "image": {
+    "src": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Chlamydomonas%20TEM%2001.jpg",
+    "alt": "2007年莱茵衣藻细胞电子显微照片，非此次软机械臂实验装置",
+    "credit": "Dartmouth Electron Microscope Facility / Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chlamydomonas_TEM_01.jpg",
+    "license": "作者主动释入公共领域；同种微藻历史显微照片",
+    "licenseUrl": "https://commons.wikimedia.org/wiki/File:Chlamydomonas_TEM_01.jpg",
+    "kind": "original",
+    "layout": "photo"
+  },
+  "publishedAt": "2026-10-26T13:28:19.492Z",
+  "verifiedAt": "2026-10-26T13:28:19.492Z"
+}
