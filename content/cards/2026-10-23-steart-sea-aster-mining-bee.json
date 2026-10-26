@@ -1,0 +1,38 @@
+{
+  "id": "2026-10-23-steart-sea-aster-mining-bee",
+  "eventKey": "wwt-steart-marshes-colletes-halophilus-first-somerset-record-2026",
+  "category": "动物与自然",
+  "title": "英国一片修复的盐沼\n迎来当地首次记录的野蜂",
+  "summary": "海紫菀采矿蜂首次在英国萨默塞特郡被记录到，发现地点是经过生态修复的Steart盐沼。",
+  "body": [
+    "这种独居蜂依赖海紫菀花粉，喜欢在盐沼附近较干燥的沙地筑巢。",
+    "发现者Nigel Phillips看到多处巢群；湿地机构认为，修复后的盐沼为它们提供了合适栖地。"
+  ],
+  "eventDate": "2026-10-23T12:00:00Z",
+  "location": "英国萨默塞特郡Steart Marshes",
+  "theme": "sage",
+  "archive": false,
+  "sources": [
+    {
+      "name": "WWT湿地保护机构｜10月23日首度记录公告",
+      "url": "https://www.wwt.org.uk/about-us/news/rare-sea-aster-mining-bee-recorded-on-wwt-saltmarsh-for-the-first-time"
+    },
+    {
+      "name": "Burnham-On-Sea.com｜10月26日独立地方报道",
+      "url": "https://www.burnham-on-sea.com/news/rare-bee-never-before-recorded-in-somerset-discovered-by-local-naturalist-on-steart-marshes/"
+    }
+  ],
+  "verificationNotes": "WWT 2026-10-23首发公告与Burnham-On-Sea.com 10月26日报道核对：首次记录范围是Somerset及周边郡，不是发现新物种；发现者为WWT终身会员Nigel Phillips，具体观察日未公布。事件日期采用WWT公开日12:00 UTC，非观察准确时刻。图片为Jerry Lanfear 2022年于Lincolnshire拍摄的同种Colletes halophilus，Wikimedia Commons核对CC BY 4.0，非本次Steart现场或个体。",
+  "image": {
+    "src": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Colletes%20halophilus%20(Lincolnshire%2C%20England).jpg",
+    "alt": "2022年林肯郡拍摄的海紫菀采矿蜂同种实拍；不是萨默塞特郡本次发现的个体",
+    "credit": "Jerry Lanfear / Wikimedia Commons / iNaturalist",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Colletes_halophilus_(Lincolnshire,_England).jpg",
+    "license": "CC BY 4.0；同物种历史照片，非本次发现现场",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "kind": "original",
+    "layout": "photo"
+  },
+  "publishedAt": "2026-10-26T08:29:23.627Z",
+  "verifiedAt": "2026-10-26T08:29:23.627Z"
+}

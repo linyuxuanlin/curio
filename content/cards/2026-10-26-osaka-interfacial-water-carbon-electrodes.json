@@ -1,0 +1,42 @@
+{
+  "id": "2026-10-26-osaka-interfacial-water-carbon-electrodes",
+  "eventKey": "doi-10-1002-anie-8140389",
+  "category": "工程",
+  "title": "电极容易腐蚀？\n关键可能是旁边的水",
+  "summary": "大阪大学团队发现，维持电极表面水分子的氢键网络，可显著降低碳电极腐蚀。",
+  "body": [
+    "研究者通过离子导电聚合物调整界面水结构，实验中碳腐蚀降低约51%。",
+    "在含铂催化剂的氯气制备测试中，混合两种聚合物涂层后，500次循环的性能损失约19%；尚属实验结果。"
+  ],
+  "eventDate": "2026-10-26T00:00:00Z",
+  "location": "日本大阪（研究团队）",
+  "theme": "blue",
+  "archive": false,
+  "sources": [
+    {
+      "name": "大阪大学／Asia Research News｜10月26日研究公告",
+      "url": "https://www.asiaresearchnews.com/content/keeping-water-connected-helps-carbon-electrodes-last-longer"
+    },
+    {
+      "name": "Angewandte Chemie｜原论文 DOI",
+      "url": "https://doi.org/10.1002/anie.8140389"
+    },
+    {
+      "name": "Morningbeat｜10月26日研究整理",
+      "url": "https://morningbeat.net/article/science/4350258/keeping-water-connected-helps-carbon-electrodes-last-longer"
+    }
+  ],
+  "verificationNotes": "大阪大学署名新闻稿于2026-10-26发布，原论文题为Interfacial Water-Networks Regulate the Anodic Stability of Carbon Electrodes，DOI见原稿；Morningbeat为二次整理，并非独立重复实验。51%是特定涂层实验中的碳腐蚀降低量，19%是另一氯气制备测试500次循环后的性能损失，不可混为同一指标。eventDate按公告日日期精度记00:00 UTC，非实验实施时间。未确认研究图可无条件转载，选用CC BY-SA 4.0实验电解装置实拍，仅作电化学场景代表图，非本研究电极。",
+  "image": {
+    "src": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Electrolysis%20in%20chemistry.jpg",
+    "alt": "电化学电解实验的代表照片，不是大阪大学本次碳电极实验装置",
+    "credit": "Anushka10patel / Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Electrolysis_in_chemistry.jpg",
+    "license": "CC BY-SA 4.0；2025年实验照片，非本次研究装置",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "kind": "original",
+    "layout": "photo"
+  },
+  "publishedAt": "2026-10-26T08:29:23.627Z",
+  "verifiedAt": "2026-10-26T08:29:23.627Z"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "2026-10-15-silicon-five-qubits-parallel-fidelity",
+  "eventKey": "doi-10-1038-s41567-026-03466-2",
+  "category": "科技",
+  "title": "五个硅量子比特一起操作\n准确度仍约99.9%",
+  "summary": "RIKEN等团队通过两两校准补偿微波干扰，让五个硅自旋量子比特同时执行单比特操作。",
+  "body": [
+    "三比特同时运行时单比特门保真度超过99.99%；五比特同时运行时保持在约99.9%。",
+    "这不是已实现容错量子计算机，论文仍指出高微波功率带来的退相干限制。"
+  ],
+  "eventDate": "2026-10-15T12:00:00Z",
+  "location": "日本埼玉县和光市（RIKEN研究团队）",
+  "theme": "gold",
+  "archive": true,
+  "sources": [
+    {
+      "name": "Nature Physics｜10月15日同行评议原论文",
+      "url": "https://www.nature.com/articles/s41567-026-03466-2"
+    },
+    {
+      "name": "ScienceDaily｜10月25日RIKEN研究解读",
+      "url": "https://sciencedaily.com/releases/2026/10/261024222024.htm"
+    },
+    {
+      "name": "Phys.org｜10月研究报道",
+      "url": "https://phys.org/news/2026-10-silicon-qubits-surpass-gate-fidelity.html"
+    }
+  ],
+  "verificationNotes": "Nature Physics论文发表于2026-10-15，10月25日ScienceDaily重新解读，非当天新发现。过去72小时内科技领域已与历史卡片多个实验主题接近，为提供有趣的不同技术方向扩展至该论文并标archive:true；不得以10月25日新闻转载日冒充论文发表日。原论文与RIKEN提供的ScienceDaily解读及Phys.org报道核对：三比特并行>99.99%，五比特并行约99.9%；单比特门保真度不等于完整计算机可靠性。图片为2021年普通电脑鼠标硅芯片显微实拍，非RIKEN量子芯片，Commons CC BY-SA 4.0，已清楚标识。",
+  "image": {
+    "src": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Silicon%20chip%20from%20a%20computer%20laser%20mouse%20under%20a%20microscope%2050%D1%85.jpg",
+    "alt": "普通电脑激光鼠标硅芯片的50倍显微实拍；并非RIKEN五量子比特芯片",
+    "credit": "Alexander Klepnev / IamMM / Wikimedia Commons",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Silicon_chip_from_a_computer_laser_mouse_under_a_microscope_50%D1%85.jpg",
+    "license": "CC BY-SA 4.0；普通硅芯片显微代表照片，非本研究设备",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "kind": "original",
+    "layout": "photo"
+  },
+  "publishedAt": "2026-10-26T08:29:23.627Z",
+  "verifiedAt": "2026-10-26T08:29:23.627Z"
+}
